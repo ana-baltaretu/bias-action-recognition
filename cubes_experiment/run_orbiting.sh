@@ -1,9 +1,13 @@
 start_time=$(date +%s)
 
+animations=2
+cubes=1
+red=0
+
 ### Actual script vvvvvvvv
-for i in {1..5}; do
-    echo "Running #$i"
-    blender --background --python red_blue_cubes_orbiting_around_z.py -- --save "./animation_output/test_parallel/orbiting$i" &
+for i in $(seq 1 $animations); do
+    blender --background --python red_blue_cubes_orbiting_around_z.py -- --number $cubes \
+    --red $red --save "./animation_output/test_parallel/orbiting_${cubes}cubes_${red}red_$i" &
 done
 
 wait
