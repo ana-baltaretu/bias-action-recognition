@@ -1,4 +1,4 @@
-import argparse
+
 import sys
 import os
 
@@ -8,27 +8,7 @@ sys.path.append(script_dir)
 from library import *
 
 
-def get_args():
-    parser = argparse.ArgumentParser()
-
-    # Get all script args
-    _, all_arguments = parser.parse_known_args()
-    double_dash_index = all_arguments.index('--')
-    script_args = all_arguments[double_dash_index + 1:]
-
-    # Add parser rules
-    parser.add_argument('--number', type=int, help="Number of cubes")
-    parser.add_argument('--red', type=int,  help="Number of cubes")
-    parser.add_argument('--save', type=str, help="Output folder (path)")
-
-    parsed_script_args, _ = parser.parse_known_args(script_args)
-    return parsed_script_args
-
-
-args = get_args()
-
-
-def generate_cubes_animation(total_cubes, red_cubes_count):
+def generate_cubes_orbiting_animation(total_cubes, red_cubes_count):
     # Ensure valid counts
     blue_cubes_count = total_cubes - red_cubes_count
     if blue_cubes_count < 0:
@@ -87,7 +67,8 @@ def generate_cubes_animation(total_cubes, red_cubes_count):
     print("Animation setup complete. Play the animation in Blender to see the cubes orbit!")
 
 
+args = get_args()
 clean_all()
 setup_scene()
-generate_cubes_animation(total_cubes=args.number, red_cubes_count=args.red)
-create_hemispherical_distribution(args, radius=20, num_points=1)
+generate_cubes_orbiting_animation(total_cubes=args.number, red_cubes_count=args.red)
+create_hemispherical_distribution(args, radius=20, num_points=int(args.animations))

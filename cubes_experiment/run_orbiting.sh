@@ -1,18 +1,19 @@
 start_time=$(date +%s)
 
 animations=10
-max_cubes=6
+#max_cubes=6
+cubes=2
 
 ### Actual script vvvvvvvv
-for cubes in $(seq 1 $max_cubes); do
-  for red in $(seq 0 "$cubes"); do
-    for i in $(seq 1 $animations); do
-        blender --background --python red_blue_cubes_orbiting_around_z.py -- --number "$cubes" \
-        --red "$red" --save "./animation_output/actual_output/orbiting/orbiting_${cubes}C${red}R${cubes-red}B_pos$i" &
-    done
+#for cubes in $(seq 1 $max_cubes); do
+for red in $(seq 2 "$cubes"); do
+    blue=$((cubes - red))
+    blender --background --python cubes_orbiting_around_z.py -- --number "$cubes" --red "$red" \
+    --animations $animations --save "./animation_output/actual_output/orbiting/orbiting_${cubes}C${red}R${blue}B_pos" &
     wait
-  done
+    echo "Rendered 10 viewpoints for ${cubes}cubes (${red}R${blue}B)"
 done
+#done
 ### Actual script ^^^^^^^^
 
 

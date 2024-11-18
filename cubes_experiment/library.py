@@ -4,7 +4,7 @@ import mathutils
 import time
 import random
 import os
-#from joblib import Parallel, delayed
+import argparse
 
 
 def clean_all():
@@ -149,3 +149,21 @@ def create_hemispherical_distribution(args, radius=5, num_points=10):
 
     for i, (x, y, z) in enumerate(coords):
         parallelized_part(args.save, i, x, y, z)
+
+
+def get_args():
+    parser = argparse.ArgumentParser()
+
+    # Get all script args
+    _, all_arguments = parser.parse_known_args()
+    double_dash_index = all_arguments.index('--')
+    script_args = all_arguments[double_dash_index + 1:]
+
+    # Add parser rules
+    parser.add_argument('--number', type=int, help="Number of cubes")
+    parser.add_argument('--red', type=int,  help="Number of cubes")
+    parser.add_argument('--save', type=str, help="Output folder (path)")
+    parser.add_argument('--animations', type=int, help="Number of view points.")
+
+    parsed_script_args, _ = parser.parse_known_args(script_args)
+    return parsed_script_args
