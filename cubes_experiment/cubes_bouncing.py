@@ -7,11 +7,11 @@ sys.path.append(script_dir)
 from library import *
 
 
-def generate_cubes_bouncing_animation(total_cubes, red_cubes_count):
+def generate_cubes_bouncing_animation(total_cubes, red_cubes_count, green_cubes_count):
     # Ensure valid counts
-    blue_cubes_count = total_cubes - red_cubes_count
+    blue_cubes_count = total_cubes - red_cubes_count - green_cubes_count
     if blue_cubes_count < 0:
-        raise ValueError("The number of red cubes cannot exceed the total number of cubes.")
+        raise ValueError("The number of red/green cubes cannot exceed the total number of cubes.")
 
     # Scene and animation setup
     frame_start = 1
@@ -39,6 +39,12 @@ def generate_cubes_bouncing_animation(total_cubes, red_cubes_count):
     else:
         blue_material = bpy.data.materials["BlueMaterial"]
 
+    if "GreenMaterial" not in bpy.data.materials:
+        green_material = bpy.data.materials.new(name="GreenMaterial")
+        green_material.diffuse_color = (0, 1, 0, 1)
+    else:
+        green_material = bpy.data.materials["GreenMaterial"]
+
     # Generate random positions ensuring non-overlapping placement
     positions = []
     counter = 0
@@ -61,7 +67,9 @@ def generate_cubes_bouncing_animation(total_cubes, red_cubes_count):
         cube.name = f"Cube_{i + 1}"
 
         # Assign material
-        if i < red_cubes_count:
+        if i < green_cubes_count:
+            cube.data.materials.append(green_material)
+        elif i < green_cubes_count + red_cubes_count:
             cube.data.materials.append(red_material)
         else:
             cube.data.materials.append(blue_material)

@@ -8,7 +8,7 @@ sys.path.append(script_dir)
 from library import *
 
 
-def generate_cubes_orbiting_animation(total_cubes, red_cubes_count):
+def generate_cubes_orbiting_animation(total_cubes, red_cubes_count, green_cubes_count):
     # Ensure valid counts
     blue_cubes_count = total_cubes - red_cubes_count
     if blue_cubes_count < 0:
@@ -33,6 +33,12 @@ def generate_cubes_orbiting_animation(total_cubes, red_cubes_count):
     else:
         blue_material = bpy.data.materials["BlueMaterial"]
 
+    if "GreenMaterial" not in bpy.data.materials:
+        green_material = bpy.data.materials.new(name="GreenMaterial")
+        green_material.diffuse_color = (0, 1, 0, 1)
+    else:
+        green_material = bpy.data.materials["GreenMaterial"]
+
     # Set up animation frames
     bpy.context.scene.frame_start = 1
     bpy.context.scene.frame_end = frame_count
@@ -46,8 +52,10 @@ def generate_cubes_orbiting_animation(total_cubes, red_cubes_count):
         cube = bpy.context.object
         cube.name = f"Cube{i + 1}"
 
-        # Assign color based on the cube count
-        if i < red_cubes_count:
+        # Assign material
+        if i < green_cubes_count:
+            cube.data.materials.append(green_material)
+        elif i < green_cubes_count + red_cubes_count:
             cube.data.materials.append(red_material)
         else:
             cube.data.materials.append(blue_material)
@@ -70,5 +78,5 @@ def generate_cubes_orbiting_animation(total_cubes, red_cubes_count):
 args = get_args()
 clean_all()
 setup_scene()
-generate_cubes_orbiting_animation(total_cubes=args.number, red_cubes_count=args.red)
+generate_cubes_orbiting_animation(total_cubes=args.number, red_cubes_count=args.red, green_cubes_count=args.green)
 create_hemispherical_distribution(args, radius=20, num_points=int(args.animations))

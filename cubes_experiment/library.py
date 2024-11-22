@@ -161,7 +161,8 @@ def get_args():
 
     # Add parser rules
     parser.add_argument('--number', type=int, help="Number of cubes")
-    parser.add_argument('--red', type=int,  help="Number of cubes")
+    parser.add_argument('--red', type=int,  help="Number of RED cubes")
+    parser.add_argument('--green', type=int, help="Number of GREEN cubes")
     parser.add_argument('--save', type=str, help="Output folder (path)")
     parser.add_argument('--animations', type=int, help="Number of view points.")
 
