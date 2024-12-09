@@ -50,3 +50,4 @@ blender --background --python red_blue_cubes_orbiting_around_z.py -- --save "./a
 ```
 
 Or you can run the `run_orbiting.sh` from GitBash
+Run also `sh run_bouncing.sh`

@@ -123,6 +123,6 @@ clean_all()
 setup_scene()
 print("Bouncing animation setup complete.")
 
-generate_cubes_bouncing_animation(total_cubes=args.number, red_cubes_count=args.red)
+generate_cubes_bouncing_animation(total_cubes=args.number, red_cubes_count=args.red, green_cubes_count=args.green)
 create_hemispherical_distribution(args, radius=20, num_points=args.animations)
 
