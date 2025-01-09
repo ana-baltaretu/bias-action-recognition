@@ -35,6 +35,46 @@ def setup_scene():
     light.data.shadow_soft_size = 0.5  # Adjust shadow softness
 
 
+def check_cubes_count(total_cubes, red_cubes_count, green_cubes_count):
+    # Ensure valid counts
+    blue_cubes_count = total_cubes - red_cubes_count - green_cubes_count
+    if blue_cubes_count < 0:
+        raise ValueError("The number of red cubes cannot exceed the total number of cubes.")
+
+
+red_material, green_material, blue_material = None, None, None
+
+
+def initialize_RGB_materials():
+    global red_material, green_material, blue_material
+    if "RedMaterial" not in bpy.data.materials:
+        red_material = bpy.data.materials.new(name="RedMaterial")
+        red_material.diffuse_color = (1, 0, 0, 1)
+    else:
+        red_material = bpy.data.materials["RedMaterial"]
+
+    if "GreenMaterial" not in bpy.data.materials:
+        green_material = bpy.data.materials.new(name="GreenMaterial")
+        green_material.diffuse_color = (0, 1, 0, 1)
+    else:
+        green_material = bpy.data.materials["GreenMaterial"]
+
+    if "BlueMaterial" not in bpy.data.materials:
+        blue_material = bpy.data.materials.new(name="BlueMaterial")
+        blue_material.diffuse_color = (0, 0, 1, 1)
+    else:
+        blue_material = bpy.data.materials["BlueMaterial"]
+
+
+def get_material_to_assign(i, green_cubes_count, red_cubes_count):
+    global red_material, green_material, blue_material
+    if i < green_cubes_count:
+        return green_material
+    if i < green_cubes_count + red_cubes_count:
+        return red_material
+    return blue_material
+
+
 def camera_look_at_origin(camera, x, y, z):
     # Set the camera location
     camera.location = (x, y, z)

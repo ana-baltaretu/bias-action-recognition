@@ -6,42 +6,21 @@ script_dir = os.path.dirname(__file__)
 sys.path.append(script_dir)
 
 from library import *
+from config import frame_start, frame_end, cube_size
+
+
+# Set up scene parameters
+radius = 3  # Distance of cubes from the origin
+orbit_speed = 2  # Speed of the orbit (adjust as needed)
+
+# Set up animation frames
+bpy.context.scene.frame_start = frame_start
+bpy.context.scene.frame_end = frame_end
 
 
 def generate_cubes_orbiting_animation(total_cubes, red_cubes_count, green_cubes_count):
-    # Ensure valid counts
-    blue_cubes_count = total_cubes - red_cubes_count
-    if blue_cubes_count < 0:
-        raise ValueError("The number of red cubes cannot exceed the total number of cubes.")
-
-    # Set up scene parameters
-    frame_count = 120  # Total frames for the animation
-    radius = 3  # Distance of cubes from the origin
-    orbit_speed = 2  # Speed of the orbit (adjust as needed)
-    cube_size = 1
-
-    # Create materials for red and blue colors if they don't exist
-    if "RedMaterial" not in bpy.data.materials:
-        red_material = bpy.data.materials.new(name="RedMaterial")
-        red_material.diffuse_color = (1, 0, 0, 1)  # Red color
-    else:
-        red_material = bpy.data.materials["RedMaterial"]
-
-    if "BlueMaterial" not in bpy.data.materials:
-        blue_material = bpy.data.materials.new(name="BlueMaterial")
-        blue_material.diffuse_color = (0, 0, 1, 1)  # Blue color
-    else:
-        blue_material = bpy.data.materials["BlueMaterial"]
-
-    if "GreenMaterial" not in bpy.data.materials:
-        green_material = bpy.data.materials.new(name="GreenMaterial")
-        green_material.diffuse_color = (0, 1, 0, 1)
-    else:
-        green_material = bpy.data.materials["GreenMaterial"]
-
-    # Set up animation frames
-    bpy.context.scene.frame_start = 1
-    bpy.context.scene.frame_end = frame_count
+    check_cubes_count(total_cubes, red_cubes_count, green_cubes_count)
+    initialize_RGB_materials()
 
     # Generate cubes and assign them colors
     for i in range(total_cubes):
@@ -51,21 +30,14 @@ def generate_cubes_orbiting_animation(total_cubes, red_cubes_count, green_cubes_
 
         cube = bpy.context.object
         cube.name = f"Cube{i + 1}"
-
-        # Assign material
-        if i < green_cubes_count:
-            cube.data.materials.append(green_material)
-        elif i < green_cubes_count + red_cubes_count:
-            cube.data.materials.append(red_material)
-        else:
-            cube.data.materials.append(blue_material)
+        cube.data.materials.append(get_material_to_assign(i, red_cubes_count, green_cubes_count))
 
         # Animate the cube to orbit around the Z-axis
-        for frame in range(1, frame_count + 1):
+        for frame in range(frame_start, frame_end + 1):
             bpy.context.scene.frame_set(frame)
 
             # Calculate the angle for this frame and this cube
-            angle = (2 * math.pi * orbit_speed * frame / frame_count) + angle_offset
+            angle = (2 * math.pi * orbit_speed * frame / frame_end) + angle_offset
 
             # Update cube position
             cube.location.x = radius * math.cos(angle)

@@ -4,12 +4,12 @@ import mathutils
 import time
 import random
 import os
+import sys
 
+script_dir = os.path.dirname(__file__)
+sys.path.append(script_dir)
 
-def clean_all():
-    # Clear existing objects
-    bpy.ops.object.select_all(action='SELECT')
-    bpy.ops.object.delete(use_global=False)
+from library import *
 
 
 def setup_scene():
