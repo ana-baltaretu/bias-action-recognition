@@ -1,0 +1,4 @@
+Host daic
+    User abaltaretu
+    HostName login.daic.tudelft.nl
+    ProxyJump student-linux.tudelft.nl
