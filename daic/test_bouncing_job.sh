@@ -2,8 +2,8 @@
 #SBATCH --partition=general
 #SBATCH --qos=short
 #SBATCH --job-name=blender_render   # Job name
-#SBATCH --output=blender_output_%j.log  # Output log file (%j will be replaced with job ID)
-#SBATCH --error=blender_error_%j.log   # Error log file
+#SBATCH --output=/tudelft.net/staff-umbrella/StudentsCVlab/abaltaretu/test_orbiting_green/blender_output_%j.log  # Output log file (%j will be replaced with job ID)
+#SBATCH --error=/tudelft.net/staff-umbrella/StudentsCVlab/abaltaretu/test_orbiting_green/blender_error_%j.log   # Error log file
 #SBATCH --ntasks=1                   # Number of tasks (1 task for this job)
 #SBATCH --cpus-per-task=4            # Number of CPU cores per task
 #SBATCH --time=02:00:00              # Maximum execution time (hh:mm:ss)
@@ -22,7 +22,7 @@ for cubes in $(seq 1 $max_cubes); do
     for green in $(seq 1 $cbs); do
       blue=$((cbs - green))
       blender --background --python cubes_orbiting_around_z.py -- --number "$cubes" --red "$red" --green "$green" --animations $animations\
-      --save "./animation_output/actual_output/orbiting_green/orbiting_${cubes}C${red}R${green}G${blue}B_pos"
+      --save "/tudelft.net/staff-umbrella/StudentsCVlab/abaltaretu/test_orbiting_green/orbiting_${cubes}C${red}R${green}G${blue}B_pos"
       echo "Rendered 10 viewpoints for ${cubes} cubes (${red}R ${blue}B)"
     done
   done
