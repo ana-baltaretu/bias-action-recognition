@@ -117,6 +117,32 @@ def setup_rendering_animation():
     bpy.context.scene.render.ffmpeg.codec = 'H264'
     bpy.context.scene.render.ffmpeg.constant_rate_factor = 'HIGH'
 
+    # Enable GPU rendering
+    bpy.context.scene.cycles.device = 'GPU'
+    bpy.context.preferences.addons['cycles'].preferences.compute_device_type = 'CUDA'  # or 'OPTIX' or 'OPENCL'
+
+    cycles_prefs = bpy.context.preferences.addons['cycles'].preferences
+
+    # Initialize devices
+    cycles_prefs.get_devices(True)  # True to initialize devices
+    devices = cycles_prefs.devices  # Access the initialized devices list
+
+    # Check if there are any available GPU devices
+    has_gpu = any(device.type in {'CUDA', 'OPTIX', 'OPENCL'} for device in devices)
+
+    if has_gpu:
+        print("GPU detected:",
+              [(device.name, device.type) for device in devices if device.type in {'CUDA', 'OPTIX', 'OPENCL'}])
+    else:
+        print("No compatible GPU detected.")
+
+
+    for device in devices:
+        device.use = True
+
+    # Set Cycles as the renderer
+    bpy.context.scene.render.engine = 'CYCLES'
+
     # Render the animation and save it to the specified path
     bpy.ops.render.render(animation=True)
 
@@ -185,7 +211,6 @@ def parallelized_part(save_file, i, x, y, z):
 def create_hemispherical_distribution(args, radius=5, num_points=10):
     # Generate coordinates and place spheres at those points
     coords = generate_hemispherical_coordinates(radius=radius, num_points=num_points)
-    #Parallel(n_jobs=-1)(delayed(parallelized_part)(args.save, i, x, y, z) for i, (x, y, z) in enumerate(coords))
 
     for i, (x, y, z) in enumerate(coords):
         parallelized_part(args.save, i, x, y, z)
