@@ -1,15 +1,20 @@
 #!/bin/bash
+# --- General DAIC setup ---
 #SBATCH --partition=general
 #SBATCH --qos=short
 #SBATCH --job-name=blender_render   # Job name
 #SBATCH --output=/tudelft.net/staff-umbrella/StudentsCVlab/abaltaretu/test_orbiting_green/blender_output_%j.log  # Output log file (%j will be replaced with job ID)
 #SBATCH --error=/tudelft.net/staff-umbrella/StudentsCVlab/abaltaretu/test_orbiting_green/blender_error_%j.log   # Error log file
+
+# --- Setup specific for task ---
 #SBATCH --ntasks=1                   # Number of tasks (1 task for this job)
 #SBATCH --cpus-per-task=4            # Number of CPU cores per task
 #SBATCH --time=02:00:00              # Maximum execution time (hh:mm:ss)
 #SBATCH --mem=6144                   # Memory per node
 
-module load blender   # Load Blender module (if needed, depending on your system)
+# --- Email me when job finishes ---
+#SBATCH --mail-type=END,FAIL
+#SBATCH --mail-user=a.baltaretu@student.tudelft.nl
 
 start_time=$(date +%s)
 
@@ -33,4 +38,3 @@ elapsed_time=$((end_time - start_time))
 minutes=$(( (elapsed_time % 3600) / 60 ))
 seconds=$((elapsed_time % 60))
 echo "Total execution time: ${minutes}m ${seconds}s"
-
