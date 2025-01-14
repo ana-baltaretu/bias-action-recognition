@@ -23,7 +23,7 @@ From: ubuntu:22.04
 
     # Download and install Blender 4.2.2
     BLENDER_VERSION=4.2.2
-    wget https://download.blender.org/release/Blender$BLENDER_VERSION/blender-$BLENDER_VERSION-linux-x64.tar.xz
+    wget https://download.blender.org/release/Blender4.2/blender-$BLENDER_VERSION-linux-x64.tar.xz # TODO: Get correct URL for other version of blender, see https://download.blender.org/release/Blender4.2/
     tar -xf blender-$BLENDER_VERSION-linux-x64.tar.xz
     mv blender-$BLENDER_VERSION-linux-x64 /opt/blender
     ln -s /opt/blender/blender /usr/local/bin/blender
