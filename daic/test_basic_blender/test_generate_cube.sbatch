@@ -13,6 +13,7 @@
 
 # Load necessary modules
 module use /opt/insy/modulefiles
+module load cuda/12.1
 
 # Set Apptainer variables
 export APPTAINER_HOME="/tudelft.net/staff-umbrella/StudentsCVlab/abaltaretu/bias-action-recognition/daic/test_basic_blender/"

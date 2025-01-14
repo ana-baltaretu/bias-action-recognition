@@ -52,6 +52,14 @@ def setup_scene():
     light.data.shadow_soft_size = 0.5  # Adjust shadow softness
 
 
+prefs = bpy.context.preferences.addons['cycles'].preferences
+prefs.compute_device_type = 'CUDA'  # Or 'OPTIX' for newer NVIDIA GPUs
+prefs.get_devices()
+for device in prefs.devices:
+    device.use = True
+    print(f"Using device {device}")
+bpy.context.scene.cycles.device = 'GPU'
+
 setup_scene()
 # Delete all existing objects
 bpy.ops.object.select_all(action='SELECT')
