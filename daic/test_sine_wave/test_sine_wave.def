@@ -19,4 +19,4 @@ From: python:3.8-slim
 
 %runscript
     # Default command to run the sine plot script
-    exec python /plot_function.py
+    exec python /test_sine_wave.py

@@ -20,4 +20,4 @@ export APPTAINER_HOME="/usr/bin/apptainer"
 export APPTAINER_NAME="test_sine_wave.sif"
 
 # Run the container with Apptainer
-srun apptainer exec --nv $APPTAINER_HOME/$APPTAINER_NAME python /plot_function.py
+srun apptainer exec --nv $APPTAINER_HOME/$APPTAINER_NAME python /test_sine_wave.py
