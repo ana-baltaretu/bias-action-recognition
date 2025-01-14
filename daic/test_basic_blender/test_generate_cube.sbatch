@@ -1,5 +1,5 @@
 #!/bin/sh
-#SBATCH --job-name=plot-sine
+#SBATCH --job-name=cubes
 #SBATCH --partition=general
 #SBATCH --qos=short
 #SBATCH --time=0:10:00
@@ -19,4 +19,4 @@ export APPTAINER_HOME="/tudelft.net/staff-umbrella/StudentsCVlab/abaltaretu/bias
 export APPTAINER_NAME="test_generate_cube.sif"
 
 # Run the container with Apptainer
-srun apptainer exec --nv $APPTAINER_HOME/$APPTAINER_NAME python test_generate_cube.py
+srun apptainer exec --nv $APPTAINER_HOME/$APPTAINER_NAME blender --background --python test_generate_cube.py
