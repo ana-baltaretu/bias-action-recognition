@@ -1,6 +1,5 @@
 #!/bin/sh
 #SBATCH --job-name=plot-sine
-#SBATCH --account=education-eemcs-msc
 #SBATCH --partition=general
 #SBATCH --qos=short
 #SBATCH --time=0:03:00
