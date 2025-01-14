@@ -1,0 +1,22 @@
+Bootstrap: docker
+From: python:3.8-slim
+
+%post
+    # Install necessary packages
+    apt-get update && apt-get install -y --no-install-recommends \
+        build-essential \
+        python3-pip \
+        python3-dev \
+        && rm -rf /var/lib/apt/lists/*
+
+    # Install Python dependencies
+    pip install numpy matplotlib
+
+%environment
+    # Set the default Python environment
+    export PYTHONUNBUFFERED=1
+    export PATH=/usr/local/bin:$PATH
+
+%runscript
+    # Default command to run the sine plot script
+    exec python /plot_function.py
