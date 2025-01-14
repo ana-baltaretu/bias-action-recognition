@@ -1,6 +1,7 @@
 #!/bin/sh
 #SBATCH --job-name=plot-sine
 #SBATCH --account=education-eemcs-msc
+#SBATCH --partition=general
 #SBATCH --qos=short
 #SBATCH --time=0:03:00
 #SBATCH --nodes=1
@@ -16,8 +17,8 @@ module use /opt/insy/modulefiles
 module load cuda/12.1
 
 # Set Apptainer variables
-export APPTAINER_HOME="/usr/bin/apptainer"
+export APPTAINER_HOME="/home/nfs/abaltaretu/bias-action-recognition/daic/test_sine_wave/"
 export APPTAINER_NAME="test_sine_wave.sif"
 
 # Run the container with Apptainer
-srun apptainer exec --nv $APPTAINER_HOME/$APPTAINER_NAME python /test_sine_wave.py
+srun apptainer exec --nv $APPTAINER_HOME/$APPTAINER_NAME python test_sine_wave.py
