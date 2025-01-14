@@ -8,6 +8,8 @@ From: ubuntu:22.04
         ca-certificates \
         libxrender1 \
         libgl1 \
+        libglx-mesa0 \
+        libegl1-mesa \
         libxext6 \
         libsm6 \
         libx11-6 \

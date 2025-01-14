@@ -79,8 +79,7 @@ bpy.context.scene.camera = camera # Set camera as the active camera
 bpy.context.scene.render.image_settings.file_format = 'FFMPEG'
 path_to_save = os.path.join(os.path.abspath("."), output_filename)
 print("Path to save: ", path_to_save)
-
-bpy.context.scene.render.filepath = os.path.join("/tudelft.net/staff-umbrella/StudentsCVlab/abaltaretu/bias-action-recognition/daic/test_basic_blender/", output_filename)
+bpy.context.scene.render.filepath = path_to_save
 bpy.context.scene.render.ffmpeg.format = 'MPEG4'
 bpy.context.scene.render.ffmpeg.codec = 'H264'
 bpy.context.scene.render.ffmpeg.constant_rate_factor = 'HIGH'
