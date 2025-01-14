@@ -1,0 +1,15 @@
+# test_sine_wave.def
+Bootstrap: docker
+From: python:3.8-slim
+
+%post
+    apt-get update && apt-get install -y --no-install-recommends gcc g++ python3-pip
+    pip install numpy scipy matplotlib
+
+%environment
+    export PATH=/usr/local/bin:$PATH
+    export LANG=C.UTF-8
+    export LC_ALL=C.UTF-8
+
+%runscript
+    exec python "$@"
