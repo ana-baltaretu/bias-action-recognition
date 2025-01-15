@@ -2,7 +2,7 @@
 #SBATCH --job-name=cubes
 #SBATCH --partition=general
 #SBATCH --qos=short
-#SBATCH --time=0:10:00
+#SBATCH --time=0:05:00
 #SBATCH --nodes=1
 #SBATCH --tasks-per-node=1
 #SBATCH --cpus-per-task=2
