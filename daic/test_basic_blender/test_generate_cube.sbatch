@@ -2,22 +2,22 @@
 #SBATCH --job-name=cubes
 #SBATCH --partition=general
 #SBATCH --qos=short
-#SBATCH --time=0:05:00
+#SBATCH --time=3:00:00
 #SBATCH --nodes=1
 #SBATCH --tasks-per-node=1
-#SBATCH --cpus-per-task=2
-#SBATCH --gres=gpu:1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:2
 #SBATCH --gpu-bind=closest
-#SBATCH --mem=2GB
+#SBATCH --mem=8GB
 #SBATCH --output=slurm-%x-%j.out
 #SBATCH --error=slurm-%x-%j.err
 
 # Load necessary modules
 module use /opt/insy/modulefiles
 module load cuda/12.1
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-12.1/lib64
 
 # Set Apptainer variables
-export LIBGL_ALWAYS_SOFTWARE=1 # This forces Blender to use CPU-based OpenGL rendering, avoid libEGL
 export APPTAINER_HOME="/tudelft.net/staff-umbrella/StudentsCVlab/abaltaretu/bias-action-recognition/daic/test_basic_blender/"
 export APPTAINER_NAME="test_generate_cube.sif"
 

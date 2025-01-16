@@ -52,20 +52,23 @@ def setup_scene():
     light.data.shadow_soft_size = 0.5  # Adjust shadow softness
 
 
-# prefs = bpy.context.preferences.addons['cycles'].preferences
-# prefs.compute_device_type = 'CUDA'  # Or 'OPTIX' for newer NVIDIA GPUs
-# prefs.get_devices()
-# for device in prefs.devices:
-#     device.use = True
-#     print(f"Device: {device.name}, Type: {device.type}")
-# bpy.context.scene.cycles.device = 'GPU'
-
-# Set the device to GPU and backend to OptiX
+# Enable CUDA or OptiX
 bpy.context.preferences.addons['cycles'].preferences.compute_device_type = 'CUDA'
-bpy.context.scene.cycles.device = 'GPU'
-for device in bpy.context.preferences.addons['cycles'].preferences.devices:
-    device.use = True
 
+# Ensure all GPUs are enabled
+for device in bpy.context.preferences.addons['cycles'].preferences.get_devices():
+    if device.type == 'CUDA' or device.type == 'OPTIX':
+        device.use = True
+
+# Set Cycles to use GPU rendering
+bpy.context.scene.cycles.device = 'GPU'
+bpy.context.scene.cycles.feature_set = 'SUPPORTED'  # Use supported features for faster rendering
+
+bpy.context.scene.render.use_simplify = True
+bpy.context.scene.render.simplify_subdivision_render = 0  # Disable subdivisions
+
+bpy.context.scene.render.tile_x = 256
+bpy.context.scene.render.tile_y = 256
 
 setup_scene()
 # Delete all existing objects
@@ -101,7 +104,7 @@ bpy.context.scene.render.ffmpeg.constant_rate_factor = 'HIGH'
 
 # Set animation length
 bpy.context.scene.frame_start = 1
-bpy.context.scene.frame_end = 120  # 120 frames for the video
+bpy.context.scene.frame_end = 60  # 60 frames for the video
 
 # Render animation
 bpy.ops.render.render(animation=True)
