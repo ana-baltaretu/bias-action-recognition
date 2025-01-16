@@ -61,7 +61,7 @@ def setup_scene():
 # bpy.context.scene.cycles.device = 'GPU'
 
 # Set the device to GPU and backend to OptiX
-bpy.context.preferences.addons['cycles'].preferences.compute_device_type = 'OPTIX'
+bpy.context.preferences.addons['cycles'].preferences.compute_device_type = 'CUDA'
 bpy.context.scene.cycles.device = 'GPU'
 for device in bpy.context.preferences.addons['cycles'].preferences.devices:
     device.use = True

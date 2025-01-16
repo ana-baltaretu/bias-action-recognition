@@ -98,3 +98,90 @@ Output:
 ```
 Quadro K2200
 ```
+
+1. `nvidia-smi`
+```
+Wed Jan 15 17:45:43 2025
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 550.90.07              Driver Version: 550.90.07      CUDA Version: 12.4     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  Quadro K2200                   On  |   00000000:08:00.0 Off |                  N/A |
+| 43%   32C    P8              1W /   39W |       2MiB /   4096MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+```
+
+
+### OTHERS
+```
+apptainer run --fakeroot --nv --bind /dev/dri:/dev/dri test_generate_cube.sif test_generate_cube.py
+
+Even after making sandbox
+apptainer build --sandbox test_generate_cube_sandbox test_generate_cube.sif
+```
+
+
+```
+apptainer run --nv test_generate_cube.sif nvidia-smi
+
+Blender 4.2.2 LTS (hash c03d7d98a413 built 2024-09-24 00:09:56)
+could not get a list of mounted file-systems
+OSError: Python file "/tudelft.net/staff-umbrella/StudentsCVlab/abaltaretu/bias-action-recognition/daic/test_basic_blender/nvidia-smi" could not be opened: No such file or directory
+Blender quit
+```
+
+
+```
+apptainer run --nv --bind /dev/dri:/dev/dri test_generate_cube.sif nvidia-smi
+
+Blender 4.2.2 LTS (hash c03d7d98a413 built 2024-09-24 00:09:56)
+could not get a list of mounted file-systems
+OSError: Python file "/tudelft.net/staff-umbrella/StudentsCVlab/abaltaretu/bias-action-recognition/daic/test_basic_blender/nvidia-smi" could not be opened: No such file or directory
+Blender quit
+```
+
+```
+ls -l /dev/dri/
+
+total 0
+crw-rw----. 1 root video 226,   0 Sep 16 08:29 card0
+crw-rw----. 1 root video 226,   1 Sep 16 08:29 card1
+crw-rw----. 1 root video 226, 128 Sep 16 08:29 renderD128
+```
+
+```
+groups
+
+domain users ewi-insy ewi-insy-prb ewi-insy-students daic
+```
+
+```
+blender --background --python-expr "import bpy; print(bpy.context.preferences.addons['cycles'].preferences.compute_device_type)"
+
+AL lib: (WW) alc_initconfig: Failed to initialize backend "pulse"
+ALSA lib confmisc.c:767:(parse_card) cannot find card '0'
+ALSA lib conf.c:4568:(_snd_config_evaluate) function snd_func_card_driver returned error: Permission denied
+ALSA lib confmisc.c:392:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:4568:(_snd_config_evaluate) function snd_func_concat returned error: Permission denied
+ALSA lib confmisc.c:1246:(snd_func_refer) error evaluating name
+ALSA lib conf.c:4568:(_snd_config_evaluate) function snd_func_refer returned error: Permission denied
+ALSA lib conf.c:5047:(snd_config_expand) Evaluate error: Permission denied
+ALSA lib pcm.c:2565:(snd_pcm_open_noupdate) Unknown PCM default
+AL lib: (EE) ALCplaybackAlsa_open: Could not open playback device 'default': Permission denied
+unknown argument, loading as file: --python-expr
+read blend: /tudelft.net/staff-umbrella/StudentsCVlab/abaltaretu/bias-action-recognition/daic/test_basic_blender/--python-expr
+Warning: Unable to open '/tudelft.net/staff-umbrella/StudentsCVlab/abaltaretu/bias-action-recognition/daic/test_basic_blender/--python-expr': No such file or directory
+Blender quit
+```
