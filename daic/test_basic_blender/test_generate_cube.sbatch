@@ -12,6 +12,10 @@
 #SBATCH --output=slurm-%x-%j.out
 #SBATCH --error=slurm-%x-%j.err
 
+# --- Email me when job finishes ---
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user=a.baltaretu@student.tudelft.nl
+
 # Load necessary modules
 module use /opt/insy/modulefiles
 module load cuda/12.1
