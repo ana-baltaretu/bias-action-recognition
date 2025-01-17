@@ -92,7 +92,8 @@ bpy.context.scene.camera = camera # Set camera as the active camera
 
 # Set render settings
 bpy.context.scene.render.image_settings.file_format = 'FFMPEG'
-path_to_save = os.path.join(os.path.abspath("."), output_filename)
+# path_to_save = os.path.join(os.path.abspath("."), output_filename)
+path_to_save = os.path.join(os.path.abspath("/tmp"), output_filename)
 print("Path to save: ", path_to_save)
 bpy.context.scene.render.filepath = path_to_save
 bpy.context.scene.render.ffmpeg.format = 'MPEG4'
