@@ -1,12 +1,12 @@
 #!/bin/sh
 #SBATCH --job-name=cubes
-#SBATCH --partition=general
+#SBATCH --partition=prb,insy,general
 #SBATCH --qos=short
-#SBATCH --time=3:00:00
+#SBATCH --time=2:00:00
 #SBATCH --nodes=1
 #SBATCH --tasks-per-node=1
-#SBATCH --cpus-per-task=4
-#SBATCH --gres=gpu:2
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
 #SBATCH --gpu-bind=closest
 #SBATCH --mem=8GB
 #SBATCH --output=slurm-%x-%j.out
