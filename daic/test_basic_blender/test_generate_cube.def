@@ -20,6 +20,7 @@ From: nvidia/cuda:12.0.1-base-ubuntu22.04
         libwayland-client0 \
         libwayland-cursor0 \
         libwayland-egl1-mesa \
+        libnvidia-gl-470-server\
         xz-utils \
         python3 \
         python3-pip \
