@@ -3,6 +3,7 @@ import mathutils
 import os
 import math
 import datetime
+import shutil
 
 # Record start time
 start_time = datetime.datetime.now()
@@ -13,7 +14,11 @@ cube_size = 1
 cube_x, cube_y = 1, 1  # Cube position in X, Y
 cube_z = cube_size / 2  # Cube position in Z
 camera_x, camera_y, camera_z = 10, 10, 10  # Camera position
+
+# FILE PATH == VERY IMPORTANT TO PUT IT IN TMP!!!!!!!!!!!!!
 output_filename = "render_output.mp4"  # Output path for the video
+temp_path = os.path.join(os.path.abspath("/tmp"), output_filename)
+result_path = os.path.join(os.path.abspath("."), output_filename)
 
 
 def camera_look_at_origin(camera, x, y, z):
@@ -59,14 +64,6 @@ for device in prefs.devices:
     print(f"Device: {device.name}, Type: {device.type}")
 bpy.context.scene.cycles.device = 'GPU'
 
-#
-# # Set Cycles to use GPU rendering
-# bpy.context.scene.cycles.device = 'GPU'
-# bpy.context.scene.cycles.feature_set = 'SUPPORTED'  # Use supported features for faster rendering
-#
-# bpy.context.scene.render.use_simplify = True
-# bpy.context.scene.render.simplify_subdivision_render = 0  # Disable subdivisions
-
 setup_scene()
 # Delete all existing objects
 bpy.ops.object.select_all(action='SELECT')
@@ -92,17 +89,15 @@ bpy.context.scene.camera = camera # Set camera as the active camera
 
 # Set render settings
 bpy.context.scene.render.image_settings.file_format = 'FFMPEG'
-# path_to_save = os.path.join(os.path.abspath("."), output_filename)
-path_to_save = os.path.join(os.path.abspath("/tmp"), output_filename)
-print("Path to save: ", path_to_save)
-bpy.context.scene.render.filepath = path_to_save
+print("Saving at:", temp_path)
+bpy.context.scene.render.filepath = temp_path
 bpy.context.scene.render.ffmpeg.format = 'MPEG4'
 bpy.context.scene.render.ffmpeg.codec = 'H264'
 bpy.context.scene.render.ffmpeg.constant_rate_factor = 'HIGH'
 
 # Set animation length
 bpy.context.scene.frame_start = 1
-bpy.context.scene.frame_end = 60  # 60 frames for the video
+bpy.context.scene.frame_end = 120  # 60 frames for the video
 
 # Render animation
 bpy.ops.render.render(animation=True)
@@ -115,4 +110,7 @@ print(f"Script ended at: {end_time}")
 duration = end_time - start_time
 print(f"Total duration: {duration}")
 
+# Copy file from temp to actual output location
+shutil.copy(temp_path, result_path)
+print("Moved to:", result_path)
 
