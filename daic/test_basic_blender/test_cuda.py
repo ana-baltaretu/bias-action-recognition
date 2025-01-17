@@ -1,15 +1,10 @@
 import bpy
 
 
-# Enable CUDA or OptiX
-bpy.context.preferences.addons['cycles'].preferences.compute_device_type = 'CUDA'
-
-
-gpus = bpy.context.preferences.addons['cycles'].preferences.get_devices()
-print(gpus)
-
-print(gpus[0])
-
-# Set Cycles to use GPU rendering
+prefs = bpy.context.preferences.addons['cycles'].preferences
+prefs.compute_device_type = 'CUDA'  # Or 'OPTIX' for newer NVIDIA GPUs
+prefs.get_devices()
+for device in prefs.devices:
+    device.use = True
+    print(f"Device: {device.name}, Type: {device.type}")
 bpy.context.scene.cycles.device = 'GPU'
-bpy.context.scene.cycles.feature_set = 'SUPPORTED'  # Use supported features for faster rendering
