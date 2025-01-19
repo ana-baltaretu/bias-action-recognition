@@ -4,6 +4,18 @@ import os
 import math
 import datetime
 import shutil
+import sys
+
+# Get the script arguments
+args = sys.argv[1:]  # Skip the first argument, which is the script name
+
+if len(args) < 4:
+    print("Not enough arguments provided. Expected: red, green, blue")
+    sys.exit(1)
+else:
+    job_id, red, green, blue = args[:4]
+    print(f"Red: {red}, Green: {green}, Blue: {blue}")
+
 
 # Record start time
 start_time = datetime.datetime.now()
@@ -16,7 +28,7 @@ cube_z = cube_size / 2  # Cube position in Z
 camera_x, camera_y, camera_z = 10, 10, 10  # Camera position
 
 # FILE PATH == VERY IMPORTANT TO PUT IT IN TMP!!!!!!!!!!!!!
-output_filename = "render_output.mp4"  # Output path for the video
+output_filename = f"render_output{job_id}.mp4"  # Output path for the video
 temp_path = os.path.join(os.path.abspath("/tmp"), output_filename)
 result_path = os.path.join(os.path.abspath("."), output_filename)
 
@@ -74,12 +86,12 @@ bpy.ops.mesh.primitive_cube_add(size=cube_size, location=(cube_x, cube_y, cube_z
 cube = bpy.context.object
 
 # Setup & assign material
-if "RedMaterial" not in bpy.data.materials:
-    red_material = bpy.data.materials.new(name="RedMaterial")
-    red_material.diffuse_color = (1, 0, 0, 1)
+if "CubeMaterial" not in bpy.data.materials:
+    cube_material = bpy.data.materials.new(name="CubeMaterial")
+    cube_material.diffuse_color = (red, green, blue, 1)
 else:
-    red_material = bpy.data.materials["RedMaterial"]
-cube.data.materials.append(red_material)
+    cube_material = bpy.data.materials["CubeMaterial"]
+cube.data.materials.append(cube_material)
 
 # Create a camera
 bpy.ops.object.camera_add(location=(camera_x, camera_y, camera_z))
