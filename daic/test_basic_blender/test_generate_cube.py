@@ -7,10 +7,10 @@ import shutil
 import sys
 
 # Get the script arguments
-args = sys.argv[1:]  # Skip the first argument, which is the script name
+args = sys.argv[3:]  # Skip the first 3 arguments, which is: --background --python script_name
 
 if len(args) < 4:
-    print("Not enough arguments provided. Expected: red, green, blue")
+    print("Not enough arguments provided. Expected: job_id, red, green, blue")
     sys.exit(1)
 else:
     job_id, red, green, blue = args[:4]
