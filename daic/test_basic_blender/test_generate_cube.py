@@ -88,7 +88,7 @@ cube = bpy.context.object
 # Setup & assign material
 if "CubeMaterial" not in bpy.data.materials:
     cube_material = bpy.data.materials.new(name="CubeMaterial")
-    cube_material.diffuse_color = (red, green, blue, 1)
+    cube_material.diffuse_color = (float(red), float(green), float(blue), 1)
 else:
     cube_material = bpy.data.materials["CubeMaterial"]
 cube.data.materials.append(cube_material)
