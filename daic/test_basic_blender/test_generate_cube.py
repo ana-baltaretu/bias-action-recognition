@@ -7,12 +7,14 @@ import shutil
 import sys
 
 # Get the script arguments
+print("ARGs BEFORE CROP: ", sys.argv)
 args = sys.argv[4:]  # Skip the first 4 arguments, which is: --background --python script_name and "--"
 
 if len(args) < 4:
     print("Not enough arguments provided. Expected: job_id, red, green, blue")
     sys.exit(1)
 else:
+    print("ARGSSSS: ", args)
     job_id, red, green, blue = args[:4]
     print(f"Red: {red}, Green: {green}, Blue: {blue}")
 
@@ -28,7 +30,7 @@ cube_z = cube_size / 2  # Cube position in Z
 camera_x, camera_y, camera_z = 10, 10, 10  # Camera position
 
 # FILE PATH == VERY IMPORTANT TO PUT IT IN TMP!!!!!!!!!!!!!
-output_filename = f"render_output{job_id}.mp4"  # Output path for the video
+output_filename = f"render_output_{int(job_id)}.mp4"  # Output path for the video
 temp_path = os.path.join(os.path.abspath("/tmp"), output_filename)
 result_path = os.path.join(os.path.abspath("."), output_filename)
 

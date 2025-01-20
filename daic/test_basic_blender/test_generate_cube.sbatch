@@ -34,4 +34,5 @@ green=$(awk -v ArrayTaskID=$SLURM_ARRAY_TASK_ID '$1==ArrayTaskID {print $3}' $co
 blue=$(awk -v ArrayTaskID=$SLURM_ARRAY_TASK_ID '$1==ArrayTaskID {print $4}' $config)
 
 # Run the container with Apptainer
-srun apptainer exec --nv $APPTAINER_HOME/$APPTAINER_NAME blender --background --python test_generate_cube.py -- "${SLURM_ARRAY_TASK_ID}" "$red" "$green" "$blue"
+echo "Array task: ${SLURM_ARRAY_TASK_ID},  R: ${red}, G: ${green}, B: ${blue}" >> output.txt
+srun apptainer exec --nv $APPTAINER_HOME/$APPTAINER_NAME blender --background --python test_generate_cube.py -- "${SLURM_ARRAY_TASK_ID}" "${red}" "${green}" "${blue}"
