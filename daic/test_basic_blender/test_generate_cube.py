@@ -8,7 +8,7 @@ import sys
 
 # Get the script arguments
 print("ARGs BEFORE CROP: ", sys.argv)
-args = sys.argv[4:]  # Skip the first 4 arguments, which is: --background --python script_name and "--"
+args = sys.argv[5:]  # Skip the first 5 arguments, which is: blender --background --python script_name and "--"
 
 if len(args) < 4:
     print("Not enough arguments provided. Expected: job_id, red, green, blue")
