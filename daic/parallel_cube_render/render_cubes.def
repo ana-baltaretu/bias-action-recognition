@@ -1,0 +1,48 @@
+Bootstrap: docker
+From: nvidia/cuda:12.0.1-base-ubuntu22.04
+
+%post
+    # Install system dependencies
+    apt-get update && apt-get install -y --no-install-recommends \
+        wget \
+        ca-certificates \
+        libxrender1 \
+        libgl1 \
+        libglx-mesa0 \
+        libegl1-mesa \
+        libxext6 \
+        libsm6 \
+        libx11-6 \
+        libxcb1 \
+        libxrandr2 \
+        libxi6 \
+        libxkbcommon0 \
+        libwayland-client0 \
+        libwayland-cursor0 \
+        libwayland-egl1-mesa \
+        libnvidia-gl-470-server\
+        xz-utils \
+        python3 \
+        python3-pip \
+        gcc \
+        g++ \
+        ffmpeg \
+        && rm -rf /var/lib/apt/lists/*
+
+    # Download and install Blender 4.2.2
+    BLENDER_VERSION=4.2.2
+    wget https://download.blender.org/release/Blender4.2/blender-$BLENDER_VERSION-linux-x64.tar.xz
+    tar -xf blender-$BLENDER_VERSION-linux-x64.tar.xz
+    mv blender-$BLENDER_VERSION-linux-x64 /opt/blender
+    ln -s /opt/blender/blender /usr/local/bin/blender
+
+    # Install Python libraries
+    pip3 install --no-cache-dir numpy scipy tqdm torch
+
+%environment
+    export PATH=/usr/local/bin:$PATH
+    export LANG=C.UTF-8
+    export LC_ALL=C.UTF-8
+
+%runscript
+    exec blender --background --python "$@" --verbose 3
