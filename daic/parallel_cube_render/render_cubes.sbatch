@@ -7,13 +7,13 @@
 
 # --- Setup specific for task ---
 #SBATCH --job-name=render_cubes_bouncing  # OR render_cubes_orbiting
-#SBATCH --time=2:00:00
+#SBATCH --time=0:10:00
 #SBATCH --nodes=1
 #SBATCH --tasks-per-node=1
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --gpu-bind=closest
-#SBATCH --mem=8GB
+#SBATCH --mem=2GB
 
 # --- Email me when job finishes ---
 #SBATCH --mail-type=ALL

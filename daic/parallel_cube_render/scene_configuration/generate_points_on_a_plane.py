@@ -3,6 +3,13 @@ import math
 from mathutils import Vector
 import numpy as np
 import mathutils
+
+import sys
+import os
+
+script_dir = os.path.dirname(__file__)
+sys.path.append(script_dir)
+
 from point_on_plane_sampling import PlanePointGenerator
 
 
@@ -148,9 +155,14 @@ generator = PlanePointGenerator(center, normal, width, height, num_points)
 strategy = "poisson"  # Choose a strategy: 'random', 'grid', or 'poisson'
 points = generator.generate_points(strategy)
 
-print("All Points:\n", points)
-place_spheres_from_points(points)
-for (x, y, z) in points:
-    create_triangle_pointing_to_origin(x, y, z, size=-1)
+# Write points to file
+output_file = "camera_positions"
+with open(output_file, "w") as file:
+    print("All Points:\n", points)
+    place_spheres_from_points(points)
+    file.write(f"X\t\tY\t\tZ\n")
+    for (x, y, z) in points:
+        create_triangle_pointing_to_origin(x, y, z, size=-1)
+        file.write(f"{x:.3f}\t{y:.3f}\t{z:.3f}\n")
 
 bpy.ops.mesh.primitive_cube_add(size=1, location=(0, 0, 0))
