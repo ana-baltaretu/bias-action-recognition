@@ -65,29 +65,10 @@ sinteractive --ntasks=2 --mem=2G --time=00:05:00
    False
    ```
 5. `apptainer exec --nv test_generate_cube.sif python3 -c "import ctypes; ctypes.CDLL('libcudart.so')"`
-   ```
-   ```
 6. `apptainer exec --nv test_generate_cube.sif ls /dev/nvidia*`
-   ```
-   ```
 7. `apptainer exec --nv test_generate_cube.sif env | grep -E "CUDA|NVIDIA"`
-   ```
-   ```
 8. `apptainer exec --nv test_generate_cube.sif nvidia-smi`
-   ```
-   ```
-9. ``
-   ```
-   ```
-10. ``
-    ```
-    ```
-11. ``
-    ```
-    ```
-12. ``
-    ```
-    ```
+
    
 
 ### NOTE
@@ -184,4 +165,13 @@ unknown argument, loading as file: --python-expr
 read blend: /tudelft.net/staff-umbrella/StudentsCVlab/abaltaretu/bias-action-recognition/daic/test_basic_blender/--python-expr
 Warning: Unable to open '/tudelft.net/staff-umbrella/StudentsCVlab/abaltaretu/bias-action-recognition/daic/test_basic_blender/--python-expr': No such file or directory
 Blender quit
+```
+
+
+### Cool stuff
+
+```
+-bash-4.2$ squeue --me
+JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+11311299_[1-3] prb,insy,    cubes abaltare PD       0:00      1 (Resources)
 ```
