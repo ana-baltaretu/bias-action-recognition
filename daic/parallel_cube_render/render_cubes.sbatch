@@ -14,6 +14,7 @@
 #SBATCH --gres=gpu:1
 #SBATCH --gpu-bind=closest
 #SBATCH --mem=2GB
+#SBATCH --array=1-3
 
 # --- Email me when job finishes ---
 #SBATCH --mail-type=ALL

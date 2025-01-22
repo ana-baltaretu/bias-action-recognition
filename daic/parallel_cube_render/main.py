@@ -16,6 +16,9 @@ if len(args) < 7:
 else:
     job_id, camera_x, camera_y, camera_z, cubes_red, cubes_blue, cubes_random_position_seed = args[:7]
 
+# TODO: Decide do I put the entire camera angle in the "validation dataset"
+#       OR can I have bouncing in training/testing for example, and rotation in validation
+
 
 animation = BouncingCubesAnimation(
     job_id=job_id,
