@@ -128,6 +128,9 @@ def setup_rendering_animation(output_path):
     bpy.context.scene.frame_start = 1
     bpy.context.scene.frame_end = 120
 
+    # Set Cycles as the renderer
+    bpy.context.scene.render.engine = 'CYCLES'
+
     # Render the animation and save it to the specified path
     bpy.ops.render.render(animation=True)
 
@@ -136,6 +139,8 @@ class CubeAnimation(ABC):
     animation_type = "unknown"  # Default value, SHOULD be overridden by subclasses
 
     def __init__(self, job_id, camera_x, camera_y, camera_z, cubes_red, cubes_blue, cubes_random_position_seed):
+        self.frame_start = 1
+        self.frame_end = 120
         self.job_id = int(job_id)
         self.camera_x = float(camera_x)
         self.camera_y = float(camera_y)
@@ -205,6 +210,10 @@ class OrbitingCubesAnimation(CubeAnimation):
     animation_type = "orbiting"
 
     def generate_animation(self):
+        # Set up scene parameters
+        radius = 3  # Distance of cubes from the origin
+        orbit_speed = 2  # Speed of the orbit (adjust as needed)
+
         print("Generating orbiting cubes animation.")
         initialize_RGB_materials()
 
@@ -217,9 +226,15 @@ class OrbitingCubesAnimation(CubeAnimation):
             cube = bpy.context.object
             cube.data.materials.append(get_material_to_assign(i, self.cubes_red, self.cubes_blue))
 
-            for frame in range(bpy.context.scene.frame_start, bpy.context.scene.frame_end + 1):
-                angle = (2 * math.pi * frame / bpy.context.scene.frame_end) + angle_offset
-                cube.location.x = 3 * math.cos(angle)
-                cube.location.y = 3 * math.sin(angle)
-                cube.keyframe_insert(data_path="location")
+            # Animate the cube to orbit around the Z-axis
+            for frame in range(self.frame_start, self.frame_end + 1):
+                bpy.context.scene.frame_set(frame)
+
+                # Calculate the angle for this frame and this cube
+                angle = (2 * math.pi * orbit_speed * frame / self.frame_end) + angle_offset
+
+                # Update cube position
+                cube.location.x = radius * math.cos(angle)
+                cube.location.y = radius * math.sin(angle)
+                cube.keyframe_insert(data_path="location", index=-1)
         print("Orbiting cubes animation complete.")
