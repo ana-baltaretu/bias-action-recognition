@@ -6,7 +6,7 @@
 #SBATCH --error=render_cubes-%x-%j.err
 
 # --- Setup specific for task ---
-#SBATCH --job-name=render_cubes_bouncing  # OR render_cubes_orbiting
+#SBATCH --job-name=render_cubes
 #SBATCH --time=0:10:00
 #SBATCH --nodes=1
 #SBATCH --tasks-per-node=1

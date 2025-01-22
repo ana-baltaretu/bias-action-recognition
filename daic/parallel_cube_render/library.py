@@ -136,14 +136,14 @@ class CubeAnimation(ABC):
     output_file_name = "unknown"  # Default value, SHOULD be overridden by subclasses
 
     def __init__(self, job_id, camera_x, camera_y, camera_z, cubes_red, cubes_blue, cubes_random_position_seed):
-        self.job_id = job_id
-        self.camera_x = camera_x
-        self.camera_y = camera_y
-        self.camera_z = camera_z
-        self.total_cubes = cubes_red + cubes_blue
-        self.cubes_red = cubes_red
-        self.cubes_blue = cubes_blue
-        self.random_seed = cubes_random_position_seed
+        self.job_id = int(job_id)
+        self.camera_x = float(camera_x)
+        self.camera_y = float(camera_y)
+        self.camera_z = float(camera_z)
+        self.total_cubes = int(cubes_red) + int(cubes_blue)
+        self.cubes_red = int(cubes_red)
+        self.cubes_blue = int(cubes_blue)
+        self.random_seed = int(cubes_random_position_seed)
 
     def setup(self):
         """Shared setup logic."""
