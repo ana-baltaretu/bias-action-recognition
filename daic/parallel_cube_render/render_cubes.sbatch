@@ -13,7 +13,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --gpu-bind=closest
-#SBATCH --mem=2GB
+#SBATCH --mem=4GB
 #SBATCH --array=1-3
 
 # --- Email me when job finishes ---

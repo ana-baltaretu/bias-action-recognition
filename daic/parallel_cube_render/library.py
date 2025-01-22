@@ -130,6 +130,7 @@ def setup_rendering_animation(output_path):
 
     # Set Cycles as the renderer
     bpy.context.scene.render.engine = 'CYCLES'
+    bpy.context.scene.cycles.samples = 64  # Cap at 64 samples
 
     # Render the animation and save it to the specified path
     bpy.ops.render.render(animation=True)
