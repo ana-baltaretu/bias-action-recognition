@@ -133,7 +133,7 @@ def setup_rendering_animation(output_path):
 
 
 class CubeAnimation(ABC):
-    output_file_name = "unknown"  # Default value, SHOULD be overridden by subclasses
+    animation_type = "unknown"  # Default value, SHOULD be overridden by subclasses
 
     def __init__(self, job_id, camera_x, camera_y, camera_z, cubes_red, cubes_blue, cubes_random_position_seed):
         self.job_id = int(job_id)
@@ -159,10 +159,14 @@ class CubeAnimation(ABC):
 
     def render(self):
         """Shared rendering logic."""
-        output_filename = f"{self.output_file_name}_{self.job_id}.mp4"
+        output_filename = f"{self.animation_type}_{self.job_id}.mp4"
         temp_path = os.path.join("/tmp", output_filename)
         setup_rendering_animation(temp_path)
+
+        print("Rendered? ", os.path.exists(temp_path))
         result_path = os.path.join(os.path.abspath("."), output_filename)
+        print("Moving: ", temp_path)
+        print("To: ", result_path)
         shutil.copy(temp_path, result_path)
         print("Moved to:", result_path)
 
@@ -174,7 +178,7 @@ class CubeAnimation(ABC):
 
 
 class BouncingCubesAnimation(CubeAnimation):
-    output_file_name = "bouncing"
+    animation_type = "bouncing"
 
     def generate_animation(self):
         print("Generating bouncing cubes animation.")
@@ -198,7 +202,7 @@ class BouncingCubesAnimation(CubeAnimation):
 
 
 class OrbitingCubesAnimation(CubeAnimation):
-    output_file_name = "orbiting"
+    animation_type = "orbiting"
 
     def generate_animation(self):
         print("Generating orbiting cubes animation.")

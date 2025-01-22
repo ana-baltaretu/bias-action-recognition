@@ -13,6 +13,11 @@ sys.path.append(script_dir)
 from point_on_plane_sampling import PlanePointGenerator
 
 
+# Parameters
+plane_position = (8, 7, 6)  # Position of the plane
+plane_size = 5  # Size of the plane
+
+
 def clean_all():
     # Clear existing objects
     bpy.ops.object.select_all(action='SELECT')
@@ -73,13 +78,8 @@ def visualize_normal(plane, normal, length=2):
     bpy.context.collection.objects.link(curve_object)
 
 
-# Parameters
-plane_position = (5, 4, 3)  # Position of the plane
-plane_size = 4  # Size of the plane
-
 # Create the plane
 plane = create_plane_at_position(plane_position, plane_size)
-
 rotate_to_face_origin(plane)
 
 # Rotate the plane to face the origin
@@ -140,7 +140,7 @@ def create_triangle_pointing_to_origin(x, y, z, size=-3):
 # Example usage
 center = np.array(plane_position)  # Plane center in 3D
 normal = np.array(plane_normal)  # Plane normal in 3D (e.g., rotated at 45°)
-width, height = 3, 3  # Plane dimensions
+width, height = plane_size-1, plane_size-1  # Plane dimensions
 num_points = 10  # Number of points to generate
 
 # Create a new material for yellow spheres
