@@ -256,55 +256,54 @@ class BouncingCubesAnimation(CubeAnimation):
                 if counter > 100:
                     break
 
-            # Generate cubes with random bounce timings and start frames
-            for i, (x, y) in enumerate(positions):
-                bpy.ops.mesh.primitive_cube_add(size=self.cube_size, location=(x, y, self.cube_size / 2))
-                bpy.context.view_layer.update()     # Bouncing looks shady?
-                cube = bpy.context.object
-                cube.name = f"Cube_{i + 1}"
-                cube.data.materials.append(get_material_to_assign(i, self.cubes_blue, self.cubes_red)) # TODO: Put amount of Green cubes
+        # Generate cubes with random bounce timings and start frames
+        for i, (x, y) in enumerate(positions):
+            bpy.ops.mesh.primitive_cube_add(size=self.cube_size, location=(x, y, self.cube_size / 2))
+            cube = bpy.context.object
+            cube.name = f"Cube_{i + 1}"
+            cube.data.materials.append(get_material_to_assign(i, self.cubes_blue, self.cubes_red)) # TODO: Put amount of Green cubes
 
-                # Random start frame for this cube
-                start_frame = random.randint(self.frame_start, self.frame_end - 100)  # Ensure enough time for animation
-                current_frame = start_frame
-                height = initial_height
-                num_bounces = random.randint(min_bounces, max_bounces)  # Randomize the number of bounces for each cube
+            # Random start frame for this cube
+            start_frame = random.randint(self.frame_start, self.frame_end - 100)  # Ensure enough time for animation
+            current_frame = start_frame
+            height = initial_height
+            num_bounces = random.randint(min_bounces, max_bounces)  # Randomize the number of bounces for each cube
 
-                for bounce in range(num_bounces):
-                    t_up = math.sqrt(2 * height / 9.8)  # Calculate time to peak
-                    frames_up = int(t_up * fps)
+            for bounce in range(num_bounces):
+                t_up = math.sqrt(2 * height / 9.8)  # Calculate time to peak
+                frames_up = int(t_up * fps)
 
-                    # Start on the ground
-                    cube.location.z = 0.35
-                    cube.scale = (self.cube_size, self.cube_size, self.cube_size * 0.7)  # Flatten on impact
-                    cube.keyframe_insert(data_path="location", frame=current_frame)
-                    cube.keyframe_insert(data_path="scale", frame=current_frame)
+                # Start on the ground
+                cube.location.z = 0.35
+                cube.scale = (self.cube_size, self.cube_size, self.cube_size * 0.7)  # Flatten on impact
+                cube.keyframe_insert(data_path="location", frame=current_frame)
+                cube.keyframe_insert(data_path="scale", frame=current_frame)
 
-                    # Peak of the bounce
-                    current_frame += frames_up
-                    cube.location.z = height + 0.5
-                    cube.scale = (self.cube_size * 0.7, self.cube_size * 0.7, self.cube_size * 1.3)  # Stretch at peak
-                    cube.keyframe_insert(data_path="location", frame=current_frame)
-                    cube.keyframe_insert(data_path="scale", frame=current_frame)
+                # Peak of the bounce
+                current_frame += frames_up
+                cube.location.z = height + 0.5
+                cube.scale = (self.cube_size * 0.7, self.cube_size * 0.7, self.cube_size * 1.3)  # Stretch at peak
+                cube.keyframe_insert(data_path="location", frame=current_frame)
+                cube.keyframe_insert(data_path="scale", frame=current_frame)
 
-                    # Return to the ground
-                    current_frame += frames_up
-                    cube.location.z = 0.3
-                    cube.scale = (self.cube_size * 1.3, self.cube_size * 1.3, self.cube_size * 0.6)  # Flatten on impact
-                    cube.keyframe_insert(data_path="location", frame=current_frame)
-                    cube.keyframe_insert(data_path="scale", frame=current_frame)
+                # Return to the ground
+                current_frame += frames_up
+                cube.location.z = 0.3
+                cube.scale = (self.cube_size * 1.3, self.cube_size * 1.3, self.cube_size * 0.6)  # Flatten on impact
+                cube.keyframe_insert(data_path="location", frame=current_frame)
+                cube.keyframe_insert(data_path="scale", frame=current_frame)
 
-                    # Reset scale shortly after impact
-                    cube.scale = (self.cube_size, self.cube_size, self.cube_size)
-                    cube.keyframe_insert(data_path="scale", frame=current_frame + 3)
+                # Reset scale shortly after impact
+                cube.scale = (self.cube_size, self.cube_size, self.cube_size)
+                cube.keyframe_insert(data_path="scale", frame=current_frame + 3)
 
-                    # Reduce height for next bounce
-                    height *= damping_factor
+                # Reduce height for next bounce
+                height *= damping_factor
 
-                # Adjust interpolation for smoother motion
-                for fcurve in cube.animation_data.action.fcurves:
-                    for keyframe in fcurve.keyframe_points:
-                        keyframe.interpolation = 'BEZIER'
+            # Adjust interpolation for smoother motion
+            for fcurve in cube.animation_data.action.fcurves:
+                for keyframe in fcurve.keyframe_points:
+                    keyframe.interpolation = 'BEZIER'
         print("Bouncing cubes animation complete.")
 
 
