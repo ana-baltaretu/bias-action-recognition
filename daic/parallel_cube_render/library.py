@@ -207,8 +207,12 @@ class CubeAnimation(ABC):
         result_path = os.path.join(os.path.abspath("."), output_filename)
         print("Moving: ", temp_path)
         print("To: ", result_path)
-        shutil.copy(temp_path, result_path)
-        print("Moved to:", result_path)
+        try:
+            shutil.copy(temp_path, result_path)
+            print("Moved to:", result_path)
+        except PermissionError as e:
+            print(f"PermissionError: {e}")
+            print("This shouldn't be happening and it moves the file, but idk why it throws also ERROR??????")
 
     def execute(self):
         """Template method defining the overall workflow."""
@@ -221,23 +225,82 @@ class BouncingCubesAnimation(CubeAnimation):
     animation_type = "bouncing"
 
     def generate_animation(self):
+
+        # Scene and animation setup
+        initial_height = 2.5
+        damping_factor = 0.6
+        fps = bpy.context.scene.render.fps  # Frames per second
+        min_distance = 2  # Minimum distance between cubes to avoid overlap
+        area_for_cubes_pos = 3
+        min_bounces, max_bounces = 3, 7
+
         print("Generating bouncing cubes animation.")
         initialize_RGB_materials()
 
-        # Animation-specific logic
+        # Generate random positions ensuring non-overlapping placement
         positions = []
+        counter = 0
         for _ in range(self.total_cubes):
             while True:
-                x, y = random.uniform(-3, 3), random.uniform(-3, 3)  # Example bounds
-                if all(math.sqrt((x - px) ** 2 + (y - py) ** 2) >= 2 for px, py in positions):
+                x, y = random.uniform(-area_for_cubes_pos, area_for_cubes_pos), \
+                       random.uniform(-area_for_cubes_pos, area_for_cubes_pos)
+                if all(math.sqrt((x - px) ** 2 + (y - py) ** 2) >= min_distance for px, py in positions):
                     positions.append((x, y))
                     break
+                else:
+                    counter += 1
+                if counter > 100:
+                    break
 
-        for i, (x, y) in enumerate(positions):
-            bpy.ops.mesh.primitive_cube_add(size=1, location=(x, y, 1))  # Example cube size
-            cube = bpy.context.object
-            cube.data.materials.append(get_material_to_assign(i, self.cubes_red, self.cubes_blue))
-            # TODO: Add bouncing animation logic here
+            # Generate cubes with random bounce timings and start frames
+            for i, (x, y) in enumerate(positions):
+                bpy.ops.mesh.primitive_cube_add(size=self.cube_size, location=(x, y, self.cube_size / 2))
+                cube = bpy.context.object
+                cube.name = f"Cube_{i + 1}"
+
+                cube.data.materials.append(get_material_to_assign(i, self.cubes_blue, self.cubes_red)) # TODO: Put amount of Green cubes
+
+                # Random start frame for this cube
+                start_frame = random.randint(self.frame_start, self.frame_end - 100)  # Ensure enough time for animation
+                current_frame = start_frame
+                height = initial_height
+                num_bounces = random.randint(min_bounces, max_bounces)  # Randomize the number of bounces for each cube
+
+                for bounce in range(num_bounces):
+                    t_up = math.sqrt(2 * height / 9.8)  # Calculate time to peak
+                    frames_up = int(t_up * fps)
+
+                    # Start on the ground
+                    cube.location.z = 0.35
+                    cube.scale = (self.cube_size, self.cube_size, self.cube_size * 0.7)  # Flatten on impact
+                    cube.keyframe_insert(data_path="location", frame=current_frame)
+                    cube.keyframe_insert(data_path="scale", frame=current_frame)
+
+                    # Peak of the bounce
+                    current_frame += frames_up
+                    cube.location.z = height + 0.5
+                    cube.scale = (self.cube_size * 0.7, self.cube_size * 0.7, self.cube_size * 1.3)  # Stretch at peak
+                    cube.keyframe_insert(data_path="location", frame=current_frame)
+                    cube.keyframe_insert(data_path="scale", frame=current_frame)
+
+                    # Return to the ground
+                    current_frame += frames_up
+                    cube.location.z = 0.3
+                    cube.scale = (self.cube_size * 1.3, self.cube_size * 1.3, self.cube_size * 0.6)  # Flatten on impact
+                    cube.keyframe_insert(data_path="location", frame=current_frame)
+                    cube.keyframe_insert(data_path="scale", frame=current_frame)
+
+                    # Reset scale shortly after impact
+                    cube.scale = (self.cube_size, self.cube_size, self.cube_size)
+                    cube.keyframe_insert(data_path="scale", frame=current_frame + 3)
+
+                    # Reduce height for next bounce
+                    height *= damping_factor
+
+                # Adjust interpolation for smoother motion
+                for fcurve in cube.animation_data.action.fcurves:
+                    for keyframe in fcurve.keyframe_points:
+                        keyframe.interpolation = 'BEZIER'
         print("Bouncing cubes animation complete.")
 
 
