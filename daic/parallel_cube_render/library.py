@@ -116,21 +116,46 @@ def setup_rendering_animation(output_path):
     bpy.context.scene.render.ffmpeg.codec = 'H264'
     bpy.context.scene.render.ffmpeg.constant_rate_factor = 'HIGH'
 
-    prefs = bpy.context.preferences.addons['cycles'].preferences
-    prefs.compute_device_type = 'CUDA'  # Or 'OPTIX' for newer NVIDIA GPUs
-    prefs.get_devices()
-    for device in prefs.devices:
-        device.use = True
-        print(f"Device: {device.name}, Type: {device.type}")
+    # prefs = bpy.context.preferences.addons['cycles'].preferences
+    # prefs.compute_device_type = 'CUDA'  # Or 'OPTIX' for newer NVIDIA GPUs
+    # prefs.get_devices()
+    # for device in prefs.devices:
+    #     device.use = True
+    #     print(f"Device: {device.name}, Type: {device.type}")
+    # bpy.context.scene.cycles.device = 'GPU'
+
+    # Enable GPU rendering
     bpy.context.scene.cycles.device = 'GPU'
+    bpy.context.preferences.addons['cycles'].preferences.compute_device_type = 'CUDA'  # or 'OPTIX' or 'OPENCL'
+
+    cycles_prefs = bpy.context.preferences.addons['cycles'].preferences
+
+    # Initialize devices
+    cycles_prefs.get_devices(True)  # True to initialize devices
+    devices = cycles_prefs.devices  # Access the initialized devices list
+
+    # Check if there are any available GPU devices
+    has_gpu = any(device.type in {'CUDA', 'OPTIX', 'OPENCL'} for device in devices)
+
+    if has_gpu:
+        print("GPU detected:",
+              [(device.name, device.type) for device in devices if device.type in {'CUDA', 'OPTIX', 'OPENCL'}])
+    else:
+        print("No compatible GPU detected.")
+
+    for device in devices:
+        device.use = True
+
+    # Set Cycles as the renderer
+    # bpy.context.scene.render.engine = 'CYCLES'
 
     # Set animation length
     bpy.context.scene.frame_start = 1
     bpy.context.scene.frame_end = 120
 
     # Set Cycles as the renderer
-    bpy.context.scene.render.engine = 'CYCLES'
-    bpy.context.scene.cycles.samples = 64  # Cap at 64 samples
+    # bpy.context.scene.render.engine = 'CYCLES'
+    # bpy.context.scene.cycles.samples = 64  # Cap at 64 samples
 
     # Render the animation and save it to the specified path
     bpy.ops.render.render(animation=True)

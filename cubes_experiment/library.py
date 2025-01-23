@@ -136,12 +136,8 @@ def setup_rendering_animation():
     else:
         print("No compatible GPU detected.")
 
-
     for device in devices:
         device.use = True
-
-    # Set Cycles as the renderer
-    bpy.context.scene.render.engine = 'CYCLES'
 
     # Render the animation and save it to the specified path
     bpy.ops.render.render(animation=True)
