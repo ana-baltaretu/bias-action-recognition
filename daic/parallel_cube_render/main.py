@@ -23,14 +23,20 @@ else:
 train_percentage = 60
 val_percentage = 10
 test_percentage = 100-train_percentage-val_percentage
+green_percentage = 10
 
-which_video_type = random.randint(0, 100)
+should_we_put_green = random.randint(0, 100)
 
 # video_type = "test"
 # if which_video_type < train_percentage:
 #     video_type = "train"
 # elif which_video_type < train_percentage + val_percentage:
 #     video_type = "validation"
+
+cubes_green = 0
+if should_we_put_green < green_percentage:
+    cubes_green = random.randint(1, cubes_red + cubes_blue)
+
 
 animation = OrbitingCubesAnimation(
     job_id=job_id,
@@ -40,7 +46,7 @@ animation = OrbitingCubesAnimation(
     cubes_red=cubes_red,
     cubes_blue=cubes_blue,
     cubes_random_position_seed=cubes_random_position_seed,
-    cubes_green=0,
+    cubes_green=cubes_green,
     # video_type=video_type
 )
 animation.execute()
@@ -54,7 +60,7 @@ animation = BouncingCubesAnimation(
     cubes_red=cubes_red,
     cubes_blue=cubes_blue,
     cubes_random_position_seed=cubes_random_position_seed,
-    cubes_green=0,
+    cubes_green=cubes_green,
     # video_type=video_type
 )
 animation.execute()

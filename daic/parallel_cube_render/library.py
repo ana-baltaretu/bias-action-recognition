@@ -259,9 +259,9 @@ class BouncingCubesAnimation(CubeAnimation):
             # Generate cubes with random bounce timings and start frames
             for i, (x, y) in enumerate(positions):
                 bpy.ops.mesh.primitive_cube_add(size=self.cube_size, location=(x, y, self.cube_size / 2))
+                bpy.context.view_layer.update()     # Bouncing looks shady?
                 cube = bpy.context.object
                 cube.name = f"Cube_{i + 1}"
-
                 cube.data.materials.append(get_material_to_assign(i, self.cubes_blue, self.cubes_red)) # TODO: Put amount of Green cubes
 
                 # Random start frame for this cube
