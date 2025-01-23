@@ -164,7 +164,7 @@ def setup_rendering_animation(output_path):
 class CubeAnimation(ABC):
     animation_type = "unknown"  # Default value, SHOULD be overridden by subclasses
 
-    def __init__(self, job_id, camera_x, camera_y, camera_z, cubes_red, cubes_blue, cubes_random_position_seed, cubes_green):
+    def __init__(self, job_id, camera_x, camera_y, camera_z, cubes_red, cubes_blue, cubes_random_position_seed, cubes_green, video_type):
         self.frame_start = 1
         self.frame_end = 120
         self.cube_size = 1
@@ -173,7 +173,8 @@ class CubeAnimation(ABC):
         self.camera_x = float(camera_x)
         self.camera_y = float(camera_y)
         self.camera_z = float(camera_z)
-        random.seed(cubes_random_position_seed) # Ensure consistency between Blue/Red VS B/R/Green videos
+        random.seed(cubes_random_position_seed)     # Ensure consistency between Blue/Red VS B/R/Green videos
+        self.video_type = video_type
 
         self.total_cubes = int(cubes_red) + int(cubes_blue)
 
@@ -204,7 +205,7 @@ class CubeAnimation(ABC):
         setup_rendering_animation(temp_path)
 
         print("Rendered? ", os.path.exists(temp_path))
-        result_path = os.path.join(os.path.abspath("."), output_filename)
+        result_path = os.path.join(os.path.abspath("."), self.video_type, output_filename)
         print("Moving: ", temp_path)
         print("To: ", result_path)
         try:
