@@ -67,13 +67,13 @@ def initialize_RGB_materials():
         blue_material = bpy.data.materials["BlueMaterial"]
 
 
-def get_material_to_assign(i, green_cubes_count, red_cubes_count):
+def get_material_to_assign(i, blue_cubes_count, red_cubes_count):
     global red_material, green_material, blue_material
-    if i < green_cubes_count:
-        return green_material
-    if i < green_cubes_count + red_cubes_count:
+    if i < blue_cubes_count:
+        return blue_material
+    if i < blue_cubes_count + red_cubes_count:
         return red_material
-    return blue_material
+    return green_material
 
 
 def camera_look_at_origin(camera, x, y, z):
@@ -164,24 +164,33 @@ def setup_rendering_animation(output_path):
 class CubeAnimation(ABC):
     animation_type = "unknown"  # Default value, SHOULD be overridden by subclasses
 
-    def __init__(self, job_id, camera_x, camera_y, camera_z, cubes_red, cubes_blue, cubes_random_position_seed):
+    def __init__(self, job_id, camera_x, camera_y, camera_z, cubes_red, cubes_blue, cubes_random_position_seed, cubes_green):
         self.frame_start = 1
         self.frame_end = 120
+        self.cube_size = 1
+
         self.job_id = int(job_id)
         self.camera_x = float(camera_x)
         self.camera_y = float(camera_y)
         self.camera_z = float(camera_z)
+        random.seed(cubes_random_position_seed) # Ensure consistency between Blue/Red VS B/R/Green videos
+
         self.total_cubes = int(cubes_red) + int(cubes_blue)
-        self.cubes_red = int(cubes_red)
-        self.cubes_blue = int(cubes_blue)
-        self.random_seed = int(cubes_random_position_seed)
+
+        # If we have odd amount of green cubes each cube gets random cubes subtracted in range
+        to_subtract_red = random.randint(0, cubes_green)    # "Inclusive"
+        to_subtract_blue = cubes_green = to_subtract_red
+
+        self.cubes_red = int(cubes_red) - to_subtract_red
+        self.cubes_blue = int(cubes_blue) - to_subtract_blue
+        self.cubes_green = int(cubes_green)    # TODO: Put amount of Green cubes
 
     def setup(self):
         """Shared setup logic."""
         clean_all()
         setup_scene()
         setup_camera(self.camera_x, self.camera_y, self.camera_z)
-        random.seed(self.random_seed)
+
 
     @abstractmethod
     def generate_animation(self):
@@ -250,7 +259,7 @@ class OrbitingCubesAnimation(CubeAnimation):
 
             bpy.ops.mesh.primitive_cube_add(size=1, location=(3 * math.cos(angle_offset), 3 * math.sin(angle_offset), 1))
             cube = bpy.context.object
-            cube.data.materials.append(get_material_to_assign(i, self.cubes_red, self.cubes_blue))
+            cube.data.materials.append(get_material_to_assign(i, self.cubes_blue, self.cubes_red)) # TODO: Put amount of Green cubes
 
             # Animate the cube to orbit around the Z-axis
             for frame in range(self.frame_start, self.frame_end + 1):

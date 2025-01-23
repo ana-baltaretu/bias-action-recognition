@@ -26,7 +26,8 @@ animation = OrbitingCubesAnimation(
     camera_z=camera_z,
     cubes_red=cubes_red,
     cubes_blue=cubes_blue,
-    cubes_random_position_seed=cubes_random_position_seed
+    cubes_random_position_seed=cubes_random_position_seed,
+    cubes_green=0
 )
 animation.execute()
 
@@ -38,7 +39,8 @@ animation = BouncingCubesAnimation(
     camera_z=camera_z,
     cubes_red=cubes_red,
     cubes_blue=cubes_blue,
-    cubes_random_position_seed=cubes_random_position_seed
+    cubes_random_position_seed=cubes_random_position_seed,
+    cubes_green=0
 )
 animation.execute()
 
