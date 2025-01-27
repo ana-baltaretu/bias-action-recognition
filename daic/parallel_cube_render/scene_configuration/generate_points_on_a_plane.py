@@ -14,7 +14,7 @@ from point_on_plane_sampling import PlanePointGenerator
 
 
 # Parameters
-plane_position = (8, 7, 6)  # Position of the plane
+plane_position = (10, 9, 8)  # Position of the plane
 plane_size = 5  # Size of the plane
 
 

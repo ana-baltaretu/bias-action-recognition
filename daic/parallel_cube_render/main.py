@@ -30,6 +30,7 @@ should_we_put_green = random.randint(0, 100)
 cubes_green = 0
 if should_we_put_green < green_percentage:
     cubes_green = random.randint(1, cubes_red + cubes_blue)
+    print(f"Making scene with {cubes_green} green cubes!")
 
 if cubes_green > 0: # IF GREEN WE MAKE 2X SAME VIDEO (just diff colors)
     # TODO: I THINK I MIGHT BE COLORING CUBES DIFFERENTLY

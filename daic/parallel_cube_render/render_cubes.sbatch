@@ -2,19 +2,19 @@
 # --- General DAIC setup ---
 #SBATCH --partition=prb,insy,general
 #SBATCH --qos=short
-#SBATCH --output=render_cubes-%x-%j.out
-#SBATCH --error=render_cubes-%x-%j.err
+#SBATCH --output=run_10_90scenes/render_cubes-%x-%j.out
+#SBATCH --error=run_10_90scenes/render_cubes-%x-%j.err
 
 # --- Setup specific for task ---
-#SBATCH --job-name=render_cubes
-#SBATCH --time=0:04:00
+#SBATCH --job-name=run_10_90scenes
+#SBATCH --time=0:10:00
 #SBATCH --nodes=1
 #SBATCH --tasks-per-node=1
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --gpu-bind=closest
 #SBATCH --mem=2GB
-#SBATCH --array=1-3
+#SBATCH --array=1-90
 
 # --- Email me when job finishes ---
 #SBATCH --mail-type=ALL
