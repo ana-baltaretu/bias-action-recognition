@@ -53,7 +53,7 @@ class PlanePointGenerator:
         points = [self.center + x * u + y * v for x in x_coords for y in y_coords]
         return np.array(points)
 
-    def poisson_disk_sampling_on_rotated_plane(self, min_distance=0.8, num_attempts=30) -> np.ndarray:
+    def poisson_disk_sampling_on_rotated_plane(self, min_distance=1.4, num_attempts=30) -> np.ndarray:
         arbitrary = np.array([1, 0, 0]) if not np.allclose(self.normal, [1, 0, 0]) else np.array([0, 1, 0])
         u = np.cross(self.normal, arbitrary)
         u = u / np.linalg.norm(u)

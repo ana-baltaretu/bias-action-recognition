@@ -27,6 +27,7 @@ green_percentage = 10
 
 should_we_put_green = random.randint(0, 100)
 
+cubes_red, cubes_blue = int(cubes_red), int(cubes_blue)
 cubes_green = 0
 if should_we_put_green < green_percentage:
     cubes_green = random.randint(1, cubes_red + cubes_blue)
