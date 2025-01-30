@@ -200,15 +200,17 @@ class CubeAnimation(ABC):
     def render(self):
         """Shared rendering logic."""
         output_filename = f"{self.animation_type}_{self.job_id}.mp4"
-        temp_path = os.path.join("/tmp", output_filename)
-        setup_rendering_animation(temp_path)
-
         name_of_folder = f"{self.animation_type}_green" if self.cubes_green > 0 else self.animation_type
+
+        temp_folder_path = os.path.join(os.path.abspath("/tmp"), name_of_folder)
+        os.makedirs(temp_folder_path, exist_ok=True)
+        temp_path = os.path.join(temp_folder_path, output_filename)
+        setup_rendering_animation(temp_path)    # Where to render
+
         folder_path = os.path.join(os.path.abspath("."), name_of_folder)
         os.makedirs(folder_path, exist_ok=True)
-
         print("Rendered? ", os.path.exists(temp_path))
-        result_path = os.path.join(folder_path, output_filename)
+        result_path = os.path.join(folder_path, output_filename)    # Where to move final result
         print("Moving: ", temp_path)
         print("To: ", result_path)
         try:

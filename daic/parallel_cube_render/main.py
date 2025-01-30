@@ -59,6 +59,8 @@ if cubes_green > 0: # IF GREEN WE MAKE 2X SAME VIDEO (just diff colors)
     )
     animation.execute()
 
+
+# Make animations without green cubes
 animation = OrbitingCubesAnimation(
     job_id=job_id,
     camera_x=camera_x,
@@ -67,7 +69,7 @@ animation = OrbitingCubesAnimation(
     cubes_red=cubes_red,
     cubes_blue=cubes_blue,
     cubes_random_position_seed=cubes_random_position_seed,
-    cubes_green=cubes_green,
+    cubes_green=0,
 )
 animation.execute()
 
@@ -79,7 +81,7 @@ animation = BouncingCubesAnimation(
     cubes_red=cubes_red,
     cubes_blue=cubes_blue,
     cubes_random_position_seed=cubes_random_position_seed,
-    cubes_green=cubes_green,
+    cubes_green=0,
 )
 animation.execute()
 
