@@ -23,7 +23,7 @@ else:
 train_percentage = 60
 val_percentage = 10
 test_percentage = 100-train_percentage-val_percentage
-green_percentage = 10
+green_percentage = 20
 
 should_we_put_green = random.randint(0, 100)
 

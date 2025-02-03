@@ -6,13 +6,8 @@
 
 `sbatch render_cubes.sbatch`
 
-`scp daic:/tudelft.net/staff-umbrella/StudentsCVlab/abaltaretu/bias-action-recognition/daic/parallel_cube_render/bouncing_3.mp4 /mnt/c/Users/anaba/OneDrive/Desktop/cluster/`
-
-`scp daic:/tudelft.net/staff-umbrella/StudentsCVlab/abaltaretu/bias-action-recognition/daic/parallel_cube_render/*.mp4 /mnt/c/Users/anaba/OneDrive/Desktop/cluster/`
-
 ```
-scp -r daic:/tudelft.net/staff-umbrella/StudentsCVlab/abaltaretu/bias-action-recognition/daic/parallel_cube_render/bouncing /mnt/c/Users/anaba/OneDrive/Desktop/cluster/
-scp -r daic:/tudelft.net/staff-umbrella/StudentsCVlab/abaltaretu/bias-action-recognition/daic/parallel_cube_render/orbiting /mnt/c/Users/anaba/OneDrive/Desktop/cluster/
+scp -r daic:/tudelft.net/staff-umbrella/StudentsCVlab/abaltaretu/bias-action-recognition/daic/parallel_cube_render/results /mnt/c/Users/anaba/OneDrive/Desktop/cluster/
 ```
 
 
