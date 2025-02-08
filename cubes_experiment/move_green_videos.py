@@ -1,8 +1,13 @@
 import os
 import shutil
+import argparse
 
-# Define the source directory containing multiple categories
-folder_with_videos = "../data/RGB_cubes/90_scenes"  # Update with the actual folder path
+# Argument parsing
+parser = argparse.ArgumentParser(description="Process video categories into test and train-validation directories.")
+parser.add_argument("folder_with_videos", type=str, help="Path to the folder containing video categories.")
+args = parser.parse_args()
+
+folder_with_videos = args.folder_with_videos  # Get the folder path from command-line argument
 
 test_dir = "test"
 train_val_dir = "train-validation"
@@ -25,11 +30,9 @@ for base_name, subfolders in categories.items():
         dir_main = os.path.join(folder_with_videos, base_name)
         dir_green = os.path.join(folder_with_videos, f"{base_name}_green")
         test_main = os.path.join(test_dir, base_name)
-        test_green = os.path.join(test_dir, f"{base_name}_green")
         train_val_main = os.path.join(train_val_dir, base_name)
 
         os.makedirs(test_main, exist_ok=True)
-        os.makedirs(test_green, exist_ok=True)
         os.makedirs(train_val_main, exist_ok=True)
 
         processed_files = set()
@@ -40,7 +43,10 @@ for base_name, subfolders in categories.items():
 
             if os.path.isfile(file_green):
                 if os.path.isfile(file_main):
-                    shutil.move(file_green, os.path.join(test_green, filename))
+                    name, ext = os.path.splitext(filename) # Filename = bouncing_27.mp4
+                    new_green_filename = f"{filename.replace('.', '_')}_green{ext}"  # "bouncing_27_green.mp4"
+
+                    shutil.move(file_green, os.path.join(test_main, new_green_filename))
                     shutil.move(file_main, os.path.join(test_main, filename))
                     processed_files.add(filename)
                     print(f"Moved matching pair '{filename}' to test.")
@@ -57,3 +63,7 @@ for base_name, subfolders in categories.items():
 # Remove the parent folder once processing is complete
 shutil.rmtree(folder_with_videos)
 print(f"Removed source folder: {folder_with_videos}")
+
+shutil.move(test_dir, os.path.join(folder_with_videos, test_dir))
+shutil.move(train_val_dir, os.path.join(folder_with_videos, train_val_dir))
+

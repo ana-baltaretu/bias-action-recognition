@@ -1,19 +1,28 @@
 import os
 import random
 from collections import defaultdict
+import argparse
 
-# TODO: Update these with your actual folder path
-folder_path = "../data/RGB_cubes/90_scenes/train-validation"  # Input data
+# Argument parsing
+parser = argparse.ArgumentParser(description="Process video categories into test and train-validation directories.")
+parser.add_argument("folder_with_videos", type=str, help="Path to the folder containing video categories.")
+parser.add_argument("model_path", type=str, help="Path to the folder model you want to train.")
+parser.add_argument("train_percentage", type=int, default=80, help="Percentage of videos in the train folder " +
+                                                                   "(rest 100-train will be in validation).")
 
-model_path = "../framework/models/action-recognition-by-eriklindernoren"
-labels_folder = os.path.join(model_path, "labels")
+args = parser.parse_args()
 
+folder_with_videos = args.folder_with_videos  # Get the folder path from command-line argument
+model_path = args.model_path
+train_percentage = args.train_percentage     # Rest 100-train_percentage will be validation
+
+folder_path = os.path.join(folder_with_videos, "train-validation")  # Input data for training
+labels_folder = os.path.join(model_path, "labels_v2")   # TODO: Change this only if you want to combine multiple datasets or smth
 labels_file = os.path.join(labels_folder, "classInd.txt")
 file_paths_with_labels = os.path.join(labels_folder, "file_paths_with_labels.txt")
 
 train_output_filepaths = os.path.join(labels_folder, "trainlist01.txt")
 validation_output_filepaths = os.path.join(labels_folder, "validationlist01.txt")
-train_percentage = 80     # Rest 100-train_percentage will be validation
 
 
 def generate_labels(folder_path, output_file):
