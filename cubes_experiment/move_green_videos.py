@@ -44,7 +44,7 @@ for base_name, subfolders in categories.items():
             if os.path.isfile(file_green):
                 if os.path.isfile(file_main):
                     name, ext = os.path.splitext(filename) # Filename = bouncing_27.mp4
-                    new_green_filename = f"{filename.replace('.', '_')}_green{ext}"  # "bouncing_27_green.mp4"
+                    new_green_filename = f"{name}_green{ext}"  # "bouncing_27_green.mp4"
 
                     shutil.move(file_green, os.path.join(test_main, new_green_filename))
                     shutil.move(file_main, os.path.join(test_main, filename))
