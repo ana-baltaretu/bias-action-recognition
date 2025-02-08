@@ -93,11 +93,3 @@ if __name__ == '__main__':
     plt.ylim(0, 1.2)  # To better emphasize the range of accuracy (0 to 1)
     plt.xlabel('Dataset Split')
     plt.show()
-
-    # # Example: Print the first video path and its corresponding array
-    # for video_path, array in output_data.items():
-    #     print(f"Video Path: {video_path}")
-    #     print(f"Array: {array}")
-    #     print("-" * 40)
-    #     out_file = os.path.splitext(os.path.basename(video_path))[0]
-    #     # plot_array_labels(array, out_file)
