@@ -1,0 +1,40 @@
+Bootstrap: docker
+From: ubuntu:22.04
+
+%post
+    # Update package list and install required system packages
+    apt-get update && apt-get install -y --no-install-recommends \
+        wget \
+        ca-certificates \
+        ffmpeg \
+        libavcodec-extra \
+        libavformat-dev \
+        libswscale-dev \
+        libavdevice-dev \
+        libavutil-dev \
+        libavfilter-dev \
+        libpostproc-dev \
+        libjpeg-dev \
+        libpng-dev \
+        libtiff-dev \
+        python3 \
+        python3-pip \
+        gcc \
+        g++ \
+        && rm -rf /var/lib/apt/lists/*
+
+    # Install required Python libraries
+    pip3 install --no-cache-dir \
+        numpy \
+        tqdm \
+        av \
+        argparse
+
+%environment
+    export PATH=/usr/local/bin:$PATH
+    export LANG=C.UTF-8
+    export LC_ALL=C.UTF-8
+
+%runscript
+    echo "Apptainer container for video processing and model preparation is ready!"
+    exec python3 "$@"
