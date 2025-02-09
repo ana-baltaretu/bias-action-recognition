@@ -23,5 +23,6 @@ apptainer exec $CONTAINER python3 extract_frames.py --dataset_path "$TEMP_FOLDER
 apptainer exec $CONTAINER python3 extract_frames.py --dataset_path "$TEMP_FOLDER_PATH/test"
 
 # Move back to normal folder
-cp -r "$TEMP_FOLDER_PATH" "$FOLDER_PATH"
-cp -r "$TEMP_MODEL_PATH" "$MODEL_PATH"
+echo "Moving everything back to my folders..."
+mv -r "$TEMP_FOLDER_PATH" "$FOLDER_PATH"
+mv -r "$TEMP_MODEL_PATH" "$MODEL_PATH"
