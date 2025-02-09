@@ -9,8 +9,8 @@ args = parser.parse_args()
 
 folder_with_videos = args.folder_with_videos  # Get the folder path from command-line argument
 
-test_dir = "test"
-train_val_dir = "train-validation"
+test_dir = os.path.join("/tmp/", "test")
+train_val_dir = os.path.join("/tmp/", "train-validation")
 
 # Create test and train-validation directories
 os.makedirs(test_dir, exist_ok=True)

@@ -17,7 +17,7 @@ CONTAINER="pre_processing.sif"
 
 # Run processing steps inside the Apptainer container
 apptainer exec $CONTAINER python3 move_green_videos.py "$TEMP_FOLDER_PATH"
-apptainer exec $CONTAINER python3 generate_labels_for_training.py "$TEMP_FOLDER_PATH" "$MODEL_PATH" "$TRAIN_PERCENTAGE"
+apptainer exec $CONTAINER python3 generate_labels_for_training.py "$TEMP_FOLDER_PATH" "TEMP_MODEL_PATH" "$TRAIN_PERCENTAGE"
 apptainer exec $CONTAINER python3 extract_frames.py --dataset_path "$TEMP_FOLDER_PATH/train-validation"
 apptainer exec $CONTAINER python3 extract_frames.py --dataset_path "$TEMP_FOLDER_PATH/test"
 
