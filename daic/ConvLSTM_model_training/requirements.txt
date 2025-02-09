@@ -1,1 +1,7 @@
+numpy
+torch
+torchvision
+pillow
+av
+tqdm
 wandb
