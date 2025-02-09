@@ -37,7 +37,6 @@ From: nvidia/cuda:12.0.1-base-ubuntu22.04
     export PATH=/usr/local/bin:$PATH
     export LANG=C.UTF-8
     export LC_ALL=C.UTF-8
-    export LD_LIBRARY_PATH="/usr/local/lib64:$LD_LIBRARY_PATH"
 
 %runscript
     echo "Apptainer container for PyTorch and dependencies is ready!"
