@@ -16,7 +16,6 @@ Blender:
 11. Check blender module exists: `module avail blender`, and see more detailed info about it `module spider blender`.
 12. Download a "Release" ready version: `wget https://cdn.builder.blender.org/download/daily/archive/blender-4.2.4-candidate+v42.9e33bed52cc4-linux.x86_64-release.tar.xz`
 13. Extract the file `tar -xf blender-4.2.4-candidate+v42.9e33bed52cc4-linux.x86_64-release.tar.xz`
-14. 
 
 ## Run every time
 1. Run `ssh daic` and put password twice.
@@ -99,4 +98,3 @@ cd /tudelft.net/staff-umbrella/StudentsCVlab/abaltaretu
 - [Hands-on access DAIC 101](https://reit.pages.ewi.tudelft.nl/course-daic-101/023-handson-daic-access.html)
 - [Hands-on SLURM](https://reit.pages.ewi.tudelft.nl/course-daic-101/032-handson-slurm.html)
 - [Best practices Disk IO](https://reit.pages.ewi.tudelft.nl/course-daic-101/047-best-practices.html#/best-practices-for-disk-io)
-- 
