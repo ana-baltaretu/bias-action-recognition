@@ -51,3 +51,15 @@ blender --background --python red_blue_cubes_orbiting_around_z.py -- --save "./a
 
 Or you can run the `run_orbiting.sh` from GitBash
 Run also `sh run_bouncing.sh`
+
+
+
+### Apptainer image for pre-processing on cluster
+```
+sinteractive --ntasks=1 --mem=4G --time=00:25:00 --partition=prb,insy,general
+apptainer build pre_processing.sif pre_processing.def
+```
+
+```
+sh pre_processing_videos.sh
+```

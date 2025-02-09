@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Define paths
-FOLDER_PATH="/tudelft.net/staff-umbrella/StudentsCVlab/abaltaretu/bias-action-recognition/daic/ConvLSTM_model_training/input_data"
-MODEL_PATH="/tudelft.net/staff-umbrella/StudentsCVlab/abaltaretu/bias-action-recognition/daic/ConvLSTM_model_training/action-recognition-by-eriklindernoren"
+FOLDER_PATH="../daic/ConvLSTM_model_training/input_data/"
+MODEL_PATH="../daic/ConvLSTM_model_training/action-recognition-by-eriklindernoren"
 TRAIN_PERCENTAGE=80
 
 # Define Apptainer image
