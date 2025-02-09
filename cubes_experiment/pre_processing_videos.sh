@@ -8,6 +8,10 @@ TRAIN_PERCENTAGE=80
 TEMP_FOLDER_PATH="/tmp/data_ConvLSTM"
 TEMP_MODEL_PATH="/tmp/model_ConvLSTM"
 
+# Cleanup before
+rm -r "$TEMP_FOLDER_PATH"
+rm -r "$TEMP_MODEL_PATH"
+
 # Copy to tmp folder cause apptainer can't see normal folder for some reason???
 cp -r "$FOLDER_PATH" "$TEMP_FOLDER_PATH"
 cp -r "$MODEL_PATH" "$TEMP_MODEL_PATH"
