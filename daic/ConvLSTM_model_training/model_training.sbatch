@@ -31,8 +31,16 @@ export APPTAINER_NAME="model_training.sif"
 # Start measuring execution time
 start_time=$(date +%s)
 
-# TODO: Run script
-#srun apptainer exec --nv python main.py
+# Run script
+srun \
+    apptainer exec --nv $APPTAINER_HOME/$APPTAINER_NAME \
+    python3 ./action-recognition-by-eriklindernoren/train.py \
+    --dataset_path "../../../data/RGB_cubes/90_scenes/train-validation-frames" \
+    --split_path "labels/" \
+    --num_epochs 100 \
+    --sequence_length 40 \
+    --img_dim 112 \
+    --latent_dim 512
 
 # End measuring execution time
 end_time=$(date +%s)

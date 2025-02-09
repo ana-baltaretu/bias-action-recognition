@@ -1,8 +1,8 @@
-FOLDER_PATH="../data/RGB_cubes/90_scenes_v2" # TODO: Update with the actual folder path
+FOLDER_PATH="/tudelft.net/staff-umbrella/StudentsCVlab/abaltaretu/bias-action-recognition/daic/ConvLSTM_model_training/input_data" # TODO: Update with the actual folder path
 
 python move_green_videos.py "$FOLDER_PATH"
 
-MODEL_PATH="../framework/models/action-recognition-by-eriklindernoren"
+MODEL_PATH="/tudelft.net/staff-umbrella/StudentsCVlab/abaltaretu/bias-action-recognition/daic/ConvLSTM_model_training/action-recognition-by-eriklindernoren"
 TRAIN_PERCENTAGE=80
 
 python generate_labels_for_training.py "$FOLDER_PATH" "$MODEL_PATH" "$TRAIN_PERCENTAGE"
