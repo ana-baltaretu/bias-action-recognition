@@ -28,7 +28,8 @@ From: ubuntu:22.04
         numpy \
         tqdm \
         av \
-        argparse
+        argparse \
+        pillow
 
 %environment
     export PATH=/usr/local/bin:$PATH
