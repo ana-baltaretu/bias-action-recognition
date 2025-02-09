@@ -94,4 +94,9 @@ cd /tudelft.net/staff-umbrella/StudentsCVlab/abaltaretu
 
 
 ## Resources
-[Slurm cheatsheet](https://slurm.schedmd.com/pdfs/summary.pdf)
+- [Slurm cheatsheet](https://slurm.schedmd.com/pdfs/summary.pdf)
+- [Apptainer template](https://gitlab.ewi.tudelft.nl/reit/apptainer-template)
+- [Hands-on access DAIC 101](https://reit.pages.ewi.tudelft.nl/course-daic-101/023-handson-daic-access.html)
+- [Hands-on SLURM](https://reit.pages.ewi.tudelft.nl/course-daic-101/032-handson-slurm.html)
+- [Best practices Disk IO](https://reit.pages.ewi.tudelft.nl/course-daic-101/047-best-practices.html#/best-practices-for-disk-io)
+- 

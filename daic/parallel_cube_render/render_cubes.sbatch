@@ -39,6 +39,10 @@ cubes_random_position_seed=$(awk -v ArrayTaskID=$SLURM_ARRAY_TASK_ID '$1==ArrayT
 export APPTAINER_HOME="/tudelft.net/staff-umbrella/StudentsCVlab/abaltaretu/bias-action-recognition/daic/parallel_cube_render/"
 export APPTAINER_NAME="render_cubes.sif"
 
+# Start measuring execution time
+start_time=$(date +%s)
+
+# Run script
 srun \
     apptainer exec --nv $APPTAINER_HOME/$APPTAINER_NAME \
     blender --background --python main.py -- \
@@ -46,3 +50,9 @@ srun \
     "${camera_x}" "${camera_y}" "${camera_z}" \
     "${cubes_red}" "${cubes_blue}" \
     "${cubes_random_position_seed}"
+
+# End measuring execution time
+end_time=$(date +%s)
+
+elapsed_time=$((end_time - start_time))
+echo "Elapsed time: $elapsed_time seconds"
