@@ -64,6 +64,7 @@ for base_name, subfolders in categories.items():
 shutil.rmtree(folder_with_videos)
 print(f"Removed source folder: {folder_with_videos}")
 
+os.makedirs(folder_with_videos, exist_ok=True)
 shutil.move(test_dir, os.path.join(folder_with_videos, test_dir))
 shutil.move(train_val_dir, os.path.join(folder_with_videos, train_val_dir))
 print(f"Moved sorted files back to {folder_with_videos}!")
