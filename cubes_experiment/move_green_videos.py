@@ -9,8 +9,11 @@ args = parser.parse_args()
 
 folder_with_videos = args.folder_with_videos  # Get the folder path from command-line argument
 
-test_dir = os.path.join("/tmp/", "test")
-train_val_dir = os.path.join("/tmp/", "train-validation")
+test_folder = "test"
+train_validation_folder = "train-validation"
+
+test_dir = os.path.join("/tmp/", test_folder)
+train_val_dir = os.path.join("/tmp/", train_validation_folder)
 
 # Create test and train-validation directories
 os.makedirs(test_dir, exist_ok=True)
@@ -65,7 +68,7 @@ shutil.rmtree(folder_with_videos)
 print(f"Removed source folder: {folder_with_videos}")
 
 os.makedirs(folder_with_videos, exist_ok=True)
-shutil.move(test_dir, os.path.join(folder_with_videos, test_dir))
-shutil.move(train_val_dir, os.path.join(folder_with_videos, train_val_dir))
+shutil.move(test_dir, os.path.join(folder_with_videos, test_folder))
+shutil.move(train_val_dir, os.path.join(folder_with_videos, train_validation_folder))
 print(f"Moved sorted files back to {folder_with_videos}!")
 
