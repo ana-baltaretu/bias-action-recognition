@@ -3,14 +3,16 @@
 # Define paths
 FOLDER_PATH="../daic/ConvLSTM_model_training/input_data"
 MODEL_PATH="../daic/ConvLSTM_model_training/action-recognition-by-eriklindernoren"
+OUTPUT_TRAINING_DATA="../daic/ConvLSTM_model_training/training_data"
 TRAIN_PERCENTAGE=80
 
+# I'm putting things in the "/tmp/" folder because it's not good to have this many IO operations normally
 TEMP_FOLDER_PATH="/tmp/data_ConvLSTM"
 TEMP_MODEL_PATH="/tmp/model_ConvLSTM"
 
 # Cleanup before
-rm -r "$TEMP_FOLDER_PATH"
-rm -r "$TEMP_MODEL_PATH"
+[ -d "$TEMP_FOLDER_PATH" ] && rm -r "$TEMP_FOLDER_PATH"
+[ -d "$TEMP_MODEL_PATH" ] && rm -r "$TEMP_MODEL_PATH"
 
 # Copy to tmp folder cause apptainer can't see normal folder for some reason???
 cp -r "$FOLDER_PATH" "$TEMP_FOLDER_PATH"
@@ -27,6 +29,6 @@ apptainer exec $CONTAINER python3 extract_frames.py --dataset_path "$TEMP_FOLDER
 apptainer exec $CONTAINER python3 extract_frames.py --dataset_path "$TEMP_FOLDER_PATH/test"
 
 # Move back to normal folder
-echo "Moving everything back to my folders..."
-mv "$TEMP_FOLDER_PATH" "$FOLDER_PATH"
-mv "$TEMP_MODEL_PATH" "$MODEL_PATH"
+echo "Copying everything back to my folders..."
+cp -r "$TEMP_FOLDER_PATH"/* "$OUTPUT_TRAINING_DATA" # Copies only children without folder name
+cp -r "$TEMP_MODEL_PATH/labels/" "$MODEL_PATH"
