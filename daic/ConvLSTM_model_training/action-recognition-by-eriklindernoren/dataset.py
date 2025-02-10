@@ -45,7 +45,7 @@ class Dataset(Dataset):
     ):
         """ Extracts paths to sequences given the specified train / test split """
         assert split_number in [1, 2, 3], "Split number has to be one of {1, 2, 3}"
-        fn = f"trainlist0{split_number}.txt" if training else f"testlist0{split_number}.txt"
+        fn = f"trainlist0{split_number}.txt" if training else f"validationlist0{split_number}.txt"
         split_path = os.path.join(split_path, fn)
         with open(split_path) as file:
             lines = file.read().splitlines()
