@@ -31,12 +31,13 @@ export APPTAINER_NAME="model_training.sif"
 # Start measuring execution time
 start_time=$(date +%s)
 
+# TODO: Change "dataset_path" and "split_path" as needed!!!!
 # Run script
 srun \
     apptainer exec --nv $APPTAINER_HOME/$APPTAINER_NAME \
     python3 ./action-recognition-by-eriklindernoren/train.py \
-    --dataset_path "../training_data/train-validation-frames" \
-    --split_path "./labels/" \
+    --dataset_path "$APPTAINER_HOME/training_data/train-validation-frames" \
+    --split_path "$APPTAINER_HOME/action-recognition-by-eriklindernoren/labels/" \
     --num_epochs 100 \
     --sequence_length 40 \
     --img_dim 112 \

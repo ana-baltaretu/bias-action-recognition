@@ -42,6 +42,22 @@ if __name__ == "__main__":
 
     list_current_directory()
 
+    if os.path.isdir(opt.dataset_path):
+        if not os.listdir(opt.dataset_path):
+            print("Dataset found!")
+        else:
+            print("Dataset folder exists but it's empty!")
+    else:
+        print(f"{opt.dataset_path} not found dataset folder?")
+
+    if os.path.isdir(opt.split_path):
+        if not os.listdir(opt.split_path):
+            print("Labels found!")
+        else:
+            print("Labels folder exists but it's empty!")
+    else:
+        print(f"{opt.split_path} not found labels folder?")
+
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print(device)
     print("Cuda is available (using GPU?):", torch.cuda.is_available())
