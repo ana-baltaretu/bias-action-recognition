@@ -13,7 +13,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --gpu-bind=closest
-#SBATCH --mem=1GB
+#SBATCH --mem=16GB
 
 # --- Email me when job finishes ---
 #SBATCH --mail-type=ALL
@@ -41,7 +41,8 @@ srun \
     --num_epochs 100 \
     --sequence_length 40 \
     --img_dim 112 \
-    --latent_dim 512
+    --latent_dim 512 \
+    --batch_size 8
 
 # End measuring execution time
 end_time=$(date +%s)

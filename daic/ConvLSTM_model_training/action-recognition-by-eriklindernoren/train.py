@@ -73,7 +73,7 @@ if __name__ == "__main__":
         sequence_length=opt.sequence_length,
         training=True,
     )
-    train_dataloader = DataLoader(train_dataset, batch_size=opt.batch_size, shuffle=True, num_workers=4)
+    train_dataloader = DataLoader(train_dataset, batch_size=opt.batch_size, shuffle=True, num_workers=1)
 
     # Define test set
     test_dataset = Dataset(
@@ -84,7 +84,7 @@ if __name__ == "__main__":
         sequence_length=opt.sequence_length,
         training=False,
     )
-    test_dataloader = DataLoader(test_dataset, batch_size=opt.batch_size, shuffle=False, num_workers=4)
+    test_dataloader = DataLoader(test_dataset, batch_size=opt.batch_size, shuffle=False, num_workers=1)
 
     # Classification criterion
     cls_criterion = nn.CrossEntropyLoss().to(device, non_blocking=True)
