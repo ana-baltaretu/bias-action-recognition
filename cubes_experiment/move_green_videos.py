@@ -9,8 +9,11 @@ args = parser.parse_args()
 
 folder_with_videos = args.folder_with_videos  # Get the folder path from command-line argument
 
-test_dir = "test"
-train_val_dir = "train-validation"
+test_folder = "test"
+train_validation_folder = "train-validation"
+
+test_dir = os.path.join("/tmp/", test_folder)
+train_val_dir = os.path.join("/tmp/", train_validation_folder)
 
 # Create test and train-validation directories
 os.makedirs(test_dir, exist_ok=True)
@@ -49,7 +52,7 @@ for base_name, subfolders in categories.items():
                     shutil.move(file_green, os.path.join(test_main, new_green_filename))
                     shutil.move(file_main, os.path.join(test_main, filename))
                     processed_files.add(filename)
-                    print(f"Moved matching pair '{filename}' to test.")
+                    print(f"Moved matching pair '{filename}' to {test_dir}.")
                 else:
                     raise FileNotFoundError(f"Error: Matching file '{filename}' not found in '{dir_main}'.")
 
@@ -58,12 +61,14 @@ for base_name, subfolders in categories.items():
                 file_main = os.path.join(dir_main, filename)
                 if os.path.isfile(file_main):
                     shutil.move(file_main, os.path.join(train_val_main, filename))
-                    print(f"Moved '{filename}' from {base_name} to train-validation.")
+                    print(f"Moved '{filename}' from {base_name} to {train_val_dir}.")
 
 # Remove the parent folder once processing is complete
 shutil.rmtree(folder_with_videos)
 print(f"Removed source folder: {folder_with_videos}")
 
-shutil.move(test_dir, os.path.join(folder_with_videos, test_dir))
-shutil.move(train_val_dir, os.path.join(folder_with_videos, train_val_dir))
+os.makedirs(folder_with_videos, exist_ok=True)
+shutil.move(test_dir, os.path.join(folder_with_videos, test_folder))
+shutil.move(train_val_dir, os.path.join(folder_with_videos, train_validation_folder))
+print(f"Moved sorted files back to {folder_with_videos}!")
 

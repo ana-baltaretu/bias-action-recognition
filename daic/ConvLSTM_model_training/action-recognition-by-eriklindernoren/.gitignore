@@ -1,0 +1,11 @@
+.idea/
+__pycache__/
+model_checkpoints/
+*.jpg
+*.png
+*.gif
+*.mp4
+temp/
+data/
+output/
+labels/

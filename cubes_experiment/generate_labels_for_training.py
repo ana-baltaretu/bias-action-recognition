@@ -17,7 +17,7 @@ model_path = args.model_path
 train_percentage = args.train_percentage     # Rest 100-train_percentage will be validation
 
 folder_path = os.path.join(folder_with_videos, "train-validation")  # Input data for training
-labels_folder = os.path.join(model_path, "labels_v2")   # TODO: Change this only if you want to combine multiple datasets or smth
+labels_folder = os.path.join(model_path, "labels")   # TODO: Change this only if you want to combine multiple datasets or smth
 labels_file = os.path.join(labels_folder, "classInd.txt")
 file_paths_with_labels = os.path.join(labels_folder, "file_paths_with_labels.txt")
 

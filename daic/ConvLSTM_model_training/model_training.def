@@ -1,0 +1,42 @@
+Bootstrap: docker
+From: nvidia/cuda:12.0.1-base-ubuntu22.04
+
+%post
+    # Update and install dependencies
+    apt-get update && apt-get install -y --no-install-recommends \
+        wget \
+        ca-certificates \
+        ffmpeg \
+        libgl1 \
+        libglx-mesa0 \
+        libegl1-mesa \
+        libavcodec-extra \
+        libavformat-dev \
+        libswscale-dev \
+        libavdevice-dev \
+        libavutil-dev \
+        libavfilter-dev \
+        libpostproc-dev \
+        libnvidia-gl-470-server\
+        libjpeg-dev \
+        libpng-dev \
+        libtiff-dev \
+        python3 \
+        python3-pip \
+        gcc \
+        g++ \
+        && rm -rf /var/lib/apt/lists/*
+
+   # Install CUDA 12.4
+    pip3 install torch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1 --index-url https://download.pytorch.org/whl/cu124
+
+    # Install Python packages
+    pip3 install --no-cache-dir numpy pillow av tqdm wandb
+
+%environment
+    export PATH=/usr/local/bin:$PATH
+    export LANG=C.UTF-8
+    export LC_ALL=C.UTF-8
+
+%runscript
+    echo "Apptainer container for PyTorch and dependencies is ready!"
