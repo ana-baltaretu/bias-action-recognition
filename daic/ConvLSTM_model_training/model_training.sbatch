@@ -35,8 +35,8 @@ start_time=$(date +%s)
 srun \
     apptainer exec --nv $APPTAINER_HOME/$APPTAINER_NAME \
     python3 ./action-recognition-by-eriklindernoren/train.py \
-    --dataset_path "/training_data/train-validation-frames" \
-    --split_path "/action-recognition-by-eriklindernoren/labels/" \
+    --dataset_path "../training_data/train-validation-frames" \
+    --split_path "./labels/" \
     --num_epochs 100 \
     --sequence_length 40 \
     --img_dim 112 \
