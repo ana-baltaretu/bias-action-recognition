@@ -11,6 +11,17 @@ import time
 import datetime
 import wandb
 
+
+def list_current_directory():
+    current_directory = os.getcwd()
+    print(f"Current Directory: {current_directory}\n")
+
+    directory_contents = os.listdir(current_directory)
+    print("Directory Contents:")
+    for item in directory_contents:
+        print(item)
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--dataset_path", type=str, default="data/UCF-101-frames", help="Path to UCF-101 dataset")
@@ -28,6 +39,8 @@ if __name__ == "__main__":
     )
     opt = parser.parse_args()
     print(opt)
+
+    list_current_directory()
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print(device)
