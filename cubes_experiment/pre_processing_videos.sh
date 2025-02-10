@@ -11,8 +11,9 @@ TEMP_FOLDER_PATH="/tmp/data_ConvLSTM"
 TEMP_MODEL_PATH="/tmp/model_ConvLSTM"
 
 # Cleanup before
-[ -d "$TEMP_FOLDER_PATH" ] && rm -r "$TEMP_FOLDER_PATH"
-[ -d "$TEMP_MODEL_PATH" ] && rm -r "$TEMP_MODEL_PATH"
+rm -rf "$TEMP_FOLDER_PATH"
+rm -rf "$TEMP_MODEL_PATH"
+rm -rf "$OUTPUT_TRAINING_DATA" && mkdir -p "$OUTPUT_TRAINING_DATA"
 
 # Copy to tmp folder cause apptainer can't see normal folder for some reason???
 cp -r "$FOLDER_PATH" "$TEMP_FOLDER_PATH"
