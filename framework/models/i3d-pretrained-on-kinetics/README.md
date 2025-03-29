@@ -13,6 +13,7 @@ pip install --upgrade pip setuptools wheel
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu102
 pip install --upgrade gluoncv
 pip install decord
+pip install scikit-learn
 ```
 
 ### Run
