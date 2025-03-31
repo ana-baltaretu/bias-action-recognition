@@ -1,0 +1,201 @@
+video,true_label,raw_prediction,mapped_prediction,result
+cartwheel_0_initial.mp4,cartwheel,cartwheeling,cartwheel,correct
+cartwheel_10_initial.mp4,cartwheel,parkour,other,incorrect
+cartwheel_11_initial.mp4,cartwheel,cartwheeling,cartwheel,correct
+cartwheel_12_initial.mp4,cartwheel,cartwheeling,cartwheel,correct
+cartwheel_13_initial.mp4,cartwheel,cartwheeling,cartwheel,correct
+cartwheel_14_initial.mp4,cartwheel,cartwheeling,cartwheel,correct
+cartwheel_15_initial.mp4,cartwheel,cartwheeling,cartwheel,correct
+cartwheel_16_initial.mp4,cartwheel,cartwheeling,cartwheel,correct
+cartwheel_17_initial.mp4,cartwheel,cartwheeling,cartwheel,correct
+cartwheel_18_initial.mp4,cartwheel,gymnastics tumbling,other,incorrect
+cartwheel_19_initial.mp4,cartwheel,cartwheeling,cartwheel,correct
+cartwheel_1_initial.mp4,cartwheel,cartwheeling,cartwheel,correct
+cartwheel_20_initial.mp4,cartwheel,cartwheeling,cartwheel,correct
+cartwheel_21_initial.mp4,cartwheel,cartwheeling,cartwheel,correct
+cartwheel_22_initial.mp4,cartwheel,cartwheeling,cartwheel,correct
+cartwheel_23_initial.mp4,cartwheel,cartwheeling,cartwheel,correct
+cartwheel_24_initial.mp4,cartwheel,cartwheeling,cartwheel,correct
+cartwheel_25_initial.mp4,cartwheel,cartwheeling,cartwheel,correct
+cartwheel_26_initial.mp4,cartwheel,cartwheeling,cartwheel,correct
+cartwheel_27_initial.mp4,cartwheel,cartwheeling,cartwheel,correct
+cartwheel_28_initial.mp4,cartwheel,cartwheeling,cartwheel,correct
+cartwheel_29_initial.mp4,cartwheel,playing cricket,other,incorrect
+cartwheel_2_initial.mp4,cartwheel,cartwheeling,cartwheel,correct
+cartwheel_30_initial.mp4,cartwheel,cartwheeling,cartwheel,correct
+cartwheel_31_initial.mp4,cartwheel,cartwheeling,cartwheel,correct
+cartwheel_32_initial.mp4,cartwheel,cartwheeling,cartwheel,correct
+cartwheel_33_initial.mp4,cartwheel,cartwheeling,cartwheel,correct
+cartwheel_34_initial.mp4,cartwheel,cartwheeling,cartwheel,correct
+cartwheel_35_initial.mp4,cartwheel,cartwheeling,cartwheel,correct
+cartwheel_36_initial.mp4,cartwheel,cartwheeling,cartwheel,correct
+cartwheel_37_initial.mp4,cartwheel,cartwheeling,cartwheel,correct
+cartwheel_38_initial.mp4,cartwheel,cartwheeling,cartwheel,correct
+cartwheel_39_initial.mp4,cartwheel,cartwheeling,cartwheel,correct
+cartwheel_3_initial.mp4,cartwheel,cartwheeling,cartwheel,correct
+cartwheel_40_initial.mp4,cartwheel,cartwheeling,cartwheel,correct
+cartwheel_41_initial.mp4,cartwheel,cartwheeling,cartwheel,correct
+cartwheel_42_initial.mp4,cartwheel,cartwheeling,cartwheel,correct
+cartwheel_43_initial.mp4,cartwheel,cartwheeling,cartwheel,correct
+cartwheel_44_initial.mp4,cartwheel,cartwheeling,cartwheel,correct
+cartwheel_45_initial.mp4,cartwheel,cartwheeling,cartwheel,correct
+cartwheel_46_initial.mp4,cartwheel,cartwheeling,cartwheel,correct
+cartwheel_47_initial.mp4,cartwheel,cartwheeling,cartwheel,correct
+cartwheel_48_initial.mp4,cartwheel,cartwheeling,cartwheel,correct
+cartwheel_49_initial.mp4,cartwheel,cartwheeling,cartwheel,correct
+cartwheel_4_initial.mp4,cartwheel,cartwheeling,cartwheel,correct
+cartwheel_5_initial.mp4,cartwheel,cartwheeling,cartwheel,correct
+cartwheel_6_initial.mp4,cartwheel,playing cricket,other,incorrect
+cartwheel_7_initial.mp4,cartwheel,cartwheeling,cartwheel,correct
+cartwheel_8_initial.mp4,cartwheel,cartwheeling,cartwheel,correct
+cartwheel_9_initial.mp4,cartwheel,cartwheeling,cartwheel,correct
+jump_0_initial.mp4,jump,jogging,run,incorrect
+jump_10_initial.mp4,jump,jogging,run,incorrect
+jump_11_initial.mp4,jump,jumpstyle dancing,jump,correct
+jump_12_initial.mp4,jump,parkour,other,incorrect
+jump_13_initial.mp4,jump,jumpstyle dancing,jump,correct
+jump_14_initial.mp4,jump,cartwheeling,cartwheel,incorrect
+jump_15_initial.mp4,jump,parkour,other,incorrect
+jump_16_initial.mp4,jump,slacklining,other,incorrect
+jump_17_initial.mp4,jump,jumpstyle dancing,jump,correct
+jump_18_initial.mp4,jump,jumpstyle dancing,jump,correct
+jump_19_initial.mp4,jump,parkour,other,incorrect
+jump_1_initial.mp4,jump,jumpstyle dancing,jump,correct
+jump_20_initial.mp4,jump,jogging,run,incorrect
+jump_21_initial.mp4,jump,jogging,run,incorrect
+jump_22_initial.mp4,jump,catching or throwing frisbee,other,incorrect
+jump_23_initial.mp4,jump,jumpstyle dancing,jump,correct
+jump_24_initial.mp4,jump,hopscotch,other,incorrect
+jump_25_initial.mp4,jump,jumpstyle dancing,jump,correct
+jump_26_initial.mp4,jump,slacklining,other,incorrect
+jump_27_initial.mp4,jump,blowing leaves,other,incorrect
+jump_28_initial.mp4,jump,jumpstyle dancing,jump,correct
+jump_29_initial.mp4,jump,jumpstyle dancing,jump,correct
+jump_2_initial.mp4,jump,somersaulting,other,incorrect
+jump_30_initial.mp4,jump,parkour,other,incorrect
+jump_31_initial.mp4,jump,jumpstyle dancing,jump,correct
+jump_32_initial.mp4,jump,hopscotch,other,incorrect
+jump_33_initial.mp4,jump,jumpstyle dancing,jump,correct
+jump_34_initial.mp4,jump,jumpstyle dancing,jump,correct
+jump_35_initial.mp4,jump,blowing leaves,other,incorrect
+jump_36_initial.mp4,jump,blowing leaves,other,incorrect
+jump_37_initial.mp4,jump,parkour,other,incorrect
+jump_38_initial.mp4,jump,jumpstyle dancing,jump,correct
+jump_39_initial.mp4,jump,hopscotch,other,incorrect
+jump_3_initial.mp4,jump,jumpstyle dancing,jump,correct
+jump_40_initial.mp4,jump,cartwheeling,cartwheel,incorrect
+jump_41_initial.mp4,jump,parkour,other,incorrect
+jump_42_initial.mp4,jump,slacklining,other,incorrect
+jump_43_initial.mp4,jump,jumpstyle dancing,jump,correct
+jump_44_initial.mp4,jump,jumpstyle dancing,jump,correct
+jump_45_initial.mp4,jump,jogging,run,incorrect
+jump_46_initial.mp4,jump,parkour,other,incorrect
+jump_47_initial.mp4,jump,catching or throwing frisbee,other,incorrect
+jump_48_initial.mp4,jump,jumpstyle dancing,jump,correct
+jump_49_initial.mp4,jump,jumpstyle dancing,jump,correct
+jump_4_initial.mp4,jump,gymnastics tumbling,other,incorrect
+jump_5_initial.mp4,jump,hopscotch,other,incorrect
+jump_6_initial.mp4,jump,jumpstyle dancing,jump,correct
+jump_7_initial.mp4,jump,jumpstyle dancing,jump,correct
+jump_8_initial.mp4,jump,jogging,run,incorrect
+jump_9_initial.mp4,jump,jumpstyle dancing,jump,correct
+run_0_initial.mp4,run,jogging,run,correct
+run_10_initial.mp4,run,parkour,other,incorrect
+run_11_initial.mp4,run,playing cricket,other,incorrect
+run_12_initial.mp4,run,dancing ballet,other,incorrect
+run_13_initial.mp4,run,playing cricket,other,incorrect
+run_14_initial.mp4,run,jogging,run,correct
+run_15_initial.mp4,run,jumpstyle dancing,jump,incorrect
+run_16_initial.mp4,run,jogging,run,correct
+run_17_initial.mp4,run,jogging,run,correct
+run_18_initial.mp4,run,jumpstyle dancing,jump,incorrect
+run_19_initial.mp4,run,playing badminton,other,incorrect
+run_1_initial.mp4,run,tai chi,other,incorrect
+run_20_initial.mp4,run,catching or throwing frisbee,other,incorrect
+run_21_initial.mp4,run,catching or throwing frisbee,other,incorrect
+run_22_initial.mp4,run,playing badminton,other,incorrect
+run_23_initial.mp4,run,jogging,run,correct
+run_24_initial.mp4,run,jumpstyle dancing,jump,incorrect
+run_25_initial.mp4,run,jogging,run,correct
+run_26_initial.mp4,run,parkour,other,incorrect
+run_27_initial.mp4,run,parkour,other,incorrect
+run_28_initial.mp4,run,playing cricket,other,incorrect
+run_29_initial.mp4,run,jumpstyle dancing,jump,incorrect
+run_2_initial.mp4,run,jogging,run,correct
+run_30_initial.mp4,run,jumpstyle dancing,jump,incorrect
+run_31_initial.mp4,run,catching or throwing frisbee,other,incorrect
+run_32_initial.mp4,run,playing badminton,other,incorrect
+run_33_initial.mp4,run,parkour,other,incorrect
+run_34_initial.mp4,run,parkour,other,incorrect
+run_35_initial.mp4,run,tai chi,other,incorrect
+run_36_initial.mp4,run,parkour,other,incorrect
+run_37_initial.mp4,run,playing badminton,other,incorrect
+run_38_initial.mp4,run,tai chi,other,incorrect
+run_39_initial.mp4,run,jumpstyle dancing,jump,incorrect
+run_3_initial.mp4,run,jogging,run,correct
+run_40_initial.mp4,run,jogging,run,correct
+run_41_initial.mp4,run,tai chi,other,incorrect
+run_42_initial.mp4,run,jogging,run,correct
+run_43_initial.mp4,run,playing badminton,other,incorrect
+run_44_initial.mp4,run,playing cricket,other,incorrect
+run_45_initial.mp4,run,jumpstyle dancing,jump,incorrect
+run_46_initial.mp4,run,jogging,run,correct
+run_47_initial.mp4,run,jumpstyle dancing,jump,incorrect
+run_48_initial.mp4,run,jogging,run,correct
+run_49_initial.mp4,run,jogging,run,correct
+run_4_initial.mp4,run,jogging,run,correct
+run_5_initial.mp4,run,jumpstyle dancing,jump,incorrect
+run_6_initial.mp4,run,jumpstyle dancing,jump,incorrect
+run_7_initial.mp4,run,jogging,run,correct
+run_8_initial.mp4,run,tai chi,other,incorrect
+run_9_initial.mp4,run,parkour,other,incorrect
+walk_0_initial.mp4,walk,playing badminton,other,incorrect
+walk_10_initial.mp4,walk,jogging,run,incorrect
+walk_11_initial.mp4,walk,jumpstyle dancing,jump,incorrect
+walk_12_initial.mp4,walk,jumpstyle dancing,jump,incorrect
+walk_13_initial.mp4,walk,parkour,other,incorrect
+walk_14_initial.mp4,walk,playing badminton,other,incorrect
+walk_15_initial.mp4,walk,jumpstyle dancing,jump,incorrect
+walk_16_initial.mp4,walk,jumpstyle dancing,jump,incorrect
+walk_17_initial.mp4,walk,playing cricket,other,incorrect
+walk_18_initial.mp4,walk,playing cricket,other,incorrect
+walk_19_initial.mp4,walk,playing cricket,other,incorrect
+walk_1_initial.mp4,walk,playing badminton,other,incorrect
+walk_20_initial.mp4,walk,jumpstyle dancing,jump,incorrect
+walk_21_initial.mp4,walk,jumpstyle dancing,jump,incorrect
+walk_22_initial.mp4,walk,jogging,run,incorrect
+walk_23_initial.mp4,walk,playing badminton,other,incorrect
+walk_24_initial.mp4,walk,playing badminton,other,incorrect
+walk_25_initial.mp4,walk,catching or throwing frisbee,other,incorrect
+walk_26_initial.mp4,walk,playing cricket,other,incorrect
+walk_27_initial.mp4,walk,jumpstyle dancing,jump,incorrect
+walk_28_initial.mp4,walk,tai chi,other,incorrect
+walk_29_initial.mp4,walk,jogging,run,incorrect
+walk_2_initial.mp4,walk,jogging,run,incorrect
+walk_30_initial.mp4,walk,jumpstyle dancing,jump,incorrect
+walk_31_initial.mp4,walk,jumpstyle dancing,jump,incorrect
+walk_32_initial.mp4,walk,tai chi,other,incorrect
+walk_33_initial.mp4,walk,playing cricket,other,incorrect
+walk_34_initial.mp4,walk,jumpstyle dancing,jump,incorrect
+walk_35_initial.mp4,walk,playing cricket,other,incorrect
+walk_36_initial.mp4,walk,playing badminton,other,incorrect
+walk_37_initial.mp4,walk,tai chi,other,incorrect
+walk_38_initial.mp4,walk,playing cricket,other,incorrect
+walk_39_initial.mp4,walk,jogging,run,incorrect
+walk_3_initial.mp4,walk,playing badminton,other,incorrect
+walk_40_initial.mp4,walk,playing badminton,other,incorrect
+walk_41_initial.mp4,walk,tai chi,other,incorrect
+walk_42_initial.mp4,walk,playing cricket,other,incorrect
+walk_43_initial.mp4,walk,jogging,run,incorrect
+walk_44_initial.mp4,walk,jumpstyle dancing,jump,incorrect
+walk_45_initial.mp4,walk,jogging,run,incorrect
+walk_46_initial.mp4,walk,parkour,other,incorrect
+walk_47_initial.mp4,walk,tai chi,other,incorrect
+walk_48_initial.mp4,walk,catching or throwing frisbee,other,incorrect
+walk_49_initial.mp4,walk,jogging,run,incorrect
+walk_4_initial.mp4,walk,playing badminton,other,incorrect
+walk_5_initial.mp4,walk,jumpstyle dancing,jump,incorrect
+walk_6_initial.mp4,walk,jumpstyle dancing,jump,incorrect
+walk_7_initial.mp4,walk,playing badminton,other,incorrect
+walk_8_initial.mp4,walk,playing badminton,other,incorrect
+walk_9_initial.mp4,walk,playing cricket,other,incorrect

@@ -1,0 +1,28 @@
+video_prefix,true_label,raw_prediction_initial,raw_prediction_modified,result_initial,result_modified
+cartwheel_28_,cartwheel,gymnastics tumbling,cartwheeling,incorrect,correct
+cartwheel_6_,cartwheel,stretching leg,yoga,incorrect,incorrect
+jump_0_,jump,riding unicycle,stretching leg,incorrect,incorrect
+jump_12_,jump,stretching arm,squat,incorrect,incorrect
+jump_15_,jump,high kick,passing American football (not in game),incorrect,incorrect
+jump_16_,jump,yoga,snatch weight lifting,incorrect,incorrect
+jump_19_,jump,high kick,throwing ball,incorrect,incorrect
+jump_20_,jump,jogging,riding unicycle,incorrect,incorrect
+jump_21_,jump,jogging,riding unicycle,incorrect,incorrect
+jump_22_,jump,yoga,snatch weight lifting,incorrect,incorrect
+jump_27_,jump,yoga,tai chi,incorrect,incorrect
+jump_28_,jump,skipping rope,riding unicycle,incorrect,incorrect
+jump_4_,jump,lunge,gymnastics tumbling,incorrect,incorrect
+jump_6_,jump,stretching leg,lunge,incorrect,incorrect
+jump_8_,jump,yoga,jogging,incorrect,incorrect
+run_0_,run,skipping rope,jogging,incorrect,correct
+run_10_,run,catching or throwing frisbee,yoga,incorrect,incorrect
+run_16_,run,lunge,jogging,incorrect,correct
+run_20_,run,yoga,stretching leg,incorrect,incorrect
+run_21_,run,tai chi,riding unicycle,incorrect,incorrect
+run_27_,run,stretching leg,jogging,incorrect,correct
+run_6_,run,lunge,jogging,incorrect,correct
+run_8_,run,yoga,tai chi,incorrect,incorrect
+walk_0_,walk,jogging,catching or throwing frisbee,incorrect,incorrect
+walk_19_,walk,riding unicycle,jogging,incorrect,incorrect
+walk_4_,walk,spinning poi,jogging,incorrect,incorrect
+walk_8_,walk,jogging,riding unicycle,incorrect,incorrect
