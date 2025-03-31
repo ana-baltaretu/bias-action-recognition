@@ -1,0 +1,10 @@
+==================== RESULTS ====================
+Total videos processed: 76
+Top-1 Accuracy: 2.63% (2/76)
+Top-5 Accuracy: 14.47% (11/76)
+
+Per-class Top-1 Accuracy:
+cartwheel: 10.53% (2/19)
+jump: 0.00% (0/19)
+run: 0.00% (0/19)
+walk: 0.00% (0/19)
