@@ -1,0 +1,77 @@
+video,true_label,raw_prediction,mapped_prediction,result
+cartwheel_0_modified.mp4,cartwheel,cartwheeling,cartwheel,correct
+cartwheel_10_modified.mp4,cartwheel,passing American football (not in game),other,incorrect
+cartwheel_11_modified.mp4,cartwheel,cartwheeling,cartwheel,correct
+cartwheel_12_modified.mp4,cartwheel,cartwheeling,cartwheel,correct
+cartwheel_14_modified.mp4,cartwheel,cartwheeling,cartwheel,correct
+cartwheel_15_modified.mp4,cartwheel,cartwheeling,cartwheel,correct
+cartwheel_16_modified.mp4,cartwheel,cartwheeling,cartwheel,correct
+cartwheel_19_modified.mp4,cartwheel,cartwheeling,cartwheel,correct
+cartwheel_20_modified.mp4,cartwheel,passing American football (not in game),other,incorrect
+cartwheel_21_modified.mp4,cartwheel,cartwheeling,cartwheel,correct
+cartwheel_22_modified.mp4,cartwheel,cartwheeling,cartwheel,correct
+cartwheel_24_modified.mp4,cartwheel,cartwheeling,cartwheel,correct
+cartwheel_25_modified.mp4,cartwheel,cartwheeling,cartwheel,correct
+cartwheel_27_modified.mp4,cartwheel,cartwheeling,cartwheel,correct
+cartwheel_28_modified.mp4,cartwheel,cartwheeling,cartwheel,correct
+cartwheel_4_modified.mp4,cartwheel,cartwheeling,cartwheel,correct
+cartwheel_6_modified.mp4,cartwheel,disc golfing,other,incorrect
+cartwheel_8_modified.mp4,cartwheel,cartwheeling,cartwheel,correct
+cartwheel_9_modified.mp4,cartwheel,cartwheeling,cartwheel,correct
+jump_0_modified.mp4,jump,disc golfing,other,incorrect
+jump_10_modified.mp4,jump,catching or throwing frisbee,other,incorrect
+jump_11_modified.mp4,jump,disc golfing,other,incorrect
+jump_12_modified.mp4,jump,passing American football (not in game),other,incorrect
+jump_14_modified.mp4,jump,passing American football (not in game),other,incorrect
+jump_15_modified.mp4,jump,passing American football (not in game),other,incorrect
+jump_16_modified.mp4,jump,disc golfing,other,incorrect
+jump_19_modified.mp4,jump,drop kicking,other,incorrect
+jump_20_modified.mp4,jump,passing American football (not in game),other,incorrect
+jump_21_modified.mp4,jump,passing American football (not in game),other,incorrect
+jump_22_modified.mp4,jump,passing American football (not in game),other,incorrect
+jump_24_modified.mp4,jump,juggling soccer ball,other,incorrect
+jump_25_modified.mp4,jump,jumpstyle dancing,jump,correct
+jump_27_modified.mp4,jump,passing American football (not in game),other,incorrect
+jump_28_modified.mp4,jump,jumpstyle dancing,jump,correct
+jump_4_modified.mp4,jump,passing American football (not in game),other,incorrect
+jump_6_modified.mp4,jump,passing American football (not in game),other,incorrect
+jump_8_modified.mp4,jump,disc golfing,other,incorrect
+jump_9_modified.mp4,jump,jumpstyle dancing,jump,correct
+run_0_modified.mp4,run,passing American football (not in game),other,incorrect
+run_10_modified.mp4,run,disc golfing,other,incorrect
+run_11_modified.mp4,run,disc golfing,other,incorrect
+run_12_modified.mp4,run,hammer throw,other,incorrect
+run_14_modified.mp4,run,disc golfing,other,incorrect
+run_15_modified.mp4,run,passing American football (not in game),other,incorrect
+run_16_modified.mp4,run,catching or throwing frisbee,other,incorrect
+run_19_modified.mp4,run,catching or throwing frisbee,other,incorrect
+run_20_modified.mp4,run,passing American football (not in game),other,incorrect
+run_21_modified.mp4,run,disc golfing,other,incorrect
+run_22_modified.mp4,run,disc golfing,other,incorrect
+run_24_modified.mp4,run,passing American football (not in game),other,incorrect
+run_25_modified.mp4,run,passing American football (not in game),other,incorrect
+run_27_modified.mp4,run,kicking field goal,other,incorrect
+run_28_modified.mp4,run,passing American football (not in game),other,incorrect
+run_4_modified.mp4,run,playing badminton,other,incorrect
+run_6_modified.mp4,run,passing American football (not in game),other,incorrect
+run_8_modified.mp4,run,disc golfing,other,incorrect
+run_9_modified.mp4,run,disc golfing,other,incorrect
+walk_0_modified.mp4,walk,passing American football (not in game),other,incorrect
+walk_10_modified.mp4,walk,passing American football (not in game),other,incorrect
+walk_11_modified.mp4,walk,disc golfing,other,incorrect
+walk_12_modified.mp4,walk,disc golfing,other,incorrect
+walk_14_modified.mp4,walk,disc golfing,other,incorrect
+walk_15_modified.mp4,walk,disc golfing,other,incorrect
+walk_16_modified.mp4,walk,disc golfing,other,incorrect
+walk_19_modified.mp4,walk,passing American football (not in game),other,incorrect
+walk_20_modified.mp4,walk,disc golfing,other,incorrect
+walk_21_modified.mp4,walk,disc golfing,other,incorrect
+walk_22_modified.mp4,walk,disc golfing,other,incorrect
+walk_24_modified.mp4,walk,disc golfing,other,incorrect
+walk_25_modified.mp4,walk,catching or throwing frisbee,other,incorrect
+walk_27_modified.mp4,walk,disc golfing,other,incorrect
+walk_28_modified.mp4,walk,disc golfing,other,incorrect
+walk_4_modified.mp4,walk,disc golfing,other,incorrect
+walk_6_modified.mp4,walk,disc golfing,other,incorrect
+walk_8_modified.mp4,walk,disc golfing,other,incorrect
+walk_9_modified.mp4,walk,disc golfing,other,incorrect

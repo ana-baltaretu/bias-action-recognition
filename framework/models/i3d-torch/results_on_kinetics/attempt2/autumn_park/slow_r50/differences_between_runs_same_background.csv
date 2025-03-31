@@ -1,0 +1,18 @@
+video_prefix,true_label,raw_prediction_initial,raw_prediction_modified,result_initial,result_modified
+cartwheel_11_,cartwheel,high kick,tai chi,incorrect,incorrect
+cartwheel_14_,cartwheel,catching or throwing frisbee,throwing discus,incorrect,incorrect
+cartwheel_16_,cartwheel,passing American football (not in game),tai chi,incorrect,incorrect
+cartwheel_24_,cartwheel,catching or throwing frisbee,passing American football (not in game),incorrect,incorrect
+cartwheel_28_,cartwheel,catching or throwing frisbee,hammer throw,incorrect,incorrect
+cartwheel_8_,cartwheel,tai chi,cartwheeling,incorrect,correct
+jump_12_,jump,somersaulting,throwing discus,incorrect,incorrect
+jump_22_,jump,catching or throwing frisbee,hammer throw,incorrect,incorrect
+run_0_,run,juggling balls,drop kicking,incorrect,incorrect
+run_16_,run,high jump,dunking basketball,incorrect,incorrect
+run_27_,run,dunking basketball,drop kicking,incorrect,incorrect
+run_4_,run,flying kite,passing American football (not in game),incorrect,incorrect
+walk_10_,walk,stretching arm,passing American football (not in game),incorrect,incorrect
+walk_12_,walk,passing American football (not in game),drop kicking,incorrect,incorrect
+walk_14_,walk,passing American football (not in game),drop kicking,incorrect,incorrect
+walk_21_,walk,hammer throw,disc golfing,incorrect,incorrect
+walk_22_,walk,hammer throw,disc golfing,incorrect,incorrect

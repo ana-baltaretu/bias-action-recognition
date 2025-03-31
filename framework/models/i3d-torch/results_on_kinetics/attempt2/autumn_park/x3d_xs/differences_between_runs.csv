@@ -1,0 +1,20 @@
+video_prefix,true_label,raw_prediction_initial,raw_prediction_modified,result_initial,result_modified
+cartwheel_20_,cartwheel,pull ups,swinging legs,incorrect,incorrect
+cartwheel_21_,cartwheel,bending back,tai chi,incorrect,incorrect
+cartwheel_27_,cartwheel,slacklining,swinging legs,incorrect,incorrect
+cartwheel_6_,cartwheel,swinging legs,passing American football (not in game),incorrect,incorrect
+jump_12_,jump,swinging legs,hammer throw,incorrect,incorrect
+jump_14_,jump,stretching arm,tai chi,incorrect,incorrect
+jump_15_,jump,swinging legs,stretching leg,incorrect,incorrect
+jump_16_,jump,swinging legs,tai chi,incorrect,incorrect
+jump_20_,jump,golf chipping,stretching arm,incorrect,incorrect
+jump_21_,jump,stretching arm,playing harp,incorrect,incorrect
+jump_27_,jump,stretching leg,tai chi,incorrect,incorrect
+run_15_,run,swinging legs,jumpstyle dancing,incorrect,incorrect
+run_20_,run,stretching leg,swinging legs,incorrect,incorrect
+run_21_,run,tai chi,playing harp,incorrect,incorrect
+run_28_,run,stretching leg,swinging legs,incorrect,incorrect
+run_9_,run,swinging legs,jumpstyle dancing,incorrect,incorrect
+walk_14_,walk,swinging legs,tai chi,incorrect,incorrect
+walk_21_,walk,swinging legs,tap dancing,incorrect,incorrect
+walk_4_,walk,swinging legs,tap dancing,incorrect,incorrect
