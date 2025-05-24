@@ -1,0 +1,86 @@
+base_video,from_prediction,to_prediction,skin_colors_same,skin_colors_changed
+cartwheel_0,tai chi,robot dancing,"white, asian, indian, middle_eastern, south_east_asian","african, hispanic"
+cartwheel_1,gymnastics tumbling,cartwheeling,"white, asian, hispanic, indian, middle_eastern, south_east_asian",african
+cartwheel_14,cartwheeling,gymnastics tumbling,"white, african, asian, indian, south_east_asian","hispanic, middle_eastern"
+cartwheel_15,gymnastics tumbling,cartwheeling,"white, asian, hispanic, middle_eastern, south_east_asian","african, indian"
+cartwheel_16,cartwheeling,breakdancing,"african, indian","asian, hispanic, middle_eastern, south_east_asian, white"
+cartwheel_18,breakdancing,capoeira,"asian, african, middle_eastern, south_east_asian","indian, white"
+cartwheel_18,breakdancing,gymnastics tumbling,"asian, african, middle_eastern, south_east_asian",hispanic
+cartwheel_19,cartwheeling,gymnastics tumbling,"white, african, asian, hispanic, indian, middle_eastern",south_east_asian
+cartwheel_20,cartwheeling,breakdancing,"indian, african, asian, hispanic","middle_eastern, south_east_asian, white"
+cartwheel_24,high kick,breakdancing,white,"african, indian"
+cartwheel_24,high kick,gymnastics tumbling,white,"asian, hispanic, middle_eastern, south_east_asian"
+cartwheel_6,gymnastics tumbling,cartwheeling,"hispanic, asian, indian, middle_eastern, south_east_asian, white",african
+cartwheel_7,cartwheeling,breakdancing,"south_east_asian, asian, middle_eastern, white","african, hispanic, indian"
+drink_0,tai chi,catching or throwing frisbee,"white, african, middle_eastern",asian
+drink_0,tai chi,lunge,"white, african, middle_eastern","hispanic, south_east_asian"
+drink_0,tai chi,stretching leg,"white, african, middle_eastern",indian
+drink_1,tai chi,playing didgeridoo,"white, african, asian, hispanic, indian, middle_eastern",south_east_asian
+drink_10,tai chi,riding unicycle,"white, african, asian, hispanic, middle_eastern, south_east_asian",indian
+drink_14,riding unicycle,playing badminton,"white, african, middle_eastern, south_east_asian","asian, hispanic"
+drink_14,riding unicycle,tai chi,"white, african, middle_eastern, south_east_asian",indian
+drink_17,riding unicycle,tai chi,"white, african, asian, indian, middle_eastern",hispanic
+drink_17,riding unicycle,yoga,"white, african, asian, indian, middle_eastern",south_east_asian
+drink_18,tai chi,passing American football (not in game),"asian, african, hispanic, indian, south_east_asian","middle_eastern, white"
+drink_19,yoga,tai chi,"white, middle_eastern","african, asian, hispanic, indian, south_east_asian"
+drink_23,tai chi,catching or throwing frisbee,"asian, african, hispanic, indian, white",south_east_asian
+drink_23,tai chi,jumpstyle dancing,"asian, african, hispanic, indian, white",middle_eastern
+drink_24,tai chi,riding unicycle,"white, asian, hispanic, indian, middle_eastern, south_east_asian",african
+drink_3,tai chi,robot dancing,"white, asian, hispanic, indian, middle_eastern, south_east_asian",african
+drink_5,contact juggling,tai chi,"indian, african","asian, hispanic, middle_eastern, south_east_asian, white"
+drink_6,tai chi,yoga,"hispanic, african, asian, indian, south_east_asian","middle_eastern, white"
+drink_7,playing bagpipes,belly dancing,"south_east_asian, african, asian, indian, middle_eastern, white",hispanic
+drink_8,yoga,stretching arm,"white, african, asian, indian, middle_eastern",hispanic
+drink_8,yoga,tai chi,"white, african, asian, indian, middle_eastern",south_east_asian
+lunge_11,tai chi,yoga,"white, african, asian, hispanic, middle_eastern, south_east_asian",indian
+lunge_12,riding unicycle,tai chi,"african, hispanic, indian, middle_eastern, south_east_asian","asian, white"
+lunge_16,playing bagpipes,playing didgeridoo,"african, asian, hispanic, middle_eastern, south_east_asian, white",indian
+lunge_19,playing bagpipes,riding unicycle,"white, asian, hispanic, indian, middle_eastern, south_east_asian",african
+lunge_21,riding unicycle,playing didgeridoo,"middle_eastern, african, asian, hispanic, south_east_asian, white",indian
+lunge_22,riding unicycle,tai chi,african,"asian, hispanic, indian, middle_eastern, south_east_asian, white"
+lunge_3,riding unicycle,playing didgeridoo,"white, african, asian, middle_eastern, south_east_asian","hispanic, indian"
+lunge_6,tai chi,yoga,"hispanic, african, asian, middle_eastern, south_east_asian, white",indian
+lunge_7,playing didgeridoo,jogging,"south_east_asian, hispanic, middle_eastern, white",african
+lunge_7,playing didgeridoo,riding unicycle,"south_east_asian, hispanic, middle_eastern, white","asian, indian"
+lunge_9,tai chi,riding unicycle,"white, asian","african, hispanic, indian, middle_eastern, south_east_asian"
+squat_0,yoga,lunge,"white, middle_eastern","hispanic, south_east_asian"
+squat_0,yoga,tai chi,"white, middle_eastern","african, asian, indian"
+squat_1,lunge,yoga,"white, asian, hispanic, indian, middle_eastern, south_east_asian",african
+squat_11,catching or throwing frisbee,tai chi,"white, asian, middle_eastern, south_east_asian","african, hispanic, indian"
+squat_13,tai chi,riding unicycle,white,"african, asian, hispanic, indian, middle_eastern, south_east_asian"
+squat_14,stretching leg,tai chi,white,"african, hispanic, indian"
+squat_14,stretching leg,yoga,white,"asian, middle_eastern, south_east_asian"
+squat_17,stretching leg,tai chi,"white, asian, hispanic, middle_eastern","african, indian, south_east_asian"
+squat_18,tai chi,riding unicycle,"asian, african, hispanic, indian, middle_eastern, south_east_asian",white
+squat_19,squat,lunge,"white, asian, indian, south_east_asian","african, hispanic, middle_eastern"
+squat_21,catching or throwing frisbee,tai chi,"middle_eastern, asian, hispanic, south_east_asian, white","african, indian"
+squat_22,tai chi,stretching leg,"african, hispanic, indian, south_east_asian","asian, middle_eastern, white"
+squat_23,tai chi,stretching leg,"asian, african, indian, middle_eastern, white","hispanic, south_east_asian"
+squat_24,riding unicycle,lunge,"white, south_east_asian","african, asian, hispanic, indian, middle_eastern"
+squat_3,stretching leg,tai chi,"white, hispanic, middle_eastern","african, asian, indian, south_east_asian"
+squat_5,riding unicycle,tai chi,"indian, african","asian, hispanic, middle_eastern, south_east_asian"
+squat_5,riding unicycle,yoga,"indian, african",white
+squat_6,lunge,cartwheeling,"hispanic, asian, middle_eastern, south_east_asian, white",indian
+squat_6,lunge,riding unicycle,"hispanic, asian, middle_eastern, south_east_asian, white",african
+squat_9,tai chi,riding unicycle,"white, asian, middle_eastern","hispanic, indian, south_east_asian"
+squat_9,tai chi,roller skating,"white, asian, middle_eastern",african
+yoga_0,riding unicycle,jogging,"white, hispanic, middle_eastern","african, indian"
+yoga_0,riding unicycle,playing didgeridoo,"white, hispanic, middle_eastern","asian, south_east_asian"
+yoga_1,passing American football (not in game),jumpstyle dancing,white,"african, asian, hispanic, indian, middle_eastern, south_east_asian"
+yoga_12,tai chi,yoga,"african, asian, hispanic, middle_eastern, white","indian, south_east_asian"
+yoga_13,tai chi,lunge,"white, asian, hispanic, indian, middle_eastern, south_east_asian",african
+yoga_15,juggling balls,contact juggling,white,middle_eastern
+yoga_15,juggling balls,stretching leg,white,african
+yoga_15,juggling balls,tai chi,white,"asian, hispanic, indian, south_east_asian"
+yoga_17,jumpstyle dancing,riding unicycle,"white, asian, middle_eastern","african, hispanic, indian, south_east_asian"
+yoga_18,tai chi,robot dancing,"asian, hispanic, indian, middle_eastern, south_east_asian, white",african
+yoga_19,tai chi,riding unicycle,"white, asian, hispanic, indian, middle_eastern, south_east_asian",african
+yoga_22,riding unicycle,contact juggling,african,"indian, middle_eastern, white"
+yoga_22,riding unicycle,robot dancing,african,"asian, hispanic, south_east_asian"
+yoga_24,yoga,playing didgeridoo,"white, african, asian, hispanic, indian, middle_eastern",south_east_asian
+yoga_5,jumpstyle dancing,tai chi,"indian, asian, middle_eastern, south_east_asian","african, hispanic, white"
+yoga_6,juggling balls,contact juggling,"hispanic, indian","african, asian, middle_eastern, south_east_asian, white"
+yoga_8,catching or throwing frisbee,tai chi,"white, middle_eastern","asian, hispanic, south_east_asian"
+yoga_8,catching or throwing frisbee,yoga,"white, middle_eastern","african, indian"
+yoga_9,high kick,jumpstyle dancing,"white, african, hispanic, indian, middle_eastern",south_east_asian
+yoga_9,high kick,stretching leg,"white, african, hispanic, indian, middle_eastern",asian

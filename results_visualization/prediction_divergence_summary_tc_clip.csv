@@ -1,0 +1,91 @@
+base_video,from_prediction,to_prediction,skin_colors_same,skin_colors_changed
+cartwheel_13,cartwheel,yoga,"white, african, asian, hispanic, indian, south_east_asian",middle_eastern
+cartwheel_16,cartwheel,yoga,"african, asian, indian, south_east_asian","hispanic, middle_eastern, white"
+cartwheel_19,yoga,cartwheel,"white, asian, hispanic, indian, middle_eastern, south_east_asian",african
+cartwheel_20,cartwheel,yoga,"indian, asian, hispanic, middle_eastern, south_east_asian, white",african
+cartwheel_24,cartwheel,yoga,"white, african, asian, hispanic, indian, middle_eastern",south_east_asian
+cartwheel_4,cartwheel,yoga,"white, african, hispanic, middle_eastern","asian, indian, south_east_asian"
+cartwheel_5,yoga,cartwheel,"indian, african, hispanic, white","asian, middle_eastern, south_east_asian"
+cartwheel_9,cartwheel,yoga,"white, hispanic, indian, south_east_asian","african, asian, middle_eastern"
+drink_0,yoga,cartwheel,"white, asian, hispanic, indian, middle_eastern, south_east_asian",african
+drink_10,cartwheel,other,"white, middle_eastern","african, hispanic, indian, south_east_asian"
+drink_10,cartwheel,squat,"white, middle_eastern",asian
+drink_11,yoga,cartwheel,"white, asian, hispanic, indian, middle_eastern, south_east_asian",african
+drink_12,cartwheel,other,"african, asian, white","hispanic, indian, middle_eastern, south_east_asian"
+drink_15,drink,yoga,white,"african, asian, hispanic, indian, middle_eastern, south_east_asian"
+drink_16,cartwheel,other,"african, indian, south_east_asian","asian, hispanic, middle_eastern"
+drink_16,cartwheel,squat,"african, indian, south_east_asian",white
+drink_17,yoga,lunge,"white, asian, hispanic, indian, middle_eastern, south_east_asian",african
+drink_18,squat,lunge,"asian, african","hispanic, indian, middle_eastern, south_east_asian, white"
+drink_2,yoga,cartwheel,"south_east_asian, asian, hispanic, indian, middle_eastern, white",african
+drink_20,cartwheel,squat,"indian, asian, hispanic, middle_eastern, south_east_asian, white",african
+drink_21,yoga,squat,"middle_eastern, south_east_asian","african, asian, hispanic, indian, white"
+drink_22,yoga,drink,"african, asian, hispanic, indian, middle_eastern, white",south_east_asian
+drink_23,cartwheel,other,"asian, african, hispanic","indian, south_east_asian"
+drink_23,cartwheel,squat,"asian, african, hispanic","middle_eastern, white"
+drink_3,yoga,other,"white, african, asian, hispanic, middle_eastern, south_east_asian",indian
+drink_4,squat,yoga,"white, african, asian, hispanic","indian, middle_eastern, south_east_asian"
+drink_7,yoga,drink,south_east_asian,"hispanic, middle_eastern, white"
+drink_7,yoga,other,south_east_asian,"african, asian, indian"
+lunge_11,yoga,cartwheel,"white, hispanic, middle_eastern","african, asian, indian, south_east_asian"
+lunge_12,yoga,squat,"african, asian, hispanic, indian, middle_eastern","south_east_asian, white"
+lunge_13,cartwheel,squat,"white, african, south_east_asian",hispanic
+lunge_13,cartwheel,yoga,"white, african, south_east_asian","asian, indian, middle_eastern"
+lunge_14,yoga,cartwheel,"white, hispanic, middle_eastern","african, asian, indian, south_east_asian"
+lunge_15,lunge,cartwheel,"white, african, hispanic, indian, middle_eastern, south_east_asian",asian
+lunge_16,other,yoga,african,"asian, hispanic, indian, middle_eastern, south_east_asian, white"
+lunge_17,yoga,cartwheel,"white, indian","african, asian, hispanic, middle_eastern, south_east_asian"
+lunge_18,yoga,squat,"asian, african, indian, middle_eastern","hispanic, south_east_asian, white"
+lunge_19,yoga,other,"white, asian, hispanic, indian, middle_eastern, south_east_asian",african
+lunge_2,yoga,squat,"south_east_asian, asian, hispanic, indian, middle_eastern, white",african
+lunge_20,yoga,cartwheel,"indian, asian, hispanic, middle_eastern, south_east_asian, white",african
+lunge_21,yoga,cartwheel,"middle_eastern, hispanic, white","african, asian, indian, south_east_asian"
+lunge_23,yoga,other,"asian, african, middle_eastern, south_east_asian","hispanic, indian, white"
+lunge_3,yoga,cartwheel,"white, asian, middle_eastern","african, hispanic, indian, south_east_asian"
+lunge_4,yoga,cartwheel,"white, middle_eastern","african, asian, hispanic, indian, south_east_asian"
+lunge_5,cartwheel,lunge,"indian, african, asian, hispanic","middle_eastern, south_east_asian, white"
+lunge_6,cartwheel,yoga,"hispanic, african, asian, indian, south_east_asian","middle_eastern, white"
+lunge_7,yoga,cartwheel,"south_east_asian, asian, hispanic, middle_eastern, white","african, indian"
+lunge_8,yoga,other,"white, asian, hispanic, indian, middle_eastern, south_east_asian",african
+lunge_9,yoga,lunge,"white, hispanic","african, south_east_asian"
+lunge_9,yoga,squat,"white, hispanic","asian, indian, middle_eastern"
+squat_10,cartwheel,squat,white,"african, hispanic, indian, middle_eastern, south_east_asian"
+squat_10,cartwheel,yoga,white,asian
+squat_11,yoga,cartwheel,"white, indian, middle_eastern","african, south_east_asian"
+squat_11,yoga,squat,"white, indian, middle_eastern","asian, hispanic"
+squat_12,squat,yoga,"african, asian, indian, south_east_asian, white","hispanic, middle_eastern"
+squat_16,squat,cartwheel,"african, hispanic, indian, south_east_asian, white","asian, middle_eastern"
+squat_17,yoga,cartwheel,"white, asian, hispanic, indian, middle_eastern, south_east_asian",african
+squat_18,yoga,cartwheel,"asian, hispanic, indian, middle_eastern, south_east_asian, white",african
+squat_2,squat,cartwheel,"south_east_asian, asian, indian, white",african
+squat_2,squat,yoga,"south_east_asian, asian, indian, white","hispanic, middle_eastern"
+squat_20,cartwheel,yoga,"indian, african, hispanic, middle_eastern","asian, south_east_asian, white"
+squat_21,yoga,squat,"middle_eastern, african, asian, hispanic, indian, white",south_east_asian
+squat_22,cartwheel,yoga,african,"asian, hispanic, indian, middle_eastern, south_east_asian, white"
+squat_23,squat,yoga,"asian, african, middle_eastern","hispanic, indian, south_east_asian, white"
+squat_5,squat,cartwheel,"indian, asian, hispanic, middle_eastern, south_east_asian, white",african
+squat_6,yoga,squat,"hispanic, african, asian, middle_eastern, white","indian, south_east_asian"
+squat_7,lunge,cartwheel,south_east_asian,"african, hispanic, indian, middle_eastern, white"
+squat_7,lunge,yoga,south_east_asian,asian
+squat_8,squat,yoga,"white, african, hispanic, indian, middle_eastern, south_east_asian",asian
+yoga_1,lunge,cartwheel,"white, asian, middle_eastern","african, hispanic, indian, south_east_asian"
+yoga_11,yoga,cartwheel,"white, asian","african, hispanic, indian, middle_eastern, south_east_asian"
+yoga_14,yoga,squat,"white, african, asian, south_east_asian","hispanic, indian, middle_eastern"
+yoga_17,other,cartwheel,"white, south_east_asian","african, asian, hispanic, indian"
+yoga_17,other,yoga,"white, south_east_asian",middle_eastern
+yoga_18,yoga,other,"asian, hispanic, middle_eastern, south_east_asian, white","african, indian"
+yoga_19,yoga,cartwheel,"white, hispanic, middle_eastern, south_east_asian","african, asian, indian"
+yoga_21,other,cartwheel,"middle_eastern, south_east_asian","african, hispanic"
+yoga_21,other,lunge,"middle_eastern, south_east_asian",indian
+yoga_21,other,yoga,"middle_eastern, south_east_asian","asian, white"
+yoga_22,cartwheel,other,african,"hispanic, indian"
+yoga_22,cartwheel,yoga,african,"asian, middle_eastern, south_east_asian, white"
+yoga_23,other,cartwheel,"asian, african, indian, south_east_asian","hispanic, middle_eastern, white"
+yoga_24,other,cartwheel,white,"african, asian, hispanic, indian, middle_eastern, south_east_asian"
+yoga_3,yoga,cartwheel,"white, asian, indian, middle_eastern","hispanic, south_east_asian"
+yoga_3,yoga,lunge,"white, asian, indian, middle_eastern",african
+yoga_5,cartwheel,squat,"indian, african, asian, hispanic, middle_eastern",south_east_asian
+yoga_5,cartwheel,yoga,"indian, african, asian, hispanic, middle_eastern",white
+yoga_8,other,cartwheel,"white, hispanic, middle_eastern, south_east_asian","african, asian, indian"
+yoga_9,lunge,cartwheel,"white, african, asian, south_east_asian","hispanic, indian"
+yoga_9,lunge,yoga,"white, african, asian, south_east_asian",middle_eastern
