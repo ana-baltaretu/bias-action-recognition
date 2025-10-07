@@ -1,8 +1,8 @@
 import csv
 
 # === Replace with your file paths ===
-attempt_dataset_name = "attempt2/autumn_park"
-model_name = "x3d_xs"
+attempt_dataset_name = "attempt2/konzerthaus"
+model_name = "slowfast_r50"
 initial_file = f"./{attempt_dataset_name}/{model_name}/initial_video_results.csv"
 modified_file = f"./{attempt_dataset_name}/{model_name}/modified_video_results.csv"
 differences_file = f"./{attempt_dataset_name}/{model_name}/differences_between_runs.csv"

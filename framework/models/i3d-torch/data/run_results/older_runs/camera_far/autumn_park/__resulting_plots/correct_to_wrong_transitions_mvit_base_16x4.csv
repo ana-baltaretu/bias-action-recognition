@@ -1,0 +1,47 @@
+base_video,from,to,prediction_from,prediction_to,result_from,result_to
+cartwheel_18,african,asian,cartwheeling,capoeira,correct,incorrect
+cartwheel_5,african,asian,cartwheeling,passing American football (not in game),correct,incorrect
+cartwheel_5,african,hispanic,cartwheeling,passing American football (not in game),correct,incorrect
+cartwheel_18,african,middle_eastern,cartwheeling,capoeira,correct,incorrect
+cartwheel_19,african,middle_eastern,cartwheeling,gymnastics tumbling,correct,incorrect
+cartwheel_5,african,middle_eastern,cartwheeling,passing American football (not in game),correct,incorrect
+cartwheel_19,african,south_east_asian,cartwheeling,javelin throw,correct,incorrect
+cartwheel_5,african,south_east_asian,cartwheeling,somersaulting,correct,incorrect
+cartwheel_5,african,white,cartwheeling,passing American football (not in game),correct,incorrect
+cartwheel_14,asian,african,cartwheeling,disc golfing,correct,incorrect
+squat_15,asian,african,squat,disc golfing,correct,incorrect
+squat_15,asian,hispanic,squat,disc golfing,correct,incorrect
+cartwheel_14,asian,indian,cartwheeling,disc golfing,correct,incorrect
+squat_15,asian,indian,squat,passing American football (not in game),correct,incorrect
+cartwheel_19,asian,middle_eastern,cartwheeling,gymnastics tumbling,correct,incorrect
+squat_15,asian,middle_eastern,squat,stretching leg,correct,incorrect
+cartwheel_19,asian,south_east_asian,cartwheeling,javelin throw,correct,incorrect
+squat_15,asian,south_east_asian,squat,disc golfing,correct,incorrect
+squat_15,asian,white,squat,stretching arm,correct,incorrect
+cartwheel_14,hispanic,african,cartwheeling,disc golfing,correct,incorrect
+cartwheel_18,hispanic,asian,cartwheeling,capoeira,correct,incorrect
+cartwheel_14,hispanic,indian,cartwheeling,disc golfing,correct,incorrect
+cartwheel_18,hispanic,middle_eastern,cartwheeling,capoeira,correct,incorrect
+cartwheel_19,hispanic,middle_eastern,cartwheeling,gymnastics tumbling,correct,incorrect
+cartwheel_19,hispanic,south_east_asian,cartwheeling,javelin throw,correct,incorrect
+cartwheel_18,indian,asian,cartwheeling,capoeira,correct,incorrect
+cartwheel_5,indian,asian,cartwheeling,passing American football (not in game),correct,incorrect
+cartwheel_5,indian,hispanic,cartwheeling,passing American football (not in game),correct,incorrect
+cartwheel_18,indian,middle_eastern,cartwheeling,capoeira,correct,incorrect
+cartwheel_19,indian,middle_eastern,cartwheeling,gymnastics tumbling,correct,incorrect
+cartwheel_5,indian,middle_eastern,cartwheeling,passing American football (not in game),correct,incorrect
+cartwheel_19,indian,south_east_asian,cartwheeling,javelin throw,correct,incorrect
+cartwheel_5,indian,south_east_asian,cartwheeling,somersaulting,correct,incorrect
+cartwheel_5,indian,white,cartwheeling,passing American football (not in game),correct,incorrect
+cartwheel_14,middle_eastern,african,cartwheeling,disc golfing,correct,incorrect
+cartwheel_14,middle_eastern,indian,cartwheeling,disc golfing,correct,incorrect
+cartwheel_14,south_east_asian,african,cartwheeling,disc golfing,correct,incorrect
+cartwheel_18,south_east_asian,asian,cartwheeling,capoeira,correct,incorrect
+cartwheel_14,south_east_asian,indian,cartwheeling,disc golfing,correct,incorrect
+cartwheel_18,south_east_asian,middle_eastern,cartwheeling,capoeira,correct,incorrect
+cartwheel_14,white,african,cartwheeling,disc golfing,correct,incorrect
+cartwheel_18,white,asian,cartwheeling,capoeira,correct,incorrect
+cartwheel_14,white,indian,cartwheeling,disc golfing,correct,incorrect
+cartwheel_18,white,middle_eastern,cartwheeling,capoeira,correct,incorrect
+cartwheel_19,white,middle_eastern,cartwheeling,gymnastics tumbling,correct,incorrect
+cartwheel_19,white,south_east_asian,cartwheeling,javelin throw,correct,incorrect

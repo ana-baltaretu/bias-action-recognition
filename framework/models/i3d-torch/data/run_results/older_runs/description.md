@@ -1,0 +1,1 @@
+"maxed out distribuion on kinetics"
