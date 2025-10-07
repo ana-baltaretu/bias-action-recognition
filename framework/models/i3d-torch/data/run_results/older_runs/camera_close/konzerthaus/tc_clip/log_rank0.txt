@@ -1,0 +1,72 @@
+[05-24 17:49:39 TCCLIP] (3979588942.py 9): INFO working dir: C:\Users\Ana\Desktop\bias-action-recognition\framework\models\i3d-torch\data\run_results\older_runs\camera_close\konzerthaus\tc_clip
+[05-24 17:49:43 TCCLIP] (build_trainer.py 56): INFO Loading CLIP (backbone: ViT-B/16)
+[05-24 17:50:24 TCCLIP] (build_trainer.py 59): INFO [34m[1mBuilding TCCLIP[0m
+[05-24 17:50:24 TCCLIP] (tc_clip_prompt_learner.py 54): INFO Video-conditional prompt learning
+[05-24 17:50:24 TCCLIP] (tc_clip_prompt_learner.py 55): INFO Initial context: "a photo of a"
+[05-24 17:50:24 TCCLIP] (tc_clip_prompt_learner.py 56): INFO Number of learnable text prompt vectors: 4
+[05-24 17:50:24 TCCLIP] (tc_clip_text_encoder.py 96): INFO Copy CLIP transformer 11th layer weights to prompt generation layer
+[05-24 17:50:24 TCCLIP] (tc_clip_text_encoder.py 106): INFO Prompt generation level: [11]
+[05-24 17:50:24 TCCLIP] (tc_clip_text_encoder.py 107): INFO Prompt generation stop grad: True
+[05-24 17:50:24 TCCLIP] (tc_clip.py 27): INFO Using context tokens from vision layer [11]
+[05-24 17:50:24 TCCLIP] (build_trainer.py 97): INFO ----------------------------------------------------
+[05-24 17:50:24 TCCLIP] (build_trainer.py 98): INFO Freezed Parameters
+[05-24 17:50:24 TCCLIP] (build_trainer.py 102): INFO ----------------------------------------------------
+[05-24 17:50:24 TCCLIP] (build_trainer.py 105): INFO Number of Parameters: 127.5M
+[05-24 17:50:25 TCCLIP] (tools.py 180): INFO ==============> Resuming from C:\Users\Ana\Desktop\bias-action-recognition\framework\models\tc-clip\weights\zero_shot_k400_tc_clip.pth....................
+[05-24 17:50:25 TCCLIP] (tools.py 208): INFO resume model: _IncompatibleKeys(missing_keys=['prompt_learner.token_prefix', 'prompt_learner.token_suffix'], unexpected_keys=[])
+[05-24 17:50:25 TCCLIP] (tools.py 218): INFO => loaded successfully 'C:\Users\Ana\Desktop\bias-action-recognition\framework\models\tc-clip\weights\zero_shot_k400_tc_clip.pth' (epoch 9)
+[05-24 17:50:25 TCCLIP] (1028797808.py 4): INFO Loaded checkpoint at epoch 10 with max accuracy 81.3
+[05-24 18:19:33 TCCLIP] (1812934365.py 47): INFO working dir: C:\Users\Ana\Desktop\bias-action-recognition\framework\models\i3d-torch\data\run_results\older_runs\camera_close\konzerthaus\tc_clip
+[05-24 18:19:38 TCCLIP] (build_trainer.py 56): INFO Loading CLIP (backbone: ViT-B/16)
+[05-24 18:19:39 TCCLIP] (build_trainer.py 59): INFO [34m[1mBuilding TCCLIP[0m
+[05-24 18:19:39 TCCLIP] (tc_clip_prompt_learner.py 54): INFO Video-conditional prompt learning
+[05-24 18:19:39 TCCLIP] (tc_clip_prompt_learner.py 55): INFO Initial context: "a photo of a"
+[05-24 18:19:39 TCCLIP] (tc_clip_prompt_learner.py 56): INFO Number of learnable text prompt vectors: 4
+[05-24 18:19:39 TCCLIP] (tc_clip_text_encoder.py 96): INFO Copy CLIP transformer 11th layer weights to prompt generation layer
+[05-24 18:19:39 TCCLIP] (tc_clip_text_encoder.py 106): INFO Prompt generation level: [11]
+[05-24 18:19:39 TCCLIP] (tc_clip_text_encoder.py 107): INFO Prompt generation stop grad: True
+[05-24 18:19:39 TCCLIP] (tc_clip.py 27): INFO Using context tokens from vision layer [11]
+[05-24 18:19:39 TCCLIP] (build_trainer.py 97): INFO ----------------------------------------------------
+[05-24 18:19:39 TCCLIP] (build_trainer.py 98): INFO Freezed Parameters
+[05-24 18:19:39 TCCLIP] (build_trainer.py 102): INFO ----------------------------------------------------
+[05-24 18:19:39 TCCLIP] (build_trainer.py 105): INFO Number of Parameters: 127.5M
+[05-24 18:19:40 TCCLIP] (tools.py 180): INFO ==============> Resuming from C:\Users\Ana\Desktop\bias-action-recognition\framework\models\tc-clip\weights\zero_shot_k400_tc_clip.pth....................
+[05-24 18:19:40 TCCLIP] (tools.py 208): INFO resume model: _IncompatibleKeys(missing_keys=['prompt_learner.token_prefix', 'prompt_learner.token_suffix'], unexpected_keys=[])
+[05-24 18:19:40 TCCLIP] (tools.py 218): INFO => loaded successfully 'C:\Users\Ana\Desktop\bias-action-recognition\framework\models\tc-clip\weights\zero_shot_k400_tc_clip.pth' (epoch 9)
+[05-24 18:19:40 TCCLIP] (890561573.py 8): INFO Loaded checkpoint at epoch 10 with max accuracy 81.3
+[05-24 18:28:12 TCCLIP] (1740443290.py 47): INFO working dir: C:\Users\Ana\Desktop\bias-action-recognition\framework\models\i3d-torch\data\run_results\older_runs\camera_close\konzerthaus\tc_clip
+[05-24 18:28:14 TCCLIP] (build_trainer.py 56): INFO Loading CLIP (backbone: ViT-B/16)
+[05-24 18:28:15 TCCLIP] (build_trainer.py 59): INFO [34m[1mBuilding TCCLIP[0m
+[05-24 18:28:15 TCCLIP] (tc_clip_prompt_learner.py 54): INFO Video-conditional prompt learning
+[05-24 18:28:15 TCCLIP] (tc_clip_prompt_learner.py 55): INFO Initial context: "a photo of a"
+[05-24 18:28:15 TCCLIP] (tc_clip_prompt_learner.py 56): INFO Number of learnable text prompt vectors: 4
+[05-24 18:28:15 TCCLIP] (tc_clip_text_encoder.py 96): INFO Copy CLIP transformer 11th layer weights to prompt generation layer
+[05-24 18:28:15 TCCLIP] (tc_clip_text_encoder.py 106): INFO Prompt generation level: [11]
+[05-24 18:28:15 TCCLIP] (tc_clip_text_encoder.py 107): INFO Prompt generation stop grad: True
+[05-24 18:28:15 TCCLIP] (tc_clip.py 27): INFO Using context tokens from vision layer [11]
+[05-24 18:28:15 TCCLIP] (build_trainer.py 97): INFO ----------------------------------------------------
+[05-24 18:28:15 TCCLIP] (build_trainer.py 98): INFO Freezed Parameters
+[05-24 18:28:15 TCCLIP] (build_trainer.py 102): INFO ----------------------------------------------------
+[05-24 18:28:15 TCCLIP] (build_trainer.py 105): INFO Number of Parameters: 127.5M
+[05-24 18:28:16 TCCLIP] (tools.py 180): INFO ==============> Resuming from C:\Users\Ana\Desktop\bias-action-recognition\framework\models\tc-clip\weights\zero_shot_k400_tc_clip.pth....................
+[05-24 18:28:16 TCCLIP] (tools.py 208): INFO resume model: _IncompatibleKeys(missing_keys=['prompt_learner.token_prefix', 'prompt_learner.token_suffix'], unexpected_keys=[])
+[05-24 18:28:16 TCCLIP] (tools.py 218): INFO => loaded successfully 'C:\Users\Ana\Desktop\bias-action-recognition\framework\models\tc-clip\weights\zero_shot_k400_tc_clip.pth' (epoch 9)
+[05-24 18:28:16 TCCLIP] (890561573.py 8): INFO Loaded checkpoint at epoch 10 with max accuracy 81.3
+[05-24 18:43:15 TCCLIP] (3337504117.py 47): INFO working dir: C:\Users\Ana\Desktop\bias-action-recognition\framework\models\i3d-torch\data\run_results\older_runs\camera_close\konzerthaus\tc_clip
+[05-24 18:43:16 TCCLIP] (build_trainer.py 56): INFO Loading CLIP (backbone: ViT-B/16)
+[05-24 18:43:17 TCCLIP] (build_trainer.py 59): INFO [34m[1mBuilding TCCLIP[0m
+[05-24 18:43:17 TCCLIP] (tc_clip_prompt_learner.py 54): INFO Video-conditional prompt learning
+[05-24 18:43:17 TCCLIP] (tc_clip_prompt_learner.py 55): INFO Initial context: "a photo of a"
+[05-24 18:43:17 TCCLIP] (tc_clip_prompt_learner.py 56): INFO Number of learnable text prompt vectors: 4
+[05-24 18:43:18 TCCLIP] (tc_clip_text_encoder.py 96): INFO Copy CLIP transformer 11th layer weights to prompt generation layer
+[05-24 18:43:18 TCCLIP] (tc_clip_text_encoder.py 106): INFO Prompt generation level: [11]
+[05-24 18:43:18 TCCLIP] (tc_clip_text_encoder.py 107): INFO Prompt generation stop grad: True
+[05-24 18:43:18 TCCLIP] (tc_clip.py 27): INFO Using context tokens from vision layer [11]
+[05-24 18:43:18 TCCLIP] (build_trainer.py 97): INFO ----------------------------------------------------
+[05-24 18:43:18 TCCLIP] (build_trainer.py 98): INFO Freezed Parameters
+[05-24 18:43:18 TCCLIP] (build_trainer.py 102): INFO ----------------------------------------------------
+[05-24 18:43:18 TCCLIP] (build_trainer.py 105): INFO Number of Parameters: 127.5M
+[05-24 18:43:18 TCCLIP] (tools.py 180): INFO ==============> Resuming from C:\Users\Ana\Desktop\bias-action-recognition\framework\models\tc-clip\weights\zero_shot_k400_tc_clip.pth....................
+[05-24 18:43:18 TCCLIP] (tools.py 208): INFO resume model: _IncompatibleKeys(missing_keys=['prompt_learner.token_prefix', 'prompt_learner.token_suffix'], unexpected_keys=[])
+[05-24 18:43:18 TCCLIP] (tools.py 218): INFO => loaded successfully 'C:\Users\Ana\Desktop\bias-action-recognition\framework\models\tc-clip\weights\zero_shot_k400_tc_clip.pth' (epoch 9)
+[05-24 18:43:18 TCCLIP] (890561573.py 8): INFO Loaded checkpoint at epoch 10 with max accuracy 81.3

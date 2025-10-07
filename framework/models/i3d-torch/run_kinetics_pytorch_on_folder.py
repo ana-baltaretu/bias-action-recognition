@@ -22,7 +22,7 @@ warnings.filterwarnings("ignore", category=UserWarning)
 # TODO: Update these for different experiment results
 model_name = "x3d_xs" # slowfast_r50, slow_r50, x3d_xs, x3d_s, mvit_base_16x4, c2d_r50
 ROOT_FOLDER = r"C:\Users\Ana\Desktop\bias-action-recognition\framework\models\i3d-torch\data\run_results\top_20_kinetics_actions"
-CAMERA_DISTANCES = ["camera_far", "camera_near"]
+CAMERA_DISTANCES = ["camera_near"]#, "camera_far"]
 BACKGROUNDS = ["autumn_hockey", "konzerthaus", "stadium_01"]
 MODELS = ["slowfast_r50", "slow_r50", "x3d_xs", "mvit_base_16x4"] #"x3d_s", "c2d_r50"
 LABEL_URL = "https://dl.fbaipublicfiles.com/pyslowfast/dataset/class_names/kinetics_classnames.json"

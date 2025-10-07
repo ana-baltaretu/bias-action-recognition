@@ -1,0 +1,11 @@
+==================== RESULTS ====================
+Total videos processed: 875
+Top-1 Accuracy: 2.06%
+Top-5 Accuracy: 8.11%
+
+Per-class Accuracy:
+cartwheel: 5.71% (10/175)
+drink: 2.86% (5/175)
+lunge: 0.00% (0/175)
+squat: 1.71% (3/175)
+yoga: 0.00% (0/175)

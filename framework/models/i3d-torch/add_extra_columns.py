@@ -15,8 +15,9 @@ valid_categories = list(skin_color_map.values())
 sorted_categories = sorted(valid_categories, key=len, reverse=True)
 
 # Paths
-data_path = r"C:\Users\Ana\Desktop\bias-action-recognition\framework\models\i3d-torch\data\run_results\older_runs"
-final_csv_path = r"C:\Users\Ana\Desktop\bias-action-recognition\results_visualization\model_results\older_runs"
+run_folder_name = "top_20_kinetics_actions"
+data_path = rf"C:\Users\Ana\Desktop\bias-action-recognition\framework\models\i3d-torch\data\run_results\{run_folder_name}"
+final_csv_path = rf"C:\Users\Ana\Desktop\bias-action-recognition\results_visualization\model_results\{run_folder_name}"
 
 # Models to process
 model_names = ["tc_clip", "slowfast_r50", "mvit_base_16x4", "slow_r50", "x3d_xs"]

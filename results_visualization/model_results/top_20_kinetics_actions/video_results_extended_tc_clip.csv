@@ -1,4 +1,4 @@
-video,true_label,raw_prediction,mapped_prediction,result,camera_distance,background,skin_color_category
+video,ground_truth,raw_prediction,mapped_prediction,result,camera_distance,background,skin_color_category
 cartwheel_0_initial.mp4,cartwheel,cartwheel,cartwheel,correct,camera_far,autumn_hockey,white
 cartwheel_0_modified_african.mp4,cartwheel,cartwheel,cartwheel,correct,camera_far,autumn_hockey,african
 cartwheel_0_modified_asian.mp4,cartwheel,cartwheel,cartwheel,correct,camera_far,autumn_hockey,asian
