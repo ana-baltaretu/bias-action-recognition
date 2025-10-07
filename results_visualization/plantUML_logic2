@@ -1,0 +1,67 @@
+@startuml
+digraph BiasAuditFlow {
+  rankdir=LR;
+  node [shape=box, style=rounded, fontsize=12]
+
+  // Main Goal
+  Goal [label="Goal: Find bias in foundation\nHAR models", shape=ellipse, style=filled, fillcolor=lightyellow]
+
+  // Design decisions
+  AvoidBias [label="Avoid introducing our own bias"]
+  FineTuning [label="We don't fine-tune models"]
+  SyntheticNeeded [label="Realistic synthetic data"]
+
+  // Motivations for synthetic data
+  RealDataUncontrolled [label="Real data too variable \n(confounding factors)"]
+  Interpretability [label="Feasibility + interpretability constraint"]
+  ControlSetup [label="Controlled setup"]
+
+  // Calibration phase
+  PoorModelFilter [label="Exclude models that guess on baseline"]
+  IdealCondition [label="Model must perform well under\nideal synthetic conditions"]
+  AblationNeeded [label="Do ablation studies\n(viewpoint, background)"]
+
+  // Fairness evaluation
+  TestSkinTone [label="Test skin tone as the only variable"]
+  StatCheck [label="Statistically significant\noutput label change?", shape=diamond]
+  BiasYes [label="Model has bias"]
+  BiasNo [label="Fair model:\nirrelevant attributes\nshould not change the output"]
+
+  // Logical flow
+  AvoidBias -> FineTuning [label="motivates"]
+  FineTuning -> SyntheticNeeded [label="requires"]
+  RealDataUncontrolled -> SyntheticNeeded [label="motivates"]
+  Interpretability -> SyntheticNeeded [label="constrains"]
+  ControlSetup -> TestSkinTone [label="fix all other attributes to"]
+
+  // Tying off
+  Goal -> SyntheticNeeded [label="requires"]
+
+  SyntheticNeeded -> AblationNeeded [label="validated via"]
+  AblationNeeded -> IdealCondition [label="prerequisite for testing bias", weight = 1000]
+
+  // Structure around synthetic data and setup
+  // SyntheticNeeded -> IdealCondition [label="prerequisite for testing bias"]
+  /// IdealCondition -> AblationNeeded
+  AblationNeeded -> IdealCondition [style=invis] // keeps Ablation close to IdealCondition
+  IdealCondition -> PoorModelFilter [label="ensures fairness of evaluation"]
+  IdealCondition -> TestSkinTone [label="enables", weight=1000]
+
+
+  // Bias testing
+  Goal -> TestSkinTone [label="measured via"]
+  TestSkinTone -> StatCheck [label="check for"]
+  StatCheck -> BiasYes [label="Yes? p < 0.05"]
+  StatCheck -> BiasNo [label="No?"]
+
+
+
+  //{rank=same; }
+  {rank=same; FineTuning; RealDataUncontrolled; Interpretability; AvoidBias}
+  {rank=same; BiasYes; BiasNo}
+  {rank=same; SyntheticNeeded; Goal; AblationNeeded; IdealCondition}
+
+  {rank=same; PoorModelFilter; TestSkinTone; ControlSetup}
+
+}
+@enduml

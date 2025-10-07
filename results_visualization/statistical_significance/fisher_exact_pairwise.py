@@ -8,8 +8,9 @@ import seaborn as sns
 # "Is white involved in significantly more prediction-changing instances than african, across the whole dataset?"
 
 # Load your data
+experiment_name = "top_20_kinetics_actions" # older_runs, top_20_kinetics_actions
 model_name = "tc_clip" # mvit_base_16x4, slowfast_r50, tc_clip
-df = pd.read_csv(f"../prediction_divergence_summary_{model_name}.csv")
+df = pd.read_csv(f"../model_results/{experiment_name}/filtered_best_background_and_camera_{model_name}.csv")
 
 # Define all skin colors
 skin_colors = [

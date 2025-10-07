@@ -1,0 +1,911 @@
+video,true_label,raw_prediction,mapped_prediction,result,top5,camera_distance,background,skin_color_category,best_background,best_camera
+cartwheel_0_initial.mp4,cartwheel,gymnastics tumbling,other,incorrect,"['other', 'cartwheel', 'bend', 'other', 'yoga']",camera_far,stadium_01,white,stadium_01,camera_far
+cartwheel_0_modified_african.mp4,cartwheel,cartwheeling,cartwheel,correct,"['cartwheel', 'other', 'bend', 'other', 'jump']",camera_far,stadium_01,african,stadium_01,camera_far
+cartwheel_0_modified_asian.mp4,cartwheel,gymnastics tumbling,other,incorrect,"['other', 'cartwheel', 'bend', 'other', 'jump']",camera_far,stadium_01,asian,stadium_01,camera_far
+cartwheel_0_modified_hispanic.mp4,cartwheel,gymnastics tumbling,other,incorrect,"['other', 'cartwheel', 'bend', 'other', 'jump']",camera_far,stadium_01,hispanic,stadium_01,camera_far
+cartwheel_0_modified_indian.mp4,cartwheel,gymnastics tumbling,other,incorrect,"['other', 'cartwheel', 'bend', 'other', 'jump']",camera_far,stadium_01,indian,stadium_01,camera_far
+cartwheel_0_modified_middle_eastern.mp4,cartwheel,gymnastics tumbling,other,incorrect,"['other', 'cartwheel', 'bend', 'other', 'jump']",camera_far,stadium_01,middle_eastern,stadium_01,camera_far
+cartwheel_0_modified_south_east_asian.mp4,cartwheel,gymnastics tumbling,other,incorrect,"['other', 'cartwheel', 'bend', 'other', 'jump']",camera_far,stadium_01,south_east_asian,stadium_01,camera_far
+cartwheel_1_initial.mp4,cartwheel,stretching arm,stretch,incorrect,"['stretch', 'other', 'jump', 'cartwheel', 'other']",camera_far,stadium_01,white,stadium_01,camera_far
+cartwheel_1_modified_african.mp4,cartwheel,throwing discus,throw,incorrect,"['throw', 'arm movements', 'play catch', 'stretch', 'raise body part']",camera_far,stadium_01,african,stadium_01,camera_far
+cartwheel_1_modified_asian.mp4,cartwheel,stretching arm,stretch,incorrect,"['stretch', 'other', 'cartwheel', 'jump', 'arm movements']",camera_far,stadium_01,asian,stadium_01,camera_far
+cartwheel_1_modified_hispanic.mp4,cartwheel,stretching arm,stretch,incorrect,"['stretch', 'other', 'jump', 'cartwheel', 'arm movements']",camera_far,stadium_01,hispanic,stadium_01,camera_far
+cartwheel_1_modified_indian.mp4,cartwheel,throwing discus,throw,incorrect,"['throw', 'arm movements', 'play catch', 'stretch', 'other']",camera_far,stadium_01,indian,stadium_01,camera_far
+cartwheel_1_modified_middle_eastern.mp4,cartwheel,stretching arm,stretch,incorrect,"['stretch', 'other', 'jump', 'cartwheel', 'other']",camera_far,stadium_01,middle_eastern,stadium_01,camera_far
+cartwheel_1_modified_south_east_asian.mp4,cartwheel,stretching arm,stretch,incorrect,"['stretch', 'other', 'cartwheel', 'jump', 'other']",camera_far,stadium_01,south_east_asian,stadium_01,camera_far
+cartwheel_2_initial.mp4,cartwheel,breakdancing,other,incorrect,"['other', 'jump', 'other', 'cartwheel', 'other']",camera_far,stadium_01,south_east_asian,stadium_01,camera_far
+cartwheel_2_modified_african.mp4,cartwheel,breakdancing,other,incorrect,"['other', 'jump', 'cartwheel', 'other', 'other']",camera_far,stadium_01,african,stadium_01,camera_far
+cartwheel_2_modified_asian.mp4,cartwheel,cartwheeling,cartwheel,correct,"['cartwheel', 'other', 'other', 'other', 'jump']",camera_far,stadium_01,asian,stadium_01,camera_far
+cartwheel_2_modified_hispanic.mp4,cartwheel,breakdancing,other,incorrect,"['other', 'jump', 'other', 'cartwheel', 'other']",camera_far,stadium_01,hispanic,stadium_01,camera_far
+cartwheel_2_modified_indian.mp4,cartwheel,breakdancing,other,incorrect,"['other', 'jump', 'other', 'cartwheel', 'other']",camera_far,stadium_01,indian,stadium_01,camera_far
+cartwheel_2_modified_middle_eastern.mp4,cartwheel,cartwheeling,cartwheel,correct,"['cartwheel', 'other', 'other', 'jump', 'other']",camera_far,stadium_01,middle_eastern,stadium_01,camera_far
+cartwheel_2_modified_white.mp4,cartwheel,gymnastics tumbling,other,incorrect,"['other', 'cartwheel', 'other', 'other', 'bend']",camera_far,stadium_01,white,stadium_01,camera_far
+cartwheel_3_initial.mp4,cartwheel,tai chi,other,incorrect,"['other', 'stretch', 'jump', 'other', 'other']",camera_far,stadium_01,white,stadium_01,camera_far
+cartwheel_3_modified_african.mp4,cartwheel,tai chi,other,incorrect,"['other', 'other', 'play catch', 'other', 'throw']",camera_far,stadium_01,african,stadium_01,camera_far
+cartwheel_3_modified_asian.mp4,cartwheel,tai chi,other,incorrect,"['other', 'other', 'stretch', 'other', 'jump']",camera_far,stadium_01,asian,stadium_01,camera_far
+cartwheel_3_modified_hispanic.mp4,cartwheel,tai chi,other,incorrect,"['other', 'other', 'other', 'play catch', 'stretch']",camera_far,stadium_01,hispanic,stadium_01,camera_far
+cartwheel_3_modified_indian.mp4,cartwheel,tai chi,other,incorrect,"['other', 'other', 'other', 'throw', 'play catch']",camera_far,stadium_01,indian,stadium_01,camera_far
+cartwheel_3_modified_middle_eastern.mp4,cartwheel,tai chi,other,incorrect,"['other', 'other', 'stretch', 'jump', 'other']",camera_far,stadium_01,middle_eastern,stadium_01,camera_far
+cartwheel_3_modified_south_east_asian.mp4,cartwheel,tai chi,other,incorrect,"['other', 'other', 'other', 'play catch', 'throw']",camera_far,stadium_01,south_east_asian,stadium_01,camera_far
+cartwheel_4_initial.mp4,cartwheel,tai chi,other,incorrect,"['other', 'cartwheel', 'other', 'play catch', 'throw']",camera_far,stadium_01,middle_eastern,stadium_01,camera_far
+cartwheel_4_modified_african.mp4,cartwheel,tai chi,other,incorrect,"['other', 'cartwheel', 'other', 'play catch', 'throw']",camera_far,stadium_01,african,stadium_01,camera_far
+cartwheel_4_modified_asian.mp4,cartwheel,tai chi,other,incorrect,"['other', 'cartwheel', 'other', 'play catch', 'throw']",camera_far,stadium_01,asian,stadium_01,camera_far
+cartwheel_4_modified_hispanic.mp4,cartwheel,tai chi,other,incorrect,"['other', 'cartwheel', 'other', 'play catch', 'kick']",camera_far,stadium_01,hispanic,stadium_01,camera_far
+cartwheel_4_modified_indian.mp4,cartwheel,tai chi,other,incorrect,"['other', 'cartwheel', 'other', 'play catch', 'jump']",camera_far,stadium_01,indian,stadium_01,camera_far
+cartwheel_4_modified_south_east_asian.mp4,cartwheel,tai chi,other,incorrect,"['other', 'cartwheel', 'other', 'play catch', 'throw']",camera_far,stadium_01,south_east_asian,stadium_01,camera_far
+cartwheel_4_modified_white.mp4,cartwheel,tai chi,other,incorrect,"['other', 'cartwheel', 'other', 'play catch', 'kick']",camera_far,stadium_01,white,stadium_01,camera_far
+cartwheel_5_initial.mp4,cartwheel,throwing discus,throw,incorrect,"['throw', 'arm movements', 'play catch', 'other', 'other']",camera_far,stadium_01,indian,stadium_01,camera_far
+cartwheel_5_modified_african.mp4,cartwheel,throwing discus,throw,incorrect,"['throw', 'arm movements', 'play catch', 'other', 'other']",camera_far,stadium_01,african,stadium_01,camera_far
+cartwheel_5_modified_asian.mp4,cartwheel,throwing discus,throw,incorrect,"['throw', 'other', 'arm movements', 'stretch', 'other']",camera_far,stadium_01,asian,stadium_01,camera_far
+cartwheel_5_modified_hispanic.mp4,cartwheel,tai chi,other,incorrect,"['other', 'stretch', 'throw', 'arm movements', 'other']",camera_far,stadium_01,hispanic,stadium_01,camera_far
+cartwheel_5_modified_middle_eastern.mp4,cartwheel,tai chi,other,incorrect,"['other', 'stretch', 'throw', 'other', 'jump']",camera_far,stadium_01,middle_eastern,stadium_01,camera_far
+cartwheel_5_modified_south_east_asian.mp4,cartwheel,throwing discus,throw,incorrect,"['throw', 'arm movements', 'other', 'play catch', 'other']",camera_far,stadium_01,south_east_asian,stadium_01,camera_far
+cartwheel_5_modified_white.mp4,cartwheel,tai chi,other,incorrect,"['other', 'stretch', 'throw', 'jump', 'other']",camera_far,stadium_01,white,stadium_01,camera_far
+cartwheel_6_initial.mp4,cartwheel,juggling balls,juggle,incorrect,"['juggle', 'other', 'play catch', 'bow', 'other']",camera_far,stadium_01,hispanic,stadium_01,camera_far
+cartwheel_6_modified_african.mp4,cartwheel,catching or throwing baseball,play catch,incorrect,"['play catch', 'juggle', 'other', 'other', 'stretch']",camera_far,stadium_01,african,stadium_01,camera_far
+cartwheel_6_modified_asian.mp4,cartwheel,beatboxing,other,incorrect,"['other', 'other', 'stretch', 'juggle', 'other']",camera_far,stadium_01,asian,stadium_01,camera_far
+cartwheel_6_modified_indian.mp4,cartwheel,catching or throwing baseball,play catch,incorrect,"['play catch', 'juggle', 'other', 'stretch', 'other']",camera_far,stadium_01,indian,stadium_01,camera_far
+cartwheel_6_modified_middle_eastern.mp4,cartwheel,beatboxing,other,incorrect,"['other', 'other', 'juggle', 'other', 'other']",camera_far,stadium_01,middle_eastern,stadium_01,camera_far
+cartwheel_6_modified_south_east_asian.mp4,cartwheel,juggling balls,juggle,incorrect,"['juggle', 'play catch', 'other', 'stretch', 'other']",camera_far,stadium_01,south_east_asian,stadium_01,camera_far
+cartwheel_6_modified_white.mp4,cartwheel,tai chi,other,incorrect,"['other', 'other', 'stretch', 'juggle', 'dance']",camera_far,stadium_01,white,stadium_01,camera_far
+cartwheel_7_initial.mp4,cartwheel,tai chi,other,incorrect,"['other', 'other', 'other', 'play catch', 'other']",camera_far,stadium_01,south_east_asian,stadium_01,camera_far
+cartwheel_7_modified_african.mp4,cartwheel,tai chi,other,incorrect,"['other', 'other', 'other', 'other', 'play catch']",camera_far,stadium_01,african,stadium_01,camera_far
+cartwheel_7_modified_asian.mp4,cartwheel,tai chi,other,incorrect,"['other', 'other', 'other', 'play catch', 'other']",camera_far,stadium_01,asian,stadium_01,camera_far
+cartwheel_7_modified_hispanic.mp4,cartwheel,tai chi,other,incorrect,"['other', 'other', 'other', 'play catch', 'other']",camera_far,stadium_01,hispanic,stadium_01,camera_far
+cartwheel_7_modified_indian.mp4,cartwheel,tai chi,other,incorrect,"['other', 'other', 'other', 'other', 'play catch']",camera_far,stadium_01,indian,stadium_01,camera_far
+cartwheel_7_modified_middle_eastern.mp4,cartwheel,tai chi,other,incorrect,"['other', 'other', 'other', 'other', 'play catch']",camera_far,stadium_01,middle_eastern,stadium_01,camera_far
+cartwheel_7_modified_white.mp4,cartwheel,tai chi,other,incorrect,"['other', 'other', 'other', 'play catch', 'other']",camera_far,stadium_01,white,stadium_01,camera_far
+cartwheel_8_initial.mp4,cartwheel,tai chi,other,incorrect,"['other', 'other', 'play catch', 'other', 'throw']",camera_far,stadium_01,white,stadium_01,camera_far
+cartwheel_8_modified_african.mp4,cartwheel,tai chi,other,incorrect,"['other', 'other', 'play catch', 'throw', 'other']",camera_far,stadium_01,african,stadium_01,camera_far
+cartwheel_8_modified_asian.mp4,cartwheel,tai chi,other,incorrect,"['other', 'other', 'play catch', 'throw', 'other']",camera_far,stadium_01,asian,stadium_01,camera_far
+cartwheel_8_modified_hispanic.mp4,cartwheel,tai chi,other,incorrect,"['other', 'other', 'play catch', 'other', 'throw']",camera_far,stadium_01,hispanic,stadium_01,camera_far
+cartwheel_8_modified_indian.mp4,cartwheel,tai chi,other,incorrect,"['other', 'other', 'play catch', 'throw', 'other']",camera_far,stadium_01,indian,stadium_01,camera_far
+cartwheel_8_modified_middle_eastern.mp4,cartwheel,tai chi,other,incorrect,"['other', 'other', 'play catch', 'other', 'throw']",camera_far,stadium_01,middle_eastern,stadium_01,camera_far
+cartwheel_8_modified_south_east_asian.mp4,cartwheel,tai chi,other,incorrect,"['other', 'other', 'play catch', 'throw', 'other']",camera_far,stadium_01,south_east_asian,stadium_01,camera_far
+cartwheel_9_initial.mp4,cartwheel,tai chi,other,incorrect,"['other', 'other', 'play catch', 'kick', 'other']",camera_far,stadium_01,african,stadium_01,camera_far
+cartwheel_9_modified_asian.mp4,cartwheel,tai chi,other,incorrect,"['other', 'other', 'play catch', 'arm movements', 'kick']",camera_far,stadium_01,asian,stadium_01,camera_far
+cartwheel_9_modified_hispanic.mp4,cartwheel,tai chi,other,incorrect,"['other', 'kick', 'arm movements', 'play catch', 'other']",camera_far,stadium_01,hispanic,stadium_01,camera_far
+cartwheel_9_modified_indian.mp4,cartwheel,tai chi,other,incorrect,"['other', 'play catch', 'other', 'kick', 'other']",camera_far,stadium_01,indian,stadium_01,camera_far
+cartwheel_9_modified_middle_eastern.mp4,cartwheel,tai chi,other,incorrect,"['other', 'arm movements', 'kick', 'stretch', 'yoga']",camera_far,stadium_01,middle_eastern,stadium_01,camera_far
+cartwheel_9_modified_south_east_asian.mp4,cartwheel,exercising arm,arm movements,incorrect,"['arm movements', 'other', 'play catch', 'kick', 'stretch']",camera_far,stadium_01,south_east_asian,stadium_01,camera_far
+cartwheel_9_modified_white.mp4,cartwheel,tai chi,other,incorrect,"['other', 'arm movements', 'kick', 'stretch', 'yoga']",camera_far,stadium_01,white,stadium_01,camera_far
+celebrate_0_initial.mp4,celebrate,stretching arm,stretch,incorrect,"['stretch', 'other', 'arm movements', 'play catch', 'throw']",camera_far,stadium_01,white,stadium_01,camera_far
+celebrate_0_modified_african.mp4,celebrate,exercising arm,arm movements,incorrect,"['arm movements', 'stretch', 'play catch', 'other', 'throw']",camera_far,stadium_01,african,stadium_01,camera_far
+celebrate_0_modified_asian.mp4,celebrate,stretching arm,stretch,incorrect,"['stretch', 'other', 'arm movements', 'play catch', 'throw']",camera_far,stadium_01,asian,stadium_01,camera_far
+celebrate_0_modified_hispanic.mp4,celebrate,exercising arm,arm movements,incorrect,"['arm movements', 'stretch', 'other', 'play catch', 'throw']",camera_far,stadium_01,hispanic,stadium_01,camera_far
+celebrate_0_modified_indian.mp4,celebrate,exercising arm,arm movements,incorrect,"['arm movements', 'stretch', 'play catch', 'other', 'throw']",camera_far,stadium_01,indian,stadium_01,camera_far
+celebrate_0_modified_middle_eastern.mp4,celebrate,stretching arm,stretch,incorrect,"['stretch', 'other', 'arm movements', 'throw', 'play catch']",camera_far,stadium_01,middle_eastern,stadium_01,camera_far
+celebrate_0_modified_south_east_asian.mp4,celebrate,stretching arm,stretch,incorrect,"['stretch', 'arm movements', 'other', 'play catch', 'throw']",camera_far,stadium_01,south_east_asian,stadium_01,camera_far
+celebrate_1_initial.mp4,celebrate,passing American football (not in game),other,incorrect,"['other', 'throw', 'other', 'throw', 'other']",camera_far,stadium_01,white,stadium_01,camera_far
+celebrate_1_modified_african.mp4,celebrate,throwing discus,throw,incorrect,"['throw', 'other', 'play catch', 'play catch', 'throw']",camera_far,stadium_01,african,stadium_01,camera_far
+celebrate_1_modified_asian.mp4,celebrate,throwing discus,throw,incorrect,"['throw', 'other', 'throw', 'other', 'play catch']",camera_far,stadium_01,asian,stadium_01,camera_far
+celebrate_1_modified_hispanic.mp4,celebrate,throwing discus,throw,incorrect,"['throw', 'other', 'play catch', 'other', 'throw']",camera_far,stadium_01,hispanic,stadium_01,camera_far
+celebrate_1_modified_indian.mp4,celebrate,throwing discus,throw,incorrect,"['throw', 'other', 'play catch', 'throw', 'other']",camera_far,stadium_01,indian,stadium_01,camera_far
+celebrate_1_modified_middle_eastern.mp4,celebrate,throwing discus,throw,incorrect,"['throw', 'other', 'other', 'throw', 'other']",camera_far,stadium_01,middle_eastern,stadium_01,camera_far
+celebrate_1_modified_south_east_asian.mp4,celebrate,throwing discus,throw,incorrect,"['throw', 'other', 'throw', 'play catch', 'other']",camera_far,stadium_01,south_east_asian,stadium_01,camera_far
+celebrate_2_initial.mp4,celebrate,tai chi,other,incorrect,"['other', 'juggle', 'juggle', 'dance', 'other']",camera_far,stadium_01,south_east_asian,stadium_01,camera_far
+celebrate_2_modified_african.mp4,celebrate,tai chi,other,incorrect,"['other', 'juggle', 'stretch', 'juggle', 'other']",camera_far,stadium_01,african,stadium_01,camera_far
+celebrate_2_modified_asian.mp4,celebrate,tai chi,other,incorrect,"['other', 'juggle', 'juggle', 'dance', 'other']",camera_far,stadium_01,asian,stadium_01,camera_far
+celebrate_2_modified_hispanic.mp4,celebrate,tai chi,other,incorrect,"['other', 'juggle', 'juggle', 'other', 'other']",camera_far,stadium_01,hispanic,stadium_01,camera_far
+celebrate_2_modified_indian.mp4,celebrate,tai chi,other,incorrect,"['other', 'juggle', 'stretch', 'juggle', 'other']",camera_far,stadium_01,indian,stadium_01,camera_far
+celebrate_2_modified_middle_eastern.mp4,celebrate,tai chi,other,incorrect,"['other', 'juggle', 'juggle', 'other', 'other']",camera_far,stadium_01,middle_eastern,stadium_01,camera_far
+celebrate_2_modified_white.mp4,celebrate,tai chi,other,incorrect,"['other', 'juggle', 'juggle', 'other', 'other']",camera_far,stadium_01,white,stadium_01,camera_far
+celebrate_3_initial.mp4,celebrate,passing American football (not in game),other,incorrect,"['other', 'throw', 'other', 'throw', 'other']",camera_far,stadium_01,white,stadium_01,camera_far
+celebrate_3_modified_african.mp4,celebrate,throwing discus,throw,incorrect,"['throw', 'other', 'throw', 'play catch', 'other']",camera_far,stadium_01,african,stadium_01,camera_far
+celebrate_3_modified_asian.mp4,celebrate,throwing discus,throw,incorrect,"['throw', 'other', 'throw', 'play catch', 'other']",camera_far,stadium_01,asian,stadium_01,camera_far
+celebrate_3_modified_hispanic.mp4,celebrate,throwing discus,throw,incorrect,"['throw', 'other', 'other', 'throw', 'play catch']",camera_far,stadium_01,hispanic,stadium_01,camera_far
+celebrate_3_modified_indian.mp4,celebrate,throwing discus,throw,incorrect,"['throw', 'other', 'throw', 'other', 'other']",camera_far,stadium_01,indian,stadium_01,camera_far
+celebrate_3_modified_middle_eastern.mp4,celebrate,passing American football (not in game),other,incorrect,"['other', 'throw', 'other', 'throw', 'play catch']",camera_far,stadium_01,middle_eastern,stadium_01,camera_far
+celebrate_3_modified_south_east_asian.mp4,celebrate,throwing discus,throw,incorrect,"['throw', 'other', 'throw', 'other', 'play catch']",camera_far,stadium_01,south_east_asian,stadium_01,camera_far
+celebrate_4_initial.mp4,celebrate,passing American football (not in game),other,incorrect,"['other', 'throw', 'other', 'other', 'other']",camera_far,stadium_01,middle_eastern,stadium_01,camera_far
+celebrate_4_modified_african.mp4,celebrate,passing American football (not in game),other,incorrect,"['other', 'throw', 'play catch', 'other', 'other']",camera_far,stadium_01,african,stadium_01,camera_far
+celebrate_4_modified_asian.mp4,celebrate,passing American football (not in game),other,incorrect,"['other', 'throw', 'other', 'other', 'other']",camera_far,stadium_01,asian,stadium_01,camera_far
+celebrate_4_modified_hispanic.mp4,celebrate,passing American football (not in game),other,incorrect,"['other', 'throw', 'other', 'other', 'throw']",camera_far,stadium_01,hispanic,stadium_01,camera_far
+celebrate_4_modified_indian.mp4,celebrate,passing American football (not in game),other,incorrect,"['other', 'throw', 'other', 'other', 'play catch']",camera_far,stadium_01,indian,stadium_01,camera_far
+celebrate_4_modified_south_east_asian.mp4,celebrate,passing American football (not in game),other,incorrect,"['other', 'throw', 'other', 'other', 'other']",camera_far,stadium_01,south_east_asian,stadium_01,camera_far
+celebrate_4_modified_white.mp4,celebrate,passing American football (not in game),other,incorrect,"['other', 'throw', 'other', 'other', 'other']",camera_far,stadium_01,white,stadium_01,camera_far
+celebrate_5_initial.mp4,celebrate,passing American football (not in game),other,incorrect,"['other', 'throw', 'other', 'play catch', 'other']",camera_far,stadium_01,indian,stadium_01,camera_far
+celebrate_5_modified_african.mp4,celebrate,passing American football (not in game),other,incorrect,"['other', 'play catch', 'throw', 'other', 'other']",camera_far,stadium_01,african,stadium_01,camera_far
+celebrate_5_modified_asian.mp4,celebrate,passing American football (not in game),other,incorrect,"['other', 'throw', 'other', 'play catch', 'other']",camera_far,stadium_01,asian,stadium_01,camera_far
+celebrate_5_modified_hispanic.mp4,celebrate,tai chi,other,incorrect,"['other', 'other', 'throw', 'other', 'play catch']",camera_far,stadium_01,hispanic,stadium_01,camera_far
+celebrate_5_modified_middle_eastern.mp4,celebrate,passing American football (not in game),other,incorrect,"['other', 'other', 'throw', 'other', 'other']",camera_far,stadium_01,middle_eastern,stadium_01,camera_far
+celebrate_5_modified_south_east_asian.mp4,celebrate,tai chi,other,incorrect,"['other', 'other', 'throw', 'other', 'play catch']",camera_far,stadium_01,south_east_asian,stadium_01,camera_far
+celebrate_5_modified_white.mp4,celebrate,passing American football (not in game),other,incorrect,"['other', 'other', 'throw', 'other', 'other']",camera_far,stadium_01,white,stadium_01,camera_far
+celebrate_6_initial.mp4,celebrate,throwing discus,throw,incorrect,"['throw', 'other', 'arm movements', 'stretch', 'other']",camera_far,stadium_01,hispanic,stadium_01,camera_far
+celebrate_6_modified_african.mp4,celebrate,exercising arm,arm movements,incorrect,"['arm movements', 'stretch', 'other', 'throw', 'other']",camera_far,stadium_01,african,stadium_01,camera_far
+celebrate_6_modified_asian.mp4,celebrate,throwing discus,throw,incorrect,"['throw', 'stretch', 'arm movements', 'other', 'other']",camera_far,stadium_01,asian,stadium_01,camera_far
+celebrate_6_modified_indian.mp4,celebrate,tai chi,other,incorrect,"['other', 'throw', 'arm movements', 'stretch', 'other']",camera_far,stadium_01,indian,stadium_01,camera_far
+celebrate_6_modified_middle_eastern.mp4,celebrate,exercising arm,arm movements,incorrect,"['arm movements', 'stretch', 'throw', 'other', 'play catch']",camera_far,stadium_01,middle_eastern,stadium_01,camera_far
+celebrate_6_modified_south_east_asian.mp4,celebrate,tai chi,other,incorrect,"['other', 'arm movements', 'throw', 'stretch', 'other']",camera_far,stadium_01,south_east_asian,stadium_01,camera_far
+celebrate_6_modified_white.mp4,celebrate,stretching arm,stretch,incorrect,"['stretch', 'arm movements', 'throw', 'other', 'other']",camera_far,stadium_01,white,stadium_01,camera_far
+celebrate_7_initial.mp4,celebrate,tai chi,other,incorrect,"['other', 'juggle', 'stretch', 'juggle', 'other']",camera_far,stadium_01,south_east_asian,stadium_01,camera_far
+celebrate_7_modified_african.mp4,celebrate,contact juggling,juggle,incorrect,"['juggle', 'other', 'play instrument', 'dance', 'juggle']",camera_far,stadium_01,african,stadium_01,camera_far
+celebrate_7_modified_asian.mp4,celebrate,tai chi,other,incorrect,"['other', 'juggle', 'stretch', 'juggle', 'other']",camera_far,stadium_01,asian,stadium_01,camera_far
+celebrate_7_modified_hispanic.mp4,celebrate,tai chi,other,incorrect,"['other', 'juggle', 'stretch', 'other', 'other']",camera_far,stadium_01,hispanic,stadium_01,camera_far
+celebrate_7_modified_indian.mp4,celebrate,tai chi,other,incorrect,"['other', 'juggle', 'juggle', 'dance', 'stretch']",camera_far,stadium_01,indian,stadium_01,camera_far
+celebrate_7_modified_middle_eastern.mp4,celebrate,tai chi,other,incorrect,"['other', 'other', 'stretch', 'juggle', 'other']",camera_far,stadium_01,middle_eastern,stadium_01,camera_far
+celebrate_7_modified_white.mp4,celebrate,tai chi,other,incorrect,"['other', 'juggle', 'stretch', 'other', 'juggle']",camera_far,stadium_01,white,stadium_01,camera_far
+celebrate_8_initial.mp4,celebrate,tai chi,other,incorrect,"['other', 'stretch', 'other', 'arm movements', 'other']",camera_far,stadium_01,white,stadium_01,camera_far
+celebrate_8_modified_african.mp4,celebrate,front raises,raise body part,incorrect,"['raise body part', 'arm movements', 'throw', 'stretch', 'other']",camera_far,stadium_01,african,stadium_01,camera_far
+celebrate_8_modified_asian.mp4,celebrate,tai chi,other,incorrect,"['other', 'stretch', 'arm movements', 'other', 'throw']",camera_far,stadium_01,asian,stadium_01,camera_far
+celebrate_8_modified_hispanic.mp4,celebrate,exercising arm,arm movements,incorrect,"['arm movements', 'other', 'stretch', 'throw', 'raise body part']",camera_far,stadium_01,hispanic,stadium_01,camera_far
+celebrate_8_modified_indian.mp4,celebrate,exercising arm,arm movements,incorrect,"['arm movements', 'raise body part', 'throw', 'stretch', 'other']",camera_far,stadium_01,indian,stadium_01,camera_far
+celebrate_8_modified_middle_eastern.mp4,celebrate,tai chi,other,incorrect,"['other', 'stretch', 'arm movements', 'throw', 'play catch']",camera_far,stadium_01,middle_eastern,stadium_01,camera_far
+celebrate_8_modified_south_east_asian.mp4,celebrate,exercising arm,arm movements,incorrect,"['arm movements', 'raise body part', 'throw', 'other', 'stretch']",camera_far,stadium_01,south_east_asian,stadium_01,camera_far
+celebrate_9_initial.mp4,celebrate,tai chi,other,incorrect,"['other', 'juggle', 'other', 'other', 'juggle']",camera_far,stadium_01,african,stadium_01,camera_far
+celebrate_9_modified_asian.mp4,celebrate,contact juggling,juggle,incorrect,"['juggle', 'other', 'juggle', 'other', 'stretch']",camera_far,stadium_01,asian,stadium_01,camera_far
+celebrate_9_modified_hispanic.mp4,celebrate,tai chi,other,incorrect,"['other', 'juggle', 'juggle', 'stretch', 'other']",camera_far,stadium_01,hispanic,stadium_01,camera_far
+celebrate_9_modified_indian.mp4,celebrate,tai chi,other,incorrect,"['other', 'juggle', 'other', 'juggle', 'stretch']",camera_far,stadium_01,indian,stadium_01,camera_far
+celebrate_9_modified_middle_eastern.mp4,celebrate,tai chi,other,incorrect,"['other', 'juggle', 'juggle', 'stretch', 'other']",camera_far,stadium_01,middle_eastern,stadium_01,camera_far
+celebrate_9_modified_south_east_asian.mp4,celebrate,tai chi,other,incorrect,"['other', 'juggle', 'other', 'juggle', 'stretch']",camera_far,stadium_01,south_east_asian,stadium_01,camera_far
+celebrate_9_modified_white.mp4,celebrate,contact juggling,juggle,incorrect,"['juggle', 'other', 'juggle', 'other', 'stretch']",camera_far,stadium_01,white,stadium_01,camera_far
+clap_0_initial.mp4,clap,sign language interpreting,other,incorrect,"['other', 'other', 'stretch', 'yoga', 'style hair']",camera_near,stadium_01,white,stadium_01,camera_near
+clap_0_modified_african.mp4,clap,finger snapping,other,incorrect,"['other', 'other', 'other', 'other', 'stretch']",camera_near,stadium_01,african,stadium_01,camera_near
+clap_0_modified_asian.mp4,clap,finger snapping,other,incorrect,"['other', 'stretch', 'other', 'other', 'other']",camera_near,stadium_01,asian,stadium_01,camera_near
+clap_0_modified_hispanic.mp4,clap,sign language interpreting,other,incorrect,"['other', 'style hair', 'other', 'other', 'other']",camera_near,stadium_01,hispanic,stadium_01,camera_near
+clap_0_modified_indian.mp4,clap,sign language interpreting,other,incorrect,"['other', 'stretch', 'other', 'juggle', 'style hair']",camera_near,stadium_01,indian,stadium_01,camera_near
+clap_0_modified_middle_eastern.mp4,clap,sign language interpreting,other,incorrect,"['other', 'style hair', 'style hair', 'other', 'stretch']",camera_near,stadium_01,middle_eastern,stadium_01,camera_near
+clap_0_modified_south_east_asian.mp4,clap,catching or throwing frisbee,other,incorrect,"['other', 'other', 'juggle', 'other', 'style hair']",camera_near,stadium_01,south_east_asian,stadium_01,camera_near
+clap_1_initial.mp4,clap,drinking,drink,incorrect,"['drink', 'other', 'drink', 'stretch', 'arm movements']",camera_near,stadium_01,white,stadium_01,camera_near
+clap_1_modified_african.mp4,clap,exercising arm,arm movements,incorrect,"['arm movements', 'stretch', 'other', 'other', 'clean something']",camera_near,stadium_01,african,stadium_01,camera_near
+clap_1_modified_asian.mp4,clap,flying kite,other,incorrect,"['other', 'clean something', 'drink', 'arm movements', 'stretch']",camera_near,stadium_01,asian,stadium_01,camera_near
+clap_1_modified_hispanic.mp4,clap,drinking,drink,incorrect,"['drink', 'other', 'clean something', 'arm movements', 'drink']",camera_near,stadium_01,hispanic,stadium_01,camera_near
+clap_1_modified_indian.mp4,clap,cleaning windows,clean something,incorrect,"['clean something', 'arm movements', 'other', 'other', 'stretch']",camera_near,stadium_01,indian,stadium_01,camera_near
+clap_1_modified_middle_eastern.mp4,clap,drinking,drink,incorrect,"['drink', 'other', 'drink', 'clean something', 'play sport']",camera_near,stadium_01,middle_eastern,stadium_01,camera_near
+clap_1_modified_south_east_asian.mp4,clap,drinking,drink,incorrect,"['drink', 'other', 'clean something', 'drink', 'play sport']",camera_near,stadium_01,south_east_asian,stadium_01,camera_near
+clap_2_initial.mp4,clap,playing recorder,other,incorrect,"['other', 'other', 'other', 'other', 'other']",camera_near,stadium_01,south_east_asian,stadium_01,camera_near
+clap_2_modified_african.mp4,clap,playing recorder,other,incorrect,"['other', 'other', 'other', 'other', 'clap']",camera_near,stadium_01,african,stadium_01,camera_near
+clap_2_modified_asian.mp4,clap,playing recorder,other,incorrect,"['other', 'other', 'other', 'other', 'other']",camera_near,stadium_01,asian,stadium_01,camera_near
+clap_2_modified_hispanic.mp4,clap,playing recorder,other,incorrect,"['other', 'other', 'clap', 'other', 'other']",camera_near,stadium_01,hispanic,stadium_01,camera_near
+clap_2_modified_indian.mp4,clap,playing recorder,other,incorrect,"['other', 'other', 'other', 'clap', 'other']",camera_near,stadium_01,indian,stadium_01,camera_near
+clap_2_modified_middle_eastern.mp4,clap,playing recorder,other,incorrect,"['other', 'other', 'clap', 'other', 'other']",camera_near,stadium_01,middle_eastern,stadium_01,camera_near
+clap_2_modified_white.mp4,clap,playing recorder,other,incorrect,"['other', 'other', 'clap', 'other', 'other']",camera_near,stadium_01,white,stadium_01,camera_near
+clap_3_initial.mp4,clap,playing recorder,other,incorrect,"['other', 'other', 'other', 'other', 'other']",camera_near,stadium_01,white,stadium_01,camera_near
+clap_3_modified_african.mp4,clap,playing recorder,other,incorrect,"['other', 'other', 'other', 'other', 'play instrument']",camera_near,stadium_01,african,stadium_01,camera_near
+clap_3_modified_asian.mp4,clap,playing recorder,other,incorrect,"['other', 'other', 'other', 'other', 'clap']",camera_near,stadium_01,asian,stadium_01,camera_near
+clap_3_modified_hispanic.mp4,clap,playing recorder,other,incorrect,"['other', 'other', 'other', 'other', 'play instrument']",camera_near,stadium_01,hispanic,stadium_01,camera_near
+clap_3_modified_indian.mp4,clap,playing recorder,other,incorrect,"['other', 'other', 'other', 'clap', 'other']",camera_near,stadium_01,indian,stadium_01,camera_near
+clap_3_modified_middle_eastern.mp4,clap,playing recorder,other,incorrect,"['other', 'other', 'other', 'other', 'play instrument']",camera_near,stadium_01,middle_eastern,stadium_01,camera_near
+clap_3_modified_south_east_asian.mp4,clap,playing recorder,other,incorrect,"['other', 'other', 'other', 'other', 'other']",camera_near,stadium_01,south_east_asian,stadium_01,camera_near
+clap_4_initial.mp4,clap,clapping,clap,correct,"['clap', 'clap', 'other', 'clasp hands', 'other']",camera_near,stadium_01,middle_eastern,stadium_01,camera_near
+clap_4_modified_african.mp4,clap,clapping,clap,correct,"['clap', 'other', 'clasp hands', 'other', 'other']",camera_near,stadium_01,african,stadium_01,camera_near
+clap_4_modified_asian.mp4,clap,clapping,clap,correct,"['clap', 'other', 'clasp hands', 'other', 'other']",camera_near,stadium_01,asian,stadium_01,camera_near
+clap_4_modified_hispanic.mp4,clap,clapping,clap,correct,"['clap', 'other', 'other', 'other', 'clasp hands']",camera_near,stadium_01,hispanic,stadium_01,camera_near
+clap_4_modified_indian.mp4,clap,clapping,clap,correct,"['clap', 'other', 'other', 'clasp hands', 'other']",camera_near,stadium_01,indian,stadium_01,camera_near
+clap_4_modified_south_east_asian.mp4,clap,clapping,clap,correct,"['clap', 'other', 'other', 'clasp hands', 'other']",camera_near,stadium_01,south_east_asian,stadium_01,camera_near
+clap_4_modified_white.mp4,clap,clapping,clap,correct,"['clap', 'clap', 'other', 'other', 'other']",camera_near,stadium_01,white,stadium_01,camera_near
+clap_5_initial.mp4,clap,contact juggling,juggle,incorrect,"['juggle', 'clap', 'other', 'other', 'other']",camera_near,stadium_01,indian,stadium_01,camera_near
+clap_5_modified_african.mp4,clap,drumming fingers,other,incorrect,"['other', 'other', 'clap', 'clap', 'other']",camera_near,stadium_01,african,stadium_01,camera_near
+clap_5_modified_asian.mp4,clap,contact juggling,juggle,incorrect,"['juggle', 'other', 'clap', 'other', 'other']",camera_near,stadium_01,asian,stadium_01,camera_near
+clap_5_modified_hispanic.mp4,clap,clapping,clap,correct,"['clap', 'other', 'other', 'other', 'juggle']",camera_near,stadium_01,hispanic,stadium_01,camera_near
+clap_5_modified_middle_eastern.mp4,clap,contact juggling,juggle,incorrect,"['juggle', 'other', 'clap', 'other', 'dance']",camera_near,stadium_01,middle_eastern,stadium_01,camera_near
+clap_5_modified_south_east_asian.mp4,clap,contact juggling,juggle,incorrect,"['juggle', 'shuffle', 'other', 'other', 'juggle']",camera_near,stadium_01,south_east_asian,stadium_01,camera_near
+clap_5_modified_white.mp4,clap,contact juggling,juggle,incorrect,"['juggle', 'other', 'clap', 'other', 'dance']",camera_near,stadium_01,white,stadium_01,camera_near
+clap_6_initial.mp4,clap,stretching arm,stretch,incorrect,"['stretch', 'stretch', 'arm movements', 'yoga', 'other']",camera_near,stadium_01,hispanic,stadium_01,camera_near
+clap_6_modified_african.mp4,clap,stretching arm,stretch,incorrect,"['stretch', 'stretch', 'arm movements', 'yoga', 'other']",camera_near,stadium_01,african,stadium_01,camera_near
+clap_6_modified_asian.mp4,clap,stretching arm,stretch,incorrect,"['stretch', 'stretch', 'arm movements', 'yoga', 'squat']",camera_near,stadium_01,asian,stadium_01,camera_near
+clap_6_modified_indian.mp4,clap,stretching arm,stretch,incorrect,"['stretch', 'stretch', 'arm movements', 'yoga', 'other']",camera_near,stadium_01,indian,stadium_01,camera_near
+clap_6_modified_middle_eastern.mp4,clap,stretching arm,stretch,incorrect,"['stretch', 'arm movements', 'stretch', 'yoga', 'squat']",camera_near,stadium_01,middle_eastern,stadium_01,camera_near
+clap_6_modified_south_east_asian.mp4,clap,stretching arm,stretch,incorrect,"['stretch', 'stretch', 'arm movements', 'yoga', 'other']",camera_near,stadium_01,south_east_asian,stadium_01,camera_near
+clap_6_modified_white.mp4,clap,stretching arm,stretch,incorrect,"['stretch', 'stretch', 'arm movements', 'yoga', 'squat']",camera_near,stadium_01,white,stadium_01,camera_near
+clap_7_initial.mp4,clap,playing recorder,other,incorrect,"['other', 'other', 'other', 'other', 'other']",camera_near,stadium_01,south_east_asian,stadium_01,camera_near
+clap_7_modified_african.mp4,clap,playing recorder,other,incorrect,"['other', 'other', 'other', 'other', 'other']",camera_near,stadium_01,african,stadium_01,camera_near
+clap_7_modified_asian.mp4,clap,playing recorder,other,incorrect,"['other', 'other', 'other', 'clap', 'other']",camera_near,stadium_01,asian,stadium_01,camera_near
+clap_7_modified_hispanic.mp4,clap,playing recorder,other,incorrect,"['other', 'other', 'other', 'other', 'shuffle']",camera_near,stadium_01,hispanic,stadium_01,camera_near
+clap_7_modified_indian.mp4,clap,playing recorder,other,incorrect,"['other', 'other', 'other', 'clap', 'other']",camera_near,stadium_01,indian,stadium_01,camera_near
+clap_7_modified_middle_eastern.mp4,clap,playing recorder,other,incorrect,"['other', 'clap', 'other', 'other', 'other']",camera_near,stadium_01,middle_eastern,stadium_01,camera_near
+clap_7_modified_white.mp4,clap,playing ukulele,other,incorrect,"['other', 'other', 'clap', 'other', 'other']",camera_near,stadium_01,white,stadium_01,camera_near
+clap_8_initial.mp4,clap,clapping,clap,correct,"['clap', 'other', 'other', 'juggle', 'yoga']",camera_near,stadium_01,white,stadium_01,camera_near
+clap_8_modified_african.mp4,clap,clapping,clap,correct,"['clap', 'dance', 'wash', 'other', 'other']",camera_near,stadium_01,african,stadium_01,camera_near
+clap_8_modified_asian.mp4,clap,clapping,clap,correct,"['clap', 'other', 'other', 'juggle', 'other']",camera_near,stadium_01,asian,stadium_01,camera_near
+clap_8_modified_hispanic.mp4,clap,clapping,clap,correct,"['clap', 'yoga', 'other', 'other', 'dance']",camera_near,stadium_01,hispanic,stadium_01,camera_near
+clap_8_modified_indian.mp4,clap,clapping,clap,correct,"['clap', 'dance', 'wash', 'other', 'clasp hands']",camera_near,stadium_01,indian,stadium_01,camera_near
+clap_8_modified_middle_eastern.mp4,clap,clapping,clap,correct,"['clap', 'other', 'other', 'juggle', 'other']",camera_near,stadium_01,middle_eastern,stadium_01,camera_near
+clap_8_modified_south_east_asian.mp4,clap,clapping,clap,correct,"['clap', 'dance', 'other', 'other', 'juggle']",camera_near,stadium_01,south_east_asian,stadium_01,camera_near
+clap_9_initial.mp4,clap,slacklining,other,incorrect,"['other', 'stretch', 'play sport', 'yoga', 'jump']",camera_near,stadium_01,african,stadium_01,camera_near
+clap_9_modified_asian.mp4,clap,slacklining,other,incorrect,"['other', 'stretch', 'other', 'other', 'play sport']",camera_near,stadium_01,asian,stadium_01,camera_near
+clap_9_modified_hispanic.mp4,clap,slacklining,other,incorrect,"['other', 'stretch', 'jump', 'yoga', 'stretch']",camera_near,stadium_01,hispanic,stadium_01,camera_near
+clap_9_modified_indian.mp4,clap,slacklining,other,incorrect,"['other', 'play sport', 'stretch', 'other', 'other']",camera_near,stadium_01,indian,stadium_01,camera_near
+clap_9_modified_middle_eastern.mp4,clap,stretching arm,stretch,incorrect,"['stretch', 'other', 'jump', 'other', 'yoga']",camera_near,stadium_01,middle_eastern,stadium_01,camera_near
+clap_9_modified_south_east_asian.mp4,clap,playing cricket,play sport,incorrect,"['play sport', 'stretch', 'other', 'jump', 'other']",camera_near,stadium_01,south_east_asian,stadium_01,camera_near
+clap_9_modified_white.mp4,clap,somersaulting,jump,incorrect,"['jump', 'stretch', 'other', 'yoga', 'other']",camera_near,stadium_01,white,stadium_01,camera_near
+cry_0_initial.mp4,cry,slapping,other,incorrect,"['other', 'other', 'touching body parts', 'other', 'other']",camera_near,konzerthaus,white,konzerthaus,camera_near
+cry_0_modified_african.mp4,cry,slapping,other,incorrect,"['other', 'other', 'other', 'play instrument', 'other']",camera_near,konzerthaus,african,konzerthaus,camera_near
+cry_0_modified_asian.mp4,cry,slapping,other,incorrect,"['other', 'other', 'other', 'clasp hands', 'other']",camera_near,konzerthaus,asian,konzerthaus,camera_near
+cry_0_modified_hispanic.mp4,cry,slapping,other,incorrect,"['other', 'other', 'other', 'other', 'other']",camera_near,konzerthaus,hispanic,konzerthaus,camera_near
+cry_0_modified_indian.mp4,cry,slapping,other,incorrect,"['other', 'other', 'other', 'other', 'play instrument']",camera_near,konzerthaus,indian,konzerthaus,camera_near
+cry_0_modified_middle_eastern.mp4,cry,slapping,other,incorrect,"['other', 'other', 'touching body parts', 'other', 'other']",camera_near,konzerthaus,middle_eastern,konzerthaus,camera_near
+cry_0_modified_south_east_asian.mp4,cry,slapping,other,incorrect,"['other', 'other', 'clasp hands', 'play instrument', 'other']",camera_near,konzerthaus,south_east_asian,konzerthaus,camera_near
+cry_1_initial.mp4,cry,slapping,other,incorrect,"['other', 'other', 'touching body parts', 'other', 'stretch']",camera_near,konzerthaus,white,konzerthaus,camera_near
+cry_1_modified_african.mp4,cry,air drumming,other,incorrect,"['other', 'other', 'dance', 'other', 'perform']",camera_near,konzerthaus,african,konzerthaus,camera_near
+cry_1_modified_asian.mp4,cry,slapping,other,incorrect,"['other', 'other', 'stretch', 'other', 'jog']",camera_near,konzerthaus,asian,konzerthaus,camera_near
+cry_1_modified_hispanic.mp4,cry,slapping,other,incorrect,"['other', 'punch', 'other', 'stretch', 'kick']",camera_near,konzerthaus,hispanic,konzerthaus,camera_near
+cry_1_modified_indian.mp4,cry,punching person (boxing),punch,incorrect,"['punch', 'other', 'kick', 'punch', 'other']",camera_near,konzerthaus,indian,konzerthaus,camera_near
+cry_1_modified_middle_eastern.mp4,cry,punching person (boxing),punch,incorrect,"['punch', 'stretch', 'other', 'kick', 'other']",camera_near,konzerthaus,middle_eastern,konzerthaus,camera_near
+cry_1_modified_south_east_asian.mp4,cry,slapping,other,incorrect,"['other', 'punch', 'stretch', 'clasp hands', 'kick']",camera_near,konzerthaus,south_east_asian,konzerthaus,camera_near
+cry_2_initial.mp4,cry,slapping,other,incorrect,"['other', 'other', 'other', 'touching body parts', 'other']",camera_near,konzerthaus,south_east_asian,konzerthaus,camera_near
+cry_2_modified_african.mp4,cry,slapping,other,incorrect,"['other', 'other', 'other', 'play instrument', 'stretch']",camera_near,konzerthaus,african,konzerthaus,camera_near
+cry_2_modified_asian.mp4,cry,slapping,other,incorrect,"['other', 'other', 'stretch', 'other', 'other']",camera_near,konzerthaus,asian,konzerthaus,camera_near
+cry_2_modified_hispanic.mp4,cry,slapping,other,incorrect,"['other', 'other', 'other', 'touching body parts', 'other']",camera_near,konzerthaus,hispanic,konzerthaus,camera_near
+cry_2_modified_indian.mp4,cry,slapping,other,incorrect,"['other', 'other', 'head movements', 'other', 'other']",camera_near,konzerthaus,indian,konzerthaus,camera_near
+cry_2_modified_middle_eastern.mp4,cry,slapping,other,incorrect,"['other', 'other', 'other', 'other', 'touching body parts']",camera_near,konzerthaus,middle_eastern,konzerthaus,camera_near
+cry_2_modified_white.mp4,cry,slapping,other,incorrect,"['other', 'touching body parts', 'stretch', 'other', 'other']",camera_near,konzerthaus,white,konzerthaus,camera_near
+cry_3_initial.mp4,cry,slapping,other,incorrect,"['other', 'other', 'touching body parts', 'other', 'perform']",camera_near,konzerthaus,white,konzerthaus,camera_near
+cry_3_modified_african.mp4,cry,slapping,other,incorrect,"['other', 'other', 'other', 'play instrument', 'other']",camera_near,konzerthaus,african,konzerthaus,camera_near
+cry_3_modified_asian.mp4,cry,slapping,other,incorrect,"['other', 'other', 'other', 'perform', 'other']",camera_near,konzerthaus,asian,konzerthaus,camera_near
+cry_3_modified_hispanic.mp4,cry,slapping,other,incorrect,"['other', 'other', 'other', 'clasp hands', 'touching body parts']",camera_near,konzerthaus,hispanic,konzerthaus,camera_near
+cry_3_modified_indian.mp4,cry,slapping,other,incorrect,"['other', 'other', 'play instrument', 'other', 'other']",camera_near,konzerthaus,indian,konzerthaus,camera_near
+cry_3_modified_middle_eastern.mp4,cry,slapping,other,incorrect,"['other', 'other', 'touching body parts', 'other', 'other']",camera_near,konzerthaus,middle_eastern,konzerthaus,camera_near
+cry_3_modified_south_east_asian.mp4,cry,slapping,other,incorrect,"['other', 'other', 'other', 'other', 'other']",camera_near,konzerthaus,south_east_asian,konzerthaus,camera_near
+cry_4_initial.mp4,cry,stretching arm,stretch,incorrect,"['stretch', 'other', 'punch', 'kick', 'other']",camera_near,konzerthaus,middle_eastern,konzerthaus,camera_near
+cry_4_modified_african.mp4,cry,air drumming,other,incorrect,"['other', 'other', 'other', 'perform', 'other']",camera_near,konzerthaus,african,konzerthaus,camera_near
+cry_4_modified_asian.mp4,cry,slapping,other,incorrect,"['other', 'stretch', 'other', 'touching body parts', 'other']",camera_near,konzerthaus,asian,konzerthaus,camera_near
+cry_4_modified_hispanic.mp4,cry,punching person (boxing),punch,incorrect,"['punch', 'other', 'stretch', 'punch', 'kick']",camera_near,konzerthaus,hispanic,konzerthaus,camera_near
+cry_4_modified_indian.mp4,cry,catching or throwing frisbee,other,incorrect,"['other', 'juggle', 'perform', 'other', 'other']",camera_near,konzerthaus,indian,konzerthaus,camera_near
+cry_4_modified_south_east_asian.mp4,cry,slapping,other,incorrect,"['other', 'punch', 'stretch', 'clasp hands', 'kick']",camera_near,konzerthaus,south_east_asian,konzerthaus,camera_near
+cry_4_modified_white.mp4,cry,slapping,other,incorrect,"['other', 'touching body parts', 'other', 'other', 'stretch']",camera_near,konzerthaus,white,konzerthaus,camera_near
+cry_5_initial.mp4,cry,slapping,other,incorrect,"['other', 'other', 'other', 'stretch', 'other']",camera_near,konzerthaus,indian,konzerthaus,camera_near
+cry_5_modified_african.mp4,cry,slapping,other,incorrect,"['other', 'other', 'dance', 'other', 'other']",camera_near,konzerthaus,african,konzerthaus,camera_near
+cry_5_modified_asian.mp4,cry,slapping,other,incorrect,"['other', 'other', 'other', 'other', 'touching body parts']",camera_near,konzerthaus,asian,konzerthaus,camera_near
+cry_5_modified_hispanic.mp4,cry,slapping,other,incorrect,"['other', 'touching body parts', 'stretch', 'other', 'other']",camera_near,konzerthaus,hispanic,konzerthaus,camera_near
+cry_5_modified_middle_eastern.mp4,cry,slapping,other,incorrect,"['other', 'other', 'other', 'touching body parts', 'other']",camera_near,konzerthaus,middle_eastern,konzerthaus,camera_near
+cry_5_modified_south_east_asian.mp4,cry,slapping,other,incorrect,"['other', 'other', 'other', 'touching body parts', 'clasp hands']",camera_near,konzerthaus,south_east_asian,konzerthaus,camera_near
+cry_5_modified_white.mp4,cry,slapping,other,incorrect,"['other', 'other', 'other', 'touching body parts', 'other']",camera_near,konzerthaus,white,konzerthaus,camera_near
+cry_6_initial.mp4,cry,slapping,other,incorrect,"['other', 'other', 'other', 'other', 'other']",camera_near,konzerthaus,hispanic,konzerthaus,camera_near
+cry_6_modified_african.mp4,cry,playing keyboard,other,incorrect,"['other', 'other', 'play instrument', 'other', 'other']",camera_near,konzerthaus,african,konzerthaus,camera_near
+cry_6_modified_asian.mp4,cry,slapping,other,incorrect,"['other', 'other', 'other', 'clasp hands', 'other']",camera_near,konzerthaus,asian,konzerthaus,camera_near
+cry_6_modified_indian.mp4,cry,slapping,other,incorrect,"['other', 'other', 'other', 'other', 'play instrument']",camera_near,konzerthaus,indian,konzerthaus,camera_near
+cry_6_modified_middle_eastern.mp4,cry,slapping,other,incorrect,"['other', 'other', 'touching body parts', 'other', 'other']",camera_near,konzerthaus,middle_eastern,konzerthaus,camera_near
+cry_6_modified_south_east_asian.mp4,cry,slapping,other,incorrect,"['other', 'other', 'clasp hands', 'play instrument', 'other']",camera_near,konzerthaus,south_east_asian,konzerthaus,camera_near
+cry_6_modified_white.mp4,cry,slapping,other,incorrect,"['other', 'other', 'touching body parts', 'other', 'perform']",camera_near,konzerthaus,white,konzerthaus,camera_near
+cry_7_initial.mp4,cry,slapping,other,incorrect,"['other', 'stretch', 'punch', 'clasp hands', 'kick']",camera_near,konzerthaus,south_east_asian,konzerthaus,camera_near
+cry_7_modified_african.mp4,cry,air drumming,other,incorrect,"['other', 'other', 'perform', 'other', 'other']",camera_near,konzerthaus,african,konzerthaus,camera_near
+cry_7_modified_asian.mp4,cry,slapping,other,incorrect,"['other', 'punch', 'stretch', 'other', 'kick']",camera_near,konzerthaus,asian,konzerthaus,camera_near
+cry_7_modified_hispanic.mp4,cry,slapping,other,incorrect,"['other', 'other', 'punch', 'dance', 'perform']",camera_near,konzerthaus,hispanic,konzerthaus,camera_near
+cry_7_modified_indian.mp4,cry,slapping,other,incorrect,"['other', 'perform', 'other', 'punch', 'stretch']",camera_near,konzerthaus,indian,konzerthaus,camera_near
+cry_7_modified_middle_eastern.mp4,cry,kissing,other,incorrect,"['other', 'stretch', 'other', 'yoga', 'touching body parts']",camera_near,konzerthaus,middle_eastern,konzerthaus,camera_near
+cry_7_modified_white.mp4,cry,stretching arm,stretch,incorrect,"['stretch', 'other', 'other', 'touching body parts', 'other']",camera_near,konzerthaus,white,konzerthaus,camera_near
+cry_8_initial.mp4,cry,slapping,other,incorrect,"['other', 'touching body parts', 'stretch', 'other', 'other']",camera_near,konzerthaus,white,konzerthaus,camera_near
+cry_8_modified_african.mp4,cry,slapping,other,incorrect,"['other', 'other', 'other', 'other', 'perform']",camera_near,konzerthaus,african,konzerthaus,camera_near
+cry_8_modified_asian.mp4,cry,slapping,other,incorrect,"['other', 'other', 'stretch', 'other', 'other']",camera_near,konzerthaus,asian,konzerthaus,camera_near
+cry_8_modified_hispanic.mp4,cry,slapping,other,incorrect,"['other', 'touching body parts', 'stretch', 'other', 'other']",camera_near,konzerthaus,hispanic,konzerthaus,camera_near
+cry_8_modified_indian.mp4,cry,slapping,other,incorrect,"['other', 'other', 'other', 'other', 'touching body parts']",camera_near,konzerthaus,indian,konzerthaus,camera_near
+cry_8_modified_middle_eastern.mp4,cry,slapping,other,incorrect,"['other', 'touching body parts', 'other', 'other', 'other']",camera_near,konzerthaus,middle_eastern,konzerthaus,camera_near
+cry_8_modified_south_east_asian.mp4,cry,slapping,other,incorrect,"['other', 'other', 'other', 'touching body parts', 'clasp hands']",camera_near,konzerthaus,south_east_asian,konzerthaus,camera_near
+cry_9_initial.mp4,cry,air drumming,other,incorrect,"['other', 'other', 'other', 'other', 'perform']",camera_near,konzerthaus,african,konzerthaus,camera_near
+cry_9_modified_asian.mp4,cry,stretching arm,stretch,incorrect,"['stretch', 'other', 'yoga', 'arm movements', 'plead']",camera_near,konzerthaus,asian,konzerthaus,camera_near
+cry_9_modified_hispanic.mp4,cry,slapping,other,incorrect,"['other', 'other', 'punch', 'dance', 'perform']",camera_near,konzerthaus,hispanic,konzerthaus,camera_near
+cry_9_modified_indian.mp4,cry,beatboxing,other,incorrect,"['other', 'other', 'other', 'perform', 'other']",camera_near,konzerthaus,indian,konzerthaus,camera_near
+cry_9_modified_middle_eastern.mp4,cry,slapping,other,incorrect,"['other', 'stretch', 'punch', 'other', 'kick']",camera_near,konzerthaus,middle_eastern,konzerthaus,camera_near
+cry_9_modified_south_east_asian.mp4,cry,slapping,other,incorrect,"['other', 'stretch', 'punch', 'clasp hands', 'perform']",camera_near,konzerthaus,south_east_asian,konzerthaus,camera_near
+cry_9_modified_white.mp4,cry,slapping,other,incorrect,"['other', 'stretch', 'other', 'touching body parts', 'other']",camera_near,konzerthaus,white,konzerthaus,camera_near
+dribble_0_initial.mp4,dribble,tai chi,other,incorrect,"['other', 'play instrument', 'style hair', 'other', 'juggle']",camera_near,konzerthaus,white,konzerthaus,camera_near
+dribble_0_modified_african.mp4,dribble,tai chi,other,incorrect,"['other', 'play instrument', 'juggle', 'other', 'style hair']",camera_near,konzerthaus,african,konzerthaus,camera_near
+dribble_0_modified_asian.mp4,dribble,tai chi,other,incorrect,"['other', 'play instrument', 'style hair', 'other', 'raise body part']",camera_near,konzerthaus,asian,konzerthaus,camera_near
+dribble_0_modified_hispanic.mp4,dribble,tai chi,other,incorrect,"['other', 'play instrument', 'other', 'style hair', 'juggle']",camera_near,konzerthaus,hispanic,konzerthaus,camera_near
+dribble_0_modified_indian.mp4,dribble,tai chi,other,incorrect,"['other', 'play instrument', 'juggle', 'other', 'style hair']",camera_near,konzerthaus,indian,konzerthaus,camera_near
+dribble_0_modified_middle_eastern.mp4,dribble,tai chi,other,incorrect,"['other', 'play instrument', 'other', 'style hair', 'juggle']",camera_near,konzerthaus,middle_eastern,konzerthaus,camera_near
+dribble_0_modified_south_east_asian.mp4,dribble,tai chi,other,incorrect,"['other', 'play instrument', 'other', 'style hair', 'raise body part']",camera_near,konzerthaus,south_east_asian,konzerthaus,camera_near
+dribble_1_initial.mp4,dribble,kissing,other,incorrect,"['other', 'other', 'juggle', 'other', 'yoga']",camera_near,konzerthaus,white,konzerthaus,camera_near
+dribble_1_modified_african.mp4,dribble,smoking,other,incorrect,"['other', 'other', 'juggle', 'other', 'other']",camera_near,konzerthaus,african,konzerthaus,camera_near
+dribble_1_modified_asian.mp4,dribble,kissing,other,incorrect,"['other', 'other', 'juggle', 'yoga', 'other']",camera_near,konzerthaus,asian,konzerthaus,camera_near
+dribble_1_modified_hispanic.mp4,dribble,smoking,other,incorrect,"['other', 'other', 'juggle', 'other', 'yoga']",camera_near,konzerthaus,hispanic,konzerthaus,camera_near
+dribble_1_modified_indian.mp4,dribble,smoking,other,incorrect,"['other', 'other', 'juggle', 'other', 'other']",camera_near,konzerthaus,indian,konzerthaus,camera_near
+dribble_1_modified_middle_eastern.mp4,dribble,kissing,other,incorrect,"['other', 'other', 'other', 'juggle', 'yoga']",camera_near,konzerthaus,middle_eastern,konzerthaus,camera_near
+dribble_1_modified_south_east_asian.mp4,dribble,smoking,other,incorrect,"['other', 'other', 'juggle', 'other', 'yoga']",camera_near,konzerthaus,south_east_asian,konzerthaus,camera_near
+dribble_2_initial.mp4,dribble,yoga,yoga,incorrect,"['yoga', 'juggle', 'other', 'dance', 'stretch']",camera_near,konzerthaus,south_east_asian,konzerthaus,camera_near
+dribble_2_modified_african.mp4,dribble,jumpstyle dancing,dance,incorrect,"['dance', 'other', 'other', 'yoga', 'other']",camera_near,konzerthaus,african,konzerthaus,camera_near
+dribble_2_modified_asian.mp4,dribble,jumpstyle dancing,dance,incorrect,"['dance', 'yoga', 'other', 'other', 'other']",camera_near,konzerthaus,asian,konzerthaus,camera_near
+dribble_2_modified_hispanic.mp4,dribble,beatboxing,other,incorrect,"['other', 'dance', 'yoga', 'other', 'juggle']",camera_near,konzerthaus,hispanic,konzerthaus,camera_near
+dribble_2_modified_indian.mp4,dribble,beatboxing,other,incorrect,"['other', 'dance', 'juggle', 'other', 'yoga']",camera_near,konzerthaus,indian,konzerthaus,camera_near
+dribble_2_modified_middle_eastern.mp4,dribble,yoga,yoga,incorrect,"['yoga', 'dance', 'dance', 'juggle', 'other']",camera_near,konzerthaus,middle_eastern,konzerthaus,camera_near
+dribble_2_modified_white.mp4,dribble,yoga,yoga,incorrect,"['yoga', 'dance', 'juggle', 'dance', 'other']",camera_near,konzerthaus,white,konzerthaus,camera_near
+dribble_3_initial.mp4,dribble,yoga,yoga,incorrect,"['yoga', 'dance', 'dance', 'juggle', 'other']",camera_near,konzerthaus,white,konzerthaus,camera_near
+dribble_3_modified_african.mp4,dribble,jumpstyle dancing,dance,incorrect,"['dance', 'yoga', 'other', 'other', 'other']",camera_near,konzerthaus,african,konzerthaus,camera_near
+dribble_3_modified_asian.mp4,dribble,jumpstyle dancing,dance,incorrect,"['dance', 'other', 'yoga', 'juggle', 'jog']",camera_near,konzerthaus,asian,konzerthaus,camera_near
+dribble_3_modified_hispanic.mp4,dribble,jumpstyle dancing,dance,incorrect,"['dance', 'yoga', 'other', 'jog', 'juggle']",camera_near,konzerthaus,hispanic,konzerthaus,camera_near
+dribble_3_modified_indian.mp4,dribble,yoga,yoga,incorrect,"['yoga', 'dance', 'other', 'jog', 'juggle']",camera_near,konzerthaus,indian,konzerthaus,camera_near
+dribble_3_modified_middle_eastern.mp4,dribble,yoga,yoga,incorrect,"['yoga', 'dance', 'dance', 'juggle', 'other']",camera_near,konzerthaus,middle_eastern,konzerthaus,camera_near
+dribble_3_modified_south_east_asian.mp4,dribble,yoga,yoga,incorrect,"['yoga', 'dance', 'other', 'juggle', 'jog']",camera_near,konzerthaus,south_east_asian,konzerthaus,camera_near
+dribble_4_initial.mp4,dribble,tai chi,other,incorrect,"['other', 'style hair', 'touching body parts', 'play instrument', 'hug']",camera_near,konzerthaus,middle_eastern,konzerthaus,camera_near
+dribble_4_modified_african.mp4,dribble,tai chi,other,incorrect,"['other', 'hug', 'other', 'kick', 'other']",camera_near,konzerthaus,african,konzerthaus,camera_near
+dribble_4_modified_asian.mp4,dribble,tai chi,other,incorrect,"['other', 'hug', 'style hair', 'touching body parts', 'play instrument']",camera_near,konzerthaus,asian,konzerthaus,camera_near
+dribble_4_modified_hispanic.mp4,dribble,tai chi,other,incorrect,"['other', 'hug', 'touching body parts', 'style hair', 'other']",camera_near,konzerthaus,hispanic,konzerthaus,camera_near
+dribble_4_modified_indian.mp4,dribble,tai chi,other,incorrect,"['other', 'hug', 'touching body parts', 'other', 'other']",camera_near,konzerthaus,indian,konzerthaus,camera_near
+dribble_4_modified_south_east_asian.mp4,dribble,tai chi,other,incorrect,"['other', 'hug', 'touching body parts', 'style hair', 'other']",camera_near,konzerthaus,south_east_asian,konzerthaus,camera_near
+dribble_4_modified_white.mp4,dribble,tai chi,other,incorrect,"['other', 'style hair', 'touching body parts', 'hug', 'other']",camera_near,konzerthaus,white,konzerthaus,camera_near
+dribble_5_initial.mp4,dribble,beatboxing,other,incorrect,"['other', 'yoga', 'juggle', 'other', 'other']",camera_near,konzerthaus,indian,konzerthaus,camera_near
+dribble_5_modified_african.mp4,dribble,beatboxing,other,incorrect,"['other', 'yoga', 'juggle', 'other', 'other']",camera_near,konzerthaus,african,konzerthaus,camera_near
+dribble_5_modified_asian.mp4,dribble,yoga,yoga,incorrect,"['yoga', 'juggle', 'other', 'jog', 'stretch']",camera_near,konzerthaus,asian,konzerthaus,camera_near
+dribble_5_modified_hispanic.mp4,dribble,yoga,yoga,incorrect,"['yoga', 'juggle', 'other', 'stretch', 'other']",camera_near,konzerthaus,hispanic,konzerthaus,camera_near
+dribble_5_modified_middle_eastern.mp4,dribble,yoga,yoga,incorrect,"['yoga', 'juggle', 'other', 'jog', 'other']",camera_near,konzerthaus,middle_eastern,konzerthaus,camera_near
+dribble_5_modified_south_east_asian.mp4,dribble,yoga,yoga,incorrect,"['yoga', 'juggle', 'other', 'jog', 'stretch']",camera_near,konzerthaus,south_east_asian,konzerthaus,camera_near
+dribble_5_modified_white.mp4,dribble,yoga,yoga,incorrect,"['yoga', 'juggle', 'stretch', 'jog', 'dance']",camera_near,konzerthaus,white,konzerthaus,camera_near
+dribble_6_initial.mp4,dribble,tai chi,other,incorrect,"['other', 'other', 'other', 'other', 'other']",camera_near,konzerthaus,hispanic,konzerthaus,camera_near
+dribble_6_modified_african.mp4,dribble,tai chi,other,incorrect,"['other', 'other', 'other', 'other', 'other']",camera_near,konzerthaus,african,konzerthaus,camera_near
+dribble_6_modified_asian.mp4,dribble,tai chi,other,incorrect,"['other', 'other', 'other', 'other', 'play instrument']",camera_near,konzerthaus,asian,konzerthaus,camera_near
+dribble_6_modified_indian.mp4,dribble,tai chi,other,incorrect,"['other', 'other', 'other', 'other', 'clean something']",camera_near,konzerthaus,indian,konzerthaus,camera_near
+dribble_6_modified_middle_eastern.mp4,dribble,tai chi,other,incorrect,"['other', 'other', 'other', 'other', 'other']",camera_near,konzerthaus,middle_eastern,konzerthaus,camera_near
+dribble_6_modified_south_east_asian.mp4,dribble,tai chi,other,incorrect,"['other', 'other', 'other', 'other', 'clean something']",camera_near,konzerthaus,south_east_asian,konzerthaus,camera_near
+dribble_6_modified_white.mp4,dribble,tai chi,other,incorrect,"['other', 'other', 'other', 'other', 'other']",camera_near,konzerthaus,white,konzerthaus,camera_near
+dribble_7_initial.mp4,dribble,kissing,other,incorrect,"['other', 'juggle', 'other', 'other', 'other']",camera_near,konzerthaus,south_east_asian,konzerthaus,camera_near
+dribble_7_modified_african.mp4,dribble,kissing,other,incorrect,"['other', 'juggle', 'other', 'other', 'other']",camera_near,konzerthaus,african,konzerthaus,camera_near
+dribble_7_modified_asian.mp4,dribble,kissing,other,incorrect,"['other', 'juggle', 'other', 'other', 'other']",camera_near,konzerthaus,asian,konzerthaus,camera_near
+dribble_7_modified_hispanic.mp4,dribble,kissing,other,incorrect,"['other', 'juggle', 'other', 'other', 'other']",camera_near,konzerthaus,hispanic,konzerthaus,camera_near
+dribble_7_modified_indian.mp4,dribble,kissing,other,incorrect,"['other', 'juggle', 'other', 'other', 'other']",camera_near,konzerthaus,indian,konzerthaus,camera_near
+dribble_7_modified_middle_eastern.mp4,dribble,kissing,other,incorrect,"['other', 'other', 'juggle', 'other', 'other']",camera_near,konzerthaus,middle_eastern,konzerthaus,camera_near
+dribble_7_modified_white.mp4,dribble,kissing,other,incorrect,"['other', 'other', 'other', 'other', 'juggle']",camera_near,konzerthaus,white,konzerthaus,camera_near
+dribble_8_initial.mp4,dribble,kissing,other,incorrect,"['other', 'other', 'other', 'other', 'juggle']",camera_near,konzerthaus,white,konzerthaus,camera_near
+dribble_8_modified_african.mp4,dribble,slapping,other,incorrect,"['other', 'other', 'other', 'other', 'other']",camera_near,konzerthaus,african,konzerthaus,camera_near
+dribble_8_modified_asian.mp4,dribble,tai chi,other,incorrect,"['other', 'other', 'other', 'other', 'other']",camera_near,konzerthaus,asian,konzerthaus,camera_near
+dribble_8_modified_hispanic.mp4,dribble,kissing,other,incorrect,"['other', 'other', 'other', 'other', 'other']",camera_near,konzerthaus,hispanic,konzerthaus,camera_near
+dribble_8_modified_indian.mp4,dribble,kissing,other,incorrect,"['other', 'other', 'other', 'other', 'other']",camera_near,konzerthaus,indian,konzerthaus,camera_near
+dribble_8_modified_middle_eastern.mp4,dribble,kissing,other,incorrect,"['other', 'other', 'other', 'other', 'other']",camera_near,konzerthaus,middle_eastern,konzerthaus,camera_near
+dribble_8_modified_south_east_asian.mp4,dribble,slapping,other,incorrect,"['other', 'other', 'other', 'other', 'juggle']",camera_near,konzerthaus,south_east_asian,konzerthaus,camera_near
+dribble_9_initial.mp4,dribble,folding paper,other,incorrect,"['other', 'other', 'dance', 'other', 'other']",camera_near,konzerthaus,african,konzerthaus,camera_near
+dribble_9_modified_asian.mp4,dribble,jumpstyle dancing,dance,incorrect,"['dance', 'other', 'other', 'dance', 'juggle']",camera_near,konzerthaus,asian,konzerthaus,camera_near
+dribble_9_modified_hispanic.mp4,dribble,folding paper,other,incorrect,"['other', 'dance', 'other', 'other', 'juggle']",camera_near,konzerthaus,hispanic,konzerthaus,camera_near
+dribble_9_modified_indian.mp4,dribble,folding paper,other,incorrect,"['other', 'other', 'dance', 'other', 'other']",camera_near,konzerthaus,indian,konzerthaus,camera_near
+dribble_9_modified_middle_eastern.mp4,dribble,jumpstyle dancing,dance,incorrect,"['dance', 'other', 'other', 'dance', 'other']",camera_near,konzerthaus,middle_eastern,konzerthaus,camera_near
+dribble_9_modified_south_east_asian.mp4,dribble,folding paper,other,incorrect,"['other', 'dance', 'other', 'other', 'other']",camera_near,konzerthaus,south_east_asian,konzerthaus,camera_near
+dribble_9_modified_white.mp4,dribble,jumpstyle dancing,dance,incorrect,"['dance', 'other', 'other', 'dance', 'juggle']",camera_near,konzerthaus,white,konzerthaus,camera_near
+drink_0_initial.mp4,drink,hugging,hug,incorrect,"['hug', 'other', 'cry', 'cradle', 'other']",camera_near,autumn_hockey,white,autumn_hockey,camera_near
+drink_0_modified_african.mp4,drink,kissing,other,incorrect,"['other', 'hug', 'cry', 'other', 'touching body parts']",camera_near,autumn_hockey,african,autumn_hockey,camera_near
+drink_0_modified_asian.mp4,drink,crying,cry,incorrect,"['cry', 'hug', 'other', 'other', 'other']",camera_near,autumn_hockey,asian,autumn_hockey,camera_near
+drink_0_modified_hispanic.mp4,drink,crying,cry,incorrect,"['cry', 'hug', 'other', 'other', 'other']",camera_near,autumn_hockey,hispanic,autumn_hockey,camera_near
+drink_0_modified_indian.mp4,drink,hugging,hug,incorrect,"['hug', 'cry', 'other', 'bow', 'other']",camera_near,autumn_hockey,indian,autumn_hockey,camera_near
+drink_0_modified_middle_eastern.mp4,drink,air drumming,other,incorrect,"['other', 'other', 'cry', 'other', 'other']",camera_near,autumn_hockey,middle_eastern,autumn_hockey,camera_near
+drink_0_modified_south_east_asian.mp4,drink,crying,cry,incorrect,"['cry', 'other', 'hug', 'touching body parts', 'other']",camera_near,autumn_hockey,south_east_asian,autumn_hockey,camera_near
+drink_1_initial.mp4,drink,tai chi,other,incorrect,"['other', 'other', 'other', 'other', 'drink']",camera_near,autumn_hockey,white,autumn_hockey,camera_near
+drink_1_modified_african.mp4,drink,tai chi,other,incorrect,"['other', 'other', 'other', 'other', 'other']",camera_near,autumn_hockey,african,autumn_hockey,camera_near
+drink_1_modified_asian.mp4,drink,feeding birds,other,incorrect,"['other', 'other', 'other', 'other', 'other']",camera_near,autumn_hockey,asian,autumn_hockey,camera_near
+drink_1_modified_hispanic.mp4,drink,feeding goats,other,incorrect,"['other', 'other', 'other', 'play catch', 'other']",camera_near,autumn_hockey,hispanic,autumn_hockey,camera_near
+drink_1_modified_indian.mp4,drink,tai chi,other,incorrect,"['other', 'other', 'other', 'play catch', 'other']",camera_near,autumn_hockey,indian,autumn_hockey,camera_near
+drink_1_modified_middle_eastern.mp4,drink,feeding birds,other,incorrect,"['other', 'other', 'play catch', 'other', 'other']",camera_near,autumn_hockey,middle_eastern,autumn_hockey,camera_near
+drink_1_modified_south_east_asian.mp4,drink,feeding goats,other,incorrect,"['other', 'other', 'other', 'other', 'other']",camera_near,autumn_hockey,south_east_asian,autumn_hockey,camera_near
+drink_2_initial.mp4,drink,catching or throwing frisbee,other,incorrect,"['other', 'other', 'other', 'stretch', 'other']",camera_near,autumn_hockey,south_east_asian,autumn_hockey,camera_near
+drink_2_modified_african.mp4,drink,catching or throwing frisbee,other,incorrect,"['other', 'other', 'other', 'stretch', 'other']",camera_near,autumn_hockey,african,autumn_hockey,camera_near
+drink_2_modified_asian.mp4,drink,catching or throwing frisbee,other,incorrect,"['other', 'other', 'other', 'stretch', 'other']",camera_near,autumn_hockey,asian,autumn_hockey,camera_near
+drink_2_modified_hispanic.mp4,drink,catching or throwing frisbee,other,incorrect,"['other', 'other', 'other', 'stretch', 'style hair']",camera_near,autumn_hockey,hispanic,autumn_hockey,camera_near
+drink_2_modified_indian.mp4,drink,tai chi,other,incorrect,"['other', 'other', 'other', 'stretch', 'juggle']",camera_near,autumn_hockey,indian,autumn_hockey,camera_near
+drink_2_modified_middle_eastern.mp4,drink,catching or throwing frisbee,other,incorrect,"['other', 'other', 'other', 'stretch', 'other']",camera_near,autumn_hockey,middle_eastern,autumn_hockey,camera_near
+drink_2_modified_white.mp4,drink,passing American football (not in game),other,incorrect,"['other', 'other', 'other', 'stretch', 'juggle']",camera_near,autumn_hockey,white,autumn_hockey,camera_near
+drink_3_initial.mp4,drink,smoking,other,incorrect,"['other', 'other', 'kick', 'stretch', 'other']",camera_near,autumn_hockey,white,autumn_hockey,camera_near
+drink_3_modified_african.mp4,drink,smoking,other,incorrect,"['other', 'other', 'stretch', 'kick', 'other']",camera_near,autumn_hockey,african,autumn_hockey,camera_near
+drink_3_modified_asian.mp4,drink,smoking,other,incorrect,"['other', 'other', 'kick', 'stretch', 'other']",camera_near,autumn_hockey,asian,autumn_hockey,camera_near
+drink_3_modified_hispanic.mp4,drink,smoking,other,incorrect,"['other', 'other', 'kick', 'other', 'stretch']",camera_near,autumn_hockey,hispanic,autumn_hockey,camera_near
+drink_3_modified_indian.mp4,drink,smoking,other,incorrect,"['other', 'other', 'kick', 'stretch', 'other']",camera_near,autumn_hockey,indian,autumn_hockey,camera_near
+drink_3_modified_middle_eastern.mp4,drink,smoking hookah,other,incorrect,"['other', 'other', 'kick', 'stretch', 'other']",camera_near,autumn_hockey,middle_eastern,autumn_hockey,camera_near
+drink_3_modified_south_east_asian.mp4,drink,smoking,other,incorrect,"['other', 'other', 'kick', 'stretch', 'other']",camera_near,autumn_hockey,south_east_asian,autumn_hockey,camera_near
+drink_4_initial.mp4,drink,tai chi,other,incorrect,"['other', 'other', 'other', 'stretch', 'play catch']",camera_near,autumn_hockey,middle_eastern,autumn_hockey,camera_near
+drink_4_modified_african.mp4,drink,tai chi,other,incorrect,"['other', 'other', 'other', 'play catch', 'other']",camera_near,autumn_hockey,african,autumn_hockey,camera_near
+drink_4_modified_asian.mp4,drink,tai chi,other,incorrect,"['other', 'other', 'other', 'other', 'play catch']",camera_near,autumn_hockey,asian,autumn_hockey,camera_near
+drink_4_modified_hispanic.mp4,drink,tai chi,other,incorrect,"['other', 'other', 'other', 'play catch', 'stretch']",camera_near,autumn_hockey,hispanic,autumn_hockey,camera_near
+drink_4_modified_indian.mp4,drink,tai chi,other,incorrect,"['other', 'other', 'other', 'play catch', 'other']",camera_near,autumn_hockey,indian,autumn_hockey,camera_near
+drink_4_modified_south_east_asian.mp4,drink,tai chi,other,incorrect,"['other', 'other', 'other', 'play catch', 'stretch']",camera_near,autumn_hockey,south_east_asian,autumn_hockey,camera_near
+drink_4_modified_white.mp4,drink,tai chi,other,incorrect,"['other', 'other', 'other', 'stretch', 'arm movements']",camera_near,autumn_hockey,white,autumn_hockey,camera_near
+drink_5_initial.mp4,drink,tai chi,other,incorrect,"['other', 'other', 'other', 'other', 'play catch']",camera_near,autumn_hockey,indian,autumn_hockey,camera_near
+drink_5_modified_african.mp4,drink,tai chi,other,incorrect,"['other', 'other', 'other', 'other', 'play catch']",camera_near,autumn_hockey,african,autumn_hockey,camera_near
+drink_5_modified_asian.mp4,drink,tai chi,other,incorrect,"['other', 'other', 'other', 'other', 'play catch']",camera_near,autumn_hockey,asian,autumn_hockey,camera_near
+drink_5_modified_hispanic.mp4,drink,tai chi,other,incorrect,"['other', 'other', 'other', 'other', 'play catch']",camera_near,autumn_hockey,hispanic,autumn_hockey,camera_near
+drink_5_modified_middle_eastern.mp4,drink,tai chi,other,incorrect,"['other', 'other', 'other', 'other', 'play catch']",camera_near,autumn_hockey,middle_eastern,autumn_hockey,camera_near
+drink_5_modified_south_east_asian.mp4,drink,tai chi,other,incorrect,"['other', 'other', 'other', 'other', 'style hair']",camera_near,autumn_hockey,south_east_asian,autumn_hockey,camera_near
+drink_5_modified_white.mp4,drink,tai chi,other,incorrect,"['other', 'other', 'other', 'other', 'play catch']",camera_near,autumn_hockey,white,autumn_hockey,camera_near
+drink_6_initial.mp4,drink,disc golfing,golf,incorrect,"['golf', 'other', 'other', 'other', 'hug']",camera_near,autumn_hockey,hispanic,autumn_hockey,camera_near
+drink_6_modified_african.mp4,drink,catching or throwing frisbee,other,incorrect,"['other', 'golf', 'other', 'other', 'hug']",camera_near,autumn_hockey,african,autumn_hockey,camera_near
+drink_6_modified_asian.mp4,drink,disc golfing,golf,incorrect,"['golf', 'other', 'other', 'other', 'hug']",camera_near,autumn_hockey,asian,autumn_hockey,camera_near
+drink_6_modified_indian.mp4,drink,disc golfing,golf,incorrect,"['golf', 'other', 'other', 'other', 'hug']",camera_near,autumn_hockey,indian,autumn_hockey,camera_near
+drink_6_modified_middle_eastern.mp4,drink,disc golfing,golf,incorrect,"['golf', 'other', 'other', 'other', 'hug']",camera_near,autumn_hockey,middle_eastern,autumn_hockey,camera_near
+drink_6_modified_south_east_asian.mp4,drink,disc golfing,golf,incorrect,"['golf', 'other', 'other', 'other', 'other']",camera_near,autumn_hockey,south_east_asian,autumn_hockey,camera_near
+drink_6_modified_white.mp4,drink,tai chi,other,incorrect,"['other', 'other', 'golf', 'other', 'hug']",camera_near,autumn_hockey,white,autumn_hockey,camera_near
+drink_7_initial.mp4,drink,tai chi,other,incorrect,"['other', 'other', 'other', 'dribble', 'golf']",camera_near,autumn_hockey,south_east_asian,autumn_hockey,camera_near
+drink_7_modified_african.mp4,drink,catching or throwing frisbee,other,incorrect,"['other', 'other', 'other', 'dribble', 'golf']",camera_near,autumn_hockey,african,autumn_hockey,camera_near
+drink_7_modified_asian.mp4,drink,tai chi,other,incorrect,"['other', 'other', 'other', 'stretch', 'juggle']",camera_near,autumn_hockey,asian,autumn_hockey,camera_near
+drink_7_modified_hispanic.mp4,drink,passing American football (not in game),other,incorrect,"['other', 'dribble', 'other', 'other', 'play sport']",camera_near,autumn_hockey,hispanic,autumn_hockey,camera_near
+drink_7_modified_indian.mp4,drink,tai chi,other,incorrect,"['other', 'other', 'other', 'dribble', 'juggle']",camera_near,autumn_hockey,indian,autumn_hockey,camera_near
+drink_7_modified_middle_eastern.mp4,drink,tai chi,other,incorrect,"['other', 'other', 'other', 'juggle', 'golf']",camera_near,autumn_hockey,middle_eastern,autumn_hockey,camera_near
+drink_7_modified_white.mp4,drink,tai chi,other,incorrect,"['other', 'other', 'other', 'juggle', 'stretch']",camera_near,autumn_hockey,white,autumn_hockey,camera_near
+drink_8_initial.mp4,drink,drinking,drink,correct,"['drink', 'other', 'drink', 'other', 'other']",camera_near,autumn_hockey,white,autumn_hockey,camera_near
+drink_8_modified_african.mp4,drink,passing American football (not in game),other,incorrect,"['other', 'other', 'play catch', 'other', 'other']",camera_near,autumn_hockey,african,autumn_hockey,camera_near
+drink_8_modified_asian.mp4,drink,passing American football (not in game),other,incorrect,"['other', 'other', 'other', 'drink', 'play catch']",camera_near,autumn_hockey,asian,autumn_hockey,camera_near
+drink_8_modified_hispanic.mp4,drink,drinking beer,drink,correct,"['drink', 'drink', 'other', 'other', 'other']",camera_near,autumn_hockey,hispanic,autumn_hockey,camera_near
+drink_8_modified_indian.mp4,drink,passing American football (not in game),other,incorrect,"['other', 'other', 'play catch', 'other', 'kick']",camera_near,autumn_hockey,indian,autumn_hockey,camera_near
+drink_8_modified_middle_eastern.mp4,drink,drinking beer,drink,correct,"['drink', 'other', 'drink', 'other', 'other']",camera_near,autumn_hockey,middle_eastern,autumn_hockey,camera_near
+drink_8_modified_south_east_asian.mp4,drink,drinking beer,drink,correct,"['drink', 'drink', 'other', 'other', 'other']",camera_near,autumn_hockey,south_east_asian,autumn_hockey,camera_near
+drink_9_initial.mp4,drink,throwing discus,throw,incorrect,"['throw', 'other', 'stretch', 'other', 'other']",camera_near,autumn_hockey,african,autumn_hockey,camera_near
+drink_9_modified_asian.mp4,drink,throwing axe,other,incorrect,"['other', 'other', 'other', 'stretch', 'other']",camera_near,autumn_hockey,asian,autumn_hockey,camera_near
+drink_9_modified_hispanic.mp4,drink,throwing axe,other,incorrect,"['other', 'other', 'stretch', 'other', 'other']",camera_near,autumn_hockey,hispanic,autumn_hockey,camera_near
+drink_9_modified_indian.mp4,drink,throwing discus,throw,incorrect,"['throw', 'other', 'other', 'other', 'play catch']",camera_near,autumn_hockey,indian,autumn_hockey,camera_near
+drink_9_modified_middle_eastern.mp4,drink,stretching arm,stretch,incorrect,"['stretch', 'other', 'touching body parts', 'other', 'yoga']",camera_near,autumn_hockey,middle_eastern,autumn_hockey,camera_near
+drink_9_modified_south_east_asian.mp4,drink,throwing axe,other,incorrect,"['other', 'stretch', 'other', 'other', 'throw']",camera_near,autumn_hockey,south_east_asian,autumn_hockey,camera_near
+drink_9_modified_white.mp4,drink,throwing axe,other,incorrect,"['other', 'yoga', 'stretch', 'other', 'touching body parts']",camera_near,autumn_hockey,white,autumn_hockey,camera_near
+drive_0_initial.mp4,drive,tai chi,other,incorrect,"['other', 'other', 'other', 'kick', 'other']",camera_far,konzerthaus,white,konzerthaus,camera_far
+drive_0_modified_african.mp4,drive,catching or throwing frisbee,other,incorrect,"['other', 'other', 'golf', 'other', 'dance']",camera_far,konzerthaus,african,konzerthaus,camera_far
+drive_0_modified_asian.mp4,drive,tai chi,other,incorrect,"['other', 'other', 'other', 'kick', 'dance']",camera_far,konzerthaus,asian,konzerthaus,camera_far
+drive_0_modified_hispanic.mp4,drive,tai chi,other,incorrect,"['other', 'other', 'other', 'kick', 'dance']",camera_far,konzerthaus,hispanic,konzerthaus,camera_far
+drive_0_modified_indian.mp4,drive,tai chi,other,incorrect,"['other', 'other', 'kick', 'other', 'dance']",camera_far,konzerthaus,indian,konzerthaus,camera_far
+drive_0_modified_middle_eastern.mp4,drive,tai chi,other,incorrect,"['other', 'other', 'other', 'kick', 'other']",camera_far,konzerthaus,middle_eastern,konzerthaus,camera_far
+drive_0_modified_south_east_asian.mp4,drive,tai chi,other,incorrect,"['other', 'other', 'kick', 'other', 'dance']",camera_far,konzerthaus,south_east_asian,konzerthaus,camera_far
+drive_1_initial.mp4,drive,tai chi,other,incorrect,"['other', 'other', 'other', 'other', 'play sport']",camera_far,konzerthaus,white,konzerthaus,camera_far
+drive_1_modified_african.mp4,drive,tai chi,other,incorrect,"['other', 'other', 'other', 'other', 'golf']",camera_far,konzerthaus,african,konzerthaus,camera_far
+drive_1_modified_asian.mp4,drive,tai chi,other,incorrect,"['other', 'other', 'other', 'other', 'play sport']",camera_far,konzerthaus,asian,konzerthaus,camera_far
+drive_1_modified_hispanic.mp4,drive,tai chi,other,incorrect,"['other', 'other', 'other', 'other', 'other']",camera_far,konzerthaus,hispanic,konzerthaus,camera_far
+drive_1_modified_indian.mp4,drive,tai chi,other,incorrect,"['other', 'other', 'other', 'other', 'other']",camera_far,konzerthaus,indian,konzerthaus,camera_far
+drive_1_modified_middle_eastern.mp4,drive,tai chi,other,incorrect,"['other', 'other', 'other', 'other', 'play sport']",camera_far,konzerthaus,middle_eastern,konzerthaus,camera_far
+drive_1_modified_south_east_asian.mp4,drive,tai chi,other,incorrect,"['other', 'other', 'other', 'other', 'other']",camera_far,konzerthaus,south_east_asian,konzerthaus,camera_far
+drive_2_initial.mp4,drive,tai chi,other,incorrect,"['other', 'other', 'other', 'other', 'other']",camera_far,konzerthaus,south_east_asian,konzerthaus,camera_far
+drive_2_modified_african.mp4,drive,tai chi,other,incorrect,"['other', 'other', 'other', 'other', 'other']",camera_far,konzerthaus,african,konzerthaus,camera_far
+drive_2_modified_asian.mp4,drive,tai chi,other,incorrect,"['other', 'other', 'other', 'other', 'other']",camera_far,konzerthaus,asian,konzerthaus,camera_far
+drive_2_modified_hispanic.mp4,drive,tai chi,other,incorrect,"['other', 'other', 'other', 'other', 'other']",camera_far,konzerthaus,hispanic,konzerthaus,camera_far
+drive_2_modified_indian.mp4,drive,tai chi,other,incorrect,"['other', 'other', 'other', 'other', 'other']",camera_far,konzerthaus,indian,konzerthaus,camera_far
+drive_2_modified_middle_eastern.mp4,drive,tai chi,other,incorrect,"['other', 'other', 'other', 'other', 'other']",camera_far,konzerthaus,middle_eastern,konzerthaus,camera_far
+drive_2_modified_white.mp4,drive,tai chi,other,incorrect,"['other', 'other', 'other', 'other', 'other']",camera_far,konzerthaus,white,konzerthaus,camera_far
+drive_3_initial.mp4,drive,catching or throwing frisbee,other,incorrect,"['other', 'other', 'kick', 'other', 'play sport']",camera_far,konzerthaus,white,konzerthaus,camera_far
+drive_3_modified_african.mp4,drive,playing cricket,play sport,incorrect,"['play sport', 'other', 'kick', 'other', 'other']",camera_far,konzerthaus,african,konzerthaus,camera_far
+drive_3_modified_asian.mp4,drive,flying kite,other,incorrect,"['other', 'other', 'play sport', 'play sport', 'other']",camera_far,konzerthaus,asian,konzerthaus,camera_far
+drive_3_modified_hispanic.mp4,drive,flying kite,other,incorrect,"['other', 'other', 'play sport', 'other', 'play sport']",camera_far,konzerthaus,hispanic,konzerthaus,camera_far
+drive_3_modified_indian.mp4,drive,flying kite,other,incorrect,"['other', 'other', 'play sport', 'play sport', 'kick']",camera_far,konzerthaus,indian,konzerthaus,camera_far
+drive_3_modified_middle_eastern.mp4,drive,catching or throwing frisbee,other,incorrect,"['other', 'other', 'play sport', 'other', 'play sport']",camera_far,konzerthaus,middle_eastern,konzerthaus,camera_far
+drive_3_modified_south_east_asian.mp4,drive,flying kite,other,incorrect,"['other', 'other', 'play sport', 'play sport', 'kick']",camera_far,konzerthaus,south_east_asian,konzerthaus,camera_far
+drive_4_initial.mp4,drive,tai chi,other,incorrect,"['other', 'other', 'other', 'play sport', 'other']",camera_far,konzerthaus,middle_eastern,konzerthaus,camera_far
+drive_4_modified_african.mp4,drive,playing cricket,play sport,incorrect,"['play sport', 'other', 'other', 'other', 'other']",camera_far,konzerthaus,african,konzerthaus,camera_far
+drive_4_modified_asian.mp4,drive,playing cricket,play sport,incorrect,"['play sport', 'other', 'other', 'other', 'other']",camera_far,konzerthaus,asian,konzerthaus,camera_far
+drive_4_modified_hispanic.mp4,drive,tai chi,other,incorrect,"['other', 'other', 'other', 'other', 'play sport']",camera_far,konzerthaus,hispanic,konzerthaus,camera_far
+drive_4_modified_indian.mp4,drive,playing cricket,play sport,incorrect,"['play sport', 'other', 'other', 'other', 'other']",camera_far,konzerthaus,indian,konzerthaus,camera_far
+drive_4_modified_south_east_asian.mp4,drive,playing cricket,play sport,incorrect,"['play sport', 'other', 'other', 'other', 'other']",camera_far,konzerthaus,south_east_asian,konzerthaus,camera_far
+drive_4_modified_white.mp4,drive,plastering,other,incorrect,"['other', 'other', 'other', 'other', 'other']",camera_far,konzerthaus,white,konzerthaus,camera_far
+drive_5_initial.mp4,drive,catching or throwing frisbee,other,incorrect,"['other', 'juggle', 'other', 'other', 'other']",camera_far,konzerthaus,indian,konzerthaus,camera_far
+drive_5_modified_african.mp4,drive,catching or throwing frisbee,other,incorrect,"['other', 'other', 'juggle', 'other', 'other']",camera_far,konzerthaus,african,konzerthaus,camera_far
+drive_5_modified_asian.mp4,drive,catching or throwing frisbee,other,incorrect,"['other', 'juggle', 'other', 'other', 'other']",camera_far,konzerthaus,asian,konzerthaus,camera_far
+drive_5_modified_hispanic.mp4,drive,catching or throwing frisbee,other,incorrect,"['other', 'other', 'juggle', 'other', 'other']",camera_far,konzerthaus,hispanic,konzerthaus,camera_far
+drive_5_modified_middle_eastern.mp4,drive,catching or throwing frisbee,other,incorrect,"['other', 'juggle', 'other', 'other', 'other']",camera_far,konzerthaus,middle_eastern,konzerthaus,camera_far
+drive_5_modified_south_east_asian.mp4,drive,catching or throwing frisbee,other,incorrect,"['other', 'other', 'other', 'other', 'juggle']",camera_far,konzerthaus,south_east_asian,konzerthaus,camera_far
+drive_5_modified_white.mp4,drive,catching or throwing frisbee,other,incorrect,"['other', 'juggle', 'other', 'other', 'other']",camera_far,konzerthaus,white,konzerthaus,camera_far
+drive_6_initial.mp4,drive,tai chi,other,incorrect,"['other', 'other', 'dance', 'other', 'other']",camera_far,konzerthaus,hispanic,konzerthaus,camera_far
+drive_6_modified_african.mp4,drive,tai chi,other,incorrect,"['other', 'dance', 'kick', 'other', 'throw']",camera_far,konzerthaus,african,konzerthaus,camera_far
+drive_6_modified_asian.mp4,drive,tai chi,other,incorrect,"['other', 'dance', 'other', 'stretch', 'other']",camera_far,konzerthaus,asian,konzerthaus,camera_far
+drive_6_modified_indian.mp4,drive,tai chi,other,incorrect,"['other', 'dance', 'other', 'kick', 'other']",camera_far,konzerthaus,indian,konzerthaus,camera_far
+drive_6_modified_middle_eastern.mp4,drive,tai chi,other,incorrect,"['other', 'other', 'dance', 'other', 'other']",camera_far,konzerthaus,middle_eastern,konzerthaus,camera_far
+drive_6_modified_south_east_asian.mp4,drive,tai chi,other,incorrect,"['other', 'dance', 'other', 'kick', 'other']",camera_far,konzerthaus,south_east_asian,konzerthaus,camera_far
+drive_6_modified_white.mp4,drive,tai chi,other,incorrect,"['other', 'other', 'dance', 'other', 'other']",camera_far,konzerthaus,white,konzerthaus,camera_far
+drive_7_initial.mp4,drive,tai chi,other,incorrect,"['other', 'play sport', 'other', 'other', 'kick']",camera_far,konzerthaus,south_east_asian,konzerthaus,camera_far
+drive_7_modified_african.mp4,drive,tai chi,other,incorrect,"['other', 'play sport', 'other', 'other', 'kick']",camera_far,konzerthaus,african,konzerthaus,camera_far
+drive_7_modified_asian.mp4,drive,tai chi,other,incorrect,"['other', 'play sport', 'other', 'other', 'kick']",camera_far,konzerthaus,asian,konzerthaus,camera_far
+drive_7_modified_hispanic.mp4,drive,tai chi,other,incorrect,"['other', 'play sport', 'other', 'other', 'kick']",camera_far,konzerthaus,hispanic,konzerthaus,camera_far
+drive_7_modified_indian.mp4,drive,tai chi,other,incorrect,"['other', 'play sport', 'other', 'other', 'kick']",camera_far,konzerthaus,indian,konzerthaus,camera_far
+drive_7_modified_middle_eastern.mp4,drive,tai chi,other,incorrect,"['other', 'other', 'play sport', 'other', 'kick']",camera_far,konzerthaus,middle_eastern,konzerthaus,camera_far
+drive_7_modified_white.mp4,drive,tai chi,other,incorrect,"['other', 'play sport', 'other', 'other', 'kick']",camera_far,konzerthaus,white,konzerthaus,camera_far
+drive_8_initial.mp4,drive,catching or throwing frisbee,other,incorrect,"['other', 'golf', 'other', 'other', 'other']",camera_far,konzerthaus,white,konzerthaus,camera_far
+drive_8_modified_african.mp4,drive,catching or throwing frisbee,other,incorrect,"['other', 'golf', 'other', 'other', 'dance']",camera_far,konzerthaus,african,konzerthaus,camera_far
+drive_8_modified_asian.mp4,drive,catching or throwing frisbee,other,incorrect,"['other', 'golf', 'other', 'clean something', 'other']",camera_far,konzerthaus,asian,konzerthaus,camera_far
+drive_8_modified_hispanic.mp4,drive,catching or throwing frisbee,other,incorrect,"['other', 'golf', 'other', 'clean something', 'other']",camera_far,konzerthaus,hispanic,konzerthaus,camera_far
+drive_8_modified_indian.mp4,drive,catching or throwing frisbee,other,incorrect,"['other', 'golf', 'other', 'clean something', 'other']",camera_far,konzerthaus,indian,konzerthaus,camera_far
+drive_8_modified_middle_eastern.mp4,drive,catching or throwing frisbee,other,incorrect,"['other', 'golf', 'other', 'other', 'other']",camera_far,konzerthaus,middle_eastern,konzerthaus,camera_far
+drive_8_modified_south_east_asian.mp4,drive,catching or throwing frisbee,other,incorrect,"['other', 'golf', 'other', 'clean something', 'other']",camera_far,konzerthaus,south_east_asian,konzerthaus,camera_far
+drive_9_initial.mp4,drive,tai chi,other,incorrect,"['other', 'other', 'play sport', 'dance', 'other']",camera_far,konzerthaus,african,konzerthaus,camera_far
+drive_9_modified_asian.mp4,drive,ripping paper,other,incorrect,"['other', 'dance', 'kick', 'other', 'other']",camera_far,konzerthaus,asian,konzerthaus,camera_far
+drive_9_modified_hispanic.mp4,drive,drop kicking,kick,incorrect,"['kick', 'dance', 'other', 'other', 'other']",camera_far,konzerthaus,hispanic,konzerthaus,camera_far
+drive_9_modified_indian.mp4,drive,robot dancing,dance,incorrect,"['dance', 'other', 'kick', 'other', 'other']",camera_far,konzerthaus,indian,konzerthaus,camera_far
+drive_9_modified_middle_eastern.mp4,drive,ripping paper,other,incorrect,"['other', 'dance', 'other', 'other', 'kick']",camera_far,konzerthaus,middle_eastern,konzerthaus,camera_far
+drive_9_modified_south_east_asian.mp4,drive,robot dancing,dance,incorrect,"['dance', 'other', 'kick', 'other', 'other']",camera_far,konzerthaus,south_east_asian,konzerthaus,camera_far
+drive_9_modified_white.mp4,drive,ripping paper,other,incorrect,"['other', 'dance', 'other', 'other', 'other']",camera_far,konzerthaus,white,konzerthaus,camera_far
+golf_0_initial.mp4,golf,disc golfing,golf,correct,"['golf', 'other', 'other', 'other', 'kick']",camera_far,autumn_hockey,white,autumn_hockey,camera_far
+golf_0_modified_african.mp4,golf,tai chi,other,incorrect,"['other', 'golf', 'other', 'other', 'kick']",camera_far,autumn_hockey,african,autumn_hockey,camera_far
+golf_0_modified_asian.mp4,golf,tai chi,other,incorrect,"['other', 'other', 'golf', 'other', 'kick']",camera_far,autumn_hockey,asian,autumn_hockey,camera_far
+golf_0_modified_hispanic.mp4,golf,disc golfing,golf,correct,"['golf', 'other', 'other', 'other', 'kick']",camera_far,autumn_hockey,hispanic,autumn_hockey,camera_far
+golf_0_modified_indian.mp4,golf,catching or throwing frisbee,other,incorrect,"['other', 'golf', 'other', 'other', 'kick']",camera_far,autumn_hockey,indian,autumn_hockey,camera_far
+golf_0_modified_middle_eastern.mp4,golf,tai chi,other,incorrect,"['other', 'golf', 'other', 'other', 'kick']",camera_far,autumn_hockey,middle_eastern,autumn_hockey,camera_far
+golf_0_modified_south_east_asian.mp4,golf,disc golfing,golf,correct,"['golf', 'other', 'other', 'other', 'other']",camera_far,autumn_hockey,south_east_asian,autumn_hockey,camera_far
+golf_1_initial.mp4,golf,throwing axe,other,incorrect,"['other', 'cartwheel', 'other', 'other', 'other']",camera_far,autumn_hockey,white,autumn_hockey,camera_far
+golf_1_modified_african.mp4,golf,drop kicking,kick,incorrect,"['kick', 'cartwheel', 'other', 'dance', 'other']",camera_far,autumn_hockey,african,autumn_hockey,camera_far
+golf_1_modified_asian.mp4,golf,throwing axe,other,incorrect,"['other', 'cartwheel', 'other', 'kick', 'other']",camera_far,autumn_hockey,asian,autumn_hockey,camera_far
+golf_1_modified_hispanic.mp4,golf,throwing axe,other,incorrect,"['other', 'cartwheel', 'other', 'other', 'kick']",camera_far,autumn_hockey,hispanic,autumn_hockey,camera_far
+golf_1_modified_indian.mp4,golf,throwing axe,other,incorrect,"['other', 'cartwheel', 'kick', 'other', 'dance']",camera_far,autumn_hockey,indian,autumn_hockey,camera_far
+golf_1_modified_middle_eastern.mp4,golf,throwing axe,other,incorrect,"['other', 'cartwheel', 'other', 'other', 'other']",camera_far,autumn_hockey,middle_eastern,autumn_hockey,camera_far
+golf_1_modified_south_east_asian.mp4,golf,throwing axe,other,incorrect,"['other', 'cartwheel', 'other', 'other', 'other']",camera_far,autumn_hockey,south_east_asian,autumn_hockey,camera_far
+golf_2_initial.mp4,golf,throwing axe,other,incorrect,"['other', 'other', 'cartwheel', 'kick', 'other']",camera_far,autumn_hockey,south_east_asian,autumn_hockey,camera_far
+golf_2_modified_african.mp4,golf,tai chi,other,incorrect,"['other', 'other', 'dance', 'cartwheel', 'other']",camera_far,autumn_hockey,african,autumn_hockey,camera_far
+golf_2_modified_asian.mp4,golf,throwing axe,other,incorrect,"['other', 'other', 'cartwheel', 'dance', 'kick']",camera_far,autumn_hockey,asian,autumn_hockey,camera_far
+golf_2_modified_hispanic.mp4,golf,throwing axe,other,incorrect,"['other', 'other', 'cartwheel', 'kick', 'other']",camera_far,autumn_hockey,hispanic,autumn_hockey,camera_far
+golf_2_modified_indian.mp4,golf,throwing axe,other,incorrect,"['other', 'other', 'cartwheel', 'kick', 'other']",camera_far,autumn_hockey,indian,autumn_hockey,camera_far
+golf_2_modified_middle_eastern.mp4,golf,throwing axe,other,incorrect,"['other', 'other', 'kick', 'cartwheel', 'other']",camera_far,autumn_hockey,middle_eastern,autumn_hockey,camera_far
+golf_2_modified_white.mp4,golf,throwing axe,other,incorrect,"['other', 'other', 'kick', 'other', 'cartwheel']",camera_far,autumn_hockey,white,autumn_hockey,camera_far
+golf_3_initial.mp4,golf,drop kicking,kick,incorrect,"['kick', 'cartwheel', 'other', 'kick', 'other']",camera_far,autumn_hockey,white,autumn_hockey,camera_far
+golf_3_modified_african.mp4,golf,throwing axe,other,incorrect,"['other', 'other', 'other', 'kick', 'cartwheel']",camera_far,autumn_hockey,african,autumn_hockey,camera_far
+golf_3_modified_asian.mp4,golf,drop kicking,kick,incorrect,"['kick', 'hug', 'stretch', 'other', 'other']",camera_far,autumn_hockey,asian,autumn_hockey,camera_far
+golf_3_modified_hispanic.mp4,golf,finger snapping,other,incorrect,"['other', 'other', 'other', 'other', 'hug']",camera_far,autumn_hockey,hispanic,autumn_hockey,camera_far
+golf_3_modified_indian.mp4,golf,finger snapping,other,incorrect,"['other', 'other', 'other', 'kick', 'other']",camera_far,autumn_hockey,indian,autumn_hockey,camera_far
+golf_3_modified_middle_eastern.mp4,golf,drop kicking,kick,incorrect,"['kick', 'hug', 'kick', 'dance', 'other']",camera_far,autumn_hockey,middle_eastern,autumn_hockey,camera_far
+golf_3_modified_south_east_asian.mp4,golf,drop kicking,kick,incorrect,"['kick', 'other', 'stretch', 'kick', 'cry']",camera_far,autumn_hockey,south_east_asian,autumn_hockey,camera_far
+golf_4_initial.mp4,golf,contact juggling,juggle,incorrect,"['juggle', 'other', 'other', 'other', 'juggle']",camera_far,autumn_hockey,middle_eastern,autumn_hockey,camera_far
+golf_4_modified_african.mp4,golf,throwing axe,other,incorrect,"['other', 'other', 'stretch', 'other', 'golf']",camera_far,autumn_hockey,african,autumn_hockey,camera_far
+golf_4_modified_asian.mp4,golf,juggling balls,juggle,incorrect,"['juggle', 'other', 'other', 'juggle', 'dance']",camera_far,autumn_hockey,asian,autumn_hockey,camera_far
+golf_4_modified_hispanic.mp4,golf,contact juggling,juggle,incorrect,"['juggle', 'other', 'other', 'other', 'dance']",camera_far,autumn_hockey,hispanic,autumn_hockey,camera_far
+golf_4_modified_indian.mp4,golf,throwing axe,other,incorrect,"['other', 'other', 'juggle', 'other', 'stretch']",camera_far,autumn_hockey,indian,autumn_hockey,camera_far
+golf_4_modified_south_east_asian.mp4,golf,contact juggling,juggle,incorrect,"['juggle', 'dance', 'other', 'other', 'juggle']",camera_far,autumn_hockey,south_east_asian,autumn_hockey,camera_far
+golf_4_modified_white.mp4,golf,juggling balls,juggle,incorrect,"['juggle', 'juggle', 'other', 'other', 'other']",camera_far,autumn_hockey,white,autumn_hockey,camera_far
+golf_5_initial.mp4,golf,drop kicking,kick,incorrect,"['kick', 'other', 'other', 'cartwheel', 'kick']",camera_far,autumn_hockey,indian,autumn_hockey,camera_far
+golf_5_modified_african.mp4,golf,drop kicking,kick,incorrect,"['kick', 'other', 'other', 'golf', 'cartwheel']",camera_far,autumn_hockey,african,autumn_hockey,camera_far
+golf_5_modified_asian.mp4,golf,tai chi,other,incorrect,"['other', 'other', 'other', 'cartwheel', 'other']",camera_far,autumn_hockey,asian,autumn_hockey,camera_far
+golf_5_modified_hispanic.mp4,golf,drop kicking,kick,incorrect,"['kick', 'other', 'other', 'cartwheel', 'other']",camera_far,autumn_hockey,hispanic,autumn_hockey,camera_far
+golf_5_modified_middle_eastern.mp4,golf,drop kicking,kick,incorrect,"['kick', 'other', 'cartwheel', 'other', 'other']",camera_far,autumn_hockey,middle_eastern,autumn_hockey,camera_far
+golf_5_modified_south_east_asian.mp4,golf,drop kicking,kick,incorrect,"['kick', 'other', 'other', 'cartwheel', 'other']",camera_far,autumn_hockey,south_east_asian,autumn_hockey,camera_far
+golf_5_modified_white.mp4,golf,tai chi,other,incorrect,"['other', 'other', 'cartwheel', 'other', 'other']",camera_far,autumn_hockey,white,autumn_hockey,camera_far
+golf_6_initial.mp4,golf,drop kicking,kick,incorrect,"['kick', 'other', 'cartwheel', 'other', 'other']",camera_far,autumn_hockey,hispanic,autumn_hockey,camera_far
+golf_6_modified_african.mp4,golf,throwing axe,other,incorrect,"['other', 'other', 'kick', 'golf', 'cartwheel']",camera_far,autumn_hockey,african,autumn_hockey,camera_far
+golf_6_modified_asian.mp4,golf,drop kicking,kick,incorrect,"['kick', 'other', 'cartwheel', 'other', 'other']",camera_far,autumn_hockey,asian,autumn_hockey,camera_far
+golf_6_modified_indian.mp4,golf,finger snapping,other,incorrect,"['other', 'kick', 'other', 'cartwheel', 'other']",camera_far,autumn_hockey,indian,autumn_hockey,camera_far
+golf_6_modified_middle_eastern.mp4,golf,drop kicking,kick,incorrect,"['kick', 'cartwheel', 'other', 'jump', 'other']",camera_far,autumn_hockey,middle_eastern,autumn_hockey,camera_far
+golf_6_modified_south_east_asian.mp4,golf,throwing axe,other,incorrect,"['other', 'cartwheel', 'kick', 'other', 'other']",camera_far,autumn_hockey,south_east_asian,autumn_hockey,camera_far
+golf_6_modified_white.mp4,golf,throwing axe,other,incorrect,"['other', 'cartwheel', 'kick', 'other', 'other']",camera_far,autumn_hockey,white,autumn_hockey,camera_far
+golf_7_initial.mp4,golf,throwing axe,other,incorrect,"['other', 'cartwheel', 'other', 'other', 'other']",camera_far,autumn_hockey,south_east_asian,autumn_hockey,camera_far
+golf_7_modified_african.mp4,golf,cartwheeling,cartwheel,incorrect,"['cartwheel', 'other', 'other', 'other', 'dance']",camera_far,autumn_hockey,african,autumn_hockey,camera_far
+golf_7_modified_asian.mp4,golf,throwing axe,other,incorrect,"['other', 'cartwheel', 'other', 'other', 'other']",camera_far,autumn_hockey,asian,autumn_hockey,camera_far
+golf_7_modified_hispanic.mp4,golf,throwing axe,other,incorrect,"['other', 'cartwheel', 'other', 'other', 'other']",camera_far,autumn_hockey,hispanic,autumn_hockey,camera_far
+golf_7_modified_indian.mp4,golf,throwing axe,other,incorrect,"['other', 'cartwheel', 'other', 'other', 'other']",camera_far,autumn_hockey,indian,autumn_hockey,camera_far
+golf_7_modified_middle_eastern.mp4,golf,throwing axe,other,incorrect,"['other', 'cartwheel', 'other', 'other', 'other']",camera_far,autumn_hockey,middle_eastern,autumn_hockey,camera_far
+golf_7_modified_white.mp4,golf,throwing axe,other,incorrect,"['other', 'cartwheel', 'other', 'other', 'other']",camera_far,autumn_hockey,white,autumn_hockey,camera_far
+golf_8_initial.mp4,golf,throwing axe,other,incorrect,"['other', 'cartwheel', 'other', 'bow', 'kick']",camera_far,autumn_hockey,white,autumn_hockey,camera_far
+golf_8_modified_african.mp4,golf,throwing axe,other,incorrect,"['other', 'kick', 'cartwheel', 'bow', 'other']",camera_far,autumn_hockey,african,autumn_hockey,camera_far
+golf_8_modified_asian.mp4,golf,throwing axe,other,incorrect,"['other', 'kick', 'cartwheel', 'other', 'other']",camera_far,autumn_hockey,asian,autumn_hockey,camera_far
+golf_8_modified_hispanic.mp4,golf,throwing axe,other,incorrect,"['other', 'kick', 'cartwheel', 'bow', 'other']",camera_far,autumn_hockey,hispanic,autumn_hockey,camera_far
+golf_8_modified_indian.mp4,golf,throwing axe,other,incorrect,"['other', 'kick', 'cartwheel', 'other', 'bow']",camera_far,autumn_hockey,indian,autumn_hockey,camera_far
+golf_8_modified_middle_eastern.mp4,golf,throwing axe,other,incorrect,"['other', 'other', 'bow', 'cartwheel', 'kick']",camera_far,autumn_hockey,middle_eastern,autumn_hockey,camera_far
+golf_8_modified_south_east_asian.mp4,golf,throwing axe,other,incorrect,"['other', 'cartwheel', 'other', 'bow', 'kick']",camera_far,autumn_hockey,south_east_asian,autumn_hockey,camera_far
+golf_9_initial.mp4,golf,drop kicking,kick,incorrect,"['kick', 'cartwheel', 'other', 'other', 'bend']",camera_far,autumn_hockey,african,autumn_hockey,camera_far
+golf_9_modified_asian.mp4,golf,throwing axe,other,incorrect,"['other', 'other', 'other', 'other', 'cartwheel']",camera_far,autumn_hockey,asian,autumn_hockey,camera_far
+golf_9_modified_hispanic.mp4,golf,drop kicking,kick,incorrect,"['kick', 'cartwheel', 'other', 'other', 'kick']",camera_far,autumn_hockey,hispanic,autumn_hockey,camera_far
+golf_9_modified_indian.mp4,golf,drop kicking,kick,incorrect,"['kick', 'other', 'kick', 'cartwheel', 'other']",camera_far,autumn_hockey,indian,autumn_hockey,camera_far
+golf_9_modified_middle_eastern.mp4,golf,throwing axe,other,incorrect,"['other', 'cartwheel', 'jump', 'kick', 'other']",camera_far,autumn_hockey,middle_eastern,autumn_hockey,camera_far
+golf_9_modified_south_east_asian.mp4,golf,drop kicking,kick,incorrect,"['kick', 'cartwheel', 'other', 'other', 'jump']",camera_far,autumn_hockey,south_east_asian,autumn_hockey,camera_far
+golf_9_modified_white.mp4,golf,throwing axe,other,incorrect,"['other', 'other', 'other', 'other', 'other']",camera_far,autumn_hockey,white,autumn_hockey,camera_far
+hug_0_initial.mp4,hug,flying kite,other,incorrect,"['other', 'play sport', 'other', 'other', 'other']",camera_far,konzerthaus,white,konzerthaus,camera_far
+hug_0_modified_african.mp4,hug,flying kite,other,incorrect,"['other', 'jump', 'other', 'other', 'other']",camera_far,konzerthaus,african,konzerthaus,camera_far
+hug_0_modified_asian.mp4,hug,hammer throw,other,incorrect,"['other', 'jump', 'other', 'throw', 'other']",camera_far,konzerthaus,asian,konzerthaus,camera_far
+hug_0_modified_hispanic.mp4,hug,somersaulting,jump,incorrect,"['jump', 'other', 'other', 'other', 'other']",camera_far,konzerthaus,hispanic,konzerthaus,camera_far
+hug_0_modified_indian.mp4,hug,flying kite,other,incorrect,"['other', 'other', 'jump', 'other', 'other']",camera_far,konzerthaus,indian,konzerthaus,camera_far
+hug_0_modified_middle_eastern.mp4,hug,flying kite,other,incorrect,"['other', 'play sport', 'other', 'jump', 'play sport']",camera_far,konzerthaus,middle_eastern,konzerthaus,camera_far
+hug_0_modified_south_east_asian.mp4,hug,flying kite,other,incorrect,"['other', 'jump', 'other', 'other', 'throw']",camera_far,konzerthaus,south_east_asian,konzerthaus,camera_far
+hug_1_initial.mp4,hug,rock climbing,other,incorrect,"['other', 'other', 'other', 'other', 'other']",camera_far,konzerthaus,white,konzerthaus,camera_far
+hug_1_modified_african.mp4,hug,rock climbing,other,incorrect,"['other', 'other', 'other', 'other', 'other']",camera_far,konzerthaus,african,konzerthaus,camera_far
+hug_1_modified_asian.mp4,hug,rock climbing,other,incorrect,"['other', 'other', 'other', 'other', 'other']",camera_far,konzerthaus,asian,konzerthaus,camera_far
+hug_1_modified_hispanic.mp4,hug,rock climbing,other,incorrect,"['other', 'other', 'other', 'jump', 'play sport']",camera_far,konzerthaus,hispanic,konzerthaus,camera_far
+hug_1_modified_indian.mp4,hug,rock climbing,other,incorrect,"['other', 'other', 'other', 'other', 'other']",camera_far,konzerthaus,indian,konzerthaus,camera_far
+hug_1_modified_middle_eastern.mp4,hug,rock climbing,other,incorrect,"['other', 'other', 'other', 'other', 'other']",camera_far,konzerthaus,middle_eastern,konzerthaus,camera_far
+hug_1_modified_south_east_asian.mp4,hug,rock climbing,other,incorrect,"['other', 'other', 'other', 'other', 'other']",camera_far,konzerthaus,south_east_asian,konzerthaus,camera_far
+hug_2_initial.mp4,hug,throwing axe,other,incorrect,"['other', 'other', 'other', 'other', 'other']",camera_far,konzerthaus,south_east_asian,konzerthaus,camera_far
+hug_2_modified_african.mp4,hug,throwing axe,other,incorrect,"['other', 'other', 'other', 'other', 'other']",camera_far,konzerthaus,african,konzerthaus,camera_far
+hug_2_modified_asian.mp4,hug,throwing axe,other,incorrect,"['other', 'other', 'other', 'other', 'other']",camera_far,konzerthaus,asian,konzerthaus,camera_far
+hug_2_modified_hispanic.mp4,hug,throwing axe,other,incorrect,"['other', 'other', 'other', 'other', 'other']",camera_far,konzerthaus,hispanic,konzerthaus,camera_far
+hug_2_modified_indian.mp4,hug,throwing axe,other,incorrect,"['other', 'other', 'other', 'other', 'other']",camera_far,konzerthaus,indian,konzerthaus,camera_far
+hug_2_modified_middle_eastern.mp4,hug,flying kite,other,incorrect,"['other', 'other', 'other', 'other', 'jump']",camera_far,konzerthaus,middle_eastern,konzerthaus,camera_far
+hug_2_modified_white.mp4,hug,flying kite,other,incorrect,"['other', 'other', 'other', 'other', 'other']",camera_far,konzerthaus,white,konzerthaus,camera_far
+hug_3_initial.mp4,hug,throwing axe,other,incorrect,"['other', 'other', 'other', 'other', 'other']",camera_far,konzerthaus,white,konzerthaus,camera_far
+hug_3_modified_african.mp4,hug,flying kite,other,incorrect,"['other', 'other', 'other', 'play catch', 'other']",camera_far,konzerthaus,african,konzerthaus,camera_far
+hug_3_modified_asian.mp4,hug,throwing axe,other,incorrect,"['other', 'other', 'other', 'other', 'other']",camera_far,konzerthaus,asian,konzerthaus,camera_far
+hug_3_modified_hispanic.mp4,hug,flying kite,other,incorrect,"['other', 'other', 'other', 'other', 'other']",camera_far,konzerthaus,hispanic,konzerthaus,camera_far
+hug_3_modified_indian.mp4,hug,tai chi,other,incorrect,"['other', 'other', 'other', 'other', 'other']",camera_far,konzerthaus,indian,konzerthaus,camera_far
+hug_3_modified_middle_eastern.mp4,hug,throwing axe,other,incorrect,"['other', 'other', 'other', 'other', 'other']",camera_far,konzerthaus,middle_eastern,konzerthaus,camera_far
+hug_3_modified_south_east_asian.mp4,hug,tai chi,other,incorrect,"['other', 'other', 'other', 'other', 'play catch']",camera_far,konzerthaus,south_east_asian,konzerthaus,camera_far
+hug_4_initial.mp4,hug,hammer throw,other,incorrect,"['other', 'other', 'other', 'other', 'actions with ball']",camera_far,konzerthaus,middle_eastern,konzerthaus,camera_far
+hug_4_modified_african.mp4,hug,hammer throw,other,incorrect,"['other', 'other', 'other', 'other', 'other']",camera_far,konzerthaus,african,konzerthaus,camera_far
+hug_4_modified_asian.mp4,hug,hammer throw,other,incorrect,"['other', 'other', 'other', 'other', 'actions with ball']",camera_far,konzerthaus,asian,konzerthaus,camera_far
+hug_4_modified_hispanic.mp4,hug,hammer throw,other,incorrect,"['other', 'other', 'other', 'other', 'jump']",camera_far,konzerthaus,hispanic,konzerthaus,camera_far
+hug_4_modified_indian.mp4,hug,hammer throw,other,incorrect,"['other', 'other', 'other', 'other', 'other']",camera_far,konzerthaus,indian,konzerthaus,camera_far
+hug_4_modified_south_east_asian.mp4,hug,throwing axe,other,incorrect,"['other', 'other', 'other', 'other', 'other']",camera_far,konzerthaus,south_east_asian,konzerthaus,camera_far
+hug_4_modified_white.mp4,hug,hammer throw,other,incorrect,"['other', 'other', 'other', 'other', 'actions with ball']",camera_far,konzerthaus,white,konzerthaus,camera_far
+hug_5_initial.mp4,hug,throwing discus,throw,incorrect,"['throw', 'other', 'other', 'golf', 'other']",camera_far,konzerthaus,indian,konzerthaus,camera_far
+hug_5_modified_african.mp4,hug,throwing discus,throw,incorrect,"['throw', 'other', 'other', 'golf', 'other']",camera_far,konzerthaus,african,konzerthaus,camera_far
+hug_5_modified_asian.mp4,hug,throwing discus,throw,incorrect,"['throw', 'other', 'other', 'golf', 'other']",camera_far,konzerthaus,asian,konzerthaus,camera_far
+hug_5_modified_hispanic.mp4,hug,throwing discus,throw,incorrect,"['throw', 'other', 'other', 'golf', 'other']",camera_far,konzerthaus,hispanic,konzerthaus,camera_far
+hug_5_modified_middle_eastern.mp4,hug,throwing discus,throw,incorrect,"['throw', 'other', 'other', 'golf', 'other']",camera_far,konzerthaus,middle_eastern,konzerthaus,camera_far
+hug_5_modified_south_east_asian.mp4,hug,throwing discus,throw,incorrect,"['throw', 'other', 'other', 'other', 'golf']",camera_far,konzerthaus,south_east_asian,konzerthaus,camera_far
+hug_5_modified_white.mp4,hug,hammer throw,other,incorrect,"['other', 'throw', 'other', 'golf', 'other']",camera_far,konzerthaus,white,konzerthaus,camera_far
+hug_6_initial.mp4,hug,somersaulting,jump,incorrect,"['jump', 'other', 'other', 'other', 'throw']",camera_far,konzerthaus,hispanic,konzerthaus,camera_far
+hug_6_modified_african.mp4,hug,flying kite,other,incorrect,"['other', 'other', 'other', 'jump', 'other']",camera_far,konzerthaus,african,konzerthaus,camera_far
+hug_6_modified_asian.mp4,hug,somersaulting,jump,incorrect,"['jump', 'other', 'other', 'other', 'throw']",camera_far,konzerthaus,asian,konzerthaus,camera_far
+hug_6_modified_indian.mp4,hug,flying kite,other,incorrect,"['other', 'other', 'jump', 'other', 'other']",camera_far,konzerthaus,indian,konzerthaus,camera_far
+hug_6_modified_middle_eastern.mp4,hug,flying kite,other,incorrect,"['other', 'other', 'play sport', 'jump', 'other']",camera_far,konzerthaus,middle_eastern,konzerthaus,camera_far
+hug_6_modified_south_east_asian.mp4,hug,flying kite,other,incorrect,"['other', 'other', 'jump', 'play sport', 'other']",camera_far,konzerthaus,south_east_asian,konzerthaus,camera_far
+hug_6_modified_white.mp4,hug,flying kite,other,incorrect,"['other', 'play sport', 'other', 'other', 'other']",camera_far,konzerthaus,white,konzerthaus,camera_far
+hug_7_initial.mp4,hug,throwing axe,other,incorrect,"['other', 'other', 'other', 'other', 'jump']",camera_far,konzerthaus,south_east_asian,konzerthaus,camera_far
+hug_7_modified_african.mp4,hug,throwing axe,other,incorrect,"['other', 'other', 'other', 'other', 'other']",camera_far,konzerthaus,african,konzerthaus,camera_far
+hug_7_modified_asian.mp4,hug,flying kite,other,incorrect,"['other', 'other', 'other', 'other', 'other']",camera_far,konzerthaus,asian,konzerthaus,camera_far
+hug_7_modified_hispanic.mp4,hug,throwing axe,other,incorrect,"['other', 'other', 'other', 'other', 'other']",camera_far,konzerthaus,hispanic,konzerthaus,camera_far
+hug_7_modified_indian.mp4,hug,throwing axe,other,incorrect,"['other', 'other', 'other', 'other', 'other']",camera_far,konzerthaus,indian,konzerthaus,camera_far
+hug_7_modified_middle_eastern.mp4,hug,flying kite,other,incorrect,"['other', 'other', 'other', 'other', 'jump']",camera_far,konzerthaus,middle_eastern,konzerthaus,camera_far
+hug_7_modified_white.mp4,hug,throwing axe,other,incorrect,"['other', 'other', 'other', 'other', 'other']",camera_far,konzerthaus,white,konzerthaus,camera_far
+hug_8_initial.mp4,hug,rock climbing,other,incorrect,"['other', 'other', 'other', 'other', 'play sport']",camera_far,konzerthaus,white,konzerthaus,camera_far
+hug_8_modified_african.mp4,hug,rock climbing,other,incorrect,"['other', 'other', 'other', 'other', 'other']",camera_far,konzerthaus,african,konzerthaus,camera_far
+hug_8_modified_asian.mp4,hug,rock climbing,other,incorrect,"['other', 'other', 'other', 'other', 'play sport']",camera_far,konzerthaus,asian,konzerthaus,camera_far
+hug_8_modified_hispanic.mp4,hug,rock climbing,other,incorrect,"['other', 'other', 'other', 'other', 'other']",camera_far,konzerthaus,hispanic,konzerthaus,camera_far
+hug_8_modified_indian.mp4,hug,rock climbing,other,incorrect,"['other', 'other', 'other', 'other', 'other']",camera_far,konzerthaus,indian,konzerthaus,camera_far
+hug_8_modified_middle_eastern.mp4,hug,rock climbing,other,incorrect,"['other', 'other', 'other', 'other', 'play sport']",camera_far,konzerthaus,middle_eastern,konzerthaus,camera_far
+hug_8_modified_south_east_asian.mp4,hug,rock climbing,other,incorrect,"['other', 'other', 'other', 'jump', 'other']",camera_far,konzerthaus,south_east_asian,konzerthaus,camera_far
+hug_9_initial.mp4,hug,throwing discus,throw,incorrect,"['throw', 'other', 'other', 'golf', 'other']",camera_far,konzerthaus,african,konzerthaus,camera_far
+hug_9_modified_asian.mp4,hug,throwing discus,throw,incorrect,"['throw', 'other', 'other', 'golf', 'other']",camera_far,konzerthaus,asian,konzerthaus,camera_far
+hug_9_modified_hispanic.mp4,hug,throwing discus,throw,incorrect,"['throw', 'other', 'other', 'golf', 'other']",camera_far,konzerthaus,hispanic,konzerthaus,camera_far
+hug_9_modified_indian.mp4,hug,throwing discus,throw,incorrect,"['throw', 'other', 'other', 'golf', 'other']",camera_far,konzerthaus,indian,konzerthaus,camera_far
+hug_9_modified_middle_eastern.mp4,hug,hammer throw,other,incorrect,"['other', 'throw', 'other', 'golf', 'other']",camera_far,konzerthaus,middle_eastern,konzerthaus,camera_far
+hug_9_modified_south_east_asian.mp4,hug,throwing discus,throw,incorrect,"['throw', 'other', 'other', 'golf', 'other']",camera_far,konzerthaus,south_east_asian,konzerthaus,camera_far
+hug_9_modified_white.mp4,hug,throwing discus,throw,incorrect,"['throw', 'other', 'other', 'golf', 'other']",camera_far,konzerthaus,white,konzerthaus,camera_far
+jog_0_initial.mp4,jog,dunking basketball,dribble,incorrect,"['dribble', 'other', 'kick', 'other', 'other']",camera_far,konzerthaus,white,konzerthaus,camera_far
+jog_0_modified_african.mp4,jog,dunking basketball,dribble,incorrect,"['dribble', 'other', 'kick', 'other', 'other']",camera_far,konzerthaus,african,konzerthaus,camera_far
+jog_0_modified_asian.mp4,jog,dunking basketball,dribble,incorrect,"['dribble', 'other', 'kick', 'other', 'other']",camera_far,konzerthaus,asian,konzerthaus,camera_far
+jog_0_modified_hispanic.mp4,jog,dunking basketball,dribble,incorrect,"['dribble', 'other', 'kick', 'other', 'other']",camera_far,konzerthaus,hispanic,konzerthaus,camera_far
+jog_0_modified_indian.mp4,jog,dunking basketball,dribble,incorrect,"['dribble', 'other', 'kick', 'other', 'other']",camera_far,konzerthaus,indian,konzerthaus,camera_far
+jog_0_modified_middle_eastern.mp4,jog,dunking basketball,dribble,incorrect,"['dribble', 'other', 'kick', 'other', 'other']",camera_far,konzerthaus,middle_eastern,konzerthaus,camera_far
+jog_0_modified_south_east_asian.mp4,jog,dunking basketball,dribble,incorrect,"['dribble', 'other', 'kick', 'other', 'other']",camera_far,konzerthaus,south_east_asian,konzerthaus,camera_far
+jog_1_initial.mp4,jog,dunking basketball,dribble,incorrect,"['dribble', 'other', 'other', 'kick', 'kick']",camera_far,konzerthaus,white,konzerthaus,camera_far
+jog_1_modified_african.mp4,jog,passing American football (not in game),other,incorrect,"['other', 'dribble', 'other', 'kick', 'other']",camera_far,konzerthaus,african,konzerthaus,camera_far
+jog_1_modified_asian.mp4,jog,dunking basketball,dribble,incorrect,"['dribble', 'other', 'kick', 'other', 'kick']",camera_far,konzerthaus,asian,konzerthaus,camera_far
+jog_1_modified_hispanic.mp4,jog,dunking basketball,dribble,incorrect,"['dribble', 'other', 'kick', 'kick', 'other']",camera_far,konzerthaus,hispanic,konzerthaus,camera_far
+jog_1_modified_indian.mp4,jog,dunking basketball,dribble,incorrect,"['dribble', 'other', 'kick', 'other', 'juggle']",camera_far,konzerthaus,indian,konzerthaus,camera_far
+jog_1_modified_middle_eastern.mp4,jog,dunking basketball,dribble,incorrect,"['dribble', 'other', 'kick', 'other', 'kick']",camera_far,konzerthaus,middle_eastern,konzerthaus,camera_far
+jog_1_modified_south_east_asian.mp4,jog,dunking basketball,dribble,incorrect,"['dribble', 'other', 'kick', 'other', 'kick']",camera_far,konzerthaus,south_east_asian,konzerthaus,camera_far
+jog_2_initial.mp4,jog,tai chi,other,incorrect,"['other', 'kick', 'kick', 'jump', 'other']",camera_far,konzerthaus,south_east_asian,konzerthaus,camera_far
+jog_2_modified_african.mp4,jog,tai chi,other,incorrect,"['other', 'other', 'other', 'other', 'golf']",camera_far,konzerthaus,african,konzerthaus,camera_far
+jog_2_modified_asian.mp4,jog,tai chi,other,incorrect,"['other', 'other', 'kick', 'other', 'other']",camera_far,konzerthaus,asian,konzerthaus,camera_far
+jog_2_modified_hispanic.mp4,jog,tai chi,other,incorrect,"['other', 'kick', 'jump', 'other', 'kick']",camera_far,konzerthaus,hispanic,konzerthaus,camera_far
+jog_2_modified_indian.mp4,jog,tai chi,other,incorrect,"['other', 'other', 'kick', 'other', 'kick']",camera_far,konzerthaus,indian,konzerthaus,camera_far
+jog_2_modified_middle_eastern.mp4,jog,tai chi,other,incorrect,"['other', 'other', 'other', 'kick', 'other']",camera_far,konzerthaus,middle_eastern,konzerthaus,camera_far
+jog_2_modified_white.mp4,jog,tai chi,other,incorrect,"['other', 'other', 'kick', 'other', 'kick']",camera_far,konzerthaus,white,konzerthaus,camera_far
+jog_3_initial.mp4,jog,dunking basketball,dribble,incorrect,"['dribble', 'jump', 'kick', 'jump', 'jump']",camera_far,konzerthaus,white,konzerthaus,camera_far
+jog_3_modified_african.mp4,jog,dunking basketball,dribble,incorrect,"['dribble', 'kick', 'jump', 'other', 'jump']",camera_far,konzerthaus,african,konzerthaus,camera_far
+jog_3_modified_asian.mp4,jog,dunking basketball,dribble,incorrect,"['dribble', 'jump', 'kick', 'jump', 'other']",camera_far,konzerthaus,asian,konzerthaus,camera_far
+jog_3_modified_hispanic.mp4,jog,dunking basketball,dribble,incorrect,"['dribble', 'jump', 'kick', 'jump', 'other']",camera_far,konzerthaus,hispanic,konzerthaus,camera_far
+jog_3_modified_indian.mp4,jog,dunking basketball,dribble,incorrect,"['dribble', 'jump', 'kick', 'jump', 'other']",camera_far,konzerthaus,indian,konzerthaus,camera_far
+jog_3_modified_middle_eastern.mp4,jog,dunking basketball,dribble,incorrect,"['dribble', 'jump', 'kick', 'jump', 'other']",camera_far,konzerthaus,middle_eastern,konzerthaus,camera_far
+jog_3_modified_south_east_asian.mp4,jog,dunking basketball,dribble,incorrect,"['dribble', 'jump', 'kick', 'other', 'jump']",camera_far,konzerthaus,south_east_asian,konzerthaus,camera_far
+jog_4_initial.mp4,jog,catching or throwing frisbee,other,incorrect,"['other', 'juggle', 'other', 'raise body part', 'play catch']",camera_far,konzerthaus,middle_eastern,konzerthaus,camera_far
+jog_4_modified_african.mp4,jog,flipping pancake,other,incorrect,"['other', 'other', 'other', 'shuffle', 'other']",camera_far,konzerthaus,african,konzerthaus,camera_far
+jog_4_modified_asian.mp4,jog,catching or throwing frisbee,other,incorrect,"['other', 'other', 'play catch', 'kick', 'kick']",camera_far,konzerthaus,asian,konzerthaus,camera_far
+jog_4_modified_hispanic.mp4,jog,catching or throwing frisbee,other,incorrect,"['other', 'other', 'raise body part', 'other', 'play catch']",camera_far,konzerthaus,hispanic,konzerthaus,camera_far
+jog_4_modified_indian.mp4,jog,catching or throwing frisbee,other,incorrect,"['other', 'other', 'play catch', 'kick', 'kick']",camera_far,konzerthaus,indian,konzerthaus,camera_far
+jog_4_modified_south_east_asian.mp4,jog,catching or throwing frisbee,other,incorrect,"['other', 'play catch', 'other', 'kick', 'kick']",camera_far,konzerthaus,south_east_asian,konzerthaus,camera_far
+jog_4_modified_white.mp4,jog,juggling balls,juggle,incorrect,"['juggle', 'other', 'raise body part', 'other', 'play catch']",camera_far,konzerthaus,white,konzerthaus,camera_far
+jog_5_initial.mp4,jog,passing American football (not in game),other,incorrect,"['other', 'kick', 'other', 'dribble', 'throw']",camera_far,konzerthaus,indian,konzerthaus,camera_far
+jog_5_modified_african.mp4,jog,passing American football (not in game),other,incorrect,"['other', 'other', 'dribble', 'kick', 'throw']",camera_far,konzerthaus,african,konzerthaus,camera_far
+jog_5_modified_asian.mp4,jog,passing American football (not in game),other,incorrect,"['other', 'other', 'kick', 'other', 'dribble']",camera_far,konzerthaus,asian,konzerthaus,camera_far
+jog_5_modified_hispanic.mp4,jog,passing American football (not in game),other,incorrect,"['other', 'other', 'kick', 'other', 'dribble']",camera_far,konzerthaus,hispanic,konzerthaus,camera_far
+jog_5_modified_middle_eastern.mp4,jog,passing American football (not in game),other,incorrect,"['other', 'other', 'other', 'kick', 'dribble']",camera_far,konzerthaus,middle_eastern,konzerthaus,camera_far
+jog_5_modified_south_east_asian.mp4,jog,passing American football (not in game),other,incorrect,"['other', 'kick', 'dribble', 'other', 'other']",camera_far,konzerthaus,south_east_asian,konzerthaus,camera_far
+jog_5_modified_white.mp4,jog,passing American football (not in game),other,incorrect,"['other', 'other', 'other', 'kick', 'dribble']",camera_far,konzerthaus,white,konzerthaus,camera_far
+jog_6_initial.mp4,jog,playing cricket,play sport,incorrect,"['play sport', 'kick', 'other', 'other', 'cry']",camera_far,konzerthaus,hispanic,konzerthaus,camera_far
+jog_6_modified_african.mp4,jog,playing cricket,play sport,incorrect,"['play sport', 'kick', 'cry', 'other', 'other']",camera_far,konzerthaus,african,konzerthaus,camera_far
+jog_6_modified_asian.mp4,jog,playing cricket,play sport,incorrect,"['play sport', 'cry', 'other', 'kick', 'other']",camera_far,konzerthaus,asian,konzerthaus,camera_far
+jog_6_modified_indian.mp4,jog,playing cricket,play sport,incorrect,"['play sport', 'cry', 'other', 'kick', 'dance']",camera_far,konzerthaus,indian,konzerthaus,camera_far
+jog_6_modified_middle_eastern.mp4,jog,playing cricket,play sport,incorrect,"['play sport', 'kick', 'other', 'other', 'jump']",camera_far,konzerthaus,middle_eastern,konzerthaus,camera_far
+jog_6_modified_south_east_asian.mp4,jog,playing cricket,play sport,incorrect,"['play sport', 'kick', 'other', 'other', 'other']",camera_far,konzerthaus,south_east_asian,konzerthaus,camera_far
+jog_6_modified_white.mp4,jog,playing cricket,play sport,incorrect,"['play sport', 'other', 'cry', 'kick', 'other']",camera_far,konzerthaus,white,konzerthaus,camera_far
+jog_7_initial.mp4,jog,tai chi,other,incorrect,"['other', 'kick', 'dribble', 'kick', 'other']",camera_far,konzerthaus,south_east_asian,konzerthaus,camera_far
+jog_7_modified_african.mp4,jog,tai chi,other,incorrect,"['other', 'other', 'other', 'dribble', 'kick']",camera_far,konzerthaus,african,konzerthaus,camera_far
+jog_7_modified_asian.mp4,jog,tai chi,other,incorrect,"['other', 'kick', 'dribble', 'kick', 'other']",camera_far,konzerthaus,asian,konzerthaus,camera_far
+jog_7_modified_hispanic.mp4,jog,tai chi,other,incorrect,"['other', 'kick', 'other', 'other', 'dribble']",camera_far,konzerthaus,hispanic,konzerthaus,camera_far
+jog_7_modified_indian.mp4,jog,tai chi,other,incorrect,"['other', 'other', 'other', 'other', 'kick']",camera_far,konzerthaus,indian,konzerthaus,camera_far
+jog_7_modified_middle_eastern.mp4,jog,tai chi,other,incorrect,"['other', 'kick', 'dribble', 'other', 'kick']",camera_far,konzerthaus,middle_eastern,konzerthaus,camera_far
+jog_7_modified_white.mp4,jog,tai chi,other,incorrect,"['other', 'kick', 'dribble', 'other', 'kick']",camera_far,konzerthaus,white,konzerthaus,camera_far
+jog_8_initial.mp4,jog,robot dancing,dance,incorrect,"['dance', 'play sport', 'other', 'kick', 'other']",camera_far,konzerthaus,white,konzerthaus,camera_far
+jog_8_modified_african.mp4,jog,robot dancing,dance,incorrect,"['dance', 'other', 'other', 'play sport', 'throw']",camera_far,konzerthaus,african,konzerthaus,camera_far
+jog_8_modified_asian.mp4,jog,robot dancing,dance,incorrect,"['dance', 'other', 'play sport', 'throw', 'kick']",camera_far,konzerthaus,asian,konzerthaus,camera_far
+jog_8_modified_hispanic.mp4,jog,robot dancing,dance,incorrect,"['dance', 'other', 'play sport', 'throw', 'kick']",camera_far,konzerthaus,hispanic,konzerthaus,camera_far
+jog_8_modified_indian.mp4,jog,robot dancing,dance,incorrect,"['dance', 'other', 'play sport', 'other', 'throw']",camera_far,konzerthaus,indian,konzerthaus,camera_far
+jog_8_modified_middle_eastern.mp4,jog,robot dancing,dance,incorrect,"['dance', 'play sport', 'other', 'kick', 'other']",camera_far,konzerthaus,middle_eastern,konzerthaus,camera_far
+jog_8_modified_south_east_asian.mp4,jog,robot dancing,dance,incorrect,"['dance', 'other', 'play sport', 'other', 'throw']",camera_far,konzerthaus,south_east_asian,konzerthaus,camera_far
+jog_9_initial.mp4,jog,tai chi,other,incorrect,"['other', 'kick', 'other', 'dribble', 'other']",camera_far,konzerthaus,african,konzerthaus,camera_far
+jog_9_modified_asian.mp4,jog,drop kicking,kick,incorrect,"['kick', 'dribble', 'other', 'other', 'other']",camera_far,konzerthaus,asian,konzerthaus,camera_far
+jog_9_modified_hispanic.mp4,jog,drop kicking,kick,incorrect,"['kick', 'dribble', 'other', 'other', 'other']",camera_far,konzerthaus,hispanic,konzerthaus,camera_far
+jog_9_modified_indian.mp4,jog,drop kicking,kick,incorrect,"['kick', 'dribble', 'other', 'other', 'other']",camera_far,konzerthaus,indian,konzerthaus,camera_far
+jog_9_modified_middle_eastern.mp4,jog,dunking basketball,dribble,incorrect,"['dribble', 'kick', 'jump', 'other', 'other']",camera_far,konzerthaus,middle_eastern,konzerthaus,camera_far
+jog_9_modified_south_east_asian.mp4,jog,drop kicking,kick,incorrect,"['kick', 'dribble', 'other', 'other', 'jump']",camera_far,konzerthaus,south_east_asian,konzerthaus,camera_far
+jog_9_modified_white.mp4,jog,drop kicking,kick,incorrect,"['kick', 'dribble', 'other', 'jump', 'other']",camera_far,konzerthaus,white,konzerthaus,camera_far
+lunge_0_initial.mp4,lunge,hugging,hug,incorrect,"['hug', 'other', 'dance', 'kick', 'dance']",camera_far,autumn_hockey,white,autumn_hockey,camera_far
+lunge_0_modified_african.mp4,lunge,playing bagpipes,other,incorrect,"['other', 'open something', 'stretch', 'hug', 'kick']",camera_far,autumn_hockey,african,autumn_hockey,camera_far
+lunge_0_modified_asian.mp4,lunge,drop kicking,kick,incorrect,"['kick', 'other', 'kick', 'hug', 'open something']",camera_far,autumn_hockey,asian,autumn_hockey,camera_far
+lunge_0_modified_hispanic.mp4,lunge,hugging,hug,incorrect,"['hug', 'kick', 'other', 'other', 'kick']",camera_far,autumn_hockey,hispanic,autumn_hockey,camera_far
+lunge_0_modified_indian.mp4,lunge,playing bagpipes,other,incorrect,"['other', 'kick', 'kick', 'hug', 'other']",camera_far,autumn_hockey,indian,autumn_hockey,camera_far
+lunge_0_modified_middle_eastern.mp4,lunge,drop kicking,kick,incorrect,"['kick', 'hug', 'other', 'kick', 'other']",camera_far,autumn_hockey,middle_eastern,autumn_hockey,camera_far
+lunge_0_modified_south_east_asian.mp4,lunge,drop kicking,kick,incorrect,"['kick', 'hug', 'kick', 'other', 'other']",camera_far,autumn_hockey,south_east_asian,autumn_hockey,camera_far
+lunge_1_initial.mp4,lunge,cartwheeling,cartwheel,incorrect,"['cartwheel', 'other', 'other', 'other', 'other']",camera_far,autumn_hockey,white,autumn_hockey,camera_far
+lunge_1_modified_african.mp4,lunge,drop kicking,kick,incorrect,"['kick', 'hug', 'kick', 'other', 'cry']",camera_far,autumn_hockey,african,autumn_hockey,camera_far
+lunge_1_modified_asian.mp4,lunge,drop kicking,kick,incorrect,"['kick', 'kick', 'dance', 'hug', 'cry']",camera_far,autumn_hockey,asian,autumn_hockey,camera_far
+lunge_1_modified_hispanic.mp4,lunge,drop kicking,kick,incorrect,"['kick', 'dance', 'kick', 'hug', 'cry']",camera_far,autumn_hockey,hispanic,autumn_hockey,camera_far
+lunge_1_modified_indian.mp4,lunge,hugging,hug,incorrect,"['hug', 'other', 'kick', 'kick', 'other']",camera_far,autumn_hockey,indian,autumn_hockey,camera_far
+lunge_1_modified_middle_eastern.mp4,lunge,drop kicking,kick,incorrect,"['kick', 'dance', 'kick', 'play sport', 'cartwheel']",camera_far,autumn_hockey,middle_eastern,autumn_hockey,camera_far
+lunge_1_modified_south_east_asian.mp4,lunge,hugging,hug,incorrect,"['hug', 'other', 'kick', 'kick', 'cry']",camera_far,autumn_hockey,south_east_asian,autumn_hockey,camera_far
+lunge_2_initial.mp4,lunge,hugging,hug,incorrect,"['hug', 'kick', 'other', 'other', 'kick']",camera_far,autumn_hockey,south_east_asian,autumn_hockey,camera_far
+lunge_2_modified_african.mp4,lunge,hugging,hug,incorrect,"['hug', 'kick', 'other', 'other', 'dance']",camera_far,autumn_hockey,african,autumn_hockey,camera_far
+lunge_2_modified_asian.mp4,lunge,hugging,hug,incorrect,"['hug', 'kick', 'other', 'other', 'dance']",camera_far,autumn_hockey,asian,autumn_hockey,camera_far
+lunge_2_modified_hispanic.mp4,lunge,hugging,hug,incorrect,"['hug', 'other', 'other', 'kick', 'dance']",camera_far,autumn_hockey,hispanic,autumn_hockey,camera_far
+lunge_2_modified_indian.mp4,lunge,hugging,hug,incorrect,"['hug', 'kick', 'other', 'other', 'cry']",camera_far,autumn_hockey,indian,autumn_hockey,camera_far
+lunge_2_modified_middle_eastern.mp4,lunge,hugging,hug,incorrect,"['hug', 'kick', 'other', 'dance', 'other']",camera_far,autumn_hockey,middle_eastern,autumn_hockey,camera_far
+lunge_2_modified_white.mp4,lunge,hugging,hug,incorrect,"['hug', 'other', 'dance', 'kick', 'other']",camera_far,autumn_hockey,white,autumn_hockey,camera_far
+lunge_3_initial.mp4,lunge,crying,cry,incorrect,"['cry', 'hug', 'kick', 'kick', 'other']",camera_far,autumn_hockey,white,autumn_hockey,camera_far
+lunge_3_modified_african.mp4,lunge,playing bagpipes,other,incorrect,"['other', 'kick', 'stretch', 'other', 'kick']",camera_far,autumn_hockey,african,autumn_hockey,camera_far
+lunge_3_modified_asian.mp4,lunge,playing bagpipes,other,incorrect,"['other', 'kick', 'other', 'other', 'stretch']",camera_far,autumn_hockey,asian,autumn_hockey,camera_far
+lunge_3_modified_hispanic.mp4,lunge,high kick,kick,incorrect,"['kick', 'other', 'other', 'kick', 'other']",camera_far,autumn_hockey,hispanic,autumn_hockey,camera_far
+lunge_3_modified_indian.mp4,lunge,playing bagpipes,other,incorrect,"['other', 'kick', 'stretch', 'other', 'bow']",camera_far,autumn_hockey,indian,autumn_hockey,camera_far
+lunge_3_modified_middle_eastern.mp4,lunge,playing bagpipes,other,incorrect,"['other', 'other', 'kick', 'other', 'kick']",camera_far,autumn_hockey,middle_eastern,autumn_hockey,camera_far
+lunge_3_modified_south_east_asian.mp4,lunge,playing bagpipes,other,incorrect,"['other', 'kick', 'other', 'other', 'stretch']",camera_far,autumn_hockey,south_east_asian,autumn_hockey,camera_far
+lunge_4_initial.mp4,lunge,hugging,hug,incorrect,"['hug', 'kick', 'other', 'dance', 'other']",camera_far,autumn_hockey,middle_eastern,autumn_hockey,camera_far
+lunge_4_modified_african.mp4,lunge,hugging,hug,incorrect,"['hug', 'other', 'play sport', 'kick', 'dance']",camera_far,autumn_hockey,african,autumn_hockey,camera_far
+lunge_4_modified_asian.mp4,lunge,throwing axe,other,incorrect,"['other', 'other', 'kick', 'other', 'cartwheel']",camera_far,autumn_hockey,asian,autumn_hockey,camera_far
+lunge_4_modified_hispanic.mp4,lunge,hugging,hug,incorrect,"['hug', 'play sport', 'other', 'kick', 'dance']",camera_far,autumn_hockey,hispanic,autumn_hockey,camera_far
+lunge_4_modified_indian.mp4,lunge,hugging,hug,incorrect,"['hug', 'play sport', 'other', 'kick', 'dance']",camera_far,autumn_hockey,indian,autumn_hockey,camera_far
+lunge_4_modified_south_east_asian.mp4,lunge,hugging,hug,incorrect,"['hug', 'kick', 'kick', 'other', 'other']",camera_far,autumn_hockey,south_east_asian,autumn_hockey,camera_far
+lunge_4_modified_white.mp4,lunge,drop kicking,kick,incorrect,"['kick', 'other', 'other', 'cartwheel', 'dance']",camera_far,autumn_hockey,white,autumn_hockey,camera_far
+lunge_5_initial.mp4,lunge,hugging,hug,incorrect,"['hug', 'other', 'dance', 'dance', 'other']",camera_far,autumn_hockey,indian,autumn_hockey,camera_far
+lunge_5_modified_african.mp4,lunge,hugging,hug,incorrect,"['hug', 'other', 'dance', 'other', 'kick']",camera_far,autumn_hockey,african,autumn_hockey,camera_far
+lunge_5_modified_asian.mp4,lunge,cartwheeling,cartwheel,incorrect,"['cartwheel', 'other', 'stretch', 'other', 'bow']",camera_far,autumn_hockey,asian,autumn_hockey,camera_far
+lunge_5_modified_hispanic.mp4,lunge,hugging,hug,incorrect,"['hug', 'other', 'dance', 'other', 'kick']",camera_far,autumn_hockey,hispanic,autumn_hockey,camera_far
+lunge_5_modified_middle_eastern.mp4,lunge,cartwheeling,cartwheel,incorrect,"['cartwheel', 'other', 'other', 'other', 'other']",camera_far,autumn_hockey,middle_eastern,autumn_hockey,camera_far
+lunge_5_modified_south_east_asian.mp4,lunge,hugging,hug,incorrect,"['hug', 'other', 'dance', 'kick', 'other']",camera_far,autumn_hockey,south_east_asian,autumn_hockey,camera_far
+lunge_5_modified_white.mp4,lunge,cartwheeling,cartwheel,incorrect,"['cartwheel', 'other', 'other', 'stretch', 'jump']",camera_far,autumn_hockey,white,autumn_hockey,camera_far
+lunge_6_initial.mp4,lunge,hugging,hug,incorrect,"['hug', 'other', 'other', 'kick', 'dance']",camera_far,autumn_hockey,hispanic,autumn_hockey,camera_far
+lunge_6_modified_african.mp4,lunge,hugging,hug,incorrect,"['hug', 'other', 'kick', 'play sport', 'play sport']",camera_far,autumn_hockey,african,autumn_hockey,camera_far
+lunge_6_modified_asian.mp4,lunge,hugging,hug,incorrect,"['hug', 'other', 'dance', 'other', 'swing body part']",camera_far,autumn_hockey,asian,autumn_hockey,camera_far
+lunge_6_modified_indian.mp4,lunge,hugging,hug,incorrect,"['hug', 'other', 'kick', 'other', 'other']",camera_far,autumn_hockey,indian,autumn_hockey,camera_far
+lunge_6_modified_middle_eastern.mp4,lunge,hugging,hug,incorrect,"['hug', 'other', 'dance', 'other', 'swing body part']",camera_far,autumn_hockey,middle_eastern,autumn_hockey,camera_far
+lunge_6_modified_south_east_asian.mp4,lunge,hugging,hug,incorrect,"['hug', 'other', 'dance', 'other', 'other']",camera_far,autumn_hockey,south_east_asian,autumn_hockey,camera_far
+lunge_6_modified_white.mp4,lunge,hugging,hug,incorrect,"['hug', 'other', 'dance', 'other', 'other']",camera_far,autumn_hockey,white,autumn_hockey,camera_far
+lunge_7_initial.mp4,lunge,lunge,lunge,correct,"['lunge', 'squat', 'other', 'jog', 'jump']",camera_far,autumn_hockey,south_east_asian,autumn_hockey,camera_far
+lunge_7_modified_african.mp4,lunge,lunge,lunge,correct,"['lunge', 'other', 'jump', 'kick', 'throw']",camera_far,autumn_hockey,african,autumn_hockey,camera_far
+lunge_7_modified_asian.mp4,lunge,lunge,lunge,correct,"['lunge', 'jump', 'other', 'other', 'squat']",camera_far,autumn_hockey,asian,autumn_hockey,camera_far
+lunge_7_modified_hispanic.mp4,lunge,lunge,lunge,correct,"['lunge', 'other', 'throw', 'jog', 'other']",camera_far,autumn_hockey,hispanic,autumn_hockey,camera_far
+lunge_7_modified_indian.mp4,lunge,lunge,lunge,correct,"['lunge', 'other', 'kick', 'squat', 'jump']",camera_far,autumn_hockey,indian,autumn_hockey,camera_far
+lunge_7_modified_middle_eastern.mp4,lunge,lunge,lunge,correct,"['lunge', 'jump', 'other', 'other', 'squat']",camera_far,autumn_hockey,middle_eastern,autumn_hockey,camera_far
+lunge_7_modified_white.mp4,lunge,lunge,lunge,correct,"['lunge', 'jump', 'other', 'other', 'other']",camera_far,autumn_hockey,white,autumn_hockey,camera_far
+lunge_8_initial.mp4,lunge,throwing axe,other,incorrect,"['other', 'other', 'bow', 'other', 'other']",camera_far,autumn_hockey,white,autumn_hockey,camera_far
+lunge_8_modified_african.mp4,lunge,throwing axe,other,incorrect,"['other', 'other', 'stretch', 'bow', 'kick']",camera_far,autumn_hockey,african,autumn_hockey,camera_far
+lunge_8_modified_asian.mp4,lunge,throwing axe,other,incorrect,"['other', 'other', 'bow', 'other', 'other']",camera_far,autumn_hockey,asian,autumn_hockey,camera_far
+lunge_8_modified_hispanic.mp4,lunge,throwing axe,other,incorrect,"['other', 'other', 'bow', 'other', 'other']",camera_far,autumn_hockey,hispanic,autumn_hockey,camera_far
+lunge_8_modified_indian.mp4,lunge,throwing axe,other,incorrect,"['other', 'other', 'bow', 'stretch', 'kick']",camera_far,autumn_hockey,indian,autumn_hockey,camera_far
+lunge_8_modified_middle_eastern.mp4,lunge,throwing axe,other,incorrect,"['other', 'other', 'bow', 'other', 'other']",camera_far,autumn_hockey,middle_eastern,autumn_hockey,camera_far
+lunge_8_modified_south_east_asian.mp4,lunge,throwing axe,other,incorrect,"['other', 'other', 'bow', 'other', 'kick']",camera_far,autumn_hockey,south_east_asian,autumn_hockey,camera_far
+lunge_9_initial.mp4,lunge,hugging,hug,incorrect,"['hug', 'other', 'other', 'dance', 'other']",camera_far,autumn_hockey,african,autumn_hockey,camera_far
+lunge_9_modified_asian.mp4,lunge,throwing axe,other,incorrect,"['other', 'cartwheel', 'other', 'other', 'stretch']",camera_far,autumn_hockey,asian,autumn_hockey,camera_far
+lunge_9_modified_hispanic.mp4,lunge,hugging,hug,incorrect,"['hug', 'other', 'dance', 'other', 'dance']",camera_far,autumn_hockey,hispanic,autumn_hockey,camera_far
+lunge_9_modified_indian.mp4,lunge,hugging,hug,incorrect,"['hug', 'other', 'other', 'dance', 'kick']",camera_far,autumn_hockey,indian,autumn_hockey,camera_far
+lunge_9_modified_middle_eastern.mp4,lunge,throwing axe,other,incorrect,"['other', 'cartwheel', 'bow', 'kick', 'other']",camera_far,autumn_hockey,middle_eastern,autumn_hockey,camera_far
+lunge_9_modified_south_east_asian.mp4,lunge,hugging,hug,incorrect,"['hug', 'other', 'dance', 'kick', 'other']",camera_far,autumn_hockey,south_east_asian,autumn_hockey,camera_far
+lunge_9_modified_white.mp4,lunge,throwing axe,other,incorrect,"['other', 'kick', 'hug', 'cartwheel', 'bow']",camera_far,autumn_hockey,white,autumn_hockey,camera_far
+squat_0_initial.mp4,squat,jumping into pool,other,incorrect,"['other', 'jump', 'kick', 'other', 'other']",camera_far,konzerthaus,white,konzerthaus,camera_far
+squat_0_modified_african.mp4,squat,tai chi,other,incorrect,"['other', 'jump', 'kick', 'other', 'other']",camera_far,konzerthaus,african,konzerthaus,camera_far
+squat_0_modified_asian.mp4,squat,jumping into pool,other,incorrect,"['other', 'jump', 'kick', 'other', 'other']",camera_far,konzerthaus,asian,konzerthaus,camera_far
+squat_0_modified_hispanic.mp4,squat,jumping into pool,other,incorrect,"['other', 'jump', 'kick', 'other', 'other']",camera_far,konzerthaus,hispanic,konzerthaus,camera_far
+squat_0_modified_indian.mp4,squat,jumping into pool,other,incorrect,"['other', 'jump', 'kick', 'other', 'other']",camera_far,konzerthaus,indian,konzerthaus,camera_far
+squat_0_modified_middle_eastern.mp4,squat,jumping into pool,other,incorrect,"['other', 'jump', 'kick', 'other', 'other']",camera_far,konzerthaus,middle_eastern,konzerthaus,camera_far
+squat_0_modified_south_east_asian.mp4,squat,jumping into pool,other,incorrect,"['other', 'jump', 'kick', 'other', 'other']",camera_far,konzerthaus,south_east_asian,konzerthaus,camera_far
+squat_1_initial.mp4,squat,passing American football (not in game),other,incorrect,"['other', 'other', 'other', 'throw', 'kick']",camera_far,konzerthaus,white,konzerthaus,camera_far
+squat_1_modified_african.mp4,squat,throwing discus,throw,incorrect,"['throw', 'kick', 'other', 'other', 'other']",camera_far,konzerthaus,african,konzerthaus,camera_far
+squat_1_modified_asian.mp4,squat,passing American football (not in game),other,incorrect,"['other', 'kick', 'throw', 'other', 'other']",camera_far,konzerthaus,asian,konzerthaus,camera_far
+squat_1_modified_hispanic.mp4,squat,passing American football (not in game),other,incorrect,"['other', 'kick', 'throw', 'other', 'other']",camera_far,konzerthaus,hispanic,konzerthaus,camera_far
+squat_1_modified_indian.mp4,squat,tai chi,other,incorrect,"['other', 'kick', 'throw', 'other', 'other']",camera_far,konzerthaus,indian,konzerthaus,camera_far
+squat_1_modified_middle_eastern.mp4,squat,passing American football (not in game),other,incorrect,"['other', 'other', 'throw', 'other', 'kick']",camera_far,konzerthaus,middle_eastern,konzerthaus,camera_far
+squat_1_modified_south_east_asian.mp4,squat,tai chi,other,incorrect,"['other', 'kick', 'other', 'throw', 'other']",camera_far,konzerthaus,south_east_asian,konzerthaus,camera_far
+squat_2_initial.mp4,squat,drop kicking,kick,incorrect,"['kick', 'play sport', 'other', 'other', 'kick']",camera_far,konzerthaus,south_east_asian,konzerthaus,camera_far
+squat_2_modified_african.mp4,squat,drop kicking,kick,incorrect,"['kick', 'play sport', 'other', 'other', 'kick']",camera_far,konzerthaus,african,konzerthaus,camera_far
+squat_2_modified_asian.mp4,squat,drop kicking,kick,incorrect,"['kick', 'other', 'kick', 'other', 'play sport']",camera_far,konzerthaus,asian,konzerthaus,camera_far
+squat_2_modified_hispanic.mp4,squat,drop kicking,kick,incorrect,"['kick', 'play sport', 'other', 'other', 'kick']",camera_far,konzerthaus,hispanic,konzerthaus,camera_far
+squat_2_modified_indian.mp4,squat,drop kicking,kick,incorrect,"['kick', 'play sport', 'other', 'other', 'kick']",camera_far,konzerthaus,indian,konzerthaus,camera_far
+squat_2_modified_middle_eastern.mp4,squat,drop kicking,kick,incorrect,"['kick', 'other', 'other', 'kick', 'other']",camera_far,konzerthaus,middle_eastern,konzerthaus,camera_far
+squat_2_modified_white.mp4,squat,drop kicking,kick,incorrect,"['kick', 'other', 'kick', 'play sport', 'other']",camera_far,konzerthaus,white,konzerthaus,camera_far
+squat_3_initial.mp4,squat,dancing ballet,dance,incorrect,"['dance', 'jump', 'cartwheel', 'other', 'other']",camera_far,konzerthaus,white,konzerthaus,camera_far
+squat_3_modified_african.mp4,squat,playing cricket,play sport,incorrect,"['play sport', 'other', 'dance', 'other', 'dance']",camera_far,konzerthaus,african,konzerthaus,camera_far
+squat_3_modified_asian.mp4,squat,drop kicking,kick,incorrect,"['kick', 'kick', 'jump', 'other', 'play sport']",camera_far,konzerthaus,asian,konzerthaus,camera_far
+squat_3_modified_hispanic.mp4,squat,tai chi,other,incorrect,"['other', 'kick', 'other', 'jump', 'kick']",camera_far,konzerthaus,hispanic,konzerthaus,camera_far
+squat_3_modified_indian.mp4,squat,drop kicking,kick,incorrect,"['kick', 'kick', 'jump', 'other', 'other']",camera_far,konzerthaus,indian,konzerthaus,camera_far
+squat_3_modified_middle_eastern.mp4,squat,tai chi,other,incorrect,"['other', 'jump', 'other', 'other', 'cartwheel']",camera_far,konzerthaus,middle_eastern,konzerthaus,camera_far
+squat_3_modified_south_east_asian.mp4,squat,drop kicking,kick,incorrect,"['kick', 'other', 'other', 'jump', 'kick']",camera_far,konzerthaus,south_east_asian,konzerthaus,camera_far
+squat_4_initial.mp4,squat,catching or throwing frisbee,other,incorrect,"['other', 'other', 'other', 'other', 'play sport']",camera_far,konzerthaus,middle_eastern,konzerthaus,camera_far
+squat_4_modified_african.mp4,squat,catching or throwing frisbee,other,incorrect,"['other', 'play sport', 'other', 'other', 'other']",camera_far,konzerthaus,african,konzerthaus,camera_far
+squat_4_modified_asian.mp4,squat,catching or throwing frisbee,other,incorrect,"['other', 'other', 'play sport', 'other', 'other']",camera_far,konzerthaus,asian,konzerthaus,camera_far
+squat_4_modified_hispanic.mp4,squat,catching or throwing frisbee,other,incorrect,"['other', 'play sport', 'other', 'play sport', 'other']",camera_far,konzerthaus,hispanic,konzerthaus,camera_far
+squat_4_modified_indian.mp4,squat,catching or throwing frisbee,other,incorrect,"['other', 'play sport', 'other', 'play sport', 'other']",camera_far,konzerthaus,indian,konzerthaus,camera_far
+squat_4_modified_south_east_asian.mp4,squat,catching or throwing frisbee,other,incorrect,"['other', 'other', 'play sport', 'other', 'play sport']",camera_far,konzerthaus,south_east_asian,konzerthaus,camera_far
+squat_4_modified_white.mp4,squat,catching or throwing frisbee,other,incorrect,"['other', 'other', 'play sport', 'other', 'other']",camera_far,konzerthaus,white,konzerthaus,camera_far
+squat_5_initial.mp4,squat,tai chi,other,incorrect,"['other', 'other', 'other', 'kick', 'other']",camera_far,konzerthaus,indian,konzerthaus,camera_far
+squat_5_modified_african.mp4,squat,tai chi,other,incorrect,"['other', 'other', 'other', 'kick', 'other']",camera_far,konzerthaus,african,konzerthaus,camera_far
+squat_5_modified_asian.mp4,squat,tai chi,other,incorrect,"['other', 'other', 'other', 'other', 'kick']",camera_far,konzerthaus,asian,konzerthaus,camera_far
+squat_5_modified_hispanic.mp4,squat,tai chi,other,incorrect,"['other', 'other', 'other', 'kick', 'hug']",camera_far,konzerthaus,hispanic,konzerthaus,camera_far
+squat_5_modified_middle_eastern.mp4,squat,tai chi,other,incorrect,"['other', 'other', 'kick', 'other', 'hug']",camera_far,konzerthaus,middle_eastern,konzerthaus,camera_far
+squat_5_modified_south_east_asian.mp4,squat,tai chi,other,incorrect,"['other', 'kick', 'other', 'hug', 'other']",camera_far,konzerthaus,south_east_asian,konzerthaus,camera_far
+squat_5_modified_white.mp4,squat,tai chi,other,incorrect,"['other', 'other', 'other', 'kick', 'other']",camera_far,konzerthaus,white,konzerthaus,camera_far
+squat_6_initial.mp4,squat,tai chi,other,incorrect,"['other', 'other', 'other', 'kick', 'play sport']",camera_far,konzerthaus,hispanic,konzerthaus,camera_far
+squat_6_modified_african.mp4,squat,tai chi,other,incorrect,"['other', 'other', 'kick', 'play sport', 'other']",camera_far,konzerthaus,african,konzerthaus,camera_far
+squat_6_modified_asian.mp4,squat,tai chi,other,incorrect,"['other', 'other', 'kick', 'play sport', 'other']",camera_far,konzerthaus,asian,konzerthaus,camera_far
+squat_6_modified_indian.mp4,squat,tai chi,other,incorrect,"['other', 'other', 'kick', 'other', 'play sport']",camera_far,konzerthaus,indian,konzerthaus,camera_far
+squat_6_modified_middle_eastern.mp4,squat,tai chi,other,incorrect,"['other', 'other', 'other', 'other', 'play sport']",camera_far,konzerthaus,middle_eastern,konzerthaus,camera_far
+squat_6_modified_south_east_asian.mp4,squat,tai chi,other,incorrect,"['other', 'kick', 'play sport', 'other', 'other']",camera_far,konzerthaus,south_east_asian,konzerthaus,camera_far
+squat_6_modified_white.mp4,squat,tai chi,other,incorrect,"['other', 'other', 'other', 'kick', 'play sport']",camera_far,konzerthaus,white,konzerthaus,camera_far
+squat_7_initial.mp4,squat,tai chi,other,incorrect,"['other', 'other', 'other', 'jump', 'yoga']",camera_far,konzerthaus,south_east_asian,konzerthaus,camera_far
+squat_7_modified_african.mp4,squat,tai chi,other,incorrect,"['other', 'yoga', 'other', 'dance', 'jump']",camera_far,konzerthaus,african,konzerthaus,camera_far
+squat_7_modified_asian.mp4,squat,tai chi,other,incorrect,"['other', 'other', 'other', 'dance', 'yoga']",camera_far,konzerthaus,asian,konzerthaus,camera_far
+squat_7_modified_hispanic.mp4,squat,tai chi,other,incorrect,"['other', 'other', 'other', 'yoga', 'play sport']",camera_far,konzerthaus,hispanic,konzerthaus,camera_far
+squat_7_modified_indian.mp4,squat,tai chi,other,incorrect,"['other', 'other', 'play sport', 'yoga', 'other']",camera_far,konzerthaus,indian,konzerthaus,camera_far
+squat_7_modified_middle_eastern.mp4,squat,tai chi,other,incorrect,"['other', 'other', 'other', 'kick', 'other']",camera_far,konzerthaus,middle_eastern,konzerthaus,camera_far
+squat_7_modified_white.mp4,squat,tai chi,other,incorrect,"['other', 'other', 'other', 'yoga', 'dance']",camera_far,konzerthaus,white,konzerthaus,camera_far
+squat_8_initial.mp4,squat,catching or throwing frisbee,other,incorrect,"['other', 'other', 'other', 'other', 'throw']",camera_far,konzerthaus,white,konzerthaus,camera_far
+squat_8_modified_african.mp4,squat,catching or throwing frisbee,other,incorrect,"['other', 'other', 'play sport', 'other', 'golf']",camera_far,konzerthaus,african,konzerthaus,camera_far
+squat_8_modified_asian.mp4,squat,catching or throwing frisbee,other,incorrect,"['other', 'other', 'other', 'other', 'golf']",camera_far,konzerthaus,asian,konzerthaus,camera_far
+squat_8_modified_hispanic.mp4,squat,catching or throwing frisbee,other,incorrect,"['other', 'jump', 'other', 'kick', 'other']",camera_far,konzerthaus,hispanic,konzerthaus,camera_far
+squat_8_modified_indian.mp4,squat,catching or throwing frisbee,other,incorrect,"['other', 'other', 'other', 'other', 'golf']",camera_far,konzerthaus,indian,konzerthaus,camera_far
+squat_8_modified_middle_eastern.mp4,squat,catching or throwing frisbee,other,incorrect,"['other', 'other', 'golf', 'other', 'other']",camera_far,konzerthaus,middle_eastern,konzerthaus,camera_far
+squat_8_modified_south_east_asian.mp4,squat,catching or throwing frisbee,other,incorrect,"['other', 'jump', 'other', 'other', 'kick']",camera_far,konzerthaus,south_east_asian,konzerthaus,camera_far
+squat_9_initial.mp4,squat,hammer throw,other,incorrect,"['other', 'other', 'throw', 'other', 'other']",camera_far,konzerthaus,african,konzerthaus,camera_far
+squat_9_modified_asian.mp4,squat,tai chi,other,incorrect,"['other', 'other', 'other', 'other', 'throw']",camera_far,konzerthaus,asian,konzerthaus,camera_far
+squat_9_modified_hispanic.mp4,squat,hammer throw,other,incorrect,"['other', 'other', 'throw', 'other', 'other']",camera_far,konzerthaus,hispanic,konzerthaus,camera_far
+squat_9_modified_indian.mp4,squat,hammer throw,other,incorrect,"['other', 'other', 'throw', 'other', 'other']",camera_far,konzerthaus,indian,konzerthaus,camera_far
+squat_9_modified_middle_eastern.mp4,squat,tai chi,other,incorrect,"['other', 'other', 'throw', 'other', 'other']",camera_far,konzerthaus,middle_eastern,konzerthaus,camera_far
+squat_9_modified_south_east_asian.mp4,squat,hammer throw,other,incorrect,"['other', 'other', 'throw', 'other', 'other']",camera_far,konzerthaus,south_east_asian,konzerthaus,camera_far
+squat_9_modified_white.mp4,squat,tai chi,other,incorrect,"['other', 'other', 'other', 'throw', 'other']",camera_far,konzerthaus,white,konzerthaus,camera_far
+yoga_0_initial.mp4,yoga,catching or throwing frisbee,other,incorrect,"['other', 'other', 'other', 'other', 'play catch']",camera_far,konzerthaus,white,konzerthaus,camera_far
+yoga_0_modified_african.mp4,yoga,tai chi,other,incorrect,"['other', 'other', 'stretch', 'other', 'other']",camera_far,konzerthaus,african,konzerthaus,camera_far
+yoga_0_modified_asian.mp4,yoga,tai chi,other,incorrect,"['other', 'other', 'stretch', 'other', 'jump']",camera_far,konzerthaus,asian,konzerthaus,camera_far
+yoga_0_modified_hispanic.mp4,yoga,catching or throwing frisbee,other,incorrect,"['other', 'other', 'stretch', 'other', 'jump']",camera_far,konzerthaus,hispanic,konzerthaus,camera_far
+yoga_0_modified_indian.mp4,yoga,catching or throwing frisbee,other,incorrect,"['other', 'other', 'stretch', 'other', 'jump']",camera_far,konzerthaus,indian,konzerthaus,camera_far
+yoga_0_modified_middle_eastern.mp4,yoga,catching or throwing frisbee,other,incorrect,"['other', 'other', 'other', 'other', 'play catch']",camera_far,konzerthaus,middle_eastern,konzerthaus,camera_far
+yoga_0_modified_south_east_asian.mp4,yoga,catching or throwing frisbee,other,incorrect,"['other', 'other', 'play catch', 'other', 'jump']",camera_far,konzerthaus,south_east_asian,konzerthaus,camera_far
+yoga_1_initial.mp4,yoga,hammer throw,other,incorrect,"['other', 'other', 'other', 'other', 'throw']",camera_far,konzerthaus,white,konzerthaus,camera_far
+yoga_1_modified_african.mp4,yoga,hammer throw,other,incorrect,"['other', 'other', 'other', 'other', 'throw']",camera_far,konzerthaus,african,konzerthaus,camera_far
+yoga_1_modified_asian.mp4,yoga,hammer throw,other,incorrect,"['other', 'other', 'other', 'other', 'throw']",camera_far,konzerthaus,asian,konzerthaus,camera_far
+yoga_1_modified_hispanic.mp4,yoga,hammer throw,other,incorrect,"['other', 'other', 'other', 'other', 'other']",camera_far,konzerthaus,hispanic,konzerthaus,camera_far
+yoga_1_modified_indian.mp4,yoga,hammer throw,other,incorrect,"['other', 'other', 'throw', 'other', 'other']",camera_far,konzerthaus,indian,konzerthaus,camera_far
+yoga_1_modified_middle_eastern.mp4,yoga,hammer throw,other,incorrect,"['other', 'other', 'other', 'other', 'throw']",camera_far,konzerthaus,middle_eastern,konzerthaus,camera_far
+yoga_1_modified_south_east_asian.mp4,yoga,hammer throw,other,incorrect,"['other', 'other', 'other', 'throw', 'other']",camera_far,konzerthaus,south_east_asian,konzerthaus,camera_far
+yoga_2_initial.mp4,yoga,tai chi,other,incorrect,"['other', 'play sport', 'other', 'kick', 'play sport']",camera_far,konzerthaus,south_east_asian,konzerthaus,camera_far
+yoga_2_modified_african.mp4,yoga,tai chi,other,incorrect,"['other', 'play sport', 'other', 'other', 'play sport']",camera_far,konzerthaus,african,konzerthaus,camera_far
+yoga_2_modified_asian.mp4,yoga,crawling baby,other,incorrect,"['other', 'play sport', 'other', 'jump', 'other']",camera_far,konzerthaus,asian,konzerthaus,camera_far
+yoga_2_modified_hispanic.mp4,yoga,crawling baby,other,incorrect,"['other', 'play sport', 'jump', 'other', 'other']",camera_far,konzerthaus,hispanic,konzerthaus,camera_far
+yoga_2_modified_indian.mp4,yoga,tai chi,other,incorrect,"['other', 'other', 'play sport', 'play sport', 'other']",camera_far,konzerthaus,indian,konzerthaus,camera_far
+yoga_2_modified_middle_eastern.mp4,yoga,somersaulting,jump,incorrect,"['jump', 'other', 'kick', 'play sport', 'cry']",camera_far,konzerthaus,middle_eastern,konzerthaus,camera_far
+yoga_2_modified_white.mp4,yoga,tai chi,other,incorrect,"['other', 'jump', 'kick', 'play sport', 'kick']",camera_far,konzerthaus,white,konzerthaus,camera_far
+yoga_3_initial.mp4,yoga,stretching arm,stretch,incorrect,"['stretch', 'other', 'other', 'other', 'arm movements']",camera_far,konzerthaus,white,konzerthaus,camera_far
+yoga_3_modified_african.mp4,yoga,playing cricket,play sport,incorrect,"['play sport', 'other', 'other', 'other', 'stretch']",camera_far,konzerthaus,african,konzerthaus,camera_far
+yoga_3_modified_asian.mp4,yoga,stretching arm,stretch,incorrect,"['stretch', 'other', 'other', 'arm movements', 'other']",camera_far,konzerthaus,asian,konzerthaus,camera_far
+yoga_3_modified_hispanic.mp4,yoga,stretching arm,stretch,incorrect,"['stretch', 'other', 'other', 'arm movements', 'other']",camera_far,konzerthaus,hispanic,konzerthaus,camera_far
+yoga_3_modified_indian.mp4,yoga,tai chi,other,incorrect,"['other', 'other', 'stretch', 'other', 'play catch']",camera_far,konzerthaus,indian,konzerthaus,camera_far
+yoga_3_modified_middle_eastern.mp4,yoga,stretching arm,stretch,incorrect,"['stretch', 'other', 'other', 'other', 'arm movements']",camera_far,konzerthaus,middle_eastern,konzerthaus,camera_far
+yoga_3_modified_south_east_asian.mp4,yoga,stretching arm,stretch,incorrect,"['stretch', 'other', 'other', 'other', 'arm movements']",camera_far,konzerthaus,south_east_asian,konzerthaus,camera_far
+yoga_4_initial.mp4,yoga,dancing ballet,dance,incorrect,"['dance', 'cry', 'dance', 'other', 'yoga']",camera_far,konzerthaus,middle_eastern,konzerthaus,camera_far
+yoga_4_modified_african.mp4,yoga,dancing ballet,dance,incorrect,"['dance', 'dance', 'kick', 'dance', 'other']",camera_far,konzerthaus,african,konzerthaus,camera_far
+yoga_4_modified_asian.mp4,yoga,jumpstyle dancing,dance,incorrect,"['dance', 'cry', 'dance', 'play sport', 'other']",camera_far,konzerthaus,asian,konzerthaus,camera_far
+yoga_4_modified_hispanic.mp4,yoga,jumpstyle dancing,dance,incorrect,"['dance', 'kick', 'play sport', 'other', 'other']",camera_far,konzerthaus,hispanic,konzerthaus,camera_far
+yoga_4_modified_indian.mp4,yoga,dancing ballet,dance,incorrect,"['dance', 'dance', 'dance', 'kick', 'other']",camera_far,konzerthaus,indian,konzerthaus,camera_far
+yoga_4_modified_south_east_asian.mp4,yoga,playing cricket,play sport,incorrect,"['play sport', 'kick', 'other', 'dance', 'jump']",camera_far,konzerthaus,south_east_asian,konzerthaus,camera_far
+yoga_4_modified_white.mp4,yoga,crying,cry,incorrect,"['cry', 'dance', 'dance', 'other', 'yoga']",camera_far,konzerthaus,white,konzerthaus,camera_far
+yoga_5_initial.mp4,yoga,playing cricket,play sport,incorrect,"['play sport', 'kick', 'other', 'cry', 'dance']",camera_far,konzerthaus,indian,konzerthaus,camera_far
+yoga_5_modified_african.mp4,yoga,playing cricket,play sport,incorrect,"['play sport', 'other', 'kick', 'dance', 'play sport']",camera_far,konzerthaus,african,konzerthaus,camera_far
+yoga_5_modified_asian.mp4,yoga,playing cricket,play sport,incorrect,"['play sport', 'kick', 'cry', 'other', 'other']",camera_far,konzerthaus,asian,konzerthaus,camera_far
+yoga_5_modified_hispanic.mp4,yoga,hugging,hug,incorrect,"['hug', 'cry', 'other', 'kick', 'play sport']",camera_far,konzerthaus,hispanic,konzerthaus,camera_far
+yoga_5_modified_middle_eastern.mp4,yoga,crying,cry,incorrect,"['cry', 'other', 'hug', 'play sport', 'yoga']",camera_far,konzerthaus,middle_eastern,konzerthaus,camera_far
+yoga_5_modified_south_east_asian.mp4,yoga,hugging,hug,incorrect,"['hug', 'cry', 'kick', 'other', 'other']",camera_far,konzerthaus,south_east_asian,konzerthaus,camera_far
+yoga_5_modified_white.mp4,yoga,tai chi,other,incorrect,"['other', 'cry', 'play sport', 'hug', 'kick']",camera_far,konzerthaus,white,konzerthaus,camera_far
+yoga_6_initial.mp4,yoga,catching or throwing frisbee,other,incorrect,"['other', 'kick', 'other', 'other', 'dribble']",camera_far,konzerthaus,hispanic,konzerthaus,camera_far
+yoga_6_modified_african.mp4,yoga,catching or throwing frisbee,other,incorrect,"['other', 'kick', 'other', 'golf', 'other']",camera_far,konzerthaus,african,konzerthaus,camera_far
+yoga_6_modified_asian.mp4,yoga,tai chi,other,incorrect,"['other', 'other', 'other', 'other', 'play sport']",camera_far,konzerthaus,asian,konzerthaus,camera_far
+yoga_6_modified_indian.mp4,yoga,catching or throwing frisbee,other,incorrect,"['other', 'kick', 'other', 'other', 'golf']",camera_far,konzerthaus,indian,konzerthaus,camera_far
+yoga_6_modified_middle_eastern.mp4,yoga,catching or throwing frisbee,other,incorrect,"['other', 'other', 'play sport', 'golf', 'dribble']",camera_far,konzerthaus,middle_eastern,konzerthaus,camera_far
+yoga_6_modified_south_east_asian.mp4,yoga,catching or throwing frisbee,other,incorrect,"['other', 'kick', 'other', 'other', 'golf']",camera_far,konzerthaus,south_east_asian,konzerthaus,camera_far
+yoga_6_modified_white.mp4,yoga,catching or throwing frisbee,other,incorrect,"['other', 'other', 'other', 'dribble', 'kick']",camera_far,konzerthaus,white,konzerthaus,camera_far
+yoga_7_initial.mp4,yoga,tai chi,other,incorrect,"['other', 'other', 'kick', 'other', 'other']",camera_far,konzerthaus,south_east_asian,konzerthaus,camera_far
+yoga_7_modified_african.mp4,yoga,tai chi,other,incorrect,"['other', 'other', 'other', 'other', 'kick']",camera_far,konzerthaus,african,konzerthaus,camera_far
+yoga_7_modified_asian.mp4,yoga,tai chi,other,incorrect,"['other', 'kick', 'other', 'other', 'other']",camera_far,konzerthaus,asian,konzerthaus,camera_far
+yoga_7_modified_hispanic.mp4,yoga,tai chi,other,incorrect,"['other', 'kick', 'other', 'other', 'other']",camera_far,konzerthaus,hispanic,konzerthaus,camera_far
+yoga_7_modified_indian.mp4,yoga,tai chi,other,incorrect,"['other', 'kick', 'other', 'other', 'other']",camera_far,konzerthaus,indian,konzerthaus,camera_far
+yoga_7_modified_middle_eastern.mp4,yoga,tai chi,other,incorrect,"['other', 'kick', 'other', 'other', 'other']",camera_far,konzerthaus,middle_eastern,konzerthaus,camera_far
+yoga_7_modified_white.mp4,yoga,tai chi,other,incorrect,"['other', 'kick', 'other', 'kick', 'other']",camera_far,konzerthaus,white,konzerthaus,camera_far
+yoga_8_initial.mp4,yoga,tai chi,other,incorrect,"['other', 'other', 'other', 'other', 'other']",camera_far,konzerthaus,white,konzerthaus,camera_far
+yoga_8_modified_african.mp4,yoga,tai chi,other,incorrect,"['other', 'other', 'other', 'other', 'other']",camera_far,konzerthaus,african,konzerthaus,camera_far
+yoga_8_modified_asian.mp4,yoga,tai chi,other,incorrect,"['other', 'other', 'other', 'other', 'dribble']",camera_far,konzerthaus,asian,konzerthaus,camera_far
+yoga_8_modified_hispanic.mp4,yoga,tai chi,other,incorrect,"['other', 'other', 'other', 'dribble', 'other']",camera_far,konzerthaus,hispanic,konzerthaus,camera_far
+yoga_8_modified_indian.mp4,yoga,tai chi,other,incorrect,"['other', 'other', 'other', 'dribble', 'kick']",camera_far,konzerthaus,indian,konzerthaus,camera_far
+yoga_8_modified_middle_eastern.mp4,yoga,tai chi,other,incorrect,"['other', 'other', 'other', 'other', 'other']",camera_far,konzerthaus,middle_eastern,konzerthaus,camera_far
+yoga_8_modified_south_east_asian.mp4,yoga,tai chi,other,incorrect,"['other', 'other', 'other', 'dribble', 'kick']",camera_far,konzerthaus,south_east_asian,konzerthaus,camera_far
+yoga_9_initial.mp4,yoga,catching or throwing frisbee,other,incorrect,"['other', 'kick', 'throw', 'jump', 'other']",camera_far,konzerthaus,african,konzerthaus,camera_far
+yoga_9_modified_asian.mp4,yoga,tai chi,other,incorrect,"['other', 'other', 'other', 'jump', 'kick']",camera_far,konzerthaus,asian,konzerthaus,camera_far
+yoga_9_modified_hispanic.mp4,yoga,hammer throw,other,incorrect,"['other', 'other', 'other', 'throw', 'other']",camera_far,konzerthaus,hispanic,konzerthaus,camera_far
+yoga_9_modified_indian.mp4,yoga,hammer throw,other,incorrect,"['other', 'jump', 'throw', 'other', 'other']",camera_far,konzerthaus,indian,konzerthaus,camera_far
+yoga_9_modified_middle_eastern.mp4,yoga,tai chi,other,incorrect,"['other', 'other', 'jump', 'other', 'kick']",camera_far,konzerthaus,middle_eastern,konzerthaus,camera_far
+yoga_9_modified_south_east_asian.mp4,yoga,hammer throw,other,incorrect,"['other', 'other', 'other', 'other', 'jump']",camera_far,konzerthaus,south_east_asian,konzerthaus,camera_far
+yoga_9_modified_white.mp4,yoga,tai chi,other,incorrect,"['other', 'other', 'other', 'jump', 'kick']",camera_far,konzerthaus,white,konzerthaus,camera_far
