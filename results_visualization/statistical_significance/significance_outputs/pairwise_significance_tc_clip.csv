@@ -1,0 +1,22 @@
+skin_color_1,skin_color_2,p_value,odds_ratio,adjusted_p_value,significant,pair
+white,african,1.0,1.0,1.0,False,white vs african
+white,asian,1.0,1.0,1.0,False,white vs asian
+white,hispanic,1.0,1.0,1.0,False,white vs hispanic
+white,indian,1.0,1.0,1.0,False,white vs indian
+white,middle_eastern,1.0,1.0,1.0,False,white vs middle_eastern
+white,south_east_asian,1.0,1.0,1.0,False,white vs south_east_asian
+african,asian,1.0,1.0,1.0,False,african vs asian
+african,hispanic,1.0,1.0,1.0,False,african vs hispanic
+african,indian,1.0,1.0,1.0,False,african vs indian
+african,middle_eastern,1.0,1.0,1.0,False,african vs middle_eastern
+african,south_east_asian,1.0,1.0,1.0,False,african vs south_east_asian
+asian,hispanic,1.0,1.0,1.0,False,asian vs hispanic
+asian,indian,1.0,1.0,1.0,False,asian vs indian
+asian,middle_eastern,1.0,1.0,1.0,False,asian vs middle_eastern
+asian,south_east_asian,1.0,1.0,1.0,False,asian vs south_east_asian
+hispanic,indian,1.0,1.0,1.0,False,hispanic vs indian
+hispanic,middle_eastern,1.0,1.0,1.0,False,hispanic vs middle_eastern
+hispanic,south_east_asian,1.0,1.0,1.0,False,hispanic vs south_east_asian
+indian,middle_eastern,1.0,1.0,1.0,False,indian vs middle_eastern
+indian,south_east_asian,1.0,1.0,1.0,False,indian vs south_east_asian
+middle_eastern,south_east_asian,1.0,1.0,1.0,False,middle_eastern vs south_east_asian

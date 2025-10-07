@@ -1,0 +1,50 @@
+@startuml
+digraph BiasAuditFlow {
+  rankdir=LR;
+  node [shape=box, style=rounded, fontsize=12]
+
+  Goal [label="Goal: Find bias in foundation\nHAR models", shape=ellipse, style=filled, fillcolor=lightyellow]
+
+  AvoidBias [label="Avoid introducing our own bias"]
+  FineTuning [label="Don't fine-tune models"]
+  SyntheticNeeded [label="Realistic synthetic data"]
+  RealDataUncontrolled [label="Real data too variable /\n(confounding factors)"]
+  ControlSetup [label="Controlled setup"]
+  Interpretability [label="Feasibility + interpretability constraint"]
+  AblationNeeded [label="Do ablation studies\n(viewpoint, background)"]
+  IdealCondition [label="Model must perform well under\nideal synthetic conditions"]
+  TestSkinTone [label="Test skin tone as the only variable"]
+  StatCheck [label="Statistically significant\noutput label change?", shape=diamond]
+  BiasYes [label="Model has bias"]
+  BiasNo [label="Fair model:\nirrelevant attributes\nshould not change the output"]
+
+  PoorModelFilter [label="Exclude models that guess on baseline"]
+
+  // Core Goal
+  AvoidBias -> FineTuning [label="motivates"]
+  FineTuning -> SyntheticNeeded [label="requires"]
+
+  // Synthetic data motivations
+  RealDataUncontrolled -> SyntheticNeeded [label="motivates"]
+  Interpretability -> SyntheticNeeded [label="constrains"]
+
+  // Calibration requirement
+  SyntheticNeeded -> IdealCondition [label="prerequisite for testing bias"]
+  IdealCondition -> AblationNeeded [label="validated via"]
+  IdealCondition -> PoorModelFilter [label="leads to"]
+
+  // From setup to fairness test
+  AblationNeeded -> TestSkinTone [label="establishes reliable conditions"]
+  ControlSetup -> TestSkinTone [label="fix all other attributes to"]
+  Goal -> TestSkinTone [label="measured via"]
+
+  // Replacing previous fairness logic
+  TestSkinTone -> StatCheck [label="check for"]
+  StatCheck -> BiasYes [label="Yes? p < 0.05"]
+  StatCheck -> BiasNo [label="No?"]
+
+  // Tie off evaluation logic
+  Goal -> PoorModelFilter [label="ensures fairness of evaluation"]
+  Goal -> SyntheticNeeded [label="requires"]
+}
+@enduml

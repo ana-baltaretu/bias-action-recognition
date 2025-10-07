@@ -1,0 +1,26 @@
+==================== RESULTS ====================
+Total videos processed: 1400
+Top-1 Accuracy: 2.00%
+Top-5 Accuracy: 3.29%
+
+Per-class Accuracy:
+cartwheel: 25.71% (18/70)
+celebrate: 0.00% (0/70)
+clap: 0.00% (0/70)
+cry: 0.00% (0/70)
+draw: 0.00% (0/70)
+dribble: 0.00% (0/70)
+drink: 0.00% (0/70)
+drive: 0.00% (0/70)
+fish: 0.00% (0/70)
+golf: 4.29% (3/70)
+hug: 0.00% (0/70)
+jog: 0.00% (0/70)
+laugh: 0.00% (0/70)
+lunge: 10.00% (7/70)
+sneeze: 0.00% (0/70)
+squat: 0.00% (0/70)
+tie: 0.00% (0/70)
+write: 0.00% (0/70)
+yawn: 0.00% (0/70)
+yoga: 0.00% (0/70)

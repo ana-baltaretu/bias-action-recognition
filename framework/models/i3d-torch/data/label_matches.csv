@@ -1,0 +1,131 @@
+Real Dataset Label,Matched BEDLAM Label,Similarity Score
+squat,squat,1.0000
+yoga,yoga,1.0000
+lunge,lunge,1.0000
+drawing,draw,0.9928
+drinking,drink,0.9896
+celebrating,celebrate,0.9892
+writing,write,0.9869
+cartwheeling,cartwheel,0.9856
+sneezing,sneeze,0.9847
+yawning,yawn,0.9782
+crying,cry,0.9746
+laughing,laugh,0.9732
+hugging,hug,0.9678
+catching fish,fish,0.9575
+jogging,jog,0.9546
+tying tie,tie,0.9540
+clapping,clap,0.9495
+golf putting,golf,0.9419
+dribbling basketball,dribble,0.9348
+driving car,drive,0.9347
+high jump,jump,0.9321
+exercising arm,arm movements,0.9137
+skipping rope,jump rope,0.9126
+swinging on something,swing body part,0.9125
+punching person (boxing),punch,0.9070
+dining,eat,0.9066
+golf driving,golf,0.9065
+marching,march,0.9051
+swinging legs,swing body part,0.9035
+bending back,bend,0.9024
+contact juggling,juggle,0.8995
+stretching leg,stretch,0.8977
+high kick,kick,0.8933
+doing aerobics,exercise / training,0.8912
+long jump,jump,0.8908
+waiting in line,wait,0.8906
+golf chipping,golf,0.8897
+drinking beer,drink,0.8893
+stretching arm,stretch,0.8892
+shaving head,shave,0.8888
+hopscotch,hop,0.8821
+drop kicking,kick,0.8818
+feeding fish,fish,0.8807
+moving furniture,move something,0.8794
+dying hair,style hair,0.8791
+playing guitar,play instrument,0.8768
+throwing ball,actions with ball,0.8754
+washing hands,wash,0.8749
+side kick,kick,0.8737
+dancing ballet,dance,0.8704
+getting a haircut,style hair,0.8688
+climbing a rope,interact with rope,0.8676
+disc golfing,golf,0.8674
+archery,bow,0.8666
+punching bag,punch,0.8641
+trimming or shaving beard,shave,0.8605
+playing basketball,play sport,0.8602
+fixing hair,style hair,0.8598
+swimming backstroke,swim,0.8592
+riding a bike,ride,0.8580
+cleaning floor,clean something,0.8572
+tying bow tie,tie,0.8572
+cleaning toilet,clean something,0.8542
+jumpstyle dancing,dance,0.8539
+taking a shower,wash,0.8518
+triple jump,jump,0.8513
+shaving legs,shave,0.8509
+motorcycling,ride,0.8506
+salsa dancing,dance,0.8490
+curling hair,style hair,0.8487
+playing tennis,play sport,0.8481
+swing dancing,swing body part,0.8474
+tango dancing,dance,0.8465
+drinking shots,drink,0.8464
+juggling balls,juggle,0.8459
+throwing discus,throw,0.8420
+front raises,raise body part,0.8418
+doing laundry,wash,0.8409
+tying knot (not on a tie),tie,0.8387
+applauding,clap,0.8384
+shaking head,head movements,0.8379
+playing volleyball,play sport,0.8375
+shaking hands,clasp hands,0.8370
+playing squash or racquetball,play sport,0.8368
+tasting food,eat,0.8362
+braiding hair,style hair,0.8355
+water sliding,slide,0.8352
+exercising with an exercise ball,actions with ball,0.8350
+tap dancing,dance,0.8344
+running on treadmill,jog,0.8338
+juggling soccer ball,juggle,0.8312
+cleaning windows,clean something,0.8299
+grinding meat,grind,0.8290
+brushing hair,style hair,0.8282
+washing dishes,clean something,0.8250
+catching or throwing baseball,play catch,0.8244
+arm wrestling,arm movements,0.8242
+shooting basketball,dribble,0.8240
+playing violin,play instrument,0.8220
+belly dancing,dance,0.8219
+carrying baby,cradle,0.8208
+washing hair,wash,0.8204
+skydiving,jump,0.8204
+sweeping floor,clean something,0.8199
+robot dancing,dance,0.8188
+riding mountain bike,ride,0.8187
+ski jumping,jump,0.8173
+eating burger,eat,0.8172
+singing,perform,0.8150
+javelin throw,throw,0.8139
+opening present,open something,0.8121
+waxing back,shave,0.8116
+bungee jumping,jump,0.8111
+dunking basketball,dribble,0.8109
+testifying,plead,0.8106
+opening bottle,open something,0.8100
+juggling fire,juggle,0.8095
+playing cricket,play sport,0.8094
+playing drums,play instrument,0.8091
+massaging person's head,touching body parts,0.8072
+playing controller,play,0.8071
+catching or throwing softball,play catch,0.8065
+situp,squat,0.8058
+somersaulting,jump,0.8055
+faceplanting,face direction,0.8050
+shuffling cards,shuffle,0.8026
+playing piano,play instrument,0.8024
+chopping wood,chop,0.8022
+hurling (sport),throw,0.8021
+playing trumpet,play instrument,0.8012
