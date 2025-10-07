@@ -1,0 +1,47 @@
+base_video,from,to,prediction_from,prediction_to,result_from,result_to
+cartwheel_8,african,asian,cartwheeling,passing American football (not in game),correct,incorrect
+cartwheel_1,african,hispanic,cartwheeling,gymnastics tumbling,correct,incorrect
+cartwheel_8,african,hispanic,cartwheeling,passing American football (not in game),correct,incorrect
+cartwheel_1,african,middle_eastern,cartwheeling,gymnastics tumbling,correct,incorrect
+cartwheel_8,african,middle_eastern,cartwheeling,passing American football (not in game),correct,incorrect
+cartwheel_8,african,south_east_asian,cartwheeling,passing American football (not in game),correct,incorrect
+cartwheel_1,african,white,cartwheeling,gymnastics tumbling,correct,incorrect
+cartwheel_8,african,white,cartwheeling,passing American football (not in game),correct,incorrect
+cartwheel_18,asian,african,cartwheeling,breakdancing,correct,incorrect
+cartwheel_1,asian,hispanic,cartwheeling,gymnastics tumbling,correct,incorrect
+cartwheel_18,asian,hispanic,cartwheeling,catching or throwing frisbee,correct,incorrect
+cartwheel_18,asian,indian,cartwheeling,breakdancing,correct,incorrect
+cartwheel_1,asian,middle_eastern,cartwheeling,gymnastics tumbling,correct,incorrect
+cartwheel_18,asian,south_east_asian,cartwheeling,catching or throwing frisbee,correct,incorrect
+cartwheel_1,asian,white,cartwheeling,gymnastics tumbling,correct,incorrect
+cartwheel_24,hispanic,african,cartwheeling,breakdancing,correct,incorrect
+cartwheel_24,hispanic,asian,cartwheeling,breakdancing,correct,incorrect
+cartwheel_24,hispanic,indian,cartwheeling,breakdancing,correct,incorrect
+cartwheel_24,hispanic,south_east_asian,cartwheeling,capoeira,correct,incorrect
+cartwheel_8,indian,asian,cartwheeling,passing American football (not in game),correct,incorrect
+cartwheel_1,indian,hispanic,cartwheeling,gymnastics tumbling,correct,incorrect
+cartwheel_8,indian,hispanic,cartwheeling,passing American football (not in game),correct,incorrect
+cartwheel_1,indian,middle_eastern,cartwheeling,gymnastics tumbling,correct,incorrect
+cartwheel_8,indian,middle_eastern,cartwheeling,passing American football (not in game),correct,incorrect
+cartwheel_8,indian,south_east_asian,cartwheeling,passing American football (not in game),correct,incorrect
+cartwheel_1,indian,white,cartwheeling,gymnastics tumbling,correct,incorrect
+cartwheel_8,indian,white,cartwheeling,passing American football (not in game),correct,incorrect
+cartwheel_18,middle_eastern,african,cartwheeling,breakdancing,correct,incorrect
+cartwheel_24,middle_eastern,african,cartwheeling,breakdancing,correct,incorrect
+cartwheel_24,middle_eastern,asian,cartwheeling,breakdancing,correct,incorrect
+cartwheel_18,middle_eastern,hispanic,cartwheeling,catching or throwing frisbee,correct,incorrect
+cartwheel_18,middle_eastern,indian,cartwheeling,breakdancing,correct,incorrect
+cartwheel_24,middle_eastern,indian,cartwheeling,breakdancing,correct,incorrect
+cartwheel_18,middle_eastern,south_east_asian,cartwheeling,catching or throwing frisbee,correct,incorrect
+cartwheel_24,middle_eastern,south_east_asian,cartwheeling,capoeira,correct,incorrect
+cartwheel_1,south_east_asian,hispanic,cartwheeling,gymnastics tumbling,correct,incorrect
+cartwheel_1,south_east_asian,middle_eastern,cartwheeling,gymnastics tumbling,correct,incorrect
+cartwheel_1,south_east_asian,white,cartwheeling,gymnastics tumbling,correct,incorrect
+cartwheel_18,white,african,cartwheeling,breakdancing,correct,incorrect
+cartwheel_24,white,african,cartwheeling,breakdancing,correct,incorrect
+cartwheel_24,white,asian,cartwheeling,breakdancing,correct,incorrect
+cartwheel_18,white,hispanic,cartwheeling,catching or throwing frisbee,correct,incorrect
+cartwheel_18,white,indian,cartwheeling,breakdancing,correct,incorrect
+cartwheel_24,white,indian,cartwheeling,breakdancing,correct,incorrect
+cartwheel_18,white,south_east_asian,cartwheeling,catching or throwing frisbee,correct,incorrect
+cartwheel_24,white,south_east_asian,cartwheeling,capoeira,correct,incorrect

@@ -1,0 +1,15 @@
+video_prefix,true_label,raw_prediction_initial,raw_prediction_modified,result_initial,result_modified
+cartwheel_6_,cartwheel,catching or throwing frisbee,disc golfing,incorrect,incorrect
+jump_0_,jump,passing American football (not in game),disc golfing,incorrect,incorrect
+jump_15_,jump,catching or throwing frisbee,passing American football (not in game),incorrect,incorrect
+jump_20_,jump,tai chi,passing American football (not in game),incorrect,incorrect
+jump_22_,jump,catching or throwing frisbee,passing American football (not in game),incorrect,incorrect
+jump_24_,jump,jumpstyle dancing,juggling soccer ball,correct,incorrect
+run_12_,run,passing American football (not in game),hammer throw,incorrect,incorrect
+run_16_,run,passing American football (not in game),catching or throwing frisbee,incorrect,incorrect
+run_19_,run,passing American football (not in game),catching or throwing frisbee,incorrect,incorrect
+run_27_,run,passing American football (not in game),kicking field goal,incorrect,incorrect
+run_28_,run,disc golfing,passing American football (not in game),incorrect,incorrect
+run_4_,run,catching or throwing frisbee,playing badminton,incorrect,incorrect
+run_9_,run,passing American football (not in game),disc golfing,incorrect,incorrect
+walk_27_,walk,passing American football (not in game),disc golfing,incorrect,incorrect

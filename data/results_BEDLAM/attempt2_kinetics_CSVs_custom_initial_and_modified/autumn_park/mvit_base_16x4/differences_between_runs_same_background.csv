@@ -1,0 +1,17 @@
+video_prefix,true_label,raw_prediction_initial,raw_prediction_modified,result_initial,result_modified
+cartwheel_12_,cartwheel,gymnastics tumbling,cartwheeling,incorrect,correct
+cartwheel_19_,cartwheel,gymnastics tumbling,cartwheeling,incorrect,correct
+cartwheel_22_,cartwheel,gymnastics tumbling,cartwheeling,incorrect,correct
+cartwheel_6_,cartwheel,stretching arm,golf chipping,incorrect,incorrect
+jump_12_,jump,stretching arm,passing American football (not in game),incorrect,incorrect
+jump_16_,jump,catching or throwing frisbee,disc golfing,incorrect,incorrect
+jump_24_,jump,side kick,lunge,incorrect,incorrect
+jump_27_,jump,catching or throwing frisbee,golf chipping,incorrect,incorrect
+jump_4_,jump,golf chipping,stretching leg,incorrect,incorrect
+run_12_,run,catching or throwing frisbee,disc golfing,incorrect,incorrect
+run_16_,run,javelin throw,disc golfing,incorrect,incorrect
+run_6_,run,javelin throw,passing American football (not in game),incorrect,incorrect
+walk_15_,walk,catching or throwing frisbee,disc golfing,incorrect,incorrect
+walk_21_,walk,golf chipping,disc golfing,incorrect,incorrect
+walk_6_,walk,catching or throwing frisbee,passing American football (not in game),incorrect,incorrect
+walk_9_,walk,catching or throwing frisbee,disc golfing,incorrect,incorrect

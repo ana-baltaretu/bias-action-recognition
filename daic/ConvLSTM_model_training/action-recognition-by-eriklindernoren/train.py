@@ -11,6 +11,17 @@ import time
 import datetime
 import wandb
 
+
+def list_current_directory():
+    current_directory = os.getcwd()
+    print(f"Current Directory: {current_directory}\n")
+
+    directory_contents = os.listdir(current_directory)
+    print("Directory Contents:")
+    for item in directory_contents:
+        print(item)
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--dataset_path", type=str, default="data/UCF-101-frames", help="Path to UCF-101 dataset")
@@ -29,6 +40,24 @@ if __name__ == "__main__":
     opt = parser.parse_args()
     print(opt)
 
+    list_current_directory()
+
+    if os.path.isdir(opt.dataset_path):
+        if not os.listdir(opt.dataset_path):
+            print("Dataset found!")
+        else:
+            print("Dataset folder exists but it's empty!")
+    else:
+        print(f"{opt.dataset_path} not found dataset folder?")
+
+    if os.path.isdir(opt.split_path):
+        if not os.listdir(opt.split_path):
+            print("Labels found!")
+        else:
+            print("Labels folder exists but it's empty!")
+    else:
+        print(f"{opt.split_path} not found labels folder?")
+
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print(device)
     print("Cuda is available (using GPU?):", torch.cuda.is_available())
@@ -44,7 +73,7 @@ if __name__ == "__main__":
         sequence_length=opt.sequence_length,
         training=True,
     )
-    train_dataloader = DataLoader(train_dataset, batch_size=opt.batch_size, shuffle=True, num_workers=4)
+    train_dataloader = DataLoader(train_dataset, batch_size=opt.batch_size, shuffle=True, num_workers=1)
 
     # Define test set
     test_dataset = Dataset(
@@ -55,7 +84,7 @@ if __name__ == "__main__":
         sequence_length=opt.sequence_length,
         training=False,
     )
-    test_dataloader = DataLoader(test_dataset, batch_size=opt.batch_size, shuffle=False, num_workers=4)
+    test_dataloader = DataLoader(test_dataset, batch_size=opt.batch_size, shuffle=False, num_workers=1)
 
     # Classification criterion
     cls_criterion = nn.CrossEntropyLoss().to(device, non_blocking=True)

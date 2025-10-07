@@ -1,0 +1,8 @@
+video_name,true_action_label,raw_action_prediction,mapped_action_prediction,result,top5_action_prediction_mappings,skin_color_category,background
+cartwheel_0_initial.mp4,cartwheel,catching or throwing frisbee,other,incorrect,"['other', 'other', 'other', 'other', 'other']",white,konzerthaus
+cartwheel_0_modified_african.mp4,cartwheel,stretching arm,other,incorrect,"['other', 'other', 'other', 'other', 'other']",african,konzerthaus
+cartwheel_0_modified_asian.mp4,cartwheel,stretching arm,other,incorrect,"['other', 'other', 'other', 'other', 'other']",asian,konzerthaus
+cartwheel_0_modified_hispanic.mp4,cartwheel,disc golfing,other,incorrect,"['other', 'other', 'other', 'other', 'other']",hispanic,konzerthaus
+cartwheel_0_modified_indian.mp4,cartwheel,stretching arm,other,incorrect,"['other', 'other', 'other', 'other', 'other']",indian,konzerthaus
+cartwheel_0_modified_middle_eastern.mp4,cartwheel,stretching arm,other,incorrect,"['other', 'other', 'other', 'other', 'other']",middle_eastern,konzerthaus
+cartwheel_0_modified_south_east_asian.mp4,cartwheel,catching or throwing frisbee,other,incorrect,"['other', 'other', 'other', 'other', 'other']",south_east_asian,konzerthaus

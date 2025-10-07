@@ -1,0 +1,201 @@
+video,true_label,raw_prediction,mapped_prediction,result
+cartwheel_0_initial.mp4,cartwheel,bending back,other,incorrect
+cartwheel_10_initial.mp4,cartwheel,pull ups,other,incorrect
+cartwheel_11_initial.mp4,cartwheel,slacklining,other,incorrect
+cartwheel_12_initial.mp4,cartwheel,swinging legs,other,incorrect
+cartwheel_13_initial.mp4,cartwheel,tai chi,other,incorrect
+cartwheel_14_initial.mp4,cartwheel,swinging legs,other,incorrect
+cartwheel_15_initial.mp4,cartwheel,push up,other,incorrect
+cartwheel_16_initial.mp4,cartwheel,tai chi,other,incorrect
+cartwheel_17_initial.mp4,cartwheel,swinging legs,other,incorrect
+cartwheel_18_initial.mp4,cartwheel,swinging legs,other,incorrect
+cartwheel_19_initial.mp4,cartwheel,swinging legs,other,incorrect
+cartwheel_1_initial.mp4,cartwheel,swinging legs,other,incorrect
+cartwheel_20_initial.mp4,cartwheel,pull ups,other,incorrect
+cartwheel_21_initial.mp4,cartwheel,bending back,other,incorrect
+cartwheel_22_initial.mp4,cartwheel,swinging legs,other,incorrect
+cartwheel_23_initial.mp4,cartwheel,slacklining,other,incorrect
+cartwheel_24_initial.mp4,cartwheel,swinging legs,other,incorrect
+cartwheel_25_initial.mp4,cartwheel,swinging legs,other,incorrect
+cartwheel_26_initial.mp4,cartwheel,swinging legs,other,incorrect
+cartwheel_27_initial.mp4,cartwheel,slacklining,other,incorrect
+cartwheel_28_initial.mp4,cartwheel,swinging legs,other,incorrect
+cartwheel_29_initial.mp4,cartwheel,swinging legs,other,incorrect
+cartwheel_2_initial.mp4,cartwheel,slacklining,other,incorrect
+cartwheel_30_initial.mp4,cartwheel,swinging legs,other,incorrect
+cartwheel_31_initial.mp4,cartwheel,slacklining,other,incorrect
+cartwheel_32_initial.mp4,cartwheel,pull ups,other,incorrect
+cartwheel_33_initial.mp4,cartwheel,slacklining,other,incorrect
+cartwheel_34_initial.mp4,cartwheel,swinging legs,other,incorrect
+cartwheel_35_initial.mp4,cartwheel,swinging legs,other,incorrect
+cartwheel_36_initial.mp4,cartwheel,slacklining,other,incorrect
+cartwheel_37_initial.mp4,cartwheel,slacklining,other,incorrect
+cartwheel_38_initial.mp4,cartwheel,swinging legs,other,incorrect
+cartwheel_39_initial.mp4,cartwheel,slacklining,other,incorrect
+cartwheel_3_initial.mp4,cartwheel,slacklining,other,incorrect
+cartwheel_40_initial.mp4,cartwheel,swinging legs,other,incorrect
+cartwheel_41_initial.mp4,cartwheel,swinging legs,other,incorrect
+cartwheel_42_initial.mp4,cartwheel,swinging legs,other,incorrect
+cartwheel_43_initial.mp4,cartwheel,swinging legs,other,incorrect
+cartwheel_44_initial.mp4,cartwheel,push up,other,incorrect
+cartwheel_45_initial.mp4,cartwheel,tai chi,other,incorrect
+cartwheel_46_initial.mp4,cartwheel,swinging legs,other,incorrect
+cartwheel_47_initial.mp4,cartwheel,slacklining,other,incorrect
+cartwheel_48_initial.mp4,cartwheel,slacklining,other,incorrect
+cartwheel_49_initial.mp4,cartwheel,bending back,other,incorrect
+cartwheel_4_initial.mp4,cartwheel,swinging legs,other,incorrect
+cartwheel_5_initial.mp4,cartwheel,swinging legs,other,incorrect
+cartwheel_6_initial.mp4,cartwheel,swinging legs,other,incorrect
+cartwheel_7_initial.mp4,cartwheel,swinging legs,other,incorrect
+cartwheel_8_initial.mp4,cartwheel,slacklining,other,incorrect
+cartwheel_9_initial.mp4,cartwheel,push up,other,incorrect
+jump_0_initial.mp4,jump,playing violin,other,incorrect
+jump_10_initial.mp4,jump,catching or throwing frisbee,other,incorrect
+jump_11_initial.mp4,jump,swinging legs,other,incorrect
+jump_12_initial.mp4,jump,swinging legs,other,incorrect
+jump_13_initial.mp4,jump,playing violin,other,incorrect
+jump_14_initial.mp4,jump,stretching arm,other,incorrect
+jump_15_initial.mp4,jump,swinging legs,other,incorrect
+jump_16_initial.mp4,jump,swinging legs,other,incorrect
+jump_17_initial.mp4,jump,swinging legs,other,incorrect
+jump_18_initial.mp4,jump,swinging legs,other,incorrect
+jump_19_initial.mp4,jump,swinging legs,other,incorrect
+jump_1_initial.mp4,jump,swinging legs,other,incorrect
+jump_20_initial.mp4,jump,golf chipping,other,incorrect
+jump_21_initial.mp4,jump,stretching arm,other,incorrect
+jump_22_initial.mp4,jump,tai chi,other,incorrect
+jump_23_initial.mp4,jump,swinging legs,other,incorrect
+jump_24_initial.mp4,jump,swinging legs,other,incorrect
+jump_25_initial.mp4,jump,swinging legs,other,incorrect
+jump_26_initial.mp4,jump,playing flute,other,incorrect
+jump_27_initial.mp4,jump,stretching leg,other,incorrect
+jump_28_initial.mp4,jump,swinging legs,other,incorrect
+jump_29_initial.mp4,jump,swinging legs,other,incorrect
+jump_2_initial.mp4,jump,swinging legs,other,incorrect
+jump_30_initial.mp4,jump,swinging legs,other,incorrect
+jump_31_initial.mp4,jump,swinging legs,other,incorrect
+jump_32_initial.mp4,jump,stretching leg,other,incorrect
+jump_33_initial.mp4,jump,swinging legs,other,incorrect
+jump_34_initial.mp4,jump,swinging legs,other,incorrect
+jump_35_initial.mp4,jump,playing flute,other,incorrect
+jump_36_initial.mp4,jump,playing flute,other,incorrect
+jump_37_initial.mp4,jump,jumpstyle dancing,jump,correct
+jump_38_initial.mp4,jump,swinging legs,other,incorrect
+jump_39_initial.mp4,jump,swinging legs,other,incorrect
+jump_3_initial.mp4,jump,swinging legs,other,incorrect
+jump_40_initial.mp4,jump,swinging legs,other,incorrect
+jump_41_initial.mp4,jump,stretching leg,other,incorrect
+jump_42_initial.mp4,jump,playing flute,other,incorrect
+jump_43_initial.mp4,jump,jumpstyle dancing,jump,correct
+jump_44_initial.mp4,jump,swinging legs,other,incorrect
+jump_45_initial.mp4,jump,passing American football (not in game),other,incorrect
+jump_46_initial.mp4,jump,swinging legs,other,incorrect
+jump_47_initial.mp4,jump,swinging legs,other,incorrect
+jump_48_initial.mp4,jump,swinging legs,other,incorrect
+jump_49_initial.mp4,jump,swinging legs,other,incorrect
+jump_4_initial.mp4,jump,swinging legs,other,incorrect
+jump_5_initial.mp4,jump,swinging legs,other,incorrect
+jump_6_initial.mp4,jump,swinging legs,other,incorrect
+jump_7_initial.mp4,jump,tai chi,other,incorrect
+jump_8_initial.mp4,jump,passing American football (not in game),other,incorrect
+jump_9_initial.mp4,jump,swinging legs,other,incorrect
+run_0_initial.mp4,run,swinging legs,other,incorrect
+run_10_initial.mp4,run,swinging legs,other,incorrect
+run_11_initial.mp4,run,swinging legs,other,incorrect
+run_12_initial.mp4,run,swinging legs,other,incorrect
+run_13_initial.mp4,run,swinging legs,other,incorrect
+run_14_initial.mp4,run,swinging legs,other,incorrect
+run_15_initial.mp4,run,swinging legs,other,incorrect
+run_16_initial.mp4,run,swinging legs,other,incorrect
+run_17_initial.mp4,run,swinging legs,other,incorrect
+run_18_initial.mp4,run,swinging legs,other,incorrect
+run_19_initial.mp4,run,swinging legs,other,incorrect
+run_1_initial.mp4,run,swinging legs,other,incorrect
+run_20_initial.mp4,run,stretching leg,other,incorrect
+run_21_initial.mp4,run,tai chi,other,incorrect
+run_22_initial.mp4,run,tai chi,other,incorrect
+run_23_initial.mp4,run,lunge,other,incorrect
+run_24_initial.mp4,run,jumpstyle dancing,jump,incorrect
+run_25_initial.mp4,run,swinging legs,other,incorrect
+run_26_initial.mp4,run,swinging legs,other,incorrect
+run_27_initial.mp4,run,swinging legs,other,incorrect
+run_28_initial.mp4,run,stretching leg,other,incorrect
+run_29_initial.mp4,run,climbing ladder,other,incorrect
+run_2_initial.mp4,run,swinging legs,other,incorrect
+run_30_initial.mp4,run,jumpstyle dancing,jump,incorrect
+run_31_initial.mp4,run,swinging legs,other,incorrect
+run_32_initial.mp4,run,swinging legs,other,incorrect
+run_33_initial.mp4,run,tai chi,other,incorrect
+run_34_initial.mp4,run,stretching arm,other,incorrect
+run_35_initial.mp4,run,tai chi,other,incorrect
+run_36_initial.mp4,run,swinging legs,other,incorrect
+run_37_initial.mp4,run,tai chi,other,incorrect
+run_38_initial.mp4,run,swinging legs,other,incorrect
+run_39_initial.mp4,run,swinging legs,other,incorrect
+run_3_initial.mp4,run,jumpstyle dancing,jump,incorrect
+run_40_initial.mp4,run,tai chi,other,incorrect
+run_41_initial.mp4,run,swinging legs,other,incorrect
+run_42_initial.mp4,run,swinging legs,other,incorrect
+run_43_initial.mp4,run,swinging legs,other,incorrect
+run_44_initial.mp4,run,swinging legs,other,incorrect
+run_45_initial.mp4,run,swinging legs,other,incorrect
+run_46_initial.mp4,run,swinging legs,other,incorrect
+run_47_initial.mp4,run,swinging legs,other,incorrect
+run_48_initial.mp4,run,swinging legs,other,incorrect
+run_49_initial.mp4,run,lunge,other,incorrect
+run_4_initial.mp4,run,swinging legs,other,incorrect
+run_5_initial.mp4,run,jumpstyle dancing,jump,incorrect
+run_6_initial.mp4,run,swinging legs,other,incorrect
+run_7_initial.mp4,run,swinging legs,other,incorrect
+run_8_initial.mp4,run,tai chi,other,incorrect
+run_9_initial.mp4,run,swinging legs,other,incorrect
+walk_0_initial.mp4,walk,passing American football (not in game),other,incorrect
+walk_10_initial.mp4,walk,passing American football (not in game),other,incorrect
+walk_11_initial.mp4,walk,tai chi,other,incorrect
+walk_12_initial.mp4,walk,tai chi,other,incorrect
+walk_13_initial.mp4,walk,jumpstyle dancing,jump,incorrect
+walk_14_initial.mp4,walk,swinging legs,other,incorrect
+walk_15_initial.mp4,walk,tai chi,other,incorrect
+walk_16_initial.mp4,walk,swinging legs,other,incorrect
+walk_17_initial.mp4,walk,tai chi,other,incorrect
+walk_18_initial.mp4,walk,swinging legs,other,incorrect
+walk_19_initial.mp4,walk,passing American football (not in game),other,incorrect
+walk_1_initial.mp4,walk,swinging legs,other,incorrect
+walk_20_initial.mp4,walk,swinging legs,other,incorrect
+walk_21_initial.mp4,walk,swinging legs,other,incorrect
+walk_22_initial.mp4,walk,swinging legs,other,incorrect
+walk_23_initial.mp4,walk,tai chi,other,incorrect
+walk_24_initial.mp4,walk,tai chi,other,incorrect
+walk_25_initial.mp4,walk,swinging legs,other,incorrect
+walk_26_initial.mp4,walk,swinging legs,other,incorrect
+walk_27_initial.mp4,walk,swinging legs,other,incorrect
+walk_28_initial.mp4,walk,tai chi,other,incorrect
+walk_29_initial.mp4,walk,swinging legs,other,incorrect
+walk_2_initial.mp4,walk,swinging legs,other,incorrect
+walk_30_initial.mp4,walk,swinging legs,other,incorrect
+walk_31_initial.mp4,walk,swinging legs,other,incorrect
+walk_32_initial.mp4,walk,tai chi,other,incorrect
+walk_33_initial.mp4,walk,swinging legs,other,incorrect
+walk_34_initial.mp4,walk,tai chi,other,incorrect
+walk_35_initial.mp4,walk,swinging legs,other,incorrect
+walk_36_initial.mp4,walk,swinging legs,other,incorrect
+walk_37_initial.mp4,walk,swinging legs,other,incorrect
+walk_38_initial.mp4,walk,swinging legs,other,incorrect
+walk_39_initial.mp4,walk,swinging legs,other,incorrect
+walk_3_initial.mp4,walk,swinging legs,other,incorrect
+walk_40_initial.mp4,walk,swinging legs,other,incorrect
+walk_41_initial.mp4,walk,swinging legs,other,incorrect
+walk_42_initial.mp4,walk,swinging legs,other,incorrect
+walk_43_initial.mp4,walk,swinging legs,other,incorrect
+walk_44_initial.mp4,walk,tai chi,other,incorrect
+walk_45_initial.mp4,walk,swinging legs,other,incorrect
+walk_46_initial.mp4,walk,jumpstyle dancing,jump,incorrect
+walk_47_initial.mp4,walk,tai chi,other,incorrect
+walk_48_initial.mp4,walk,swinging legs,other,incorrect
+walk_49_initial.mp4,walk,swinging legs,other,incorrect
+walk_4_initial.mp4,walk,swinging legs,other,incorrect
+walk_5_initial.mp4,walk,tai chi,other,incorrect
+walk_6_initial.mp4,walk,tai chi,other,incorrect
+walk_7_initial.mp4,walk,swinging legs,other,incorrect
+walk_8_initial.mp4,walk,swinging legs,other,incorrect
+walk_9_initial.mp4,walk,swinging legs,other,incorrect

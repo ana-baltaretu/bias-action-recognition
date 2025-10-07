@@ -1,0 +1,21 @@
+video_prefix,true_label,raw_prediction_initial,raw_prediction_modified,result_initial,result_modified
+cartwheel_20_,cartwheel,cartwheeling,capoeira,correct,incorrect
+cartwheel_6_,cartwheel,playing cricket,playing badminton,incorrect,incorrect
+jump_0_,jump,jogging,playing cricket,incorrect,incorrect
+jump_14_,jump,cartwheeling,riding unicycle,incorrect,incorrect
+jump_16_,jump,slacklining,catching or throwing frisbee,incorrect,incorrect
+jump_19_,jump,parkour,jumpstyle dancing,incorrect,correct
+jump_22_,jump,catching or throwing frisbee,parkour,incorrect,incorrect
+jump_27_,jump,blowing leaves,playing cricket,incorrect,incorrect
+jump_4_,jump,gymnastics tumbling,somersaulting,incorrect,incorrect
+run_20_,run,catching or throwing frisbee,side kick,incorrect,incorrect
+run_21_,run,catching or throwing frisbee,jogging,incorrect,correct
+run_27_,run,parkour,side kick,incorrect,incorrect
+run_8_,run,tai chi,jogging,incorrect,correct
+walk_0_,walk,playing badminton,playing cricket,incorrect,incorrect
+walk_10_,walk,jogging,playing cricket,incorrect,incorrect
+walk_11_,walk,jumpstyle dancing,playing cricket,incorrect,incorrect
+walk_21_,walk,jumpstyle dancing,riding unicycle,incorrect,incorrect
+walk_22_,walk,jogging,riding unicycle,incorrect,incorrect
+walk_24_,walk,playing badminton,playing cricket,incorrect,incorrect
+walk_28_,walk,tai chi,catching or throwing frisbee,incorrect,incorrect
